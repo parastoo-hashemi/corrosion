@@ -10,6 +10,7 @@ print("⏳ Loading model and data...")
 try:
     # Load models
     model = joblib.load('corrosion_model.pkl')
+
     le_series = joblib.load('series_encoder.pkl')
 
     # Load Excel file to automatically extract records
