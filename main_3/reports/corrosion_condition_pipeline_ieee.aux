@@ -1,0 +1,45 @@
+\relax 
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {II}Problem Statement and Scientific Scope}{1}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Dataset Summary}}{2}{}\protected@file@percent }
+\newlabel{tab:dataset-summary}{{I}{2}{}{table.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Evidence Structure of the Pipeline}}{2}{}\protected@file@percent }
+\newlabel{tab:evidence-structure}{{II}{2}{}{table.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Dataset and Evidence Structure}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {IV}End-to-End Pipeline Overview}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {V}Methodology}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-A}}Dataset Reconstruction and Validation}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-B}}Image Preprocessing and Corrosion Segmentation}{2}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Dataset overview used in the study. The upper panels summarize image-record counts by treatment and by exposure week, while the lower panels show manual corrosion-category distributions and label coverage. The lower-right panel highlights the central data imbalance that motivates the staged pipeline: surface labels exist for all 792 rows, whereas structural supervision exists for only 48 late-stage rows.}}{3}{}\protected@file@percent }
+\newlabel{fig:dataset-overview}{{1}{3}{}{figure.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Step-by-step workflow used in the study. Green stages operate on directly observed data, orange stages estimate hidden structural state, and blue stages forecast future condition and convert threshold crossing into screening outputs. The figure makes explicit that proxy-RUL is not predicted directly from images; it is derived only after corrosion modeling, hidden-damage estimation, and specimen-level degradation fitting.}}{3}{}\protected@file@percent }
+\newlabel{fig:workflow}{{2}{3}{}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-C}}Interpretable Feature Extraction}{3}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Main Feature Families Used in the Image-Feature Stage. The 91 engineered descriptors are grouped here by their intended physical meaning so that the reader can understand what the handcrafted feature space measures without inspecting the code.}}{4}{}\protected@file@percent }
+\newlabel{tab:feature-families}{{III}{4}{}{table.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-D}}Visible Corrosion Modeling}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-E}}Hidden Structural Damage Estimation}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-F}}Specimen-Level Degradation Modeling}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-G}}Proxy-RUL and Risk Screening}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Evaluation Protocol}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Results}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-A}}Visible Corrosion Modeling}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-B}}Hidden-Damage Modeling}{5}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Grouped specimen-holdout comparison for the visible-corrosion regressors. The figure shows the saved MAE values for the two regression targets under the single grouped split used for model selection. Random Forest is strongest for total rust, while the MLP regressor is strongest for peak rust.}}{6}{}\protected@file@percent }
+\newlabel{fig:corrosion-mae}{{3}{6}{}{figure.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces Main Grouped-Holdout Results}}{6}{}\protected@file@percent }
+\newlabel{tab:grouped-results}{{IV}{6}{}{table.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-C}}Harder Holdouts and Transfer Checks}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-D}}Degradation Fits and Screening Outputs}{6}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {V}{\ignorespaces Selected Degradation Curve Families}}{6}{}\protected@file@percent }
+\newlabel{tab:curve-families}{{V}{6}{}{table.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {VI}{\ignorespaces Proxy-RUL Summary}}{6}{}\protected@file@percent }
+\newlabel{tab:proxy-rul}{{VI}{6}{}{table.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {VIII}Discussion}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Representative degradation behavior used by the pipeline. The left panel shows the average and median peak-rust progression across exposure weeks, while the right panel shows example specimen-wise historical and forecast trajectories used for threshold-based screening. Together, the panels illustrate why degradation fitting is treated here as an empirical trend model rather than as a single global deterioration law.}}{7}{}\protected@file@percent }
+\newlabel{fig:degradation-panel}{{4}{7}{}{figure.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Distribution of the final risk classes assigned by the proxy-RUL screening stage. In this run, the cohort separates into low-, moderate-, and high-risk groups, while no specimen enters the critical band under the chosen screening thresholds.}}{7}{}\protected@file@percent }
+\newlabel{fig:risk-distribution}{{5}{7}{}{figure.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {IX}Threats to Validity}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {X}Conclusion}{7}{}\protected@file@percent }
+\gdef \@abspage@last{8}

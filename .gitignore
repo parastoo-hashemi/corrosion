@@ -1,5 +1,18 @@
-.venv/
 __pycache__/
 *.pyc
-.idea/
+.DS_Store
+.ipynb_checkpoints/
+catboost_info/
+venv/
+.venv/
 .env
+
+# Models / outputs
+*.pkl
+checkpoints/
+
+# Large raw data
+Data/
+
+Documentation/
+Images_dataset/

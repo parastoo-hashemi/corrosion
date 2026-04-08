@@ -1,0 +1,2394 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.17)  17 MAR 2026 17:05
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count283
+\Gm@cntv=\count284
+\c@Gm@tempcnt=\count285
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks20
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen159
+\lightrulewidth=\dimen160
+\cmidrulewidth=\dimen161
+\belowrulesep=\dimen162
+\belowbottomsep=\dimen163
+\aboverulesep=\dimen164
+\abovetopsep=\dimen165
+\cmidrulesep=\dimen166
+\cmidrulekern=\dimen167
+\defaultaddspace=\dimen168
+\@cmidla=\count286
+\@cmidlb=\count287
+\@aboverulesep=\dimen169
+\@belowrulesep=\dimen170
+\@thisruleclass=\count288
+\@lastruleclass=\count289
+\@thisrulewidth=\dimen171
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
+\LTleft=\skip51
+\LTright=\skip52
+\LTpre=\skip53
+\LTpost=\skip54
+\LTchunksize=\count290
+\LTcapwidth=\dimen172
+\LT@head=\box53
+\LT@firsthead=\box54
+\LT@foot=\box55
+\LT@lastfoot=\box56
+\LT@gbox=\box57
+\LT@cols=\count291
+\LT@rows=\count292
+\c@LT@tables=\count293
+\c@LT@chunks=\count294
+\LT@p@ftn=\toks21
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen173
+\ar@mcellbox=\box58
+\extrarowheight=\dimen174
+\NC@list=\toks22
+\extratabsurround=\skip55
+\backup@length=\skip56
+\ar@cellbox=\box59
+)
+\TX@col@width=\dimen175
+\TX@old@table=\dimen176
+\TX@old@col=\dimen177
+\TX@target=\dimen178
+\TX@delta=\dimen179
+\TX@cols=\count295
+\TX@ftn=\toks23
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count296
+\float@exts=\toks24
+\float@box=\box60
+\@float@everytoks=\toks25
+\@floatcapt=\box61
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen180
+\captionmargin=\dimen181
+\caption@leftmargin=\dimen182
+\caption@rightmargin=\dimen183
+\caption@width=\dimen184
+\caption@indent=\dimen185
+\caption@parindent=\dimen186
+\caption@hangindent=\dimen187
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count297
+\c@continuedfloat=\count298
+Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count299
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count300
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen188
+\Hy@linkcounter=\count301
+\Hy@pagecounter=\count302
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count303
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4468.
+\c@Hy@tempcnt=\count304
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4807.
+\XeTeXLinkMargin=\dimen189
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count305
+\Field@Width=\dimen190
+\Fld@charsize=\dimen191
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
+\Hy@abspage=\count306
+\c@Item=\count307
+\c@Hfootnote=\count308
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
+\Fld@listcount=\count309
+\c@bookmark@seq@number=\count310
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip57
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip58
+\enit@outerparindent=\dimen192
+\enit@toks=\toks26
+\enit@inbox=\box62
+\enit@count@id=\count311
+\enitdp@description=\count312
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count313
+)
+(./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count314
+\scratchdimen=\dimen193
+\scratchbox=\box63
+\nofMPsegments=\count315
+\nofMParguments=\count316
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count317
+\MPscratchDim=\dimen194
+\MPnumerator=\count318
+\makeMPintoPDFobject=\count319
+\everyMPtoPDFconversion=\toks28
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 29.
+
+(./main.out) (./main.out)
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 32.
+
+Overfull \hbox (170.50044pt too wide) in paragraph at lines 32--32
+ [][] 
+ []
+
+(./main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 2.
+ [1
+
+{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [2]
+Underfull \hbox (badness 1383) in paragraph at lines 83--84
+[]\T1/cmr/m/n/10.95 The only tim-ing tar-get is \T1/cmtt/m/n/10.95 remaining_we
+eks_to_threshold\T1/cmr/m/n/10.95 , which is cre-ated in-side
+ []
+
+[3
+
+{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+Underfull \hbox (badness 1132) in paragraph at lines 96--97
+[]\T1/cmr/m/n/10.95 expose cur-rent cor-ro-sion, pro-gres-sion curve, and time-
+to-threshold in-fer-ence through
+ []
+
+
+Overfull \hbox (15.81831pt too wide) in paragraph at lines 129--129
+[]|\T1/cmtt/m/n/10 main/image_features.py| 
+ []
+
+
+Underfull \hbox (badness 3635) in paragraph at lines 129--129
+[]|\T1/cmr/m/n/10 Handcrafted im-age fea-ture ex-trac-tion us-ing RGB thresh-ol
+d masks,
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 129--129
+[]|\T1/cmr/m/n/10 Candidate model def-i-ni-tions, pre-pro-cess-ing, grouped cro
+ss-validation,
+ []
+
+
+Overfull \hbox (5.32088pt too wide) in paragraph at lines 129--129
+[]|\T1/cmtt/m/n/10 main/train_models.py| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+[]|\T1/cmr/m/n/10 FastAPI wrap-per ex-pos-ing \T1/cmtt/m/n/10 /health\T1/cmr/m/
+n/10 , \T1/cmtt/m/n/10 /predict/current\T1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (21.06703pt too wide) in paragraph at lines 129--129
+[]|\T1/cmtt/m/n/10 main/artifacts/*.joblib
+ []
+
+
+Overfull \hbox (1.35022pt too wide) in alignment at lines 129--129
+[][] 
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 Data in-ges-
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 154--154
+\T1/cmr/m/n/10 + im-age di-rec-
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 Raw dataframe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/cmr/m/n/10 with pro-moted
+ []
+
+
+Underfull \hbox (badness 7925) in paragraph at lines 154--154
+\T1/cmr/m/n/10 se-man-tic head-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 Derived
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/cmtt/m/n/10 specimen\T1/cmr/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/cmtt/m/n/10 capture_date\T1/cmr/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/cmtt/m/n/10 week\T1/cmr/m/n/10 , \T1/cmtt/m/n/10 series\T1/cmr/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/cmtt/m/n/10 image_path\T1/cmr/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 Image align-
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 154--154
+\T1/cmr/m/n/10 ment / pre-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 Existing PNG
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 RGB ar-rays or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 Image fea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/cmr/m/n/10 ture ex-trac-
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 One im-age per
+ []
+
+
+Underfull \hbox (badness 8113) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 18 im-age fea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 Feature-table
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 Parsed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/cmr/m/n/10 dataframe +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/cmr/m/n/10 im-age fea-ture
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 Task A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 Current cor-ro-
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 154--154
+\T1/cmr/m/n/10 sion bench-mark
+ []
+
+
+Underfull \hbox (badness 2644) in paragraph at lines 154--154
+\T1/cmr/m/n/10 ta-ble and best
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 Task B
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 Metadata +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 Progression
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/cmr/m/n/10 bench-mark ta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/cmr/m/n/10 ble and best
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 Task C
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/cmr/m/n/10 proxy-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/cmr/m/n/10 threshold
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 Time-to-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/cmr/m/n/10 threshold
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/cmr/m/n/10 bench-mark
+ []
+
+
+Underfull \hbox (badness 2644) in paragraph at lines 154--154
+\T1/cmr/m/n/10 ta-ble and best
+ []
+
+
+Underfull \hbox (badness 2671) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 Artifact and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 Benchmarks +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 CSV met-rics,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/cmr/m/n/10 fea-ture im-por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/cmr/m/n/10 tance ta-bles,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 Inference /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 Metadata,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/cmr/m/n/10 im-age path,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/10 Current cor-ro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/cmr/m/n/10 old tim-ing
+ []
+
+[5]
+Overfull \hbox (1.79138pt too wide) in paragraph at lines 163--164
+[]\T1/cmr/m/n/10.95 row-level ob-ser-va-tion iden-ti-fiers in the col-umn named
+ \T1/cmtt/m/n/10.95 ID\T1/cmr/m/n/10.95 , for-mat-ted as \T1/cmtt/m/n/10.95 spe
+cimen-date-weekW\T1/cmr/m/n/10.95 ; 
+ []
+
+[6]
+Overfull \hbox (53.49608pt too wide) in paragraph at lines 169--171
+ []\T1/cmr/bx/n/10.95 What the cur-rent work-book con-tains.[] \T1/cmr/m/n/10.9
+5 The cur-rent work-book un-der \T1/cmtt/m/n/10.95 Data/Images_Dataset_A-Z.xlsx
+
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 195--196
+\T1/cmtt/m/n/10.95 E01-20240508-17W\T1/cmr/m/n/10.95 , so the cor-rupted row al
+so co-in-cides with the cur-rent data/artifact
+ []
+
+[7]
+Overfull \hbox (89.17955pt too wide) in paragraph at lines 219--220
+[]\T1/cmr/m/n/10.95 metadata/context fea-tures: \T1/cmtt/m/n/10.95 N_Steel_Mesh
+\T1/cmr/m/n/10.95 , \T1/cmtt/m/n/10.95 Treatment\T1/cmr/m/n/10.95 , \T1/cmtt/m/
+n/10.95 NaCl%\T1/cmr/m/n/10.95 , \T1/cmtt/m/n/10.95 Ageing_Days\T1/cmr/m/n/10.9
+5 , \T1/cmtt/m/n/10.95 Cover_(Faliure_Surface)_[mm]\T1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 7522) in paragraph at lines 261--261
+[]|\T1/cmr/m/n/10 Current work-book af-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
+[]|\T1/cmr/m/n/10 792 cached
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
+[]|\T1/cmr/m/n/10 792 train-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
+\T1/cmr/m/n/10 ing rows
+ []
+
+[8]
+Underfull \hbox (badness 2884) in paragraph at lines 282--282
+[]|\T1/cmr/bx/n/10 Current raw work-book
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 282--282
+[]|\T1/cmtt/m/n/10 ID \T1/cmr/m/n/10 now con-tains spec-i-men
+ []
+
+
+Overfull \hbox (14.16342pt too wide) in paragraph at lines 282--282
+[]|\T1/cmtt/m/n/10 B_Peak_Rust_Category_(1--5)
+ []
+
+
+Overfull \hbox (9.63623pt too wide) in paragraph at lines 282--282
+\T1/cmtt/m/n/10 B_Peak_Rust_Category_(1--4)| 
+ []
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 282--282
+[]|\T1/cmr/m/n/10 Live code now con-structs
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
+\T1/cmr/m/n/10 nonex-is-tent files such as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+[]|\T1/cmr/bx/n/10.95 Repository-
+ []
+
+
+Overfull \hbox (23.76863pt too wide) in alignment at lines 289--293
+ [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
+[]|\T1/cmr/bx/n/10.95 Repository-
+ []
+
+
+Overfull \hbox (23.76863pt too wide) in alignment at lines 293--297
+ [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 298--298
+[]|\T1/cmr/m/n/10.95 Current work-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+[]|\T1/cmr/m/n/10.95 Original
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
+[]|\T1/cmr/m/n/10.95 Holds strings
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
+\T1/cmr/m/n/10.95 of the form
+ []
+
+
+Overfull \hbox (15.40884pt too wide) in paragraph at lines 298--299
+\T1/cmtt/m/n/10.95 specimen-date-weekW\T1/cmr/m/n/10.95 .
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 298--299
+\T1/cmr/m/n/10.95 Not used by live
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 298--299
+\T1/cmr/m/n/10.95 car-ries the cor-rect
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 299--299
+[]|\T1/cmr/m/n/10.95 Current work-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+[]|\T1/cmr/m/n/10.95 Original
+ []
+
+
+Underfull \hbox (badness 4441) in paragraph at lines 299--300
+[]|\T1/cmr/m/n/10.95 Current live code
+ []
+
+
+Overfull \hbox (8.29597pt too wide) in paragraph at lines 300--300
+[]|\T1/cmr/m/n/10.95 Specimen/material
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
+[]|\T1/cmr/m/n/10.95 Grouping
+ []
+
+
+Underfull \hbox (badness 6016) in paragraph at lines 300--301
+[]|\T1/cmr/m/n/10.95 In the live code
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
+[]|\T1/cmr/m/n/10.95 Temporal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
+[]|\T1/cmr/m/n/10.95 Observation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
+[]|\T1/cmr/m/n/10.95 Derived in
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 302--302
+\T1/cmr/m/n/10.95 code / re-cov-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
+\T1/cmr/m/n/10.95 er-able from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
+\T1/cmr/m/n/10.95 group-ing
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 302--303
+\T1/cmr/m/n/10.95 book, ex-act \T1/cmtt/m/n/10.95 week
+ []
+
+
+Underfull \hbox (badness 3503) in paragraph at lines 302--303
+\T1/cmr/m/n/10.95 ered from \T1/cmtt/m/n/10.95 Sample
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--303
+[]|\T1/cmr/m/n/10.95 Exposure du-ra-
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 303--303
+[]|\T1/cmr/m/n/10.95 Current work-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--303
+[]|\T1/cmr/m/n/10.95 Original
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
+\T1/cmr/m/n/10.95 book it sat-is-fies
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
+[] \OT1/cmr/m/n/10.95 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+[]|\T1/cmr/m/n/10.95 Exposure du-ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+[]|\T1/cmr/m/n/10.95 Expected by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+\T1/cmr/m/n/10.95 code and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+[]|\T1/cmr/m/n/10.95 Intended
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+\T1/cmr/m/n/10.95 dur-ing his-tor-i-cal
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 304--305
+\T1/cmr/m/n/10.95 train-ing; cur-rently
+ []
+
+
+Underfull \hbox (badness 2142) in paragraph at lines 304--305
+\T1/cmr/m/n/10.95 ab-sent un-der that
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 304--305
+\T1/cmr/m/n/10.95 ex-act raw col-umn
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 305--305
+[]|\T1/cmr/m/n/10.95 Current work-
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 305--305
+[]|\T1/cmr/m/n/10.95 Metadata /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+\T1/cmr/m/n/10.95 cat-e-gor-i-cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+[]|\T1/cmr/m/n/10.95 Values in cur-
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 305--306
+\T1/cmr/m/n/10.95 rent raw data are
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+\T1/cmr/m/n/10.95 SA_PA, SA_VF,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+[]|\T1/cmr/m/n/10.95 Additional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+\T1/cmr/m/n/10.95 treatment-family
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 306--306
+[]|\T1/cmr/m/n/10.95 Current work-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+[]|\T1/cmr/m/n/10.95 Metadata,
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 307--307
+[]|\T1/cmr/m/n/10.95 Current work-
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 307--307
+[]|\T1/cmr/m/n/10.95 Metadata /
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 307--308
+[]|\T1/cmr/m/n/10.95 Used in all three
+ []
+
+
+Overfull \hbox (49.7196pt too wide) in paragraph at lines 308--308
+[]|\T1/cmtt/m/n/10.95 Cover_(Faliure_Surface)_[mm]| 
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 308--308
+[]|\T1/cmr/m/n/10.95 Cover thick-ness
+ []
+
+
+Underfull \hbox (badness 6542) in paragraph at lines 308--308
+\T1/cmr/m/n/10.95 on fail-ure sur-
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 308--308
+[]|\T1/cmr/m/n/10.95 Current work-
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 308--308
+[]|\T1/cmr/m/n/10.95 Metadata /
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 308--309
+[]|\T1/cmr/m/n/10.95 Used in all three
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
+[]|\T1/cmr/m/n/10.95 Salt con-cen-tra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
+[]|\T1/cmr/m/n/10.95 Expected by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
+\T1/cmr/m/n/10.95 code and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
+[]|\T1/cmr/m/n/10.95 Intended
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
+\T1/cmr/m/n/10.95 nu-meric
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+\T1/cmr/m/n/10.95 train-ing fea-tures
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+\T1/cmr/m/n/10.95 work-book; prove-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+\T1/cmr/m/n/10.95 nance cur-rently
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 310--310
+[]|\T1/cmr/m/n/10.95 Alphabetic fam-
+ []
+
+
+Underfull \hbox (badness 5050) in paragraph at lines 310--310
+\T1/cmr/m/n/10.95 ily from spec-i-
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 310--310
+[]|\T1/cmr/m/n/10.95 Metadata /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--310
+\T1/cmr/m/n/10.95 cat-e-gor-i-cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+[]|\T1/cmr/m/n/10.95 Alignment
+ []
+
+
+Underfull \hbox (badness 6741) in paragraph at lines 311--312
+\T1/cmr/m/n/10.95 row-level IDs are
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+\T1/cmr/m/n/10.95 avail-able in the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+\T1/cmr/m/n/10.95 parsed iden-ti-fier
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
+[]|\T1/cmr/m/n/10.95 Whether the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
+[]|\T1/cmr/m/n/10.95 Data-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
+\T1/cmr/m/n/10.95 quality
+ []
+
+
+Overfull \hbox (23.76863pt too wide) in alignment at lines 297--316
+ [] [] [] [] [] 
+ []
+
+[9]
+ignored: Infinite glue shrinkage found in box being split [10]
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\T1/cmr/bx/n/10.95 Meaning /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
+[]|\T1/cmr/bx/n/10.95 Repository-
+ []
+
+
+Overfull \hbox (5.63911pt too wide) in alignment at lines 320--324
+ [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
+[]|\T1/cmr/bx/n/10.95 Meaning /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+[]|\T1/cmr/bx/n/10.95 Repository-
+ []
+
+
+Overfull \hbox (5.63911pt too wide) in alignment at lines 324--328
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (74.61546pt too wide) in paragraph at lines 329--329
+[]|\T1/cmtt/m/n/10.95 A_Surface_Total_Rust_Percentage[%]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+[]|\T1/cmr/m/n/10.95 Total sur-face
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+[]|\T1/cmr/m/n/10.95 Original
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+\T1/cmr/m/n/10.95 cor-ro-sion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+\T1/cmr/m/n/10.95 la-bel,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+\T1/cmr/m/n/10.95 un-used
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
+\T1/cmr/m/n/10.95 cur-rent work-book
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
+\T1/cmr/m/n/10.95 it cor-re-lates with
+ []
+
+
+Overfull \hbox (47.46416pt too wide) in paragraph at lines 329--330
+\T1/cmtt/m/n/10.95 B_Peak_Rust_Percentage_[%]
+ []
+
+
+Overfull \hbox (35.00687pt too wide) in paragraph at lines 330--330
+[]|\T1/cmtt/m/n/10.95 A_Total_Rust_Category_(1--4)| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
+[]|\T1/cmr/m/n/10.95 Surface-rust
+ []
+
+
+Overfull \hbox (29.3485pt too wide) in paragraph at lines 331--331
+[]|\T1/cmtt/m/n/10.95 B_Peak_Rust_Percentage_[%]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+[]|\T1/cmr/m/n/10.95 791/791
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+\T1/cmr/m/n/10.95 cur-rent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+\T1/cmr/m/n/10.95 raw;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+\T1/cmr/m/n/10.95 792/792
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+\T1/cmr/m/n/10.95 saved
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+[]|\T1/cmr/bx/n/10.95 Primary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+\T1/cmr/bx/n/10.95 di-rect
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 331--332
+[]|\T1/cmr/m/n/10.95 Used as the di-rect
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 331--332
+\T1/cmr/m/n/10.95 re-gres-sion tar-get in
+ []
+
+
+Overfull \hbox (29.3485pt too wide) in paragraph at lines 332--332
+[]|\T1/cmtt/m/n/10.95 B_Peak_Rust_Category_(1--4)| 
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 332--332
+[]|\T1/cmr/m/n/10.95 Peak-rust cat-e-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
+[]|\T1/cmr/m/n/10.95 Current work-book
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 332--333
+\T1/cmr/m/n/10.95 uses a 1--4 cod-ing,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
+\T1/cmr/m/n/10.95 ex-ists un-used in
+ []
+
+
+Overfull \hbox (12.37338pt too wide) in paragraph at lines 333--333
+[]|\T1/cmtt/m/n/10.95 B_Location_of_Peak_Rus_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+\T1/cmr/m/n/10.95 the spec-i-men,
+ []
+
+
+Overfull \hbox (102.90732pt too wide) in paragraph at lines 334--334
+[]|\T1/cmtt/m/n/10.95 Last_Wire_Area_Loss_(Faliure_Surface)_%| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+[]|\T1/cmr/m/n/10.95 Terminal wire
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+[]|\T1/cmr/m/n/10.95 Structural
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+\T1/cmr/m/n/10.95 end-point,
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 334--335
+[]|\T1/cmr/m/n/10.95 One non-null value
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
+\T1/cmr/m/n/10.95 per spec-i-men
+ []
+
+
+Underfull \hbox (badness 5147) in paragraph at lines 334--335
+\T1/cmr/m/n/10.95 only. Val-ues lie
+ []
+
+
+Underfull \hbox (badness 5726) in paragraph at lines 334--335
+\T1/cmr/m/n/10.95 the per-cent suf-fix,
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 334--335
+\T1/cmr/m/n/10.95 so the stored unit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
+\T1/cmr/m/n/10.95 may be fraction-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
+\T1/cmr/m/n/10.95 like rather than
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
+[]|\T1/cmr/m/n/10.95 Terminal ul-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
+\T1/cmr/m/n/10.95 ti-mate load,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
+[]|\T1/cmr/m/n/10.95 Structural
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
+\T1/cmr/m/n/10.95 end-point,
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 335--336
+[]|\T1/cmr/m/n/10.95 One non-null value
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 335--336
+\T1/cmr/m/n/10.95 per spec-i-men only.
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 335--336
+\T1/cmr/m/n/10.95 work-book is 1.60--
+ []
+
+
+Overfull \hbox (40.66524pt too wide) in paragraph at lines 336--336
+[]|\T1/cmtt/m/n/10.95 remaining_weeks_to_threshold| 
+ []
+
+
+Underfull \hbox (badness 5939) in paragraph at lines 336--336
+[]|\T1/cmr/m/n/10.95 Weeks re-main-
+ []
+
+
+Underfull \hbox (badness 6157) in paragraph at lines 336--336
+\T1/cmr/m/n/10.95 ing un-til first
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
+\OT1/cmr/m/n/10.95 20%$ \T1/cmr/m/n/10.95 peak-rust
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
+[]|\T1/cmr/m/n/10.95 Derived
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
+\T1/cmr/m/n/10.95 in-side
+ []
+
+
+Overfull \hbox (35.04883pt too wide) in paragraph at lines 336--336
+\T1/cmtt/m/n/10.95 train_models.py| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
+[]|\T1/cmr/bx/n/10.95 Proxy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
+\T1/cmr/bx/n/10.95 tim-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+[]|\T1/cmr/m/n/10.95 Created only for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+\T1/cmr/m/n/10.95 spec-i-mens that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+\T1/cmr/m/n/10.95 ac-tu-ally cross the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+\T1/cmr/m/n/10.95 thresh-old. Not
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 336--337
+\T1/cmr/m/n/10.95 avail-able as a raw
+ []
+
+
+Overfull \hbox (5.63911pt too wide) in alignment at lines 328--340
+ [] [] [] [] [] 
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [11]
+<reports/fig_label_density.png, id=372, 625.537pt x 337.26pt>
+File: reports/fig_label_density.png Graphic file (type png)
+<use reports/fig_label_density.png>
+Package pdftex.def Info: reports/fig_label_density.png  used on input line 346.
+
+(pdftex.def)             Requested size: 353.31439pt x 190.4905pt.
+ [12]
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
+[]|\T1/cmtt/m/n/10 img_r/g/b_mean\T1/cmr/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
+[]|\T1/cmtt/m/n/10 img_h/s/v_mean\T1/cmr/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
+[]|\T1/cmtt/m/n/10 img_rg_diff_mean\T1/cmr/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
+[]|\T1/cmtt/m/n/10 img_rust_mask_pct\T1/cmr/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
+\T1/cmtt/m/n/10 img_black_mask_pct\T1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (7.47855pt too wide) in paragraph at lines 370--370
+[]|\T1/cmtt/m/n/10 img_rust_to_black_ratio| 
+ []
+
+[13 <./reports/fig_label_density.png>] [14]
+Overfull \hbox (15.51363pt too wide) in paragraph at lines 402--402
+\T1/cmtt/m/n/10 B_Peak_Rust_Percentage_[%]|  
+ []
+
+<reports/fig_current_feature_importance.png, id=393, 705.034pt x 409.53pt>
+File: reports/fig_current_feature_importance.png Graphic file (type png)
+<use reports/fig_current_feature_importance.png>
+Package pdftex.def Info: reports/fig_current_feature_importance.png  used on in
+put line 411.
+(pdftex.def)             Requested size: 371.43698pt x 215.75008pt.
+
+Underfull \hbox (badness 1231) in paragraph at lines 416--417
+\T1/cmr/m/n/10.95 The saved \T1/cmtt/m/n/10.95 current_corrosion \T1/cmr/m/n/10
+.95 feature-importance ta-ble shows that \T1/cmtt/m/n/10.95 img_rust_mask_pct
+ []
+
+[15 <./reports/fig_current_feature_importance.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 437--437
+[]|\T1/cmr/bx/n/10.95 Implemented
+ []
+
+
+Overfull \hbox (2.70044pt too wide) in alignment at lines 435--439
+ [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 441--441
+[]|\T1/cmr/bx/n/10.95 Implemented
+ []
+
+
+Overfull \hbox (2.70044pt too wide) in alignment at lines 439--443
+ [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--444
+\T1/cmtt/m/n/10.95 Ageing Days\T1/cmr/m/n/10.95 , and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
+\T1/cmr/m/n/10.95 be-fore bench-mark-ing,
+ []
+
+
+Underfull \hbox (badness 7576) in paragraph at lines 444--445
+\T1/cmr/m/n/10.95 cur-rently re-pro-ducible
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--445
+[]|\T1/cmr/m/n/10.95 Live code con-structs
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--445
+\T1/cmtt/m/n/10.95 D01.png\T1/cmr/m/n/10.95 -style paths;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--445
+\T1/cmr/m/n/10.95 all 791 cur-rent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--445
+\T1/cmtt/m/n/10.95 image_exists \T1/cmr/m/n/10.95 flags
+ []
+
+
+Underfull \hbox (badness 4832) in paragraph at lines 445--446
+[]|\T1/cmr/m/n/10.95 Even cached fea-tures
+ []
+
+
+Underfull \hbox (badness 3965) in paragraph at lines 445--446
+\T1/cmr/m/n/10.95 no longer merge be-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
+\T1/cmr/m/n/10.95 dataframe uses the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
+[]|\T1/cmr/m/n/10.95 Corrupted im-age
+ []
+
+
+Overfull \hbox (22.55893pt too wide) in paragraph at lines 446--446
+[]|\T1/cmtt/m/n/10.95 image_features_cache.csv
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
+\T1/cmr/m/n/10.95 and \T1/cmtt/m/n/10.95 manifest.json
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
+\T1/cmr/m/n/10.95 both record
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
+\T1/cmtt/m/n/10.95 E01-20240508-17W
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--447
+[]|\T1/cmr/m/n/10.95 The cor-rupted row
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 446--447
+\T1/cmr/m/n/10.95 is also the row miss-
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 446--447
+\T1/cmr/m/n/10.95 ing from the cur-rent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--447
+\T1/cmr/m/n/10.95 work-book, so ex-act
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 446--447
+\T1/cmr/m/n/10.95 raw/artifact align-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--447
+[]|\T1/cmr/m/n/10.95 Sparse struc-tural
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--447
+[]|\T1/cmr/m/n/10.95 No struc-tural
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--448
+[]|\T1/cmr/m/n/10.95 Any struc-tural or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--448
+\T1/cmr/m/n/10.95 hidden-damage claim
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--448
+\T1/cmr/m/n/10.95 would ex-ceed the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--448
+[]|\T1/cmr/m/n/10.95 Repeated-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--448
+\T1/cmr/m/n/10.95 measures leak-age
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--448
+\T1/cmr/m/n/10.95 out split and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--448
+\T1/cmr/m/n/10.95 Group-K-Fold by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
+[]|\T1/cmr/m/n/10.95 Leakage by ex-act
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
+\T1/cmr/m/n/10.95 spec-i-men is con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
+\T1/cmr/m/n/10.95 treat-ment/campaign
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
+\T1/cmr/m/n/10.95 trans-fer tests are
+ []
+
+
+Underfull \hbox (badness 4144) in paragraph at lines 449--449
+[]|\T1/cmr/m/n/10.95 Progression and time
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 449--449
+\T1/cmr/m/n/10.95 and cur-rent cor-ro-sion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 449--449
+[]|\T1/cmr/m/n/10.95 None be-yond
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 449--450
+[]|\T1/cmr/m/n/10.95 Strong cur-rent per-for-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+[]|\T1/cmr/m/n/10.95 Perfect tem-po-ral
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 450--450
+\T1/cmr/m/n/10.95 used as sep-a-rate
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 450--451
+[]|\T1/cmr/m/n/10.95 Redundant tim-ing in-
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 450--451
+\T1/cmr/m/n/10.95 importance in-ter-pre-ta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+[]|\T1/cmr/m/n/10.95 Holdout-based
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+[]|\T1/cmtt/m/n/10.95 evaluate_models()
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+\T1/cmr/m/n/10.95 model on the full
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--452
+[]|\T1/cmtt/m/n/10.95 manifest.json \T1/cmr/m/n/10.95 stores
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 452--452
+\T1/cmr/m/n/10.95 ab-so-lute paths un-der
+ []
+
+
+Overfull \hbox (19.92665pt too wide) in paragraph at lines 452--452
+\T1/cmtt/m/n/10.95 /Users/youseffayyaz/...\T1/cmr/m/n/10.95 .| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
+[]|\T1/cmr/m/n/10.95 Documentation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
+[]|\T1/cmr/m/n/10.95 README and
+ []
+
+
+Overfull \hbox (16.90056pt too wide) in paragraph at lines 453--453
+\T1/cmtt/m/n/10.95 scientific_solution.txt
+ []
+
+
+Underfull \hbox (badness 5345) in paragraph at lines 453--453
+\T1/cmr/m/n/10.95 and show tem-po-rally
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--454
+\T1/cmr/m/n/10.95 re-pro-ducibil-ity and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--454
+\T1/cmr/m/n/10.95 blurs the dis-tinc-tion
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 453--454
+\T1/cmr/m/n/10.95 be-tween proxy tim-ing
+ []
+
+
+Overfull \hbox (2.70044pt too wide) in alignment at lines 443--457
+ [] [] [] [] 
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [16]
+Underfull \hbox (badness 4467) in paragraph at lines 466--467
+[]\T1/cmr/m/n/10.95 a sin-gle grouped hold-out split gen-er-ated by \T1/cmtt/m/
+n/10.95 GroupShuffleSplit(test_size=0.2,
+ []
+
+[17]
+Overfull \hbox (6.31055pt too wide) in paragraph at lines 484--485
+ []\T1/cmr/bx/n/10.95 What the model can and can-not learn.[] \T1/cmr/m/n/10.95
+ Be-cause the dom-i-nant sig-nal is \T1/cmtt/m/n/10.95 img_rust_mask_pct\T1/cmr
+/m/n/10.95 ,
+ []
+
+[18]
+
+Package tabularx Warning: X Columns too narrow (table too wide)
+(tabularx)                 on input line 528.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 528--528
+[]|\T1/cmr/bx/n/10 Holdout
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 528--528
+[]|\T1/cmr/bx/n/10 Holdout
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 528--528
+[]|\T1/cmr/bx/n/10 Holdout
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 528--528
+[]|\T1/cmr/bx/n/10 CV
+ []
+
+
+Overfull \hbox (48.93388pt too wide) in paragraph at lines 528--528
+[]|\T1/cmr/bx/n/10 Repository- 
+ []
+
+
+Overfull \hbox (37.05345pt too wide) in paragraph at lines 528--528
+\T1/cmr/bx/n/10 grounded 
+ []
+
+
+Overfull \hbox (3.41583pt too wide) in paragraph at lines 528--528
+\T1/cmr/bx/n/10 in- 
+ []
+
+
+Overfull \hbox (8.31047pt too wide) in paragraph at lines 528--528
+\T1/cmr/bx/n/10 ter- 
+ []
+
+
+Overfull \hbox (10.22667pt too wide) in paragraph at lines 528--528
+\T1/cmr/bx/n/10 pre- 
+ []
+
+
+Overfull \hbox (3.89488pt too wide) in paragraph at lines 528--528
+\T1/cmr/bx/n/10 ta- 
+ []
+
+
+Overfull \hbox (9.80316pt too wide) in paragraph at lines 528--528
+\T1/cmr/bx/n/10 tion|  
+ []
+
+
+Overfull \hbox (18.91205pt too wide) in paragraph at lines 528--528
+[]|\T1/cmr/m/n/10 Strong 
+ []
+
+
+Overfull \hbox (15.05188pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 same- 
+ []
+
+
+Overfull \hbox (39.79584pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 observation 
+ []
+
+
+Overfull \hbox (20.88379pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 visible- 
+ []
+
+
+Overfull \hbox (7.30377pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 rust 
+ []
+
+
+Overfull \hbox (7.24823pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 pre- 
+ []
+
+
+Overfull \hbox (6.10962pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 dic- 
+ []
+
+
+Overfull \hbox (7.22046pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 tion 
+ []
+
+
+Overfull \hbox (17.24579pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 driven 
+ []
+
+
+Overfull \hbox (19.21753pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 mostly 
+ []
+
+
+Overfull \hbox (0.55542pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 by 
+ []
+
+
+Overfull \hbox (14.99634pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 hand- 
+ []
+
+
+Overfull \hbox (20.3006pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 crafted 
+ []
+
+
+Overfull \hbox (10.63629pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 rust- 
+ []
+
+
+Overfull \hbox (12.55249pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 mask 
+ []
+
+
+Overfull \hbox (5.83191pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 fea- 
+ []
+
+
+Overfull \hbox (10.58075pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 ture.|  
+ []
+
+
+Overfull \hbox (31.6867pt too wide) in paragraph at lines 528--528
+[]|\T1/cmr/m/n/10 Moderate 
+ []
+
+
+Overfull \hbox (34.43604pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 metadata- 
+ []
+
+
+Overfull \hbox (17.24579pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 driven 
+ []
+
+
+Overfull \hbox (1.97174pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 for 
+ []
+
+
+Overfull \hbox (7.24823pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 cur- 
+ []
+
+
+Overfull \hbox (7.52594pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 rent 
+ []
+
+
+Overfull \hbox (6.69281pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 cor- 
+ []
+
+
+Overfull \hbox (2.24945pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 ro- 
+ []
+
+
+Overfull \hbox (7.276pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 sion 
+ []
+
+
+Overfull \hbox (16.24603pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 across 
+ []
+
+
+Overfull \hbox (17.82898pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 weeks, 
+ []
+
+
+Overfull \hbox (4.44336pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 not 
+ []
+
+
+Overfull \hbox (0.55542pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 an 
+ []
+
+
+Overfull \hbox (4.44336pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 im- 
+ []
+
+
+Overfull \hbox (4.44336pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 age 
+ []
+
+
+Overfull \hbox (16.38489pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 model 
+ []
+
+
+Overfull \hbox (6.10962pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 and 
+ []
+
+
+Overfull \hbox (4.44336pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 not 
+ []
+
+
+Overfull \hbox (4.16565pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 dy- 
+ []
+
+
+Overfull \hbox (16.10718pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 namic 
+ []
+
+
+Overfull \hbox (19.16199pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 model.|  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 528--528
+[]|\T1/cmr/m/n/10 3.0947
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 528--528
+[]|\T1/cmr/m/n/10 2.6535
+ []
+
+
+Overfull \hbox (15.9961pt too wide) in paragraph at lines 528--528
+[]|\T1/cmr/m/n/10 Proxy 
+ []
+
+
+Overfull \hbox (8.3313pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 tim- 
+ []
+
+
+Overfull \hbox (3.33252pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 ing 
+ []
+
+
+Overfull \hbox (16.38489pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 model 
+ []
+
+
+Overfull \hbox (8.3313pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 con- 
+ []
+
+
+Overfull \hbox (1.66626pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 di- 
+ []
+
+
+Overfull \hbox (14.99634pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 tional 
+ []
+
+
+Overfull \hbox (0.55542pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 on 
+ []
+
+
+Overfull \hbox (7.80365pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 true 
+ []
+
+
+Overfull \hbox (7.24823pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 cur- 
+ []
+
+
+Overfull \hbox (7.52594pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 rent 
+ []
+
+
+Overfull \hbox (6.69281pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 cor- 
+ []
+
+
+Overfull \hbox (2.24945pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 ro- 
+ []
+
+
+Overfull \hbox (7.276pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 sion 
+ []
+
+
+Overfull \hbox (6.10962pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 and 
+ []
+
+
+Overfull \hbox (1.69403pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 re- 
+ []
+
+
+Overfull \hbox (22.85553pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 stricted 
+ []
+
+
+Overfull \hbox (11.99707pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 spec- 
+ []
+
+
+Overfull \hbox (12.27478pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 mens 
+ []
+
+
+Overfull \hbox (8.3313pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 that 
+ []
+
+
+Overfull \hbox (2.7771pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 ac- 
+ []
+
+
+Overfull \hbox (2.7771pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 tu- 
+ []
+
+
+Overfull \hbox (5.83191pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 ally 
+ []
+
+
+Overfull \hbox (11.24725pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 cross 
+ []
+
+
+Overfull \hbox (3.88794pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 the 
+ []
+
+
+Overfull \hbox (20.63385pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 thresh- 
+ []
+
+
+Overfull \hbox (6.10962pt too wide) in paragraph at lines 528--528
+\T1/cmr/m/n/10 old.|  
+ []
+
+
+Overfull \hbox (12.4597pt too wide) in alignment at lines 528--528
+[][][][][][][] 
+ []
+
+[19] [20]
+Overfull \vbox (299.32011pt too high) has occurred while \output is active []
+
+
+[21]
+<reports/fig_holdout_mae_by_task.png, id=446, 767.668pt x 409.1285pt>
+File: reports/fig_holdout_mae_by_task.png Graphic file (type png)
+<use reports/fig_holdout_mae_by_task.png>
+Package pdftex.def Info: reports/fig_holdout_mae_by_task.png  used on input lin
+e 574.
+(pdftex.def)             Requested size: 389.55266pt x 207.61021pt.
+ [22] [23 <./reports/fig_holdout_mae_by_task.png>]
+<reports/fig_threshold_event_weeks.png, id=463, 625.537pt x 337.26pt>
+File: reports/fig_threshold_event_weeks.png Graphic file (type png)
+<use reports/fig_threshold_event_weeks.png>
+Package pdftex.def Info: reports/fig_threshold_event_weeks.png  used on input l
+ine 603.
+(pdftex.def)             Requested size: 335.19873pt x 180.72307pt.
+ [24 <./reports/fig_threshold_event_weeks.png>] [25]
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 678.
+
+Underfull \hbox (badness 10000) in paragraph at lines 694--694
+[]|\T1/cmr/m/n/10 GIMP/BIMP pre-pro-cess-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 694--694
+[]|\T1/cmr/m/n/10 Partially re-pro-duced only
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 694--694
+\T1/cmr/m/n/10 through three fixed RGB
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 694--694
+\T1/cmr/m/n/10 thresh-old masks and global
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 694--694
+[]|\T1/cmr/m/n/10 Strip-wise peak-corrosion
+ []
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 694--694
+[]|\T1/cmr/m/n/10 Reused in current-corrosion
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 694--694
+\T1/cmr/m/n/10 cor-ro-sion cat-e-gories (con-fer-
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 694--694
+\T1/cmr/m/n/10 repos-i-tory uses clas-si-cal re-
+ []
+
+[26] [27] [28] [29] (./main.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D916580FDB1DF4EB4A3E05DC8EB6DA7F;13323.
+ ) 
+Here is how much of TeX's memory you used:
+ 11957 strings out of 467525
+ 189216 string characters out of 5418982
+ 639584 words of memory out of 5000000
+ 40571 multiletter control sequences out of 15000+600000
+ 641297 words of font info for 68 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,12n,79p,765b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
+r/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
+ocal/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
+cal/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/loca
+l/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/
+texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/te
+xlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texl
+ive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texliv
+e/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/
+2026/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/20
+26/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2026
+/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2026/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2026/tex
+mf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2026/texmf
+-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2026/texmf-d
+ist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2026/texmf-dis
+t/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2026/texmf-dist/
+fonts/type1/public/cm-super/sftt1728.pfb>
+Output written on main.pdf (29 pages, 700402 bytes).
+PDF statistics:
+ 651 PDF objects out of 1000 (max. 8388607)
+ 565 compressed objects within 6 object streams
+ 167 named destinations out of 1000 (max. 500000)
+ 477 words of extra memory for PDF output out of 10000 (max. 10000000)
+

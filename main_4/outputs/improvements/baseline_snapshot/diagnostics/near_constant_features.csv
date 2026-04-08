@@ -1,0 +1,14 @@
+stage,feature_name,source_family,data_type,variance,nunique,top_value_fraction,included_in_stage
+hidden_damage,image_readable,identifier_or_flag,bool,0.0,1,1.0,False
+hidden_damage,image_width,identifier_or_flag,float64,0.0,1,1.0,False
+hidden_damage,has_structural_label,identifier_or_flag,bool,0.0,1,1.0,False
+hidden_damage,is_terminal_structural_row,identifier_or_flag,bool,0.0,1,1.0,False
+hidden_damage,img_strip_count,image_spatial,float64,0.0,1,1.0,False
+hidden_damage,image_error,identifier_or_flag,float64,,0,1.0,False
+hidden_damage,image_height,identifier_or_flag,float64,8.333333333333334,2,0.9791666666666666,False
+hidden_damage,img_rust_blob_eccentricity_max,image_morphology,float64,0.040780141843971635,2,0.9583333333333334,True
+surface,image_readable,identifier_or_flag,bool,0.0,1,1.0,False
+surface,image_width,identifier_or_flag,float64,0.0,1,1.0,False
+surface,img_strip_count,image_spatial,float64,0.0,1,1.0,False
+surface,image_error,identifier_or_flag,float64,,0,1.0,False
+surface,image_height,identifier_or_flag,float64,0.56718782505721,3,0.9974715549936789,False

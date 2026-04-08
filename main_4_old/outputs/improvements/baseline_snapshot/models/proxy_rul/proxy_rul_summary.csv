@@ -1,0 +1,4 @@
+threshold_wire_area_loss_frac,n_specimens,n_crossed_by_baseline,n_crossed_during_observation,n_future_crossings_within_horizon,n_right_censored
+0.2,48,32,13,0,3
+0.3,48,2,18,0,28
+0.4,48,0,7,0,41

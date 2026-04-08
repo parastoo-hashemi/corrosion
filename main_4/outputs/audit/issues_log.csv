@@ -1,0 +1,2 @@
+issue_type,severity,sample_name,detail
+orphan_image,warning,E01-20240508-17W,image_readable=False; error=cannot identify image file 'Data/Images_dataset/E01-20240508-17W.png'

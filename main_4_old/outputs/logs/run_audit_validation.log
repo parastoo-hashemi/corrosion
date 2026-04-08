@@ -1,0 +1,3 @@
+2026-03-16 14:19:27,108 | INFO | Audit complete. Verified facts: {'aligned_rows': 791, 'unique_specimens': 48, 'image_files': 792, 'orphan_images': ['E01-20240508-17W'], 'structural_rows': 48, 'group_key': 'specimen_id'}
+2026-03-16 14:26:47,234 | INFO | Audit complete. Verified facts: {'aligned_rows': 791, 'unique_specimens': 48, 'image_files': 792, 'orphan_images': ['E01-20240508-17W'], 'structural_rows': 48, 'group_key': 'specimen_id'}
+2026-03-16 15:03:11,136 | INFO | Audit complete. Verified facts: {'aligned_rows': 791, 'unique_specimens': 48, 'image_files': 792, 'orphan_images': ['E01-20240508-17W'], 'structural_rows': 48, 'group_key': 'specimen_id'}

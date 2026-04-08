@@ -1,0 +1,42 @@
+feature_name,description
+img_rust_area_ratio_pct,Percent of pixels in thesis-aligned rust mask.
+img_black_mask_ratio_pct,Percent of pixels in black-pore mask.
+img_gray_mask_ratio_pct,Percent of pixels in gray-mark mask.
+img_brightness_mean,Mean grayscale intensity.
+img_brightness_std,Standard deviation of grayscale intensity.
+img_brightness_p10,10th percentile grayscale intensity.
+img_brightness_p90,90th percentile grayscale intensity.
+img_contrast,Grayscale standard deviation as simple contrast.
+img_r_mean,Mean red channel.
+img_g_mean,Mean green channel.
+img_b_mean,Mean blue channel.
+img_r_std,Red-channel standard deviation.
+img_g_std,Green-channel standard deviation.
+img_b_std,Blue-channel standard deviation.
+img_glcm_contrast,GLCM contrast on downsampled grayscale image.
+img_glcm_homogeneity,GLCM homogeneity on downsampled grayscale image.
+img_glcm_energy,GLCM energy on downsampled grayscale image.
+img_lbp_mean,Mean local binary pattern value on downsampled grayscale image.
+img_lbp_std,Standard deviation of local binary pattern values.
+img_rust_blob_count,Number of connected rust regions.
+img_rust_blob_largest_ratio_pct,Largest rust region area as image percent.
+img_rust_blob_mean_ratio_pct,Mean rust region area as image percent.
+img_rust_blob_eccentricity_mean,Mean eccentricity of rust regions.
+img_rust_blob_eccentricity_max,Maximum eccentricity of rust regions.
+img_strip_count,Number of overlapping longitudinal strips.
+img_strip_rust_mean_pct,Mean strip rust percentage.
+img_strip_rust_std_pct,Std of strip rust percentage.
+img_strip_rust_max_pct,Max strip rust percentage.
+img_strip_rust_p90_pct,90th percentile strip rust percentage.
+img_strip_high_count,Count of strips above high-rust threshold.
+img_strip_peak_location_cm,Center location of max-rust strip in cm.
+img_rust_center_of_mass_cm,Rust-mask center of mass along specimen length in cm.
+img_edge_to_center_rust_ratio,Edge rust intensity divided by center rust intensity.
+img_gray_hist_bin_0,Normalized grayscale histogram bin 0.
+img_gray_hist_bin_1,Normalized grayscale histogram bin 1.
+img_gray_hist_bin_2,Normalized grayscale histogram bin 2.
+img_gray_hist_bin_3,Normalized grayscale histogram bin 3.
+img_gray_hist_bin_4,Normalized grayscale histogram bin 4.
+img_gray_hist_bin_5,Normalized grayscale histogram bin 5.
+img_gray_hist_bin_6,Normalized grayscale histogram bin 6.
+img_gray_hist_bin_7,Normalized grayscale histogram bin 7.

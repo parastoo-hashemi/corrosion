@@ -1,0 +1,9 @@
+target,feature_name,feature_set_name,target_transform,source_family
+ultimate_load_kn,ageing_days,metadata_only,none,temporal
+ultimate_load_kn,campaign_id,metadata_only,none,tabular_metadata
+ultimate_load_kn,cover_mm,metadata_only,none,tabular_metadata
+ultimate_load_kn,series_id,metadata_only,none,tabular_metadata
+ultimate_load_kn,split_group_treatment,metadata_only,none,tabular_metadata
+ultimate_load_kn,treatment_coarse,metadata_only,none,tabular_metadata
+ultimate_load_kn,treatment_label_coarse,metadata_only,none,tabular_metadata
+ultimate_load_kn,treatment_protocol,metadata_only,none,tabular_metadata

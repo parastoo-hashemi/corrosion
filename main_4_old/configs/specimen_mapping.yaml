@@ -1,0 +1,101 @@
+version: main_first
+description: >
+  Deterministic specimen-to-campaign and treatment mapping reconstructed from workbook IDs
+  and thesis treatment tables. This file is the only approved source for campaign and
+  treatment reconstruction in code.
+
+series_groups:
+  S1_MI:
+    campaign_id: campaign_1
+    series_id: S1
+    series_description: Campaign main_first mixed-in inhibitor series
+  S2_SA:
+    campaign_id: campaign_1
+    series_id: S2
+    series_description: Campaign main_first surface-applied inhibitor series
+  S3_PA_SA:
+    campaign_id: campaign_1
+    series_id: S3
+    series_description: Campaign main_first paint plus surface-applied inhibitor series
+  S4_SA_VF:
+    campaign_id: campaign_1
+    series_id: S4
+    series_description: Campaign main_first surface-applied inhibitor plus glass compound series
+  S5_VF:
+    campaign_id: campaign_1
+    series_id: S5
+    series_description: Campaign main_first glass-based compound series
+  D_NO:
+    campaign_id: campaign_2
+    series_id: D
+    series_description: Campaign 2 untreated chloride-aged series
+  E_SA_SPRAY:
+    campaign_id: campaign_2
+    series_id: E
+    series_description: Campaign 2 spray-applied inhibitor series
+  F_SA_BRUSH:
+    campaign_id: campaign_2
+    series_id: F
+    series_description: Campaign 2 brush-applied inhibitor series
+  G_PAINT:
+    campaign_id: campaign_2
+    series_id: G
+    series_description: Campaign 2 painted series
+
+specimens:
+  S1MI01: {campaign_id: campaign_1, series_id: S1, split_group_treatment: S1_MI, treatment_protocol: no_treatment_control, treatment_coarse: NO, treatment_label_coarse: D, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+  S1MI02: {campaign_id: campaign_1, series_id: S1, split_group_treatment: S1_MI, treatment_protocol: mixed_in_inhibitor, treatment_coarse: MI, treatment_label_coarse: MI, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+  S1MI03: {campaign_id: campaign_1, series_id: S1, split_group_treatment: S1_MI, treatment_protocol: mixed_in_inhibitor, treatment_coarse: MI, treatment_label_coarse: MI, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+  S1MI04: {campaign_id: campaign_1, series_id: S1, split_group_treatment: S1_MI, treatment_protocol: mixed_in_inhibitor, treatment_coarse: MI, treatment_label_coarse: MI, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+  S1MI05: {campaign_id: campaign_1, series_id: S1, split_group_treatment: S1_MI, treatment_protocol: mixed_in_inhibitor, treatment_coarse: MI, treatment_label_coarse: MI, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+  S1MI06: {campaign_id: campaign_1, series_id: S1, split_group_treatment: S1_MI, treatment_protocol: mixed_in_inhibitor, treatment_coarse: MI, treatment_label_coarse: MI, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+  S1MI07: {campaign_id: campaign_1, series_id: S1, split_group_treatment: S1_MI, treatment_protocol: mixed_in_inhibitor, treatment_coarse: MI, treatment_label_coarse: MI, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+
+  S2SA01: {campaign_id: campaign_1, series_id: S2, split_group_treatment: S2_SA, treatment_protocol: no_treatment_control, treatment_coarse: NO, treatment_label_coarse: D, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+  S2SA02: {campaign_id: campaign_1, series_id: S2, split_group_treatment: S2_SA, treatment_protocol: surface_applied_inhibitor_campaign1, treatment_coarse: SA, treatment_label_coarse: SA, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+  S2SA03: {campaign_id: campaign_1, series_id: S2, split_group_treatment: S2_SA, treatment_protocol: surface_applied_inhibitor_campaign1, treatment_coarse: SA, treatment_label_coarse: SA, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+  S2SA04: {campaign_id: campaign_1, series_id: S2, split_group_treatment: S2_SA, treatment_protocol: surface_applied_inhibitor_campaign1, treatment_coarse: SA, treatment_label_coarse: SA, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+  S2SA05: {campaign_id: campaign_1, series_id: S2, split_group_treatment: S2_SA, treatment_protocol: surface_applied_inhibitor_campaign1, treatment_coarse: SA, treatment_label_coarse: SA, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+  S2SA06: {campaign_id: campaign_1, series_id: S2, split_group_treatment: S2_SA, treatment_protocol: surface_applied_inhibitor_campaign1, treatment_coarse: SA, treatment_label_coarse: SA, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+  S2SA07: {campaign_id: campaign_1, series_id: S2, split_group_treatment: S2_SA, treatment_protocol: surface_applied_inhibitor_campaign1, treatment_coarse: SA, treatment_label_coarse: SA, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+
+  S3PA01: {campaign_id: campaign_1, series_id: S3, split_group_treatment: S3_PA_SA, treatment_protocol: paint_only, treatment_coarse: PA, treatment_label_coarse: G, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+  S3PA02: {campaign_id: campaign_1, series_id: S3, split_group_treatment: S3_PA_SA, treatment_protocol: paint_plus_surface_inhibitor, treatment_coarse: SA_PA, treatment_label_coarse: G, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+  S3PA03: {campaign_id: campaign_1, series_id: S3, split_group_treatment: S3_PA_SA, treatment_protocol: paint_plus_surface_inhibitor, treatment_coarse: SA_PA, treatment_label_coarse: G, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+  S3PA04: {campaign_id: campaign_1, series_id: S3, split_group_treatment: S3_PA_SA, treatment_protocol: paint_plus_surface_inhibitor, treatment_coarse: SA_PA, treatment_label_coarse: G, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+
+  S4SAVF01: {campaign_id: campaign_1, series_id: S4, split_group_treatment: S4_SA_VF, treatment_protocol: no_treatment_control, treatment_coarse: NO, treatment_label_coarse: D, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+  S4SAVF02: {campaign_id: campaign_1, series_id: S4, split_group_treatment: S4_SA_VF, treatment_protocol: surface_inhibitor_plus_glass_compound, treatment_coarse: SA_VF, treatment_label_coarse: VF, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+  S4SAVF03: {campaign_id: campaign_1, series_id: S4, split_group_treatment: S4_SA_VF, treatment_protocol: surface_inhibitor_plus_glass_compound, treatment_coarse: SA_VF, treatment_label_coarse: VF, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+
+  S5VF01: {campaign_id: campaign_1, series_id: S5, split_group_treatment: S5_VF, treatment_protocol: no_treatment_control, treatment_coarse: NO, treatment_label_coarse: D, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+  S5VF02: {campaign_id: campaign_1, series_id: S5, split_group_treatment: S5_VF, treatment_protocol: glass_based_compound, treatment_coarse: VF, treatment_label_coarse: VF, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+  S5VF03: {campaign_id: campaign_1, series_id: S5, split_group_treatment: S5_VF, treatment_protocol: glass_based_compound, treatment_coarse: VF, treatment_label_coarse: VF, n_steel_mesh: 7, nacl_pct: 3.5, terminal_week: 28, terminal_days: 196}
+
+  D01: {campaign_id: campaign_2, series_id: D, split_group_treatment: D_NO, treatment_protocol: no_treatment_control, treatment_coarse: NO, treatment_label_coarse: D, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+  D02: {campaign_id: campaign_2, series_id: D, split_group_treatment: D_NO, treatment_protocol: no_treatment_control, treatment_coarse: NO, treatment_label_coarse: D, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+  D03: {campaign_id: campaign_2, series_id: D, split_group_treatment: D_NO, treatment_protocol: no_treatment_control, treatment_coarse: NO, treatment_label_coarse: D, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+  D04: {campaign_id: campaign_2, series_id: D, split_group_treatment: D_NO, treatment_protocol: no_treatment_control, treatment_coarse: NO, treatment_label_coarse: D, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+  D05: {campaign_id: campaign_2, series_id: D, split_group_treatment: D_NO, treatment_protocol: no_treatment_control, treatment_coarse: NO, treatment_label_coarse: D, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+  D06: {campaign_id: campaign_2, series_id: D, split_group_treatment: D_NO, treatment_protocol: no_treatment_control, treatment_coarse: NO, treatment_label_coarse: D, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+
+  E01: {campaign_id: campaign_2, series_id: E, split_group_treatment: E_SA_SPRAY, treatment_protocol: surface_inhibitor_spray_campaign2, treatment_coarse: SA, treatment_label_coarse: SA, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+  E02: {campaign_id: campaign_2, series_id: E, split_group_treatment: E_SA_SPRAY, treatment_protocol: surface_inhibitor_spray_campaign2, treatment_coarse: SA, treatment_label_coarse: SA, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+  E03: {campaign_id: campaign_2, series_id: E, split_group_treatment: E_SA_SPRAY, treatment_protocol: surface_inhibitor_spray_campaign2, treatment_coarse: SA, treatment_label_coarse: SA, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+  E04: {campaign_id: campaign_2, series_id: E, split_group_treatment: E_SA_SPRAY, treatment_protocol: surface_inhibitor_spray_campaign2, treatment_coarse: SA, treatment_label_coarse: SA, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+  E05: {campaign_id: campaign_2, series_id: E, split_group_treatment: E_SA_SPRAY, treatment_protocol: surface_inhibitor_spray_campaign2, treatment_coarse: SA, treatment_label_coarse: SA, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+  E06: {campaign_id: campaign_2, series_id: E, split_group_treatment: E_SA_SPRAY, treatment_protocol: surface_inhibitor_spray_campaign2, treatment_coarse: SA, treatment_label_coarse: SA, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+
+  F01: {campaign_id: campaign_2, series_id: F, split_group_treatment: F_SA_BRUSH, treatment_protocol: surface_inhibitor_brush_campaign2, treatment_coarse: SA, treatment_label_coarse: SA, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+  F02: {campaign_id: campaign_2, series_id: F, split_group_treatment: F_SA_BRUSH, treatment_protocol: surface_inhibitor_brush_campaign2, treatment_coarse: SA, treatment_label_coarse: SA, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+  F03: {campaign_id: campaign_2, series_id: F, split_group_treatment: F_SA_BRUSH, treatment_protocol: surface_inhibitor_brush_campaign2, treatment_coarse: SA, treatment_label_coarse: SA, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+  F04: {campaign_id: campaign_2, series_id: F, split_group_treatment: F_SA_BRUSH, treatment_protocol: surface_inhibitor_brush_campaign2, treatment_coarse: SA, treatment_label_coarse: SA, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+  F05: {campaign_id: campaign_2, series_id: F, split_group_treatment: F_SA_BRUSH, treatment_protocol: surface_inhibitor_brush_campaign2, treatment_coarse: SA, treatment_label_coarse: SA, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+  F06: {campaign_id: campaign_2, series_id: F, split_group_treatment: F_SA_BRUSH, treatment_protocol: surface_inhibitor_brush_campaign2, treatment_coarse: SA, treatment_label_coarse: SA, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+
+  G01: {campaign_id: campaign_2, series_id: G, split_group_treatment: G_PAINT, treatment_protocol: paint_campaign2, treatment_coarse: PA, treatment_label_coarse: G, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+  G02: {campaign_id: campaign_2, series_id: G, split_group_treatment: G_PAINT, treatment_protocol: paint_campaign2, treatment_coarse: PA, treatment_label_coarse: G, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+  G03: {campaign_id: campaign_2, series_id: G, split_group_treatment: G_PAINT, treatment_protocol: paint_campaign2, treatment_coarse: PA, treatment_label_coarse: G, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+  G04: {campaign_id: campaign_2, series_id: G, split_group_treatment: G_PAINT, treatment_protocol: paint_campaign2, treatment_coarse: PA, treatment_label_coarse: G, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+  G05: {campaign_id: campaign_2, series_id: G, split_group_treatment: G_PAINT, treatment_protocol: paint_campaign2, treatment_coarse: PA, treatment_label_coarse: G, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}
+  G06: {campaign_id: campaign_2, series_id: G, split_group_treatment: G_PAINT, treatment_protocol: paint_campaign2, treatment_coarse: PA, treatment_label_coarse: G, n_steel_mesh: 4, nacl_pct: 5.0, terminal_week: 36, terminal_days: 252}

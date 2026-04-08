@@ -1,0 +1,8 @@
+proxy_rul:
+  signal_column: predicted_wire_area_loss_frac
+  thresholds:
+    - 0.20
+    - 0.30
+    - 0.40
+  projection_horizon_days: 365
+  right_censor_if_not_reached_within_horizon: true

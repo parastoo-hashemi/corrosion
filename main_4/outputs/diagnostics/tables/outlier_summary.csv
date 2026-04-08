@@ -1,0 +1,13 @@
+variable,label,iqr_upper_fence,n_iqr_outliers,n_above_p99,p99_value,max_value
+surface_total_rust_pct,Surface total rust (%),7.835999999999999,76,8,34.079100000000004,53.412
+peak_rust_pct,Peak rust (%),24.0735,50,8,57.307900000000004,80.172
+peak_rust_location_cm,Peak rust location (cm),38.959999999999994,0,0,21.49,21.49
+wire_area_loss_frac,Wire area loss (fraction),0.46244999999999997,4,1,0.5416470000000001,0.5698
+ultimate_load_kn,Ultimate load (kN),3.2512499999999998,0,1,2.8606000000000003,2.87
+img_rust_area_ratio_pct,Image rust area ratio (%),7.835219101885769,77,8,34.07929995929996,53.411531678198344
+img_strip_rust_max_pct,Image peak strip rust (%),34.260756192959576,56,8,63.429856584093876,84.30378096479791
+img_strip_peak_location_cm,Image peak strip location (cm),39.83280423280423,0,0,23.475132275132275,23.475132275132275
+img_brightness_mean,Brightness mean,297.7840458553793,0,8,254.9668954008954,254.9999945733279
+img_rust_blob_count,Rust blob count,1173.0,63,8,2839.8000000000025,4533.0
+img_edge_to_center_rust_ratio,Edge/center rust ratio,6.035902479220861,115,8,114364.32029552381,2030965.7979139504
+predicted_wire_area_loss_frac,Predicted hidden damage (fraction),0.4288804119051923,39,2,0.4614326919216795,0.4871428519690592

@@ -1,0 +1,5 @@
+{
+  "target": "ultimate_load_kn",
+  "best_model_name": "GradientBoosting",
+  "target_transform": "none"
+}

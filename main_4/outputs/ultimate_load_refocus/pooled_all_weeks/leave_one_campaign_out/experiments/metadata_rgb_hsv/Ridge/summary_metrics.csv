@@ -1,0 +1,2 @@
+mae_mean,mae_std,rmse_mean,rmse_std,r2_mean,r2_std,spearman_mean,spearman_std,n_splits,n_terminal_specimens,analysis_name,split_name,feature_set_name,feature_set_label,model_name,n_features
+0.6943255447724974,0.17644352825440893,0.753900528712633,0.18003625247426694,-11.556141156353279,5.24024055220379,-0.0544102095228384,0.2726056978308471,2,48,pooled_all_weeks,leave_one_campaign_out,metadata_rgb_hsv,metadata+RGB+HSV,Ridge,88

@@ -1,0 +1,2 @@
+mae_mean,mae_std,rmse_mean,rmse_std,r2_mean,r2_std,spearman_mean,spearman_std,n_splits,n_terminal_specimens,analysis_name,split_name,feature_set_name,feature_set_label,model_name,n_features,pipeline_name,stage1_model_name,stage2_model_name
+0.17260179853785462,0.04657166460642697,0.21385001256724495,0.054263293543219855,0.6457970092224319,0.17242397055684672,0.7494695104205708,0.20051904361937492,10,48,specimen_summary_residual_refinement,grouped_cv,specimen_metadata_only,specimen-summary metadata-only,Ridge,11,specimen_summary_metadata_baseline,Ridge,none
