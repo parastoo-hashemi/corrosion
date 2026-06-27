@@ -1,0 +1,18 @@
+2026-03-23 15:05:24,061 | INFO | Computing learning curve for surface / surface_total_rust_pct
+2026-03-23 15:05:36,940 | INFO | Saved /Users/parastoo/All_projects/Proj_corrosion/main_4/outputs/diagnostics/figures/learning_curves/surface/surface_total_rust_pct_learning_curve.png
+2026-03-23 15:05:36,941 | INFO | Computing learning curve for surface / peak_rust_pct
+2026-03-23 15:05:43,715 | INFO | Saved /Users/parastoo/All_projects/Proj_corrosion/main_4/outputs/diagnostics/figures/learning_curves/surface/peak_rust_pct_learning_curve.png
+2026-03-23 15:05:43,716 | INFO | Computing learning curve for hidden_damage / wire_area_loss_frac
+2026-03-23 15:05:45,079 | INFO | Saved /Users/parastoo/All_projects/Proj_corrosion/main_4/outputs/diagnostics/figures/learning_curves/hidden_damage/wire_area_loss_frac_learning_curve.png
+2026-03-23 15:05:45,079 | INFO | Computing learning curve for hidden_damage / ultimate_load_kn
+2026-03-23 15:05:48,707 | INFO | Saved /Users/parastoo/All_projects/Proj_corrosion/main_4/outputs/diagnostics/figures/learning_curves/hidden_damage/ultimate_load_kn_learning_curve.png
+2026-03-23 15:05:49,172 | INFO | Saved /Users/parastoo/All_projects/Proj_corrosion/main_4/outputs/diagnostics/figures/learning_curves/selected_models_learning_curves_overview.png
+2026-03-23 15:06:45,904 | INFO | Computing learning curve for surface / surface_total_rust_pct
+2026-03-23 15:06:58,472 | INFO | Saved /Users/parastoo/All_projects/Proj_corrosion/main_4/outputs/diagnostics/figures/learning_curves/surface/surface_total_rust_pct_learning_curve.png
+2026-03-23 15:06:58,473 | INFO | Computing learning curve for surface / peak_rust_pct
+2026-03-23 15:07:05,028 | INFO | Saved /Users/parastoo/All_projects/Proj_corrosion/main_4/outputs/diagnostics/figures/learning_curves/surface/peak_rust_pct_learning_curve.png
+2026-03-23 15:07:05,029 | INFO | Computing learning curve for hidden_damage / wire_area_loss_frac
+2026-03-23 15:07:06,425 | INFO | Saved /Users/parastoo/All_projects/Proj_corrosion/main_4/outputs/diagnostics/figures/learning_curves/hidden_damage/wire_area_loss_frac_learning_curve.png
+2026-03-23 15:07:06,426 | INFO | Computing learning curve for hidden_damage / ultimate_load_kn
+2026-03-23 15:07:09,993 | INFO | Saved /Users/parastoo/All_projects/Proj_corrosion/main_4/outputs/diagnostics/figures/learning_curves/hidden_damage/ultimate_load_kn_learning_curve.png
+2026-03-23 15:07:10,456 | INFO | Saved /Users/parastoo/All_projects/Proj_corrosion/main_4/outputs/diagnostics/figures/learning_curves/selected_models_learning_curves_overview.png

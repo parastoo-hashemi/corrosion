@@ -1,0 +1,12 @@
+feature,feature_value,feature_value_label,prediction_mean,feature_kind
+campaign_id,campaign_1,campaign_1,2.247557220354588,categorical
+campaign_id,campaign_2,campaign_2,2.0724812080564936,categorical
+treatment_coarse,False,False,2.1456057912832494,categorical
+treatment_coarse,MI,MI,2.1372665752367146,categorical
+treatment_coarse,PA,PA,2.167231089666793,categorical
+treatment_coarse,SA,SA,2.1529666104516014,categorical
+treatment_coarse,SA_PA,SA_PA,2.2338937167426485,categorical
+treatment_coarse,SA_VF,SA_VF,2.1690567089065573,categorical
+treatment_coarse,VF,VF,2.0241025518580087,categorical
+n_steel_mesh,4.0,4,2.1123215142680465,numeric
+n_steel_mesh,7.0,7,2.199859520417979,numeric

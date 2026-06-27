@@ -1,0 +1,125 @@
+{
+  "excel_path": "/Users/youseffayyaz/Documents/Proj_corrosion/Data/Images_Dataset_A-Z.xlsx",
+  "image_dir": "/Users/youseffayyaz/Documents/Proj_corrosion/Data/Images_dataset",
+  "threshold_pct": 20.0,
+  "random_state": 42,
+  "dataset": {
+    "rows": 792,
+    "specimens": 48,
+    "week_min": 0,
+    "week_max": 36,
+    "missing_images": 0,
+    "corrupted_image_ids": [
+      "E01-20240508-17W"
+    ]
+  },
+  "features": {
+    "base_features": [
+      "N_Steel_Mesh",
+      "Treatment",
+      "NaCl%",
+      "Ageing_Days",
+      "Cover_(Faliure_Surface)_[mm]",
+      "week",
+      "series"
+    ],
+    "image_features": [
+      "img_r_mean",
+      "img_g_mean",
+      "img_b_mean",
+      "img_r_std",
+      "img_g_std",
+      "img_b_std",
+      "img_h_mean",
+      "img_s_mean",
+      "img_v_mean",
+      "img_h_std",
+      "img_s_std",
+      "img_v_std",
+      "img_rg_diff_mean",
+      "img_red_dominance_pct",
+      "img_rust_mask_pct",
+      "img_black_mask_pct",
+      "img_gray_mask_pct",
+      "img_rust_to_black_ratio"
+    ],
+    "current_model_features": [
+      "N_Steel_Mesh",
+      "Treatment",
+      "NaCl%",
+      "Ageing_Days",
+      "Cover_(Faliure_Surface)_[mm]",
+      "week",
+      "series",
+      "img_r_mean",
+      "img_g_mean",
+      "img_b_mean",
+      "img_r_std",
+      "img_g_std",
+      "img_b_std",
+      "img_h_mean",
+      "img_s_mean",
+      "img_v_mean",
+      "img_h_std",
+      "img_s_std",
+      "img_v_std",
+      "img_rg_diff_mean",
+      "img_red_dominance_pct",
+      "img_rust_mask_pct",
+      "img_black_mask_pct",
+      "img_gray_mask_pct",
+      "img_rust_to_black_ratio"
+    ],
+    "progression_model_features": [
+      "N_Steel_Mesh",
+      "Treatment",
+      "NaCl%",
+      "Ageing_Days",
+      "Cover_(Faliure_Surface)_[mm]",
+      "week",
+      "series"
+    ],
+    "time_model_features": [
+      "N_Steel_Mesh",
+      "Treatment",
+      "NaCl%",
+      "Ageing_Days",
+      "Cover_(Faliure_Surface)_[mm]",
+      "week",
+      "series",
+      "B_Peak_Rust_Percentage_[%]"
+    ]
+  },
+  "models": {
+    "current_corrosion": {
+      "best_model": "RandomForest",
+      "model_path": "/Users/youseffayyaz/Documents/Proj_corrosion/main/artifacts/current_corrosion_model.joblib",
+      "metrics_path": "/Users/youseffayyaz/Documents/Proj_corrosion/main/reports/current_corrosion_metrics.csv",
+      "feature_importance_path": "/Users/youseffayyaz/Documents/Proj_corrosion/main/reports/current_corrosion_feature_importance.csv",
+      "n_features": 25,
+      "holdout_mae": 2.3793790275902302,
+      "holdout_rmse": 4.254306813271526,
+      "holdout_r2": 0.8995539568115039
+    },
+    "progression": {
+      "best_model": "GradientBoosting",
+      "model_path": "/Users/youseffayyaz/Documents/Proj_corrosion/main/artifacts/progression_model.joblib",
+      "metrics_path": "/Users/youseffayyaz/Documents/Proj_corrosion/main/reports/progression_metrics.csv",
+      "feature_importance_path": "/Users/youseffayyaz/Documents/Proj_corrosion/main/reports/progression_feature_importance.csv",
+      "n_features": 7,
+      "holdout_mae": 6.714367181981135,
+      "holdout_rmse": 9.329352875134777,
+      "holdout_r2": 0.5169653790490656
+    },
+    "time_to_threshold": {
+      "best_model": "RandomForest",
+      "model_path": "/Users/youseffayyaz/Documents/Proj_corrosion/main/artifacts/time_to_threshold_model.joblib",
+      "metrics_path": "/Users/youseffayyaz/Documents/Proj_corrosion/main/reports/time_to_threshold_metrics.csv",
+      "feature_importance_path": "/Users/youseffayyaz/Documents/Proj_corrosion/main/reports/time_to_threshold_feature_importance.csv",
+      "n_features": 8,
+      "holdout_mae": 2.2114222697563877,
+      "holdout_rmse": 3.094661466779055,
+      "holdout_r2": 0.7820367161339525
+    }
+  }
+}

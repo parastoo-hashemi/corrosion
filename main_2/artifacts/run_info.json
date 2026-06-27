@@ -1,0 +1,55 @@
+{
+  "device": "mps",
+  "random_state": 42,
+  "dataset": {
+    "rows": 792,
+    "specimens": 48,
+    "week_min": 0,
+    "week_max": 36,
+    "treatments": [
+      "MI",
+      "NO",
+      "PA",
+      "SA",
+      "SA_PA",
+      "SA_VF",
+      "VF"
+    ],
+    "series": [
+      "D",
+      "E",
+      "F",
+      "G",
+      "S"
+    ],
+    "corrupted_images_count": 1,
+    "corrupted_image_ids": [
+      "E01-20240508-17W"
+    ]
+  },
+  "phase2_model": {
+    "best_model": "image_only_mlp",
+    "input_dim": 512,
+    "use_tabular": false,
+    "tabular_feature_columns": [
+      "N_Steel_Mesh",
+      "Treatment",
+      "NaCl%",
+      "Ageing_Days",
+      "Cover_(Faliure_Surface)_[mm]",
+      "week",
+      "series"
+    ],
+    "artifacts": {
+      "model_state": "/Users/youseffayyaz/Documents/Proj_corrosion/main_2/artifacts/best_model_state.pt",
+      "tabular_preprocessor": "/Users/youseffayyaz/Documents/Proj_corrosion/main_2/artifacts/tabular_preprocessor.joblib",
+      "target_scaler": "/Users/youseffayyaz/Documents/Proj_corrosion/main_2/artifacts/target_scaler.joblib"
+    }
+  },
+  "reports": {
+    "model_comparison": "/Users/youseffayyaz/Documents/Proj_corrosion/main_2/reports/model_comparison.csv",
+    "predictions": "/Users/youseffayyaz/Documents/Proj_corrosion/main_2/reports/predictions_best_model.csv",
+    "training_history": "/Users/youseffayyaz/Documents/Proj_corrosion/main_2/reports/training_history.csv",
+    "figures_dir": "/Users/youseffayyaz/Documents/Proj_corrosion/main_2/reports/figures"
+  }
+}

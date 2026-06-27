@@ -1,0 +1,49 @@
+specimen,Material_Full_Name,Weeks_Observed,Week_Min,Week_Max,Cover_mm
+D01,"D01 - No treatment (control) (steel meshes: 4, NaCl: 5.0%)",18,0,36,7.16
+D02,"D02 - No treatment (control) (steel meshes: 4, NaCl: 5.0%)",18,0,36,5.61
+D03,"D03 - No treatment (control) (steel meshes: 4, NaCl: 5.0%)",18,0,36,5.9
+D04,"D04 - No treatment (control) (steel meshes: 4, NaCl: 5.0%)",18,0,36,2.28
+D05,"D05 - No treatment (control) (steel meshes: 4, NaCl: 5.0%)",18,0,36,4.27
+D06,"D06 - No treatment (control) (steel meshes: 4, NaCl: 5.0%)",18,0,36,6.58
+E01,"E01 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",18,0,36,6.22
+E02,"E02 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",18,0,36,4.35
+E03,"E03 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",18,0,36,3.56
+E04,"E04 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",18,0,36,6.13
+E05,"E05 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",18,0,36,4.49
+E06,"E06 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",18,0,36,9.37
+F01,"F01 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",18,0,36,7.31
+F02,"F02 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",18,0,36,7.99
+F03,"F03 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",18,0,36,6.95
+F04,"F04 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",18,0,36,5.76
+F05,"F05 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",18,0,36,6.41
+F06,"F06 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",18,0,36,6.37
+G01,"G01 - Painted protective treatment (steel meshes: 4, NaCl: 5.0%)",18,0,36,5.94
+G02,"G02 - Painted protective treatment (steel meshes: 4, NaCl: 5.0%)",18,0,36,6.66
+G03,"G03 - Painted protective treatment (steel meshes: 4, NaCl: 5.0%)",18,0,36,6.83
+G04,"G04 - Painted protective treatment (steel meshes: 4, NaCl: 5.0%)",18,0,36,4.58
+G05,"G05 - Painted protective treatment (steel meshes: 4, NaCl: 5.0%)",18,0,36,5.23
+G06,"G06 - Painted protective treatment (steel meshes: 4, NaCl: 5.0%)",18,0,36,4.94
+S1MI01,"S1MI01 - No treatment (control) (steel meshes: 7, NaCl: 3.5%)",15,0,28,3.74
+S1MI02,"S1MI02 - Mixed-in corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",15,0,28,3.54
+S1MI03,"S1MI03 - Mixed-in corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",15,0,28,3.8
+S1MI04,"S1MI04 - Mixed-in corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",15,0,28,1.63
+S1MI05,"S1MI05 - Mixed-in corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",15,0,28,3.71
+S1MI06,"S1MI06 - Mixed-in corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",15,0,28,4.34
+S1MI07,"S1MI07 - Mixed-in corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",15,0,28,5.34
+S2SA01,"S2SA01 - No treatment (control) (steel meshes: 7, NaCl: 3.5%)",15,0,28,4.42
+S2SA02,"S2SA02 - Surface-applied corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",15,0,28,4.39
+S2SA03,"S2SA03 - Surface-applied corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",15,0,28,2.02
+S2SA04,"S2SA04 - Surface-applied corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",15,0,28,5.24
+S2SA05,"S2SA05 - Surface-applied corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",15,0,28,4.11
+S2SA06,"S2SA06 - Surface-applied corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",15,0,28,2.87
+S2SA07,"S2SA07 - Surface-applied corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",15,0,28,4.3
+S3PA01,"S3PA01 - Painted protective treatment (steel meshes: 7, NaCl: 3.5%)",15,0,28,2.46
+S3PA02,"S3PA02 - Painting + surface-applied inhibitor (steel meshes: 7, NaCl: 3.5%)",15,0,28,3.6
+S3PA03,"S3PA03 - Painting + surface-applied inhibitor (steel meshes: 7, NaCl: 3.5%)",15,0,28,3.16
+S3PA04,"S3PA04 - Painting + surface-applied inhibitor (steel meshes: 7, NaCl: 3.5%)",15,0,28,2.51
+S4SAVF01,"S4SAVF01 - No treatment (control) (steel meshes: 7, NaCl: 3.5%)",15,0,28,3.7
+S4SAVF02,"S4SAVF02 - Surface-applied inhibitor + glass-based compound (steel meshes: 7, NaCl: 3.5%)",15,0,28,3.91
+S4SAVF03,"S4SAVF03 - Surface-applied inhibitor + glass-based compound (steel meshes: 7, NaCl: 3.5%)",15,0,28,3.55
+S5VF01,"S5VF01 - No treatment (control) (steel meshes: 7, NaCl: 3.5%)",15,0,28,3.46
+S5VF02,"S5VF02 - Glass-based compound treatment (steel meshes: 7, NaCl: 3.5%)",15,0,28,4.59
+S5VF03,"S5VF03 - Glass-based compound treatment (steel meshes: 7, NaCl: 3.5%)",15,0,28,4.38

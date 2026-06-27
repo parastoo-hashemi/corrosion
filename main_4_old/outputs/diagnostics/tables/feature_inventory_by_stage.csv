@@ -1,0 +1,163 @@
+stage,feature_name,source_family,data_type,missing_count,missing_fraction,nunique,variance,top_value_fraction,included_in_stage,exclusion_reason
+surface,sample_name,identifier_or_flag,object,0,0.0,791,,0.0012642225031605564,False,identifier or file metadata
+surface,specimen_id,identifier_or_flag,object,0,0.0,48,,0.022756005056890013,False,identifier or file metadata
+surface,n_steel_mesh_raw,raw_source,int64,0,0.0,2,2.23469730672596,0.5448798988621998,False,raw source column
+surface,treatment_raw,raw_source,object,0,0.0,7,,0.38558786346396967,False,raw source column
+surface,treatment_label_raw,raw_source,object,0,0.0,5,,0.38558786346396967,False,raw source column
+surface,ageing_days,temporal,int64,0,0.0,25,5210.47662148538,0.0606826801517067,True,
+surface,surface_total_rust_pct,target,float64,0,0.0,571,37.69802129064641,0.10998735777496839,False,stage target
+surface,surface_total_rust_category,target,int64,0,0.0,4,0.3336491222455174,0.831858407079646,False,categorical target label
+surface,peak_rust_pct,target,float64,0,0.0,641,125.54579078774483,0.0897597977243995,False,target column for another stage
+surface,peak_rust_category,target,int64,0,0.0,4,0.9561970906879563,0.6649810366624526,False,categorical target label
+surface,peak_rust_location_cm,other,float64,0,0.0,9,54.56983211925275,0.336283185840708,False,excluded by modeling rules
+surface,cover_mm_raw,raw_source,float64,0,0.0,48,2.7346294442221657,0.022756005056890013,False,raw source column
+surface,wire_area_loss_raw,raw_source,float64,743,0.9393173198482933,48,0.01949636346950355,0.9393173198482933,False,raw source column
+surface,ultimate_load_kn,target,float64,743,0.9393173198482933,39,0.14677021276595753,0.9393173198482933,False,target column for another stage
+surface,specimen_id_from_name,identifier_or_flag,object,0,0.0,48,,0.022756005056890013,False,identifier or file metadata
+surface,date,identifier_or_flag,int64,0,0.0,33,96603595.02620956,0.03034134007585335,False,identifier or file metadata
+surface,week,temporal,int64,0,0.0,25,106.33625758133455,0.0606826801517067,True,
+surface,calendar_date,identifier_or_flag,object,0,0.0,33,,0.03034134007585335,False,identifier or file metadata
+surface,campaign_id,tabular_metadata,object,0,0.0,2,,0.5448798988621998,True,
+surface,series_id,tabular_metadata,object,0,0.0,9,,0.13653603034134007,True,
+surface,split_group_treatment,tabular_metadata,object,0,0.0,9,,0.13653603034134007,True,
+surface,treatment_protocol,tabular_metadata,object,0,0.0,10,,0.21238938053097345,True,
+surface,treatment_coarse,tabular_metadata,object,0,0.0,7,,0.38558786346396967,True,
+surface,treatment_label_coarse,tabular_metadata,object,0,0.0,5,,0.38558786346396967,True,
+surface,n_steel_mesh,tabular_metadata,int64,0,0.0,2,2.23469730672596,0.5448798988621998,True,
+surface,nacl_pct,tabular_metadata,float64,0,0.0,2,0.55867432668149,0.5448798988621998,True,
+surface,terminal_week,temporal,int64,0,0.0,2,15.891180847829036,0.5448798988621998,False,terminal-only metadata
+surface,terminal_days,temporal,int64,0,0.0,2,778.6678615436213,0.5448798988621998,False,terminal-only metadata
+surface,image_filename,identifier_or_flag,object,0,0.0,791,,0.0012642225031605564,False,identifier or file metadata
+surface,image_path,identifier_or_flag,object,0,0.0,791,,0.0012642225031605564,False,identifier or file metadata
+surface,image_readable,identifier_or_flag,bool,0,0.0,1,0.0,1.0,False,identifier or file metadata
+surface,image_width,identifier_or_flag,float64,0,0.0,1,0.0,1.0,False,identifier or file metadata
+surface,image_height,identifier_or_flag,float64,0,0.0,3,0.5671878250572178,0.9974715549936789,False,identifier or file metadata
+surface,image_error,identifier_or_flag,float64,791,1.0,0,,1.0,False,identifier or file metadata
+surface,observation_id,identifier_or_flag,object,0,0.0,791,,0.0012642225031605564,False,identifier or file metadata
+surface,wire_area_loss_frac,target,float64,743,0.9393173198482933,48,0.01949636346950355,0.9393173198482933,False,target column for another stage
+surface,wire_area_loss_pct,other,float64,743,0.9393173198482933,48,194.96363469503544,0.9393173198482933,False,excluded by modeling rules
+surface,cover_mm,tabular_metadata,float64,0,0.0,48,2.7346294442221657,0.022756005056890013,True,
+surface,has_structural_label,identifier_or_flag,bool,0,0.0,2,0.05707244475027603,0.9393173198482933,False,label-availability flag
+surface,is_terminal_structural_row,identifier_or_flag,bool,0,0.0,2,0.05707244475027603,0.9393173198482933,False,label-availability flag
+surface,img_rust_area_ratio_pct,image_mask,float64,0,0.0,698,37.69804722701142,0.08470290771175727,True,
+surface,img_black_mask_ratio_pct,image_mask,float64,0,0.0,73,6.8405699066583285e-06,0.7547408343868521,True,
+surface,img_gray_mask_ratio_pct,image_mask,float64,0,0.0,693,3.4702682023316482,0.07079646017699115,True,
+surface,img_brightness_mean,image_color,float64,0,0.0,790,1037.7009309292337,0.0025284450063211127,True,
+surface,img_brightness_std,image_color,float64,0,0.0,790,117.17253429274612,0.0025284450063211127,True,
+surface,img_brightness_p10,image_color,float64,0,0.0,169,1934.726579077921,0.03792667509481669,True,
+surface,img_brightness_p90,image_color,float64,0,0.0,101,617.859680903839,0.10240202275600506,True,
+surface,img_contrast,image_color,float64,0,0.0,790,117.17253429274612,0.0025284450063211127,False,duplicate of img_brightness_std
+surface,img_r_mean,image_color,float64,0,0.0,790,772.9507308596785,0.0025284450063211127,True,
+surface,img_g_mean,image_color,float64,0,0.0,790,1102.2138643009173,0.0025284450063211127,True,
+surface,img_b_mean,image_color,float64,0,0.0,790,1759.4577283441788,0.0025284450063211127,True,
+surface,img_r_std,image_color,float64,0,0.0,790,89.7192228479273,0.0025284450063211127,True,
+surface,img_g_std,image_color,float64,0,0.0,790,145.03460615883378,0.0025284450063211127,True,
+surface,img_b_std,image_color,float64,0,0.0,790,159.07804261527573,0.0025284450063211127,True,
+surface,img_gray_hist_bin_0,image_histogram,float64,0,0.0,450,1.3775698142348901e-09,0.2402022756005057,True,
+surface,img_gray_hist_bin_1,image_histogram,float64,0,0.0,626,1.4022240641285472e-07,0.14791403286978508,True,
+surface,img_gray_hist_bin_2,image_histogram,float64,0,0.0,701,1.4999794569181012e-06,0.07332490518331226,True,
+surface,img_gray_hist_bin_3,image_histogram,float64,0,0.0,753,4.139243886601568e-06,0.025284450063211124,True,
+surface,img_gray_hist_bin_4,image_histogram,float64,0,0.0,773,1.807096900367403e-05,0.018963337547408345,True,
+surface,img_gray_hist_bin_5,image_histogram,float64,0,0.0,781,3.088102951845306e-05,0.010113780025284451,True,
+surface,img_gray_hist_bin_6,image_histogram,float64,0,0.0,789,4.315140860779027e-05,0.0025284450063211127,True,
+surface,img_gray_hist_bin_7,image_histogram,float64,0,0.0,787,0.00012506640258964496,0.0025284450063211127,True,
+surface,img_glcm_contrast,image_texture,float64,0,0.0,790,15.65701199967407,0.0025284450063211127,True,
+surface,img_glcm_homogeneity,image_texture,float64,0,0.0,790,0.031712586024224505,0.0025284450063211127,True,
+surface,img_glcm_energy,image_texture,float64,0,0.0,790,0.053777053824415874,0.0025284450063211127,True,
+surface,img_lbp_mean,image_texture,float64,0,0.0,785,0.4062980163860393,0.0025284450063211127,True,
+surface,img_lbp_std,image_texture,float64,0,0.0,790,0.2946337424038712,0.0025284450063211127,True,
+surface,img_rust_blob_count,image_morphology,float64,0,0.0,455,329759.1923762585,0.08470290771175727,True,
+surface,img_rust_blob_largest_ratio_pct,image_morphology,float64,0,0.0,656,18.610915522667863,0.08470290771175727,True,
+surface,img_rust_blob_mean_ratio_pct,image_morphology,float64,0,0.0,710,9.644977602152938e-05,0.08470290771175727,True,
+surface,img_rust_blob_eccentricity_mean,image_morphology,float64,0,0.0,717,0.04006862243023137,0.08596713021491782,True,
+surface,img_rust_blob_eccentricity_max,image_morphology,float64,0,0.0,43,0.07895957104043541,0.8558786346396966,True,
+surface,img_strip_count,image_spatial,float64,0,0.0,1,0.0,1.0,False,constant feature for the current extraction pipeline
+surface,img_strip_rust_mean_pct,image_spatial,float64,0,0.0,705,37.837978685902726,0.08470290771175727,True,
+surface,img_strip_rust_std_pct,image_spatial,float64,0,0.0,717,14.096132184226885,0.08470290771175727,True,
+surface,img_strip_rust_max_pct,image_spatial,float64,0,0.0,674,202.3959574233341,0.08470290771175727,True,
+surface,img_strip_rust_p90_pct,image_spatial,float64,0,0.0,661,122.18740550414333,0.14285714285714285,True,
+surface,img_strip_high_count,image_spatial,float64,0,0.0,47,135.23648322104793,0.5853350189633375,True,
+surface,img_strip_peak_location_cm,image_spatial,float64,0,0.0,46,66.6907344832959,0.18710493046776233,True,
+surface,img_rust_center_of_mass_cm,image_spatial,float64,0,0.0,724,29.712623850093877,0.08470290771175727,True,
+surface,img_edge_to_center_rust_ratio,image_spatial,float64,0,0.0,715,7432499139.200004,0.08470290771175727,False,unstable ratio in low-rust images
+hidden_damage,sample_name,identifier_or_flag,object,0,0.0,48,,0.020833333333333332,False,identifier or file metadata
+hidden_damage,specimen_id,identifier_or_flag,object,0,0.0,48,,0.020833333333333332,False,identifier or file metadata
+hidden_damage,n_steel_mesh_raw,raw_source,int64,0,0.0,2,2.297872340425532,0.5,False,raw source column
+hidden_damage,treatment_raw,raw_source,object,0,0.0,7,,0.375,False,raw source column
+hidden_damage,treatment_label_raw,raw_source,object,0,0.0,5,,0.375,False,raw source column
+hidden_damage,ageing_days,temporal,int64,0,0.0,2,800.6808510638298,0.5,True,
+hidden_damage,surface_total_rust_pct,target,float64,0,0.0,46,100.4953224822695,0.0625,False,target column for another stage
+hidden_damage,surface_total_rust_category,target,int64,0,0.0,4,0.9215425531914894,0.4583333333333333,False,categorical target label
+hidden_damage,peak_rust_pct,target,float64,0,0.0,47,253.91950795035464,0.041666666666666664,False,target column for another stage
+hidden_damage,peak_rust_category,target,int64,0,0.0,4,1.3404255319148937,0.375,False,categorical target label
+hidden_damage,peak_rust_location_cm,other,float64,0,0.0,9,51.933901950354574,0.25,False,excluded by modeling rules
+hidden_damage,cover_mm_raw,raw_source,float64,0,0.0,48,2.734204078014185,0.020833333333333332,False,raw source column
+hidden_damage,wire_area_loss_raw,raw_source,float64,0,0.0,48,0.01949636346950355,0.020833333333333332,False,raw source column
+hidden_damage,ultimate_load_kn,target,float64,0,0.0,39,0.14677021276595753,0.041666666666666664,False,target column for another stage
+hidden_damage,specimen_id_from_name,identifier_or_flag,object,0,0.0,48,,0.020833333333333332,False,identifier or file metadata
+hidden_damage,date,identifier_or_flag,int64,0,0.0,2,99207560.17021276,0.5,False,identifier or file metadata
+hidden_damage,week,temporal,int64,0,0.0,2,16.340425531914892,0.5,False,not used in this stage
+hidden_damage,calendar_date,identifier_or_flag,object,0,0.0,2,,0.5,False,identifier or file metadata
+hidden_damage,campaign_id,tabular_metadata,object,0,0.0,2,,0.5,True,
+hidden_damage,series_id,tabular_metadata,object,0,0.0,9,,0.14583333333333334,True,
+hidden_damage,split_group_treatment,tabular_metadata,object,0,0.0,9,,0.14583333333333334,True,
+hidden_damage,treatment_protocol,tabular_metadata,object,0,0.0,10,,0.20833333333333334,True,
+hidden_damage,treatment_coarse,tabular_metadata,object,0,0.0,7,,0.375,True,
+hidden_damage,treatment_label_coarse,tabular_metadata,object,0,0.0,5,,0.375,True,
+hidden_damage,n_steel_mesh,tabular_metadata,int64,0,0.0,2,2.297872340425532,0.5,False,not used in this stage
+hidden_damage,nacl_pct,tabular_metadata,float64,0,0.0,2,0.574468085106383,0.5,False,not used in this stage
+hidden_damage,terminal_week,temporal,int64,0,0.0,2,16.340425531914892,0.5,False,terminal-only metadata
+hidden_damage,terminal_days,temporal,int64,0,0.0,2,800.6808510638298,0.5,False,terminal-only metadata
+hidden_damage,image_filename,identifier_or_flag,object,0,0.0,48,,0.020833333333333332,False,identifier or file metadata
+hidden_damage,image_path,identifier_or_flag,object,0,0.0,48,,0.020833333333333332,False,identifier or file metadata
+hidden_damage,image_readable,identifier_or_flag,bool,0,0.0,1,0.0,1.0,False,identifier or file metadata
+hidden_damage,image_width,identifier_or_flag,float64,0,0.0,1,0.0,1.0,False,identifier or file metadata
+hidden_damage,image_height,identifier_or_flag,float64,0,0.0,2,8.333333333333336,0.9791666666666666,False,identifier or file metadata
+hidden_damage,image_error,identifier_or_flag,float64,48,1.0,0,,1.0,False,identifier or file metadata
+hidden_damage,observation_id,identifier_or_flag,object,0,0.0,48,,0.020833333333333332,False,identifier or file metadata
+hidden_damage,wire_area_loss_frac,target,float64,0,0.0,48,0.01949636346950355,0.020833333333333332,False,stage target
+hidden_damage,wire_area_loss_pct,other,float64,0,0.0,48,194.96363469503544,0.020833333333333332,False,excluded by modeling rules
+hidden_damage,cover_mm,tabular_metadata,float64,0,0.0,48,2.734204078014185,0.020833333333333332,True,
+hidden_damage,has_structural_label,identifier_or_flag,bool,0,0.0,1,0.0,1.0,False,label-availability flag
+hidden_damage,is_terminal_structural_row,identifier_or_flag,bool,0,0.0,1,0.0,1.0,False,label-availability flag
+hidden_damage,img_rust_area_ratio_pct,image_mask,float64,0,0.0,47,100.49537304385763,0.041666666666666664,False,not used in this stage
+hidden_damage,img_black_mask_ratio_pct,image_mask,float64,0,0.0,20,1.5410928874281274e-05,0.5625,False,not used in this stage
+hidden_damage,img_gray_mask_ratio_pct,image_mask,float64,0,0.0,47,2.2739196628066685,0.041666666666666664,False,not used in this stage
+hidden_damage,img_brightness_mean,image_color,float64,0,0.0,48,1200.3625803082234,0.020833333333333332,False,not used in this stage
+hidden_damage,img_brightness_std,image_color,float64,0,0.0,48,111.72101775391926,0.020833333333333332,False,not used in this stage
+hidden_damage,img_brightness_p10,image_color,float64,0,0.0,41,1923.3758865248226,0.0625,False,not used in this stage
+hidden_damage,img_brightness_p90,image_color,float64,0,0.0,34,741.1046099290782,0.08333333333333333,False,not used in this stage
+hidden_damage,img_contrast,image_color,float64,0,0.0,48,111.72101775391926,0.020833333333333332,False,duplicate of img_brightness_std
+hidden_damage,img_r_mean,image_color,float64,0,0.0,48,945.9601907473419,0.020833333333333332,False,not used in this stage
+hidden_damage,img_g_mean,image_color,float64,0,0.0,48,1418.839230377287,0.020833333333333332,False,not used in this stage
+hidden_damage,img_b_mean,image_color,float64,0,0.0,48,1058.6613043074242,0.020833333333333332,False,not used in this stage
+hidden_damage,img_r_std,image_color,float64,0,0.0,48,90.90586571877178,0.020833333333333332,False,not used in this stage
+hidden_damage,img_g_std,image_color,float64,0,0.0,48,141.0812673254716,0.020833333333333332,False,not used in this stage
+hidden_damage,img_b_std,image_color,float64,0,0.0,48,166.51810245016122,0.020833333333333332,False,not used in this stage
+hidden_damage,img_gray_hist_bin_0,image_histogram,float64,0,0.0,44,5.265821479115184e-09,0.08333333333333333,False,not used in this stage
+hidden_damage,img_gray_hist_bin_1,image_histogram,float64,0,0.0,46,2.9652418834555245e-07,0.0625,False,not used in this stage
+hidden_damage,img_gray_hist_bin_2,image_histogram,float64,0,0.0,47,3.2441461788602945e-06,0.041666666666666664,False,not used in this stage
+hidden_damage,img_gray_hist_bin_3,image_histogram,float64,0,0.0,48,6.621095782795394e-06,0.020833333333333332,False,not used in this stage
+hidden_damage,img_gray_hist_bin_4,image_histogram,float64,0,0.0,48,2.2624415894787683e-05,0.020833333333333332,False,not used in this stage
+hidden_damage,img_gray_hist_bin_5,image_histogram,float64,0,0.0,48,2.084096244063861e-05,0.020833333333333332,False,not used in this stage
+hidden_damage,img_gray_hist_bin_6,image_histogram,float64,0,0.0,48,3.574367508565629e-05,0.020833333333333332,False,not used in this stage
+hidden_damage,img_gray_hist_bin_7,image_histogram,float64,0,0.0,48,0.00010892492350824462,0.020833333333333332,False,not used in this stage
+hidden_damage,img_glcm_contrast,image_texture,float64,0,0.0,48,17.945064141729464,0.020833333333333332,False,not used in this stage
+hidden_damage,img_glcm_homogeneity,image_texture,float64,0,0.0,48,0.022902660598764703,0.020833333333333332,False,not used in this stage
+hidden_damage,img_glcm_energy,image_texture,float64,0,0.0,48,0.020087122830847893,0.020833333333333332,False,not used in this stage
+hidden_damage,img_lbp_mean,image_texture,float64,0,0.0,48,0.17554432254271404,0.020833333333333332,False,not used in this stage
+hidden_damage,img_lbp_std,image_texture,float64,0,0.0,48,0.04234048870268455,0.020833333333333332,False,not used in this stage
+hidden_damage,img_rust_blob_count,image_morphology,float64,0,0.0,46,837792.7655141846,0.041666666666666664,False,not used in this stage
+hidden_damage,img_rust_blob_largest_ratio_pct,image_morphology,float64,0,0.0,47,38.91395692859018,0.041666666666666664,False,not used in this stage
+hidden_damage,img_rust_blob_mean_ratio_pct,image_morphology,float64,0,0.0,47,5.601099214726646e-05,0.041666666666666664,False,not used in this stage
+hidden_damage,img_rust_blob_eccentricity_mean,image_morphology,float64,0,0.0,47,0.021759776427510712,0.041666666666666664,False,not used in this stage
+hidden_damage,img_rust_blob_eccentricity_max,image_morphology,float64,0,0.0,2,0.04078014184397166,0.9583333333333334,False,not used in this stage
+hidden_damage,img_strip_count,image_spatial,float64,0,0.0,1,0.0,1.0,False,constant feature for the current extraction pipeline
+hidden_damage,img_strip_rust_mean_pct,image_spatial,float64,0,0.0,47,99.90256553938056,0.041666666666666664,False,not used in this stage
+hidden_damage,img_strip_rust_std_pct,image_spatial,float64,0,0.0,47,25.917005337303557,0.041666666666666664,False,not used in this stage
+hidden_damage,img_strip_rust_max_pct,image_spatial,float64,0,0.0,47,381.35896425320624,0.041666666666666664,False,not used in this stage
+hidden_damage,img_strip_rust_p90_pct,image_spatial,float64,0,0.0,46,258.8754487433456,0.0625,False,not used in this stage
+hidden_damage,img_strip_high_count,image_spatial,float64,0,0.0,26,207.1897163120568,0.125,False,not used in this stage
+hidden_damage,img_strip_peak_location_cm,image_spatial,float64,0,0.0,33,59.54930131688434,0.16666666666666666,False,not used in this stage
+hidden_damage,img_rust_center_of_mass_cm,image_spatial,float64,0,0.0,47,17.015235593966857,0.041666666666666664,False,not used in this stage
+hidden_damage,img_edge_to_center_rust_ratio,image_spatial,float64,0,0.0,47,10.447667563200797,0.041666666666666664,False,unstable ratio in low-rust images

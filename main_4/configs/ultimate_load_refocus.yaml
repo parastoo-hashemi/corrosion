@@ -1,0 +1,87 @@
+random_state: 42
+
+output_namespace: ultimate_load_refocus
+
+targets:
+  primary: terminal_ultimate_load_kn_target
+  primary_measured: ultimate_load_kn
+  secondary: terminal_wire_area_loss_frac_target
+  secondary_measured: wire_area_loss_frac
+
+surface_onset:
+  threshold_column: surface_total_rust_pct
+  threshold_pct: 0.5
+  interpretation_note: >
+    Pragmatic visible-corrosion onset threshold used only for sensitivity analysis.
+    It is intended to exclude near-zero trace rust rows, not to define a universal
+    human-visibility threshold.
+
+grouped_cv:
+  n_splits: 5
+  n_repeats: 2
+  stratify_by: n_steel_mesh
+
+mesh_grouped_cv:
+  n_splits: 5
+  n_repeats: 2
+
+learning_curve:
+  train_size_fractions: [0.2, 0.4, 0.6, 0.8, main_first.0]
+
+feature_sets:
+  metadata_only:
+    label: metadata-only
+    families: [metadata]
+  rgb_only:
+    label: RGB-only
+    families: [rgb]
+  hsv_only:
+    label: HSV-only
+    families: [hsv]
+  rgb_hsv:
+    label: RGB+HSV
+    families: [rgb, hsv]
+  metadata_rgb:
+    label: metadata+RGB
+    families: [metadata, rgb]
+  metadata_hsv:
+    label: metadata+HSV
+    families: [metadata, hsv]
+  metadata_rgb_hsv:
+    label: metadata+RGB+HSV
+    families: [metadata, rgb, hsv]
+
+models:
+  ridge:
+    alpha: main_first.0
+
+diagnostics:
+  importance_top_n: 20
+  partial_dependence_top_n: 6
+  correlation_columns:
+    - surface_total_rust_pct
+    - peak_rust_pct
+    - img_rust_area_ratio_pct
+    - img_strip_rust_max_pct
+    - img_hsv_s_mean
+
+error_audit:
+  hard_abs_error_kN: 0.25
+  persistent_min_feature_sets: 5
+  approach_sensitive_range_kN: 0.20
+  top_n_specimens: 20
+
+residual_refinement:
+  enabled: true
+  inner_cv_splits: 4
+  stage1_feature_set: metadata_only
+  stage1_model: Ridge
+  stage2_models: [Ridge, CatBoost]
+  summary_columns:
+    - surface_total_rust_pct
+    - peak_rust_pct
+    - img_rust_area_ratio_pct
+    - img_strip_rust_max_pct
+    - img_hsv_s_mean
+    - img_hsv_v_mean
+  summary_statistics: [terminal, max, mean, slope]

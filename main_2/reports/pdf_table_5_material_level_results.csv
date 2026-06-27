@@ -1,0 +1,49 @@
+specimen,Material_Full_Name,Treatment_Full_Name,n_obs,mae,mean_true,mean_pred,final_week,final_true,final_pred
+D01,"D01 - No treatment (control) (steel meshes: 4, NaCl: 5.0%)",No treatment (control),18,1.2320875469048815,6.472611111111111,6.696102152268092,36,7.026,10.984379768371582
+D02,"D02 - No treatment (control) (steel meshes: 4, NaCl: 5.0%)",No treatment (control),18,1.6368021874394678,8.786944444444444,8.023195116470257,36,7.746,7.878827571868896
+D03,"D03 - No treatment (control) (steel meshes: 4, NaCl: 5.0%)",No treatment (control),18,0.7383365709483624,0.5163888888888889,0.4428277814553843,36,0.359,0.2297722548246383
+D04,"D04 - No treatment (control) (steel meshes: 4, NaCl: 5.0%)",No treatment (control),18,1.9092634944121047,46.946888888888886,46.90388307637639,36,61.488,58.978370666503906
+D05,"D05 - No treatment (control) (steel meshes: 4, NaCl: 5.0%)",No treatment (control),18,13.893367965625393,26.622333333333334,12.810167099866602,36,34.918,21.69834899902344
+D06,"D06 - No treatment (control) (steel meshes: 4, NaCl: 5.0%)",No treatment (control),18,5.636574352476332,16.018166666666666,17.17254465818405,36,26.7,19.26456069946289
+E01,"E01 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",Surface-applied corrosion inhibitor,18,2.257173405634032,10.596555555555556,8.772319924500254,36,11.173,11.31780242919922
+E02,"E02 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",Surface-applied corrosion inhibitor,18,3.9141556024352706,14.157833333333334,14.257315528889498,36,11.747,25.098892211914062
+E03,"E03 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",Surface-applied corrosion inhibitor,18,2.130544264475504,14.422999999999998,15.39723945988549,36,18.346,22.912193298339844
+E04,"E04 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",Surface-applied corrosion inhibitor,18,1.1944295427534313,9.326722222222223,8.74178321328428,36,11.737,14.330479621887209
+E05,"E05 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",Surface-applied corrosion inhibitor,18,1.8836436798042722,13.1915,13.081934872600767,36,16.761,19.184173583984375
+E06,"E06 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",Surface-applied corrosion inhibitor,18,1.6527034657266408,8.785444444444444,9.203096462620628,36,13.87,15.54122257232666
+F01,"F01 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",Surface-applied corrosion inhibitor,18,5.584780010902219,4.359666666666667,9.891120883739656,36,7.37,13.235603332519531
+F02,"F02 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",Surface-applied corrosion inhibitor,18,4.290039934711324,17.843944444444443,14.636550021254354,36,32.664,35.104713439941406
+F03,"F03 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",Surface-applied corrosion inhibitor,18,1.3406311651070912,9.773944444444446,10.729347106483248,36,12.595,12.221623420715332
+F04,"F04 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",Surface-applied corrosion inhibitor,18,13.626420067724254,27.683611111111112,14.11975551934706,36,25.535,22.900829315185547
+F05,"F05 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",Surface-applied corrosion inhibitor,18,1.520974929412206,10.523444444444443,11.30549591448572,36,9.399,12.1981840133667
+F06,"F06 - Surface-applied corrosion inhibitor (steel meshes: 4, NaCl: 5.0%)",Surface-applied corrosion inhibitor,18,1.7756445929672982,16.266555555555556,15.959035352700287,36,24.747,25.52554702758789
+G01,"G01 - Painted protective treatment (steel meshes: 4, NaCl: 5.0%)",Painted protective treatment,18,1.2719520471592745,0.001,-1.0050346929993894,36,0.0,-1.1207059621810913
+G02,"G02 - Painted protective treatment (steel meshes: 4, NaCl: 5.0%)",Painted protective treatment,18,6.442181688414679,12.515944444444445,7.208230210675134,36,13.686,13.199127197265623
+G03,"G03 - Painted protective treatment (steel meshes: 4, NaCl: 5.0%)",Painted protective treatment,18,1.112141755418645,0.028722222222222222,-0.818034196479453,36,0.0,-0.0576794818043708
+G04,"G04 - Painted protective treatment (steel meshes: 4, NaCl: 5.0%)",Painted protective treatment,18,1.0907563600970638,0.0010555555555555555,-0.3846028931438923,36,0.007,0.3496167063713074
+G05,"G05 - Painted protective treatment (steel meshes: 4, NaCl: 5.0%)",Painted protective treatment,18,1.6294396188855171,0.3084444444444444,-0.7277645079625977,36,0.664,2.305306196212769
+G06,"G06 - Painted protective treatment (steel meshes: 4, NaCl: 5.0%)",Painted protective treatment,18,1.7705987968670411,1.9080000000000001,0.6713585277967569,36,1.63,1.3648263216018677
+S1MI01,"S1MI01 - No treatment (control) (steel meshes: 7, NaCl: 3.5%)",No treatment (control),15,1.334128631536166,3.7372666666666663,4.624907989303271,28,14.561,13.261778831481934
+S1MI02,"S1MI02 - Mixed-in corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",Mixed-in corrosion inhibitor,15,4.391448311960698,4.861133333333333,8.746398431559404,28,21.973,44.35392379760742
+S1MI03,"S1MI03 - Mixed-in corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",Mixed-in corrosion inhibitor,15,2.6423147744814557,7.090066666666667,8.803896566232046,28,28.272,37.36603164672851
+S1MI04,"S1MI04 - Mixed-in corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",Mixed-in corrosion inhibitor,15,5.983917382558188,12.4982,12.462148761749267,28,54.235,30.929319381713867
+S1MI05,"S1MI05 - Mixed-in corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",Mixed-in corrosion inhibitor,15,1.7170957240819937,17.068066666666663,16.25193683207035,28,71.764,72.08271789550781
+S1MI06,"S1MI06 - Mixed-in corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",Mixed-in corrosion inhibitor,15,1.6754393417437872,6.5684,5.024210034807523,28,26.814,27.48929214477539
+S1MI07,"S1MI07 - Mixed-in corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",Mixed-in corrosion inhibitor,15,1.057674964594841,2.2288666666666668,2.036018517613411,28,8.656,8.466187477111816
+S2SA01,"S2SA01 - No treatment (control) (steel meshes: 7, NaCl: 3.5%)",No treatment (control),15,2.1738355117743215,8.270133333333334,6.390179469622671,28,32.958,28.938156127929688
+S2SA02,"S2SA02 - Surface-applied corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",Surface-applied corrosion inhibitor,15,0.8141145752668382,7.6718,7.692006114125252,28,36.674,33.89244842529297
+S2SA03,"S2SA03 - Surface-applied corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",Surface-applied corrosion inhibitor,15,6.2453905163526535,12.693133333333332,12.77480802834034,28,81.584,45.01775741577149
+S2SA04,"S2SA04 - Surface-applied corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",Surface-applied corrosion inhibitor,15,2.27439588722388,4.431133333333333,6.173485715190569,28,34.585,31.91215133666992
+S2SA05,"S2SA05 - Surface-applied corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",Surface-applied corrosion inhibitor,15,0.9440417752861977,6.4708000000000006,6.217178231974443,28,49.374,47.131126403808594
+S2SA06,"S2SA06 - Surface-applied corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",Surface-applied corrosion inhibitor,15,1.035150554800034,5.415000000000001,5.005689865350723,28,36.508,34.97708511352539
+S2SA07,"S2SA07 - Surface-applied corrosion inhibitor (steel meshes: 7, NaCl: 3.5%)",Surface-applied corrosion inhibitor,15,6.5510405581425255,9.754866666666665,3.9259551758179443,28,59.327,11.28835678100586
+S3PA01,"S3PA01 - Painted protective treatment (steel meshes: 7, NaCl: 3.5%)",Painted protective treatment,15,1.5023390240748724,3.9988666666666663,3.6867257823546726,28,14.332,9.124385833740234
+S3PA02,"S3PA02 - Painting + surface-applied inhibitor (steel meshes: 7, NaCl: 3.5%)",Painting + surface-applied inhibitor,15,1.5480563819393514,3.6330666666666667,3.6768162627394,28,23.643,22.673402786254883
+S3PA03,"S3PA03 - Painting + surface-applied inhibitor (steel meshes: 7, NaCl: 3.5%)",Painting + surface-applied inhibitor,15,4.001444422415892,7.504133333333333,4.574517781039079,28,35.346,20.371179580688477
+S3PA04,"S3PA04 - Painting + surface-applied inhibitor (steel meshes: 7, NaCl: 3.5%)",Painting + surface-applied inhibitor,15,0.988073469277223,4.291,3.717549927532673,28,16.012,13.205467224121094
+S4SAVF01,"S4SAVF01 - No treatment (control) (steel meshes: 7, NaCl: 3.5%)",No treatment (control),15,2.5614987088680268,4.756600000000001,6.004190546274185,28,26.472,18.317140579223633
+S4SAVF02,"S4SAVF02 - Surface-applied inhibitor + glass-based compound (steel meshes: 7, NaCl: 3.5%)",Surface-applied inhibitor + glass-based compound,15,3.621690886243185,3.279733333333333,5.007616178194682,28,28.881,14.67743968963623
+S4SAVF03,"S4SAVF03 - Surface-applied inhibitor + glass-based compound (steel meshes: 7, NaCl: 3.5%)",Surface-applied inhibitor + glass-based compound,15,2.2367144827842713,12.347199999999999,11.022316030661266,28,51.352,44.06610107421875
+S5VF01,"S5VF01 - No treatment (control) (steel meshes: 7, NaCl: 3.5%)",No treatment (control),15,1.9386669558087983,11.327533333333333,10.984137900173664,28,44.589,44.9215087890625
+S5VF02,"S5VF02 - Glass-based compound treatment (steel meshes: 7, NaCl: 3.5%)",Glass-based compound treatment,15,2.2558549177035685,9.515666666666668,9.03049688283354,28,43.329,46.840118408203125
+S5VF03,"S5VF03 - Glass-based compound treatment (steel meshes: 7, NaCl: 3.5%)",Glass-based compound treatment,15,1.559189809056123,4.549866666666667,3.822268249094486,28,28.244,22.258323669433594

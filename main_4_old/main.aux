@@ -1,0 +1,82 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{3}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Project Objective and Scientific Motivation}{3}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Dataset and Documentation}{3}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Data assets and verified facts}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Verified dataset facts after audit and alignment.}}{4}{table.caption.2}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:dataset-summary}{{1}{4}{Verified dataset facts after audit and alignment}{table.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Longitudinal and grouped structure}{4}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Dense surface labels and sparse structural labels}{4}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}What the thesis and documentation contributed}{5}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Problem Formulation}{5}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Why direct supervised RUL is not valid}{5}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Why grouped splitting is necessary}{5}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Why interpretable image features were used first}{6}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Implemented Pipeline}{6}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Data loading and audit}{6}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Preprocessing and validation}{6}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Image feature extraction}{7}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Feature engineering}{7}{subsection.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Split strategy}{7}{subsection.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6}Surface modelling}{7}{subsection.5.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.7}Hidden-damage modelling}{8}{subsection.5.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.8}Degradation modelling}{8}{subsection.5.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.9}Proxy-RUL logic}{8}{subsection.5.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Exploratory Analysis and Diagnostics}{9}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Dataset structure}{9}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Missingness}{9}{subsection.6.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Overall missingness structure in the aligned dataset. Surface variables are dense, while structural variables are sparse and terminal-only.}}{9}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:missingness}{{1}{9}{Overall missingness structure in the aligned dataset. Surface variables are dense, while structural variables are sparse and terminal-only}{figure.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Structural-label sparsity. Only one structural row per specimen is available, and those rows occur at terminal time points.}}{10}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:structural-sparsity}{{2}{10}{Structural-label sparsity. Only one structural row per specimen is available, and those rows occur at terminal time points}{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Feature distributions}{10}{subsection.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Outliers}{10}{subsection.6.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Readability-focused histograms for heavily skewed variables. The plotting range is truncated at the 99th percentile for visibility, while full-range statistics are kept separately in the diagnostics tables.}}{11}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:trimmed-hists}{{3}{11}{Readability-focused histograms for heavily skewed variables. The plotting range is truncated at the 99th percentile for visibility, while full-range statistics are kept separately in the diagnostics tables}{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}Temporal progression}{12}{subsection.6.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Campaign-level visible corrosion progression over time, shown as median behaviour with spread.}}{12}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:campaign-progress}{{4}{12}{Campaign-level visible corrosion progression over time, shown as median behaviour with spread}{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Representative specimen-level surface corrosion trajectories.}}{13}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:specimen-panels}{{5}{13}{Representative specimen-level surface corrosion trajectories}{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Global scatter-and-trend view of visible corrosion progression over time.}}{13}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:scatter-trends}{{6}{13}{Global scatter-and-trend view of visible corrosion progression over time}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.6}Feature correlations}{13}{subsection.6.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Focused feature-target correlation heatmap for visible corrosion targets and sparse structural targets.}}{14}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:feature-target-corr}{{7}{14}{Focused feature-target correlation heatmap for visible corrosion targets and sparse structural targets}{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.7}Redundancy and collinearity}{14}{subsection.6.7}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Correlation heatmap for key image features. Many features move together because they describe related aspects of visible corrosion.}}{15}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:image-corr}{{8}{15}{Correlation heatmap for key image features. Many features move together because they describe related aspects of visible corrosion}{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Highest-collinearity feature pairs found during diagnostics.}}{15}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:collinearity}{{9}{15}{Highest-collinearity feature pairs found during diagnostics}{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Model Benchmarking and Results}{16}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Grouped split results}{16}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Leave-one-treatment-out}{16}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Leave-one-campaign-out}{16}{subsection.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4}Robustness discussion}{17}{subsection.7.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Relative MAE collapse across split strategies. Values above 1 indicate worse performance than the grouped baseline.}}{17}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:collapse-heatmap}{{10}{17}{Relative MAE collapse across split strategies. Values above 1 indicate worse performance than the grouped baseline}{figure.caption.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Robustness profile of the selected structural models across grouped, leave-one-treatment-out, and leave-one-campaign-out evaluation.}}{17}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:hidden-robustness}{{11}{17}{Robustness profile of the selected structural models across grouped, leave-one-treatment-out, and leave-one-campaign-out evaluation}{figure.caption.13}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Current benchmark snapshot for the most relevant targets. The structural rows correspond to the final robustness-selected models.}}{18}{table.caption.14}\protected@file@percent }
+\newlabel{tab:benchmark-snapshot}{{2}{18}{Current benchmark snapshot for the most relevant targets. The structural rows correspond to the final robustness-selected models}{table.caption.14}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5}Degradation modelling}{19}{subsection.7.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Representative raw hidden-damage proxy trajectories compared with their monotone-smoothed versions.}}{19}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:degradation-raw-monotone}{{12}{19}{Representative raw hidden-damage proxy trajectories compared with their monotone-smoothed versions}{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6}Proxy-RUL logic}{19}{subsection.7.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Threshold-status counts for the proxy-RUL stage. Most cases are already crossed or right-censored, and no future threshold crossings occur within the projection horizon.}}{19}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:proxy-status}{{13}{19}{Threshold-status counts for the proxy-RUL stage. Most cases are already crossed or right-censored, and no future threshold crossings occur within the projection horizon}{figure.caption.16}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Important Figures and Their Interpretation}{20}{section.8}\protected@file@percent }
+\newlabel{sec:important-figures}{{8}{20}{Important Figures and Their Interpretation}{section.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Figures that explain the dataset constraints}{20}{subsection.8.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Figures that explain corrosion progression}{20}{subsection.8.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}Figures that explain what the features learned}{20}{subsection.8.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.4}Figures that explain model robustness}{20}{subsection.8.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.5}Figures that explain why the final stages remain exploratory}{21}{subsection.8.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {9}Limitations}{21}{section.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {10}Conclusion}{21}{section.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {11}Next Steps}{22}{section.11}\protected@file@percent }
+\gdef \@abspage@last{23}
