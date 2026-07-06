@@ -1,0 +1,23 @@
+\contentsline {section}{\numberline {1}What This Document Contains}{2}{section.1}%
+\contentsline {section}{\numberline {2}Dataset}{2}{section.2}%
+\contentsline {section}{\numberline {3}Why Augmentation Is Needed}{2}{section.3}%
+\contentsline {paragraph}{The training set is small.}{2}{section*.4}%
+\contentsline {paragraph}{Vision Transformers are more data-dependent than convolutional networks.}{3}{section*.5}%
+\contentsline {paragraph}{The red-colour threshold classifier is sensitive to lighting.}{3}{section*.6}%
+\contentsline {section}{\numberline {4}Augmentation Pipeline Overview}{3}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Recipe 1 --- Overall Brightness and Light-to-Dark Contrast}{3}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Recipe 2 --- Colour Intensity and Small Colour Shifts}{8}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Recipe 3 --- Slight Blur and Camera Noise}{9}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Recipe 4 --- Combined Brightness, Contrast, and Colour Intensity}{11}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Recipe 5 --- Left-Right Mirror and Brightness}{13}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Rejected Augmentation Techniques}{14}{section.5}%
+\contentsline {section}{\numberline {6}Dataset Expansion Factor}{15}{section.6}%
+\contentsline {section}{\numberline {7}Reproducibility}{17}{section.7}%
+\contentsline {section}{\numberline {8}Splitting: Augmented Images Belong to the Training Partition Only}{18}{section.8}%
+\contentsline {section}{\numberline {9}Evidence Status Summary}{18}{section.9}%
+\contentsline {section}{\numberline {10}Limitations}{18}{section.10}%
+\contentsline {paragraph}{Contrast and colour intensity ranges are not measured from the dataset.}{18}{section*.45}%
+\contentsline {paragraph}{Blur is largely removed by downsampling.}{18}{section*.46}%
+\contentsline {paragraph}{The class imbalance is preserved.}{20}{section*.47}%
+\contentsline {paragraph}{The augmented dataset is fixed.}{20}{section*.48}%
+\contentsline {section}{\numberline {11}Figures and Data Files}{20}{section.11}%
