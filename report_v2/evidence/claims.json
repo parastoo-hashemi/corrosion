@@ -1,0 +1,1564 @@
+[
+  {
+    "claim": "Aligned observations / specimens / terminal observations",
+    "value": [
+      791,
+      48,
+      48
+    ],
+    "sources": [
+      "main_4/outputs/data/master_table.csv"
+    ],
+    "method": "Row counts and uniqueness; both structural targets coincide with terminal rows.",
+    "verified": true
+  },
+  {
+    "claim": "Images per specimen: min / median / max; unique weeks / range",
+    "value": [
+      15,
+      16.0,
+      18,
+      25,
+      0,
+      36
+    ],
+    "sources": [
+      "main_4/outputs/data/master_table.csv"
+    ],
+    "method": "Group sizes and week unique values.",
+    "verified": true
+  },
+  {
+    "claim": "Campaign design matrix",
+    "value": [
+      {
+        "campaign_id": "campaign_1",
+        "specimens": 24,
+        "mesh": 7,
+        "chloride_pct": 3.5,
+        "terminal_week": 28,
+        "terminal_days": 196
+      },
+      {
+        "campaign_id": "campaign_2",
+        "specimens": 24,
+        "mesh": 4,
+        "chloride_pct": 5.0,
+        "terminal_week": 36,
+        "terminal_days": 252
+      }
+    ],
+    "sources": [
+      "main_4/outputs/data/master_table.csv"
+    ],
+    "method": "One unique mesh, chloride and terminal duration per campaign; two observed combinations.",
+    "verified": true
+  },
+  {
+    "claim": "Total surface corrosion four-class distribution",
+    "value": {
+      "1": 658,
+      "2": 99,
+      "3": 20,
+      "4": 14
+    },
+    "sources": [
+      "main_4/outputs/data/master_table.csv"
+    ],
+    "method": "Counts on current aligned basis.",
+    "verified": true
+  },
+  {
+    "claim": "surface_total_rust_pct observed range",
+    "value": [
+      0.0,
+      53.412
+    ],
+    "sources": [
+      "main_4/outputs/data/master_table.csv"
+    ],
+    "method": "Non-null minimum and maximum.",
+    "verified": true
+  },
+  {
+    "claim": "peak_rust_pct observed range",
+    "value": [
+      0.0,
+      80.172
+    ],
+    "sources": [
+      "main_4/outputs/data/master_table.csv"
+    ],
+    "method": "Non-null minimum and maximum.",
+    "verified": true
+  },
+  {
+    "claim": "wire_area_loss_frac observed range",
+    "value": [
+      0.0,
+      0.5698
+    ],
+    "sources": [
+      "main_4/outputs/data/master_table.csv"
+    ],
+    "method": "Non-null minimum and maximum.",
+    "verified": true
+  },
+  {
+    "claim": "ultimate_load_kn observed range",
+    "value": [
+      1.6,
+      2.87
+    ],
+    "sources": [
+      "main_4/outputs/data/master_table.csv"
+    ],
+    "method": "Non-null minimum and maximum.",
+    "verified": true
+  },
+  {
+    "claim": "Raw files / corrupted image",
+    "value": [
+      792,
+      [
+        "E01-20240508-17W"
+      ]
+    ],
+    "sources": [
+      "main_4/outputs/audit/verified_facts.json"
+    ],
+    "method": "Saved image-readability audit; archive readability independently checked below.",
+    "verified": true
+  },
+  {
+    "claim": "Archive image-readability verification",
+    "value": {
+      "png_files": 792,
+      "unreadable": [
+        "E01-20240508-17W.png"
+      ]
+    },
+    "sources": [
+      "Data/Images_dataset.zip"
+    ],
+    "method": "Pillow verify of every PNG within the saved archive; no extraction.",
+    "verified": true
+  },
+  {
+    "claim": "Rust feature / total surface label adjacency",
+    "value": {
+      "n": 791,
+      "spearman": 0.9996357632547394,
+      "mae": 0.00022811480648479747,
+      "max_abs_diff": 0.0004999321665987988
+    },
+    "sources": [
+      "main_4/outputs/data/master_table.csv",
+      "main_4/outputs/features/image_features.csv"
+    ],
+    "method": "Merge on sample_name, Spearman and absolute differences.",
+    "verified": true
+  },
+  {
+    "claim": "classical saved model metrics",
+    "value": [
+      {
+        "model": "RandomForest",
+        "cv_mae": 3.020368425678292,
+        "cv_rmse": 5.528069651390855,
+        "cv_r2": 0.7781947930335382,
+        "holdout_mae": 2.3793790275902302,
+        "holdout_rmse": 4.254306813271526,
+        "holdout_r2": 0.8995539568115039
+      },
+      {
+        "model": "GradientBoosting",
+        "cv_mae": 3.351059733625989,
+        "cv_rmse": 5.954464950290425,
+        "cv_r2": 0.7497833941493193,
+        "holdout_mae": 2.5788102831717192,
+        "holdout_rmse": 4.4666843959490965,
+        "holdout_r2": 0.8892749834402595
+      },
+      {
+        "model": "XGBoost",
+        "cv_mae": 3.3423746738804505,
+        "cv_rmse": 6.178792302900359,
+        "cv_r2": 0.6463485679475437,
+        "holdout_mae": 2.590185108752941,
+        "holdout_rmse": 4.537846838408009,
+        "holdout_r2": 0.8857187752854937
+      },
+      {
+        "model": "ElasticNet",
+        "cv_mae": 3.388955156688577,
+        "cv_rmse": 5.093287778563765,
+        "cv_r2": 0.7685628388258288,
+        "holdout_mae": 2.8398578607851173,
+        "holdout_rmse": 4.140489146015889,
+        "holdout_r2": 0.904856632226523
+      }
+    ],
+    "sources": [
+      "main/reports/current_corrosion_metrics.csv"
+    ],
+    "method": "Exact saved metrics; distinct protocols, no cross-generation ranking.",
+    "verified": true
+  },
+  {
+    "claim": "embedding saved model metrics",
+    "value": [
+      {
+        "model": "image_only_mlp",
+        "test_mae": 5.625507600497062,
+        "test_rmse": 9.263883480339969,
+        "test_r2": 0.5237210507328725
+      },
+      {
+        "model": "multimodal_mlp",
+        "test_mae": 5.747575897430568,
+        "test_rmse": 9.865217942609048,
+        "test_r2": 0.4598820790755842
+      }
+    ],
+    "sources": [
+      "main_2/reports/model_comparison.csv"
+    ],
+    "method": "Exact saved metrics; distinct protocols, no cross-generation ranking.",
+    "verified": true
+  },
+  {
+    "claim": "Embedding prediction table columns/rows",
+    "value": {
+      "rows": 792,
+      "columns": [
+        "ID",
+        "specimen",
+        "series",
+        "Treatment",
+        "week",
+        "split",
+        "y_true",
+        "y_pred",
+        "residual"
+      ]
+    },
+    "sources": [
+      "main_2/reports/predictions_best_model.csv"
+    ],
+    "method": "Table inventory; test membership counts added in scope table.",
+    "verified": true
+  },
+  {
+    "claim": "main_3/outputs/corrosion_regression_metrics.csv per-fold metrics",
+    "value": {
+      "rows": 80,
+      "targets": [
+        "surface_total_rust_pct",
+        "peak_rust_pct"
+      ]
+    },
+    "sources": [
+      "main_3/outputs/corrosion_regression_metrics.csv"
+    ],
+    "method": "Aggregate within model/target/regime. Regime winners and fixed-model comparisons kept separate.",
+    "verified": true
+  },
+  {
+    "claim": "main_3/outputs/damage_regression_metrics.csv per-fold metrics",
+    "value": {
+      "rows": 80,
+      "targets": [
+        "wire_area_loss_pct",
+        "ultimate_load_kn"
+      ]
+    },
+    "sources": [
+      "main_3/outputs/damage_regression_metrics.csv"
+    ],
+    "method": "Aggregate within model/target/regime. Regime winners and fixed-model comparisons kept separate.",
+    "verified": true
+  },
+  {
+    "claim": "Fixed-model robustness ratios",
+    "value": [
+      {
+        "generation": "Interpretable",
+        "target": "peak_rust_pct",
+        "model": "mlp_regressor",
+        "strategy": "group_shuffle",
+        "ratio": 1.0
+      },
+      {
+        "generation": "Interpretable",
+        "target": "peak_rust_pct",
+        "model": "mlp_regressor",
+        "strategy": "leave_one_campaign_out",
+        "ratio": 1.7666357241882666
+      },
+      {
+        "generation": "Interpretable",
+        "target": "peak_rust_pct",
+        "model": "mlp_regressor",
+        "strategy": "leave_one_treatment_out",
+        "ratio": 1.1271020408367933
+      },
+      {
+        "generation": "Interpretable",
+        "target": "surface_total_rust_pct",
+        "model": "random_forest",
+        "strategy": "group_shuffle",
+        "ratio": 1.0
+      },
+      {
+        "generation": "Interpretable",
+        "target": "surface_total_rust_pct",
+        "model": "random_forest",
+        "strategy": "leave_one_campaign_out",
+        "ratio": 1.517257480276635
+      },
+      {
+        "generation": "Interpretable",
+        "target": "surface_total_rust_pct",
+        "model": "random_forest",
+        "strategy": "leave_one_treatment_out",
+        "ratio": 1.1935873514458908
+      },
+      {
+        "generation": "Interpretable",
+        "target": "ultimate_load_kn",
+        "model": "random_forest",
+        "strategy": "group_shuffle",
+        "ratio": 1.0
+      },
+      {
+        "generation": "Interpretable",
+        "target": "ultimate_load_kn",
+        "model": "random_forest",
+        "strategy": "leave_one_campaign_out",
+        "ratio": 5.37532824549312
+      },
+      {
+        "generation": "Interpretable",
+        "target": "ultimate_load_kn",
+        "model": "random_forest",
+        "strategy": "leave_one_treatment_out",
+        "ratio": 1.3104998685054687
+      },
+      {
+        "generation": "Interpretable",
+        "target": "wire_area_loss_frac",
+        "model": "random_forest",
+        "strategy": "group_shuffle",
+        "ratio": 1.0
+      },
+      {
+        "generation": "Interpretable",
+        "target": "wire_area_loss_frac",
+        "model": "random_forest",
+        "strategy": "leave_one_campaign_out",
+        "ratio": 3.6786954685032547
+      },
+      {
+        "generation": "Interpretable",
+        "target": "wire_area_loss_frac",
+        "model": "random_forest",
+        "strategy": "leave_one_treatment_out",
+        "ratio": 2.8042479631179726
+      },
+      {
+        "generation": "Refined",
+        "target": "peak_rust_pct",
+        "model": "RandomForest",
+        "strategy": "group_shuffle",
+        "ratio": 1.0
+      },
+      {
+        "generation": "Refined",
+        "target": "peak_rust_pct",
+        "model": "RandomForest",
+        "strategy": "leave_one_campaign_out",
+        "ratio": 0.9643938859692892
+      },
+      {
+        "generation": "Refined",
+        "target": "peak_rust_pct",
+        "model": "RandomForest",
+        "strategy": "leave_one_treatment_out",
+        "ratio": 0.758080282632954
+      },
+      {
+        "generation": "Refined",
+        "target": "surface_total_rust_pct",
+        "model": "GradientBoosting",
+        "strategy": "group_shuffle",
+        "ratio": 1.0
+      },
+      {
+        "generation": "Refined",
+        "target": "surface_total_rust_pct",
+        "model": "GradientBoosting",
+        "strategy": "leave_one_campaign_out",
+        "ratio": 0.7674722279942302
+      },
+      {
+        "generation": "Refined",
+        "target": "surface_total_rust_pct",
+        "model": "GradientBoosting",
+        "strategy": "leave_one_treatment_out",
+        "ratio": 0.5493727295712457
+      },
+      {
+        "generation": "Refined",
+        "target": "ultimate_load_kn",
+        "model": "RandomForest",
+        "strategy": "group_shuffle",
+        "ratio": 1.0
+      },
+      {
+        "generation": "Refined",
+        "target": "ultimate_load_kn",
+        "model": "RandomForest",
+        "strategy": "leave_one_campaign_out",
+        "ratio": 3.2357266558567725
+      },
+      {
+        "generation": "Refined",
+        "target": "ultimate_load_kn",
+        "model": "RandomForest",
+        "strategy": "leave_one_treatment_out",
+        "ratio": 1.166440137849724
+      },
+      {
+        "generation": "Refined",
+        "target": "wire_area_loss_frac",
+        "model": "RandomForest",
+        "strategy": "group_shuffle",
+        "ratio": 1.0
+      },
+      {
+        "generation": "Refined",
+        "target": "wire_area_loss_frac",
+        "model": "RandomForest",
+        "strategy": "leave_one_campaign_out",
+        "ratio": 1.1806965299943593
+      },
+      {
+        "generation": "Refined",
+        "target": "wire_area_loss_frac",
+        "model": "RandomForest",
+        "strategy": "leave_one_treatment_out",
+        "ratio": 1.13887889474069
+      }
+    ],
+    "sources": [
+      "main_4/outputs/diagnostics/tables/benchmark_best_model_robustness.csv",
+      "main_3/outputs/corrosion_regression_metrics.csv",
+      "main_3/outputs/damage_regression_metrics.csv"
+    ],
+    "method": "Regime MAE / same model grouped MAE; each generation independently normalized.",
+    "verified": true
+  },
+  {
+    "claim": "Final robustness-weighted structural models",
+    "value": [
+      {
+        "target": "wire_area_loss_frac",
+        "best_model_name": "CatBoost",
+        "feature_set_name": "metadata_only",
+        "target_transform": "none",
+        "n_features": 8,
+        "robustness_score": 5.45,
+        "group_shuffle_mae_mean": 0.1237974838495921,
+        "leave_one_treatment_out_mae_mean": 0.1160631468993481,
+        "leave_one_campaign_out_mae_mean": 0.1208280557686843,
+        "group_shuffle_spearman_mean": 0.2887911081296786
+      },
+      {
+        "target": "ultimate_load_kn",
+        "best_model_name": "RandomForest",
+        "feature_set_name": "metadata_only",
+        "target_transform": "none",
+        "n_features": 8,
+        "robustness_score": 2.65,
+        "group_shuffle_mae_mean": 0.1743801659451657,
+        "leave_one_treatment_out_mae_mean": 0.2034040248033369,
+        "leave_one_campaign_out_mae_mean": 0.5642465512014999,
+        "group_shuffle_spearman_mean": 0.7782648431785568
+      }
+    ],
+    "sources": [
+      "main_4/outputs/models/hidden_damage/best_models.csv"
+    ],
+    "method": "Do not substitute diagnostic RandomForest wire-loss winner for final CatBoost selection.",
+    "verified": true
+  },
+  {
+    "claim": "peak_rust_pct refined LOTO mean R2 / folds",
+    "value": [
+      0.9574443051845264,
+      9
+    ],
+    "sources": [
+      "main_4/outputs/models/surface/peak_rust_pct/leave_one_treatment_out/peak_rust_pct_fold_metrics.csv"
+    ],
+    "method": "Fixed grouped winner; arithmetic mean across saved treatment folds.",
+    "verified": true
+  },
+  {
+    "claim": "surface_total_rust_pct refined LOTO mean R2 / folds",
+    "value": [
+      0.994774413127138,
+      9
+    ],
+    "sources": [
+      "main_4/outputs/models/surface/surface_total_rust_pct/leave_one_treatment_out/surface_total_rust_pct_fold_metrics.csv"
+    ],
+    "method": "Fixed grouped winner; arithmetic mean across saved treatment folds.",
+    "verified": true
+  },
+  {
+    "claim": "pooled_capacity metrics",
+    "value": [
+      {
+        "feature_set_name": "metadata_only",
+        "mae_mean": 0.1727105041907488,
+        "mae_std": 0.0460258296190881,
+        "rmse_mean": 0.2143371153983319,
+        "rmse_std": 0.0539083132865419,
+        "r2_mean": 0.6447950969796944,
+        "r2_std": 0.170749321493311,
+        "spearman_mean": 0.7579543589054193,
+        "spearman_std": 0.2054833302071547,
+        "n_splits": 10,
+        "n_terminal_specimens": 48,
+        "analysis_name": "pooled_all_weeks",
+        "split_name": "grouped_cv",
+        "feature_set_label": "metadata-only",
+        "model_name": "Ridge",
+        "n_features": 11
+      },
+      {
+        "feature_set_name": "metadata_hsv",
+        "mae_mean": 0.173003429090032,
+        "mae_std": 0.0390661866562717,
+        "rmse_mean": 0.21533238040476,
+        "rmse_std": 0.0490322182813334,
+        "r2_mean": 0.6347608206721228,
+        "r2_std": 0.1920534758186784,
+        "spearman_mean": 0.7712669211267557,
+        "spearman_std": 0.1146687456487389,
+        "n_splits": 10,
+        "n_terminal_specimens": 48,
+        "analysis_name": "pooled_all_weeks",
+        "split_name": "grouped_cv",
+        "feature_set_label": "metadata+HSV",
+        "model_name": "Ridge",
+        "n_features": 47
+      },
+      {
+        "feature_set_name": "metadata_rgb_hsv",
+        "mae_mean": 0.1829143302497428,
+        "mae_std": 0.0567276829384893,
+        "rmse_mean": 0.2258420569892734,
+        "rmse_std": 0.0620389280951681,
+        "r2_mean": 0.607459439235045,
+        "r2_std": 0.1849871743172147,
+        "spearman_mean": 0.753150617571104,
+        "spearman_std": 0.1802855615401543,
+        "n_splits": 10,
+        "n_terminal_specimens": 48,
+        "analysis_name": "pooled_all_weeks",
+        "split_name": "grouped_cv",
+        "feature_set_label": "metadata+RGB+HSV",
+        "model_name": "CatBoost",
+        "n_features": 88
+      },
+      {
+        "feature_set_name": "metadata_rgb",
+        "mae_mean": 0.1837144338617003,
+        "mae_std": 0.0465403133430552,
+        "rmse_mean": 0.2273307625964645,
+        "rmse_std": 0.0554587811844056,
+        "r2_mean": 0.5839132740739217,
+        "r2_std": 0.2404196256069425,
+        "spearman_mean": 0.7476293773331208,
+        "spearman_std": 0.1686090897200949,
+        "n_splits": 10,
+        "n_terminal_specimens": 48,
+        "analysis_name": "pooled_all_weeks",
+        "split_name": "grouped_cv",
+        "feature_set_label": "metadata+RGB",
+        "model_name": "Ridge",
+        "n_features": 52
+      },
+      {
+        "feature_set_name": "hsv_only",
+        "mae_mean": 0.2102633948448345,
+        "mae_std": 0.0539785291521182,
+        "rmse_mean": 0.2622269773886607,
+        "rmse_std": 0.0596780625915554,
+        "r2_mean": 0.4813005752882757,
+        "r2_std": 0.203476012078628,
+        "spearman_mean": 0.7048467453220687,
+        "spearman_std": 0.1923756662827465,
+        "n_splits": 10,
+        "n_terminal_specimens": 48,
+        "analysis_name": "pooled_all_weeks",
+        "split_name": "grouped_cv",
+        "feature_set_label": "HSV-only",
+        "model_name": "CatBoost",
+        "n_features": 36
+      },
+      {
+        "feature_set_name": "rgb_hsv",
+        "mae_mean": 0.2338505451444947,
+        "mae_std": 0.0558546461560291,
+        "rmse_mean": 0.2770882569577638,
+        "rmse_std": 0.0666651085917224,
+        "r2_mean": 0.4112433812159203,
+        "r2_std": 0.252174487305341,
+        "spearman_mean": 0.6677403929039796,
+        "spearman_std": 0.1871946937953489,
+        "n_splits": 10,
+        "n_terminal_specimens": 48,
+        "analysis_name": "pooled_all_weeks",
+        "split_name": "grouped_cv",
+        "feature_set_label": "RGB+HSV",
+        "model_name": "CatBoost",
+        "n_features": 77
+      },
+      {
+        "feature_set_name": "rgb_only",
+        "mae_mean": 0.2534780202874215,
+        "mae_std": 0.0592475942375724,
+        "rmse_mean": 0.3075192580032405,
+        "rmse_std": 0.072802393594927,
+        "r2_mean": 0.26931666790394,
+        "r2_std": 0.3359595057646094,
+        "spearman_mean": 0.5008269133411908,
+        "spearman_std": 0.259244731972243,
+        "n_splits": 10,
+        "n_terminal_specimens": 48,
+        "analysis_name": "pooled_all_weeks",
+        "split_name": "grouped_cv",
+        "feature_set_label": "RGB-only",
+        "model_name": "CatBoost",
+        "n_features": 41
+      }
+    ],
+    "sources": [
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison.csv"
+    ],
+    "method": "Saved mean and sample SD across folds; selected model per feature set.",
+    "verified": true
+  },
+  {
+    "claim": "loco_capacity metrics",
+    "value": [
+      {
+        "feature_set_name": "metadata_only",
+        "mae_mean": 0.46504508694025,
+        "mae_std": 0.0837629738493744,
+        "rmse_mean": 0.5031811793752232,
+        "rmse_std": 0.0880765312296931,
+        "r2_mean": -4.639407299024246,
+        "r2_std": 2.2181947049298127,
+        "spearman_mean": 0.217303449723469,
+        "spearman_std": 0.2036215103643229,
+        "n_splits": 2,
+        "n_terminal_specimens": 48,
+        "analysis_name": "pooled_all_weeks",
+        "split_name": "leave_one_campaign_out",
+        "feature_set_label": "metadata-only",
+        "model_name": "GradientBoosting",
+        "n_features": 11
+      },
+      {
+        "feature_set_name": "metadata_rgb",
+        "mae_mean": 0.4812531055013339,
+        "mae_std": 0.1347828394243689,
+        "rmse_mean": 0.5149483256405215,
+        "rmse_std": 0.136416138816008,
+        "r2_mean": -5.04721445841315,
+        "r2_std": 3.3653929833020735,
+        "spearman_mean": 0.2784896993596247,
+        "spearman_std": 0.219105281475484,
+        "n_splits": 2,
+        "n_terminal_specimens": 48,
+        "analysis_name": "pooled_all_weeks",
+        "split_name": "leave_one_campaign_out",
+        "feature_set_label": "metadata+RGB",
+        "model_name": "XGBoost",
+        "n_features": 52
+      },
+      {
+        "feature_set_name": "metadata_rgb_hsv",
+        "mae_mean": 0.5078117509321904,
+        "mae_std": 0.0882242601356882,
+        "rmse_mean": 0.537518509199399,
+        "rmse_std": 0.0908763203045819,
+        "r2_mean": -5.42693099687999,
+        "r2_std": 2.4558866046538306,
+        "spearman_mean": 0.4605711149601712,
+        "spearman_std": 0.0409912717443161,
+        "n_splits": 2,
+        "n_terminal_specimens": 48,
+        "analysis_name": "pooled_all_weeks",
+        "split_name": "leave_one_campaign_out",
+        "feature_set_label": "metadata+RGB+HSV",
+        "model_name": "GradientBoosting",
+        "n_features": 88
+      },
+      {
+        "feature_set_name": "metadata_hsv",
+        "mae_mean": 0.5124397282059675,
+        "mae_std": 0.0929065864244895,
+        "rmse_mean": 0.552535241924933,
+        "rmse_std": 0.0891141979752717,
+        "r2_mean": -5.7798225259295215,
+        "r2_std": 2.4912431696105077,
+        "spearman_mean": 0.2711594249877579,
+        "spearman_std": 0.0783000136481492,
+        "n_splits": 2,
+        "n_terminal_specimens": 48,
+        "analysis_name": "pooled_all_weeks",
+        "split_name": "leave_one_campaign_out",
+        "feature_set_label": "metadata+HSV",
+        "model_name": "RandomForest",
+        "n_features": 47
+      },
+      {
+        "feature_set_name": "hsv_only",
+        "mae_mean": 0.6306879070727036,
+        "mae_std": 0.2475633767535666,
+        "rmse_mean": 0.6914665796351742,
+        "rmse_std": 0.2519649743321456,
+        "r2_mean": -9.888353321322317,
+        "r2_std": 6.998778698215786,
+        "spearman_mean": 0.0561416650107418,
+        "spearman_std": 0.1556906347561051,
+        "n_splits": 2,
+        "n_terminal_specimens": 48,
+        "analysis_name": "pooled_all_weeks",
+        "split_name": "leave_one_campaign_out",
+        "feature_set_label": "HSV-only",
+        "model_name": "Ridge",
+        "n_features": 36
+      },
+      {
+        "feature_set_name": "rgb_only",
+        "mae_mean": 0.6358167653282484,
+        "mae_std": 0.0405640170120611,
+        "rmse_mean": 0.6662688023482892,
+        "rmse_std": 0.041597826287626,
+        "r2_mean": -8.701795478233802,
+        "r2_std": 1.7087408916219775,
+        "spearman_mean": 0.3787865344898469,
+        "spearman_std": 0.2594257440215839,
+        "n_splits": 2,
+        "n_terminal_specimens": 48,
+        "analysis_name": "pooled_all_weeks",
+        "split_name": "leave_one_campaign_out",
+        "feature_set_label": "RGB-only",
+        "model_name": "XGBoost",
+        "n_features": 41
+      },
+      {
+        "feature_set_name": "rgb_hsv",
+        "mae_mean": 0.6423946969291514,
+        "mae_std": 0.0464887717869059,
+        "rmse_mean": 0.6720938846150705,
+        "rmse_std": 0.046308990686411,
+        "r2_mean": -8.809184404018652,
+        "r2_std": 0.8407740818132976,
+        "spearman_mean": 0.3161192518116484,
+        "spearman_std": 0.1178870129506943,
+        "n_splits": 2,
+        "n_terminal_specimens": 48,
+        "analysis_name": "pooled_all_weeks",
+        "split_name": "leave_one_campaign_out",
+        "feature_set_label": "RGB+HSV",
+        "model_name": "RandomForest",
+        "n_features": 77
+      }
+    ],
+    "sources": [
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/leave_one_campaign_out/feature_set_comparison.csv"
+    ],
+    "method": "Saved mean and sample SD across folds; selected model per feature set.",
+    "verified": true
+  },
+  {
+    "claim": "post_onset_capacity metrics",
+    "value": [
+      {
+        "mae_mean": 0.163372543160806,
+        "mae_std": 0.0219083305185564,
+        "rmse_mean": 0.2080760348651191,
+        "rmse_std": 0.0313837052134546,
+        "r2_mean": 0.6599278381458455,
+        "r2_std": 0.1289617344129154,
+        "spearman_mean": 0.7907267676878571,
+        "spearman_std": 0.0949053383274119,
+        "n_splits": 10,
+        "n_terminal_specimens": 43,
+        "analysis_name": "pooled_post_onset",
+        "split_name": "grouped_cv",
+        "feature_set_name": "metadata_rgb_hsv",
+        "feature_set_label": "metadata+RGB+HSV",
+        "model_name": "CatBoost",
+        "n_features": 88
+      },
+      {
+        "mae_mean": 0.1726951529644875,
+        "mae_std": 0.0463473843142924,
+        "rmse_mean": 0.212063310927641,
+        "rmse_std": 0.0539791879241199,
+        "r2_mean": 0.6329920990216987,
+        "r2_std": 0.1932763946595982,
+        "spearman_mean": 0.8030448267112064,
+        "spearman_std": 0.0988098070514326,
+        "n_splits": 10,
+        "n_terminal_specimens": 43,
+        "analysis_name": "pooled_post_onset",
+        "split_name": "grouped_cv",
+        "feature_set_name": "metadata_only",
+        "feature_set_label": "metadata-only",
+        "model_name": "Ridge",
+        "n_features": 11
+      },
+      {
+        "mae_mean": 0.1820553243973394,
+        "mae_std": 0.0348816033635836,
+        "rmse_mean": 0.2270962998818152,
+        "rmse_std": 0.0381694065431357,
+        "r2_mean": 0.5719636108560826,
+        "r2_std": 0.2261258235980862,
+        "spearman_mean": 0.8165216661915441,
+        "spearman_std": 0.0531925603310263,
+        "n_splits": 10,
+        "n_terminal_specimens": 43,
+        "analysis_name": "pooled_post_onset",
+        "split_name": "grouped_cv",
+        "feature_set_name": "metadata_hsv",
+        "feature_set_label": "metadata+HSV",
+        "model_name": "Ridge",
+        "n_features": 47
+      },
+      {
+        "mae_mean": 0.1971094010683291,
+        "mae_std": 0.045602386096207,
+        "rmse_mean": 0.2504207638212237,
+        "rmse_std": 0.0550936055391272,
+        "r2_mean": 0.5156706447314142,
+        "r2_std": 0.2031880634044748,
+        "spearman_mean": 0.7383775110403926,
+        "spearman_std": 0.1468169366780029,
+        "n_splits": 10,
+        "n_terminal_specimens": 43,
+        "analysis_name": "pooled_post_onset",
+        "split_name": "grouped_cv",
+        "feature_set_name": "hsv_only",
+        "feature_set_label": "HSV-only",
+        "model_name": "CatBoost",
+        "n_features": 36
+      },
+      {
+        "mae_mean": 0.2088463016742225,
+        "mae_std": 0.0337617119416012,
+        "rmse_mean": 0.2537197576233981,
+        "rmse_std": 0.0413108088273385,
+        "r2_mean": 0.4527761203521473,
+        "r2_std": 0.3040397725259367,
+        "spearman_mean": 0.7698619876757222,
+        "spearman_std": 0.1153592731826226,
+        "n_splits": 10,
+        "n_terminal_specimens": 43,
+        "analysis_name": "pooled_post_onset",
+        "split_name": "grouped_cv",
+        "feature_set_name": "metadata_rgb",
+        "feature_set_label": "metadata+RGB",
+        "model_name": "Ridge",
+        "n_features": 52
+      },
+      {
+        "mae_mean": 0.2101670158230622,
+        "mae_std": 0.0339688835045842,
+        "rmse_mean": 0.253462346235172,
+        "rmse_std": 0.0375754090158247,
+        "r2_mean": 0.5048296242183897,
+        "r2_std": 0.172551197204946,
+        "spearman_mean": 0.7717457851279499,
+        "spearman_std": 0.1223060744045394,
+        "n_splits": 10,
+        "n_terminal_specimens": 43,
+        "analysis_name": "pooled_post_onset",
+        "split_name": "grouped_cv",
+        "feature_set_name": "rgb_hsv",
+        "feature_set_label": "RGB+HSV",
+        "model_name": "CatBoost",
+        "n_features": 77
+      },
+      {
+        "mae_mean": 0.2335977681125405,
+        "mae_std": 0.0532418001909917,
+        "rmse_mean": 0.2762679570892319,
+        "rmse_std": 0.0571122625153482,
+        "r2_mean": 0.4054168117100718,
+        "r2_std": 0.250303565052489,
+        "spearman_mean": 0.6602752847943096,
+        "spearman_std": 0.1854716237780274,
+        "n_splits": 10,
+        "n_terminal_specimens": 43,
+        "analysis_name": "pooled_post_onset",
+        "split_name": "grouped_cv",
+        "feature_set_name": "rgb_only",
+        "feature_set_label": "RGB-only",
+        "model_name": "CatBoost",
+        "n_features": 41
+      }
+    ],
+    "sources": [
+      "main_4/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/selected_best_model_per_feature_set.csv"
+    ],
+    "method": "Saved mean and sample SD across folds; selected model per feature set.",
+    "verified": true
+  },
+  {
+    "claim": "mesh_capacity metrics",
+    "value": [
+      {
+        "mae_mean": 0.1944217958006588,
+        "mae_std": 0.0920161940246412,
+        "rmse_mean": 0.2380845847615981,
+        "rmse_std": 0.1039795936906876,
+        "r2_mean": -0.9983347590763656,
+        "r2_std": 1.2269729881714275,
+        "spearman_mean": 0.0807793505625546,
+        "spearman_std": 0.5943702369672161,
+        "n_splits": 10,
+        "n_terminal_specimens": 24,
+        "analysis_name": "mesh_4",
+        "split_name": "grouped_cv",
+        "feature_set_name": "metadata_rgb_hsv",
+        "feature_set_label": "metadata+RGB+HSV",
+        "model_name": "CatBoost",
+        "n_features": 88
+      },
+      {
+        "mae_mean": 0.2028544342731934,
+        "mae_std": 0.0787463816105462,
+        "rmse_mean": 0.2362700358484276,
+        "rmse_std": 0.0903911088271243,
+        "r2_mean": -0.9062286394406708,
+        "r2_std": 1.017964986583689,
+        "spearman_mean": 0.096688592885535,
+        "spearman_std": 0.4831896340595499,
+        "n_splits": 10,
+        "n_terminal_specimens": 24,
+        "analysis_name": "mesh_4",
+        "split_name": "grouped_cv",
+        "feature_set_name": "rgb_only",
+        "feature_set_label": "RGB-only",
+        "model_name": "CatBoost",
+        "n_features": 41
+      },
+      {
+        "mae_mean": 0.2081162312896419,
+        "mae_std": 0.0903990903382094,
+        "rmse_mean": 0.2393714872790474,
+        "rmse_std": 0.0977509519544769,
+        "r2_mean": -1.476469562942673,
+        "r2_std": 2.375611835145052,
+        "spearman_mean": 0.3007793505625545,
+        "spearman_std": 0.531251631616521,
+        "n_splits": 10,
+        "n_terminal_specimens": 24,
+        "analysis_name": "mesh_4",
+        "split_name": "grouped_cv",
+        "feature_set_name": "metadata_only",
+        "feature_set_label": "metadata-only",
+        "model_name": "Ridge",
+        "n_features": 11
+      },
+      {
+        "mae_mean": 0.2101270696821206,
+        "mae_std": 0.0890174158345554,
+        "rmse_mean": 0.2380311330376244,
+        "rmse_std": 0.0966683619505262,
+        "r2_mean": -0.8064319147082287,
+        "r2_std": 0.6623425146722113,
+        "spearman_mean": 0.056688592885535,
+        "spearman_std": 0.6130616134045621,
+        "n_splits": 10,
+        "n_terminal_specimens": 24,
+        "analysis_name": "mesh_4",
+        "split_name": "grouped_cv",
+        "feature_set_name": "hsv_only",
+        "feature_set_label": "HSV-only",
+        "model_name": "CatBoost",
+        "n_features": 36
+      },
+      {
+        "mae_mean": 0.2140990832880846,
+        "mae_std": 0.0771512595035201,
+        "rmse_mean": 0.2440384005749753,
+        "rmse_std": 0.0859769566642304,
+        "r2_mean": -1.0498618633527013,
+        "r2_std": 1.006985543824287,
+        "spearman_mean": 0.186688592885535,
+        "spearman_std": 0.5513831633033273,
+        "n_splits": 10,
+        "n_terminal_specimens": 24,
+        "analysis_name": "mesh_4",
+        "split_name": "grouped_cv",
+        "feature_set_name": "rgb_hsv",
+        "feature_set_label": "RGB+HSV",
+        "model_name": "CatBoost",
+        "n_features": 77
+      },
+      {
+        "mae_mean": 0.2277474850811383,
+        "mae_std": 0.0689831942000571,
+        "rmse_mean": 0.2670468663348362,
+        "rmse_std": 0.0653879544166138,
+        "r2_mean": -1.9313348413548224,
+        "r2_std": 2.2203672841137143,
+        "spearman_mean": -0.0251298917604257,
+        "spearman_std": 0.6070252112967212,
+        "n_splits": 10,
+        "n_terminal_specimens": 24,
+        "analysis_name": "mesh_4",
+        "split_name": "grouped_cv",
+        "feature_set_name": "metadata_hsv",
+        "feature_set_label": "metadata+HSV",
+        "model_name": "Ridge",
+        "n_features": 47
+      },
+      {
+        "mae_mean": 0.2611669247221816,
+        "mae_std": 0.0951419634416941,
+        "rmse_mean": 0.3058502039755204,
+        "rmse_std": 0.1084468106521572,
+        "r2_mean": -3.557319114286763,
+        "r2_std": 4.550978399460797,
+        "spearman_mean": 0.0848701082395742,
+        "spearman_std": 0.4854095895016447,
+        "n_splits": 10,
+        "n_terminal_specimens": 24,
+        "analysis_name": "mesh_4",
+        "split_name": "grouped_cv",
+        "feature_set_name": "metadata_rgb",
+        "feature_set_label": "metadata+RGB",
+        "model_name": "Ridge",
+        "n_features": 52
+      },
+      {
+        "mae_mean": 0.1369228952306101,
+        "mae_std": 0.0464064033364571,
+        "rmse_mean": 0.174026778767772,
+        "rmse_std": 0.0625231137305572,
+        "r2_mean": -0.3863563247832091,
+        "r2_std": 1.2245534906342643,
+        "spearman_mean": 0.4599999999999999,
+        "spearman_std": 0.3373096170846271,
+        "n_splits": 10,
+        "n_terminal_specimens": 24,
+        "analysis_name": "mesh_7",
+        "split_name": "grouped_cv",
+        "feature_set_name": "hsv_only",
+        "feature_set_label": "HSV-only",
+        "model_name": "CatBoost",
+        "n_features": 36
+      },
+      {
+        "mae_mean": 0.1382131750798929,
+        "mae_std": 0.0429630397167408,
+        "rmse_mean": 0.172149332726888,
+        "rmse_std": 0.06265192990696,
+        "r2_mean": -0.2979891422992757,
+        "r2_std": 1.213276339057833,
+        "spearman_mean": 0.3299999999999999,
+        "spearman_std": 0.5034326612809744,
+        "n_splits": 10,
+        "n_terminal_specimens": 24,
+        "analysis_name": "mesh_7",
+        "split_name": "grouped_cv",
+        "feature_set_name": "rgb_hsv",
+        "feature_set_label": "RGB+HSV",
+        "model_name": "CatBoost",
+        "n_features": 77
+      },
+      {
+        "mae_mean": 0.1402818409003805,
+        "mae_std": 0.0525449772272652,
+        "rmse_mean": 0.1789445808738641,
+        "rmse_std": 0.0753105040193485,
+        "r2_mean": -0.4073685848259017,
+        "r2_std": 1.2998956533310648,
+        "spearman_mean": 0.2899999999999999,
+        "spearman_std": 0.4532597979574677,
+        "n_splits": 10,
+        "n_terminal_specimens": 24,
+        "analysis_name": "mesh_7",
+        "split_name": "grouped_cv",
+        "feature_set_name": "rgb_only",
+        "feature_set_label": "RGB-only",
+        "model_name": "CatBoost",
+        "n_features": 41
+      },
+      {
+        "mae_mean": 0.2038779021046356,
+        "mae_std": 0.0749590890330194,
+        "rmse_mean": 0.2374865547170535,
+        "rmse_std": 0.0880726797116205,
+        "r2_mean": -1.9800076103803783,
+        "r2_std": 2.96379771748849,
+        "spearman_mean": 0.0099999999999999,
+        "spearman_std": 0.5801340841181076,
+        "n_splits": 10,
+        "n_terminal_specimens": 24,
+        "analysis_name": "mesh_7",
+        "split_name": "grouped_cv",
+        "feature_set_name": "metadata_rgb_hsv",
+        "feature_set_label": "metadata+RGB+HSV",
+        "model_name": "CatBoost",
+        "n_features": 88
+      },
+      {
+        "mae_mean": 0.2138354603792137,
+        "mae_std": 0.1211405454988714,
+        "rmse_mean": 0.2564553661529724,
+        "rmse_std": 0.1464648147066002,
+        "r2_mean": -4.653712237339063,
+        "r2_std": 9.125833985554886,
+        "spearman_mean": 0.03,
+        "spearman_std": 0.6532823109328598,
+        "n_splits": 10,
+        "n_terminal_specimens": 24,
+        "analysis_name": "mesh_7",
+        "split_name": "grouped_cv",
+        "feature_set_name": "metadata_rgb",
+        "feature_set_label": "metadata+RGB",
+        "model_name": "Ridge",
+        "n_features": 52
+      },
+      {
+        "mae_mean": 0.2161413334529242,
+        "mae_std": 0.0875043464537608,
+        "rmse_mean": 0.260740037926027,
+        "rmse_std": 0.0971440357283841,
+        "r2_mean": -3.0928827688309797,
+        "r2_std": 4.937497283179105,
+        "spearman_mean": -0.0499999999999999,
+        "spearman_std": 0.6328945848682508,
+        "n_splits": 10,
+        "n_terminal_specimens": 24,
+        "analysis_name": "mesh_7",
+        "split_name": "grouped_cv",
+        "feature_set_name": "metadata_only",
+        "feature_set_label": "metadata-only",
+        "model_name": "Ridge",
+        "n_features": 11
+      },
+      {
+        "mae_mean": 0.2450630058681628,
+        "mae_std": 0.082217370414969,
+        "rmse_mean": 0.2896098409876461,
+        "rmse_std": 0.0887568817728179,
+        "r2_mean": -3.63939169875173,
+        "r2_std": 5.242378922548492,
+        "spearman_mean": -4.4408920985006264e-17,
+        "spearman_std": 0.7086763875156432,
+        "n_splits": 10,
+        "n_terminal_specimens": 24,
+        "analysis_name": "mesh_7",
+        "split_name": "grouped_cv",
+        "feature_set_name": "metadata_hsv",
+        "feature_set_label": "metadata+HSV",
+        "model_name": "Ridge",
+        "n_features": 47
+      }
+    ],
+    "sources": [
+      "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_feature_set_comparison.csv"
+    ],
+    "method": "Saved mean and sample SD across folds; selected model per feature set.",
+    "verified": true
+  },
+  {
+    "claim": "Prediction-level check metadata_only",
+    "value": {
+      "folds": 10,
+      "specimens": 48,
+      "terminal_prediction_rows": 96,
+      "test_specimens_min": 9,
+      "test_specimens_max": 10
+    },
+    "sources": [
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/fold_metrics.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv"
+    ],
+    "method": "Recompute per-fold MAE from terminal predictions and all summary means/SDs from folds.",
+    "verified": true
+  },
+  {
+    "claim": "Prediction-level check metadata_hsv",
+    "value": {
+      "folds": 10,
+      "specimens": 48,
+      "terminal_prediction_rows": 96,
+      "test_specimens_min": 9,
+      "test_specimens_max": 10
+    },
+    "sources": [
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/fold_metrics.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/terminal_fold_predictions.csv"
+    ],
+    "method": "Recompute per-fold MAE from terminal predictions and all summary means/SDs from folds.",
+    "verified": true
+  },
+  {
+    "claim": "Prediction-level check metadata_rgb_hsv",
+    "value": {
+      "folds": 10,
+      "specimens": 48,
+      "terminal_prediction_rows": 96,
+      "test_specimens_min": 9,
+      "test_specimens_max": 10
+    },
+    "sources": [
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb_hsv/CatBoost/fold_metrics.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb_hsv/CatBoost/terminal_fold_predictions.csv"
+    ],
+    "method": "Recompute per-fold MAE from terminal predictions and all summary means/SDs from folds.",
+    "verified": true
+  },
+  {
+    "claim": "Prediction-level check metadata_rgb",
+    "value": {
+      "folds": 10,
+      "specimens": 48,
+      "terminal_prediction_rows": 96,
+      "test_specimens_min": 9,
+      "test_specimens_max": 10
+    },
+    "sources": [
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb/Ridge/fold_metrics.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb/Ridge/terminal_fold_predictions.csv"
+    ],
+    "method": "Recompute per-fold MAE from terminal predictions and all summary means/SDs from folds.",
+    "verified": true
+  },
+  {
+    "claim": "Prediction-level check hsv_only",
+    "value": {
+      "folds": 10,
+      "specimens": 48,
+      "terminal_prediction_rows": 96,
+      "test_specimens_min": 9,
+      "test_specimens_max": 10
+    },
+    "sources": [
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/hsv_only/CatBoost/fold_metrics.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/hsv_only/CatBoost/terminal_fold_predictions.csv"
+    ],
+    "method": "Recompute per-fold MAE from terminal predictions and all summary means/SDs from folds.",
+    "verified": true
+  },
+  {
+    "claim": "Prediction-level check rgb_hsv",
+    "value": {
+      "folds": 10,
+      "specimens": 48,
+      "terminal_prediction_rows": 96,
+      "test_specimens_min": 9,
+      "test_specimens_max": 10
+    },
+    "sources": [
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_hsv/CatBoost/fold_metrics.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_hsv/CatBoost/terminal_fold_predictions.csv"
+    ],
+    "method": "Recompute per-fold MAE from terminal predictions and all summary means/SDs from folds.",
+    "verified": true
+  },
+  {
+    "claim": "Prediction-level check rgb_only",
+    "value": {
+      "folds": 10,
+      "specimens": 48,
+      "terminal_prediction_rows": 96,
+      "test_specimens_min": 9,
+      "test_specimens_max": 10
+    },
+    "sources": [
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_only/CatBoost/fold_metrics.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_only/CatBoost/terminal_fold_predictions.csv"
+    ],
+    "method": "Recompute per-fold MAE from terminal predictions and all summary means/SDs from folds.",
+    "verified": true
+  },
+  {
+    "claim": "Saved specimen-split disjointness",
+    "value": {
+      "checked_folds": 60,
+      "overlaps": 0
+    },
+    "sources": [
+      "main_4/outputs/splits/master_group_shuffle.csv",
+      "main_4/outputs/splits/master_leave_one_campaign_out.csv",
+      "main_4/outputs/splits/master_leave_one_treatment_out.csv",
+      "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_4/grouped_cv/specimen_manifest.csv",
+      "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_7/grouped_cv/specimen_manifest.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/specimen_manifest.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_post_onset/leave_one_campaign_out/specimen_manifest.csv",
+      "main_4/outputs/ultimate_load_refocus/splits/grouped_cv_specimen_manifest.csv",
+      "main_4/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_specimen_manifest.csv"
+    ],
+    "method": "Set intersection of specimen identities per split.",
+    "verified": true
+  },
+  {
+    "claim": "Terminal total-rust/load correlations",
+    "value": [
+      {
+        "group": "Pooled",
+        "n": 48,
+        "spearman": 0.4619519521315035,
+        "p_value": 0.0009489331628117478
+      },
+      {
+        "group": "4 meshes",
+        "n": 24,
+        "spearman": -0.04616724738675959,
+        "p_value": 0.8303815176192039
+      },
+      {
+        "group": "7 meshes",
+        "n": 24,
+        "spearman": -0.40113125792193655,
+        "p_value": 0.05205171276795358
+      }
+    ],
+    "sources": [
+      "main_4/outputs/ultimate_load_refocus/data/specimen_summary_table.csv",
+      "main_4/outputs/ultimate_load_refocus/correlations/mesh_stratified_corrosion_vs_ultimate_load.csv"
+    ],
+    "method": "Independent Spearman recomputation; pooled association is not a causal effect.",
+    "verified": true
+  },
+  {
+    "claim": "Refined threshold statuses",
+    "value": {
+      "not_crossed_within_horizon": 97,
+      "crossed_by_baseline": 45,
+      "crossed_during_observation": 2
+    },
+    "sources": [
+      "main_4/outputs/models/proxy_rul/proxy_rul_estimates.csv"
+    ],
+    "method": "144 specimen-threshold pairs; zero future crossings; historical crossings retained.",
+    "verified": true
+  },
+  {
+    "claim": "Threshold-wise summary",
+    "value": {
+      "thresholds": [
+        0.2,
+        0.3,
+        0.4
+      ],
+      "n_specimens": 48,
+      "summary_records": [
+        {
+          "threshold_wire_area_loss_frac": 0.2,
+          "n_specimens": 48,
+          "n_crossed_by_baseline": 32,
+          "n_crossed_during_observation": 1,
+          "n_future_crossings_within_horizon": 0,
+          "n_right_censored": 15,
+          "n_crossed_by_last_observation": 33,
+          "frac_crossed_by_baseline": 0.6666666666666666,
+          "frac_crossed_during_observation": 0.020833333333333332,
+          "frac_crossed_by_last_observation": 0.6875,
+          "frac_future_crossings_within_horizon": 0.0,
+          "frac_right_censored": 0.3125
+        },
+        {
+          "threshold_wire_area_loss_frac": 0.3,
+          "n_specimens": 48,
+          "n_crossed_by_baseline": 8,
+          "n_crossed_during_observation": 1,
+          "n_future_crossings_within_horizon": 0,
+          "n_right_censored": 39,
+          "n_crossed_by_last_observation": 9,
+          "frac_crossed_by_baseline": 0.16666666666666666,
+          "frac_crossed_during_observation": 0.020833333333333332,
+          "frac_crossed_by_last_observation": 0.1875,
+          "frac_future_crossings_within_horizon": 0.0,
+          "frac_right_censored": 0.8125
+        },
+        {
+          "threshold_wire_area_loss_frac": 0.4,
+          "n_specimens": 48,
+          "n_crossed_by_baseline": 5,
+          "n_crossed_during_observation": 0,
+          "n_future_crossings_within_horizon": 0,
+          "n_right_censored": 43,
+          "n_crossed_by_last_observation": 5,
+          "frac_crossed_by_baseline": 0.10416666666666667,
+          "frac_crossed_during_observation": 0.0,
+          "frac_crossed_by_last_observation": 0.10416666666666667,
+          "frac_future_crossings_within_horizon": 0.0,
+          "frac_right_censored": 0.8958333333333334
+        }
+      ]
+    },
+    "sources": [
+      "main_4/outputs/models/proxy_rul/proxy_rul_summary.json",
+      "main_4/outputs/models/proxy_rul/proxy_rul_estimates.csv"
+    ],
+    "method": "Cross-check zero future crossings and sum of statuses.",
+    "verified": true
+  },
+  {
+    "claim": "Refined degradation fit inventory",
+    "value": {
+      "rows": 48,
+      "columns": [
+        "specimen_id",
+        "best_family",
+        "criterion",
+        "best_model_name",
+        "hidden_damage_feature_set_name",
+        "hidden_damage_target_transform",
+        "last_observed_day",
+        "last_observed_predicted_wire_area_loss_frac",
+        "params"
+      ]
+    },
+    "sources": [
+      "main_4/outputs/models/degradation/degradation_best_fits.csv"
+    ],
+    "method": "Saved descriptive fits; no longitudinal structural validation.",
+    "verified": true
+  },
+  {
+    "claim": "Prepared four-class split inventory",
+    "value": [
+      {
+        "split": "train",
+        "rows": 3846,
+        "specimens": 38,
+        "originals": 641,
+        "augmented": 3205,
+        "class_1": 3156,
+        "class_2": 540,
+        "class_3": 78,
+        "class_4": 72
+      },
+      {
+        "split": "val",
+        "rows": 75,
+        "specimens": 5,
+        "originals": 75,
+        "augmented": 0,
+        "class_1": 67,
+        "class_2": 4,
+        "class_3": 3,
+        "class_4": 1
+      },
+      {
+        "split": "test",
+        "rows": 75,
+        "specimens": 5,
+        "originals": 75,
+        "augmented": 0,
+        "class_1": 65,
+        "class_2": 5,
+        "class_3": 4,
+        "class_4": 1
+      }
+    ],
+    "sources": [
+      "Data/splits/train_manifest.csv",
+      "Data/splits/val_manifest.csv",
+      "Data/splits/test_manifest.csv"
+    ],
+    "method": "Specimen-disjoint; validation/test originals only. Inventory is not classification performance.",
+    "verified": true
+  },
+  {
+    "claim": "Live YAML NO boolean issue",
+    "value": {
+      "specimens": 10,
+      "rows": 168
+    },
+    "sources": [
+      "main_4/configs/specimen_mapping.yaml",
+      "main_4/outputs/data/master_table.csv"
+    ],
+    "method": "PyYAML safe_load and saved treatment_raw / treatment_coarse cross-check.",
+    "verified": true
+  },
+  {
+    "claim": "Timestamp evidence for cited saved scientific outputs",
+    "value": {
+      "checked_artifacts": 47,
+      "earliest_affected_source_mtime_utc": "2026-04-01T14:58:13.870958+00:00",
+      "all_predate": true
+    },
+    "sources": [
+      "main_4/outputs/data/master_table.csv",
+      "main_4/outputs/audit/verified_facts.json",
+      "main_4/outputs/features/image_features.csv",
+      "main/reports/current_corrosion_metrics.csv",
+      "main_2/reports/model_comparison.csv",
+      "main_2/reports/predictions_best_model.csv",
+      "main_3/outputs/corrosion_regression_metrics.csv",
+      "main_3/outputs/damage_regression_metrics.csv",
+      "main_4/outputs/diagnostics/tables/benchmark_best_model_robustness.csv",
+      "main_4/outputs/models/hidden_damage/best_models.csv",
+      "main_4/outputs/models/surface/peak_rust_pct/leave_one_treatment_out/peak_rust_pct_fold_metrics.csv",
+      "main_4/outputs/models/surface/surface_total_rust_pct/leave_one_treatment_out/surface_total_rust_pct_fold_metrics.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/leave_one_campaign_out/feature_set_comparison.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/selected_best_model_per_feature_set.csv",
+      "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_feature_set_comparison.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/fold_metrics.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/fold_metrics.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/terminal_fold_predictions.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb_hsv/CatBoost/fold_metrics.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb_hsv/CatBoost/terminal_fold_predictions.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb/Ridge/fold_metrics.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb/Ridge/terminal_fold_predictions.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/hsv_only/CatBoost/fold_metrics.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/hsv_only/CatBoost/terminal_fold_predictions.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_hsv/CatBoost/fold_metrics.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_hsv/CatBoost/terminal_fold_predictions.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_only/CatBoost/fold_metrics.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_only/CatBoost/terminal_fold_predictions.csv",
+      "main_4/outputs/splits/master_group_shuffle.csv",
+      "main_4/outputs/splits/master_leave_one_campaign_out.csv",
+      "main_4/outputs/splits/master_leave_one_campaign_out_summary.csv",
+      "main_4/outputs/splits/master_leave_one_treatment_out.csv",
+      "main_4/outputs/splits/master_group_shuffle_summary.csv",
+      "main_4/outputs/splits/master_leave_one_treatment_out_summary.csv",
+      "main_4/outputs/ultimate_load_refocus/splits/grouped_cv_specimen_manifest.csv",
+      "main_4/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_specimen_manifest.csv",
+      "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_7/grouped_cv/specimen_manifest.csv",
+      "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_4/grouped_cv/specimen_manifest.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_post_onset/leave_one_campaign_out/specimen_manifest.csv",
+      "main_4/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/specimen_manifest.csv",
+      "main_4/outputs/ultimate_load_refocus/data/specimen_summary_table.csv",
+      "main_4/outputs/ultimate_load_refocus/correlations/mesh_stratified_corrosion_vs_ultimate_load.csv",
+      "main_4/outputs/models/proxy_rul/proxy_rul_estimates.csv",
+      "main_4/outputs/models/proxy_rul/proxy_rul_summary.json",
+      "main_4/outputs/models/degradation/degradation_best_fits.csv"
+    ],
+    "method": "Filesystem mtimes support chronology, not a cryptographic proof of historical execution or root cause.",
+    "verified": true
+  }
+]
