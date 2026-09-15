@@ -39,6 +39,13 @@ axis label, and removed a one-line chapter spill. A misplaced column-balancing
 command produced a warning during intermediate builds; automatic final-page
 balancing replaced it and the final logs have no warnings.
 
+A subsequent full-log audit caught duplicate PDF page anchors on the unnumbered
+thesis title page and abstract. Disable the title-page anchor in both thesis
+masters, preserving the abstract's link. Extend the build/validation checks to
+reject PDF-engine warnings as well as LaTeX/package warnings. This does not
+change the visible pages or scientific content. Saved text logs normalize trailing
+whitespace only.
+
 The shared figure corrections appear in both rebuilt v1 and v2 PDFs. V1 prose,
 structure, and scientific numbers remain unchanged. The original committed v1
 and the initial critique remain in Git, so the review history is inspectable.

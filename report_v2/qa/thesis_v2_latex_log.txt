@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.17)  16 SEP 2026 01:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.17)  16 SEP 2026 01:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -66,7 +66,7 @@ pport for TeXGyreTermesX
 nd its extensions (msharpe)
 (/usr/local/texlive/2026/texmf-dist/tex/latex/xpatch/xpatch.sty
 (/usr/local/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2026-01-19 L3 programming layer (loader) 
+Package: expl3 2026-01-19 L3 programming layer (loader)
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
@@ -682,7 +682,7 @@ LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 33.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line
 33.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/newtx/untxexa.fd
@@ -717,7 +717,7 @@ LaTeX Font Info:    ... okay on input line 33.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
+* modes:
 * h-part:(L,W,R)=(76.82243pt, 443.863pt, 76.82243pt)
 * v-part:(T,H,B)=(76.82243pt, 691.40198pt, 76.82243pt)
 * \paperwidth=597.50787pt
@@ -800,114 +800,111 @@ Package hyperref Info: Link coloring ON on input line 33.
 \@outlinefile=\write3
 \openout3 = `thesis.out'.
 
+Package hyperref Info: Option `pageanchor' set `false' on input line 35.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 37.
+(Font)              scaled to size 12.0pt on input line 38.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 39.
+(Font)              scaled to size 24.88pt on input line 40.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 39.
+(Font)              scaled to size 24.88pt on input line 40.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 40.
+(Font)              scaled to size 14.4pt on input line 41.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 44.
+(Font)              scaled to size 10.0pt on input line 45.
 LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
-e 46.
+e 47.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/newtx/ot1minntx.fd
 File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
 )
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 10.95pt on input line 46.
+(Font)              scaled to size 10.95pt on input line 47.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `minntx' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 8.0pt on input line 46.
+(Font)              scaled to size 8.0pt on input line 47.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 6.1pt on input line 46.
+(Font)              scaled to size 6.1pt on input line 47.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 10.95pt on input line 46.
+(Font)              scaled to size 10.95pt on input line 47.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 8.0pt on input line 46.
+(Font)              scaled to size 8.0pt on input line 47.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 6.1pt on input line 46.
+(Font)              scaled to size 6.1pt on input line 47.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 10.95pt on input line 46.
+(Font)              scaled to size 10.95pt on input line 47.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 8.0pt on input line 46.
+(Font)              scaled to size 8.0pt on input line 47.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.1pt on input line 46.
+(Font)              scaled to size 6.1pt on input line 47.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 10.95pt on input line 46.
+(Font)              scaled to size 10.95pt on input line 47.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 8.0pt on input line 46.
+(Font)              scaled to size 8.0pt on input line 47.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.1pt on input line 46.
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-46.
+(Font)              scaled to size 6.1pt on input line 47.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line
+47.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 10.95pt on input line 46.
+(Font)              scaled to size 10.95pt on input line 47.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 8.0pt on input line 46.
+(Font)              scaled to size 8.0pt on input line 47.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.1pt on input line 46.
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-46.
+(Font)              scaled to size 6.1pt on input line 47.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line
+47.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 10.95pt on input line 46.
+(Font)              scaled to size 10.95pt on input line 47.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 8.0pt on input line 46.
+(Font)              scaled to size 8.0pt on input line 47.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.1pt on input line 46.
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-46.
+(Font)              scaled to size 6.1pt on input line 47.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line
+47.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 10.95pt on input line 46.
+(Font)              scaled to size 10.95pt on input line 47.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 8.0pt on input line 46.
+(Font)              scaled to size 8.0pt on input line 47.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.1pt on input line 46.
+(Font)              scaled to size 6.1pt on input line 47.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 10.95pt on input line 46.
+(Font)              scaled to size 10.95pt on input line 47.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 8.0pt on input line 46.
+(Font)              scaled to size 8.0pt on input line 47.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.1pt on input line 46.
+(Font)              scaled to size 6.1pt on input line 47.
  [1
 
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2026/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}]
+Package hyperref Info: Option `pageanchor' set `true' on input line 49.
+
 (./chapters/00_abstract.tex
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 10.95pt on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 17.28pt on input line 1.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.11 \chapter
-             *{Executive Summary} [1
+ [1
 
 {/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]) [2
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 49.
+(Font)              scaled to size 10.0pt on input line 51.
  (./thesis.toc
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
 (Font)              scaled to size 10.0pt on input line 4.
@@ -967,11 +964,11 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
 
+ [5
 
-[5
 
-
-] (./thesis.lot)
+]
+(./thesis.lot)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
@@ -1043,7 +1040,7 @@ Chapter 5.
 <../../figures/label_adjacency.pdf, id=538, 509.7651pt x 208.57082pt>
 File: ../../figures/label_adjacency.pdf Graphic file (type pdf)
 <use ../../figures/label_adjacency.pdf>
-Package pdftex.def Info: ../../figures/label_adjacency.pdf  used on input line 
+Package pdftex.def Info: ../../figures/label_adjacency.pdf  used on input line
 23.
 (pdftex.def)             Requested size: 443.863pt x 181.61108pt.
 [11
@@ -1055,7 +1052,7 @@ Package pdftex.def Info: ../../figures/label_adjacency.pdf  used on input line
 <../../figures/robustness_synthesis.pdf, id=544, 482.2222pt x 252.9795pt>
 File: ../../figures/robustness_synthesis.pdf Graphic file (type pdf)
 <use ../../figures/robustness_synthesis.pdf>
-Package pdftex.def Info: ../../figures/robustness_synthesis.pdf  used on input 
+Package pdftex.def Info: ../../figures/robustness_synthesis.pdf  used on input
 line 36.
 (pdftex.def)             Requested size: 443.863pt x 232.85591pt.
  [12 <../../figures/label_adjacency.pdf>]) [13 <../../figures/robustness_synthe
@@ -1126,7 +1123,7 @@ Chapter 9.
 
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line
 33.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
@@ -1218,7 +1215,7 @@ L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: F08E0997494BB6D37C98DE5BE4890F6A;15836.
- ) 
+ )
 Here is how much of TeX's memory you used:
  20083 strings out of 467525
  320589 string characters out of 5418982
@@ -1236,10 +1233,9 @@ live/2026/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/202
 nts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1
 /public/newtx/ztmr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/n
 ewtx/ztmri.pfb>
-Output written on thesis.pdf (37 pages, 405843 bytes).
+Output written on thesis.pdf (37 pages, 405855 bytes).
 PDF statistics:
  806 PDF objects out of 1000 (max. 8388607)
  688 compressed objects within 7 object streams
  150 named destinations out of 1000 (max. 500000)
  32329 words of extra memory for PDF output out of 35830 (max. 10000000)
-

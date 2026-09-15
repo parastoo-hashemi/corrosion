@@ -2,7 +2,7 @@
   {
     "pdf": "report_v2/thesis/thesis.pdf",
     "pages": 44,
-    "sha256": "5006a70cd9d420931f7b57f9917f10e1e088eedc16eca9e890595e973062ef23",
+    "sha256": "28f638ac398ee9c5f96cc35585251e89e99ec8140cde18d21e872662e289fff2",
     "render_prefix": "report_v2/qa/review_thesis_v1"
   },
   {
@@ -14,7 +14,7 @@
   {
     "pdf": "report_v2/thesis/v2/thesis.pdf",
     "pages": 37,
-    "sha256": "b4abf58ea9a50dcf8653520523ff877917cb409e9ec6179e19a5fbaabf0de16b",
+    "sha256": "50214612460cf2ee3bc83b7cd7267cfca82cf8bdde390f57f30de0dbe05c59c2",
     "render_prefix": "report_v2/qa/review_thesis_v2"
   },
   {

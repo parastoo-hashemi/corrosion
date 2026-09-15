@@ -68,10 +68,10 @@ for p in masters:
  pdf=p.with_suffix('.pdf');reader=PdfReader(pdf);text='\n'.join(page.extract_text() or '' for page in reader.pages)
  assert '?'*2 not in text,(pdf,'unresolved marker')
  log=p.with_suffix('.log').read_text(errors='replace')
- assert not re.search(r'Overfull|Missing character|undefined|Warning:|Rerun to get cross-references right|^!',log,re.I|re.M),(pdf,'compile issue')
+ assert not re.search(r'Overfull|Missing character|undefined|Warning:|pdfTeX warning|Rerun to get cross-references right|^!',log,re.I|re.M),(pdf,'compile issue')
  pdfs.append(dict(pdf=str(pdf.relative_to(ROOT)),pages=len(reader.pages),citations=len(used),sha256=hashlib.sha256(pdf.read_bytes()).hexdigest(),overfull_boxes=0))
 with (OUT/'qa/numeric_claim_inventory.csv').open('w',newline='') as f:
- w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+ w=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator='\n');w.writeheader();w.writerows(rows)
 (OUT/'qa/numeric_lint_exceptions.json').write_text(json.dumps(issues,indent=2)+'\n')
 assert not issues,issues
 frozen=json.loads((OUT/'evidence/frozen_report_hashes.json').read_text())

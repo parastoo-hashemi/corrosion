@@ -14,7 +14,7 @@ it is not independent peer review or validation of a deployed predictor.
 
 All four have zero compile errors, undefined references/citations, unresolved
 cross-reference rerun requests, missing glyphs, overflowing boxes, and
-LaTeX/package warning messages. V1 retains its documented draft page-economy
+LaTeX/package/PDF-engine warning messages. V1 retains its documented draft page-economy
 weaknesses; v2 is the recommended reading version. The benign v1 underfull-box
 diagnostic is retained in `qa/build_results.json`, rather than hidden.
 
@@ -29,6 +29,9 @@ chapter starts leave some whitespace; no one-line chapter spill remains in v2.
 `qa/rendered_documents.json` hashes match the current PDFs and
 `qa/final_validation.json`. Full final TeX logs are saved as
 `qa/*_latex_log.txt`; `qa/*_build.txt` records latexmk execution.
+The final title-page anchor correction was followed by another complete render:
+all 91 PNG page files are identical to the visually reviewed render, recorded in
+`qa/anchor_visual_comparison.json`.
 
 ## Numerical and source verification
 
