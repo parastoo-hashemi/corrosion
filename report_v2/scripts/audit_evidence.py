@@ -86,6 +86,13 @@ def audit():
     predpath='main_2/reports/predictions_best_model.csv'
     x=csv(predpath)
     claim('Embedding prediction table columns/rows',{'rows':len(x),'columns':x.columns.tolist()},[predpath],'Table inventory; test membership counts added in scope table.')
+    splits=x.groupby('split').agg(rows=('split','size'),specimens=('specimen','nunique')).reset_index()
+    claim('Embedding split counts',splits.to_dict('records'),[predpath],'Saved prediction membership: train / validation / test; 159 test images from 10 specimens.')
+    test=x[x.split=='test'];assert len(test)==159 and test.specimen.nunique()==10
+    assert np.isclose(np.abs(test.y_pred-test.y_true).mean(),5.625507600497062)
+    legacy='main_3/outputs/canonical_dataset.csv';legacy_df=csv(legacy)
+    assert len(legacy_df)==792 and legacy_df.surface_total_rust_category.nunique()==5
+    claim('Earlier five-class schema',legacy_df.surface_total_rust_category.value_counts().sort_index().to_dict(),[legacy],'Explicitly distinct from the current four-class preparation branch.')
     # Fixed grouped-holdout winners tracked through each regime.
     ratios=[]; early=[]
     for p in ['main_3/outputs/corrosion_regression_metrics.csv','main_3/outputs/damage_regression_metrics.csv']:
@@ -171,6 +178,12 @@ def audit():
     degpath='main_4/outputs/models/degradation/degradation_best_fits.csv'
     deg=csv(degpath)
     claim('Refined degradation fit inventory',{'rows':len(deg),'columns':deg.columns.tolist()},[degpath],'Saved descriptive fits; no longitudinal structural validation.')
+    claim('Refined curve family counts',deg.best_family.value_counts().to_dict(),[degpath],'48 selected fits; descriptive rather than physically validated.')
+    residual=ref+'residual_refinement/model_comparison.csv';rr=csv(residual)
+    claim('Residual-refinement saved comparison',rr.to_dict('records'),[residual,ref+'residual_refinement/best_model.csv'],'Metadata-only baseline selected; second-stage corrections worsened MAE.')
+    register('main/artifacts/manifest.json')
+    register('main_4/configs/thresholds.yaml')
+    register('main_4/configs/ultimate_load_refocus.yaml')
     # Augmentation split / target schema checks.
     splitsets={};splitrows=[]
     for name in ['train','val','test']:

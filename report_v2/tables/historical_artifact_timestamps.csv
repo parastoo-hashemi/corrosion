@@ -5,6 +5,7 @@ main_4/outputs/features/image_features.csv,8358ac1133eff40c4ad5be70ed6f2cc0f00b1
 main/reports/current_corrosion_metrics.csv,ba7014b8ce968663ed6cd885c159051cffa95e77ff7ecd842b423523caa6ab90,2026-03-06T22:38:34.740000+00:00,True
 main_2/reports/model_comparison.csv,58ddb6bed5e6189d6b4b28da4e8bee2ab53b5f801c7748d1643ca7aa53a1cc45,2026-03-07T16:46:06.450000+00:00,True
 main_2/reports/predictions_best_model.csv,3964d8b586be061744c56319fe216151b6141de038d50b87b3fb4c483ecff0ae,2026-03-07T16:46:06.510000+00:00,True
+main_3/outputs/canonical_dataset.csv,0185eb4001c1269a0af94f751186a6a38d17e3649e0de30d272144cb2de35e31,2026-03-11T11:05:54.374531+00:00,True
 main_3/outputs/corrosion_regression_metrics.csv,9c59f84dab8507bb18f1ca1f6746f251ecc30b6089635a1b5c4cc7619af6cd80,2026-03-11T11:30:21.567162+00:00,True
 main_3/outputs/damage_regression_metrics.csv,3eb39cdf0655b30d707b346834a3ccc462b7418d6a9b315d9e744962d6ff6f6c,2026-03-11T11:30:36.734287+00:00,True
 main_4/outputs/diagnostics/tables/benchmark_best_model_robustness.csv,a88d75480ff6889043f9013a123496393344777551e2bbc4959ff34a3ce41b9b,2026-03-19T15:52:40.328229+00:00,True
@@ -46,3 +47,5 @@ main_4/outputs/ultimate_load_refocus/correlations/mesh_stratified_corrosion_vs_u
 main_4/outputs/models/proxy_rul/proxy_rul_estimates.csv,6b9aacc7e01036ed2d5116cd0500c45a8061d02400a551c5cc6a1ff7a4530302,2026-03-16T16:08:53.073164+00:00,True
 main_4/outputs/models/proxy_rul/proxy_rul_summary.json,42a452a6751b8fa1afcd07a1a314d8722ef43d0cfd9dd69b55340291a8c030f5,2026-03-16T16:08:53.334932+00:00,True
 main_4/outputs/models/degradation/degradation_best_fits.csv,e00d13a4f8d6f476250b3ffc90eef4dd11a76299ab2f7593f94c4a178e39ac93,2026-03-16T16:08:22.311620+00:00,True
+main_4/outputs/ultimate_load_refocus/residual_refinement/model_comparison.csv,e5de2025726a2f00dd30d21fc921cde7d1d255b5e29ec8028a2f8cc7182df652,2026-03-25T13:24:57.071481+00:00,True
+main_4/outputs/ultimate_load_refocus/residual_refinement/best_model.csv,8838afd4dba1faeeeaabce3c5cb37f6e3fbb5a72551c5a7324706b2723c204cc,2026-03-25T13:24:57.073723+00:00,True

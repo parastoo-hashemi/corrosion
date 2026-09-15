@@ -250,6 +250,46 @@
     "verified": true
   },
   {
+    "claim": "Embedding split counts",
+    "value": [
+      {
+        "split": "test",
+        "rows": 159,
+        "specimens": 10
+      },
+      {
+        "split": "train",
+        "rows": 504,
+        "specimens": 30
+      },
+      {
+        "split": "val",
+        "rows": 129,
+        "specimens": 8
+      }
+    ],
+    "sources": [
+      "main_2/reports/predictions_best_model.csv"
+    ],
+    "method": "Saved prediction membership: train / validation / test; 159 test images from 10 specimens.",
+    "verified": true
+  },
+  {
+    "claim": "Earlier five-class schema",
+    "value": {
+      "1": 493,
+      "2": 51,
+      "3": 38,
+      "4": 77,
+      "5": 133
+    },
+    "sources": [
+      "main_3/outputs/canonical_dataset.csv"
+    ],
+    "method": "Explicitly distinct from the current four-class preparation branch.",
+    "verified": true
+  },
+  {
     "claim": "main_3/outputs/corrosion_regression_metrics.csv per-fold metrics",
     "value": {
       "rows": 80,
@@ -1445,6 +1485,125 @@
     "verified": true
   },
   {
+    "claim": "Refined curve family counts",
+    "value": {
+      "linear": 27,
+      "monotone_isotonic": 21
+    },
+    "sources": [
+      "main_4/outputs/models/degradation/degradation_best_fits.csv"
+    ],
+    "method": "48 selected fits; descriptive rather than physically validated.",
+    "verified": true
+  },
+  {
+    "claim": "Residual-refinement saved comparison",
+    "value": [
+      {
+        "mae_mean": 0.1726017985378546,
+        "mae_std": 0.0465716646064269,
+        "rmse_mean": 0.2138500125672449,
+        "rmse_std": 0.0542632935432198,
+        "r2_mean": 0.6457970092224319,
+        "r2_std": 0.1724239705568467,
+        "spearman_mean": 0.7494695104205708,
+        "spearman_std": 0.2005190436193749,
+        "n_splits": 10,
+        "n_terminal_specimens": 48,
+        "analysis_name": "specimen_summary_residual_refinement",
+        "split_name": "grouped_cv",
+        "feature_set_name": "specimen_metadata_only",
+        "feature_set_label": "specimen-summary metadata-only",
+        "model_name": "Ridge",
+        "n_features": 11,
+        "pipeline_name": "specimen_summary_metadata_baseline",
+        "stage1_model_name": "Ridge",
+        "stage2_model_name": "none",
+        "baseline_mae_mean": NaN,
+        "baseline_rmse_mean": NaN,
+        "baseline_spearman_mean": NaN,
+        "delta_mae_vs_baseline_mean": NaN,
+        "delta_rmse_vs_baseline_mean": NaN,
+        "delta_spearman_vs_baseline_mean": NaN,
+        "delta_mae_vs_baseline": 0.0,
+        "delta_rmse_vs_baseline": 0.0,
+        "delta_spearman_vs_baseline": 0.0,
+        "baseline_status_threshold_kN": 0.0232858323032134,
+        "baseline_comparison_status": "no_meaningful_change"
+      },
+      {
+        "mae_mean": 0.19924482767954,
+        "mae_std": 0.0389483982267494,
+        "rmse_mean": 0.2343312654395965,
+        "rmse_std": 0.0533391813956993,
+        "r2_mean": 0.5759217102892806,
+        "r2_std": 0.1876334021157713,
+        "spearman_mean": 0.756374987982307,
+        "spearman_std": 0.1602915996774135,
+        "n_splits": 10,
+        "n_terminal_specimens": 48,
+        "analysis_name": "specimen_summary_residual_refinement",
+        "split_name": "grouped_cv",
+        "feature_set_name": "mesh_residual_summary",
+        "feature_set_label": "metadata baseline + mesh residual summaries",
+        "model_name": "CatBoost",
+        "n_features": 28,
+        "pipeline_name": "metadata_baseline_plus_mesh_residual_CatBoost",
+        "stage1_model_name": "Ridge",
+        "stage2_model_name": "CatBoost",
+        "baseline_mae_mean": 0.1726017985378546,
+        "baseline_rmse_mean": 0.2138500125672449,
+        "baseline_spearman_mean": 0.7494695104205708,
+        "delta_mae_vs_baseline_mean": 0.0266430291416853,
+        "delta_rmse_vs_baseline_mean": 0.0204812528723515,
+        "delta_spearman_vs_baseline_mean": 0.006905477561736,
+        "delta_mae_vs_baseline": 0.0266430291416853,
+        "delta_rmse_vs_baseline": 0.0204812528723515,
+        "delta_spearman_vs_baseline": 0.0069054775617362,
+        "baseline_status_threshold_kN": 0.0232858323032134,
+        "baseline_comparison_status": "worsened"
+      },
+      {
+        "mae_mean": 0.2558438226513413,
+        "mae_std": 0.0684593686711928,
+        "rmse_mean": 0.3520285268076072,
+        "rmse_std": 0.103359205702253,
+        "r2_mean": 0.0362092692788353,
+        "r2_std": 0.5213721401360459,
+        "spearman_mean": 0.6059005194551955,
+        "spearman_std": 0.1485496037601514,
+        "n_splits": 10,
+        "n_terminal_specimens": 48,
+        "analysis_name": "specimen_summary_residual_refinement",
+        "split_name": "grouped_cv",
+        "feature_set_name": "mesh_residual_summary",
+        "feature_set_label": "metadata baseline + mesh residual summaries",
+        "model_name": "Ridge",
+        "n_features": 28,
+        "pipeline_name": "metadata_baseline_plus_mesh_residual_Ridge",
+        "stage1_model_name": "Ridge",
+        "stage2_model_name": "Ridge",
+        "baseline_mae_mean": 0.1726017985378546,
+        "baseline_rmse_mean": 0.2138500125672449,
+        "baseline_spearman_mean": 0.7494695104205708,
+        "delta_mae_vs_baseline_mean": 0.0832420241134867,
+        "delta_rmse_vs_baseline_mean": 0.1381785142403622,
+        "delta_spearman_vs_baseline_mean": -0.1435689909653753,
+        "delta_mae_vs_baseline": 0.0832420241134867,
+        "delta_rmse_vs_baseline": 0.1381785142403622,
+        "delta_spearman_vs_baseline": -0.1435689909653752,
+        "baseline_status_threshold_kN": 0.0232858323032134,
+        "baseline_comparison_status": "worsened"
+      }
+    ],
+    "sources": [
+      "main_4/outputs/ultimate_load_refocus/residual_refinement/model_comparison.csv",
+      "main_4/outputs/ultimate_load_refocus/residual_refinement/best_model.csv"
+    ],
+    "method": "Metadata-only baseline selected; second-stage corrections worsened MAE.",
+    "verified": true
+  },
+  {
     "claim": "Prepared four-class split inventory",
     "value": [
       {
@@ -1505,7 +1664,7 @@
   {
     "claim": "Timestamp evidence for cited saved scientific outputs",
     "value": {
-      "checked_artifacts": 47,
+      "checked_artifacts": 50,
       "earliest_affected_source_mtime_utc": "2026-04-01T14:58:13.870958+00:00",
       "all_predate": true
     },
@@ -1516,6 +1675,7 @@
       "main/reports/current_corrosion_metrics.csv",
       "main_2/reports/model_comparison.csv",
       "main_2/reports/predictions_best_model.csv",
+      "main_3/outputs/canonical_dataset.csv",
       "main_3/outputs/corrosion_regression_metrics.csv",
       "main_3/outputs/damage_regression_metrics.csv",
       "main_4/outputs/diagnostics/tables/benchmark_best_model_robustness.csv",
@@ -1556,7 +1716,9 @@
       "main_4/outputs/ultimate_load_refocus/correlations/mesh_stratified_corrosion_vs_ultimate_load.csv",
       "main_4/outputs/models/proxy_rul/proxy_rul_estimates.csv",
       "main_4/outputs/models/proxy_rul/proxy_rul_summary.json",
-      "main_4/outputs/models/degradation/degradation_best_fits.csv"
+      "main_4/outputs/models/degradation/degradation_best_fits.csv",
+      "main_4/outputs/ultimate_load_refocus/residual_refinement/model_comparison.csv",
+      "main_4/outputs/ultimate_load_refocus/residual_refinement/best_model.csv"
     ],
     "method": "Filesystem mtimes support chronology, not a cryptographic proof of historical execution or root cause.",
     "verified": true

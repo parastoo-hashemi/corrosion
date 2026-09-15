@@ -1,0 +1,18 @@
+[
+  {
+    "document": "report_v2/thesis/thesis.tex",
+    "pdf": "report_v2/thesis/thesis.pdf",
+    "errors": 0,
+    "unresolved_references": 0,
+    "overfull_boxes": 0,
+    "underfull_boxes": 1
+  },
+  {
+    "document": "report_v2/article/article.tex",
+    "pdf": "report_v2/article/article.pdf",
+    "errors": 0,
+    "unresolved_references": 0,
+    "overfull_boxes": 0,
+    "underfull_boxes": 0
+  }
+]

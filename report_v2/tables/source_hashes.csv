@@ -6,6 +6,7 @@ main_4/outputs/features/image_features.csv,8358ac1133eff40c4ad5be70ed6f2cc0f00b1
 main/reports/current_corrosion_metrics.csv,ba7014b8ce968663ed6cd885c159051cffa95e77ff7ecd842b423523caa6ab90,2026-03-06T22:38:34.740000+00:00
 main_2/reports/model_comparison.csv,58ddb6bed5e6189d6b4b28da4e8bee2ab53b5f801c7748d1643ca7aa53a1cc45,2026-03-07T16:46:06.450000+00:00
 main_2/reports/predictions_best_model.csv,3964d8b586be061744c56319fe216151b6141de038d50b87b3fb4c483ecff0ae,2026-03-07T16:46:06.510000+00:00
+main_3/outputs/canonical_dataset.csv,0185eb4001c1269a0af94f751186a6a38d17e3649e0de30d272144cb2de35e31,2026-03-11T11:05:54.374531+00:00
 main_3/outputs/corrosion_regression_metrics.csv,9c59f84dab8507bb18f1ca1f6746f251ecc30b6089635a1b5c4cc7619af6cd80,2026-03-11T11:30:21.567162+00:00
 main_3/outputs/damage_regression_metrics.csv,3eb39cdf0655b30d707b346834a3ccc462b7418d6a9b315d9e744962d6ff6f6c,2026-03-11T11:30:36.734287+00:00
 main_4/outputs/diagnostics/tables/benchmark_best_model_robustness.csv,a88d75480ff6889043f9013a123496393344777551e2bbc4959ff34a3ce41b9b,2026-03-19T15:52:40.328229+00:00
@@ -47,6 +48,11 @@ main_4/outputs/ultimate_load_refocus/correlations/mesh_stratified_corrosion_vs_u
 main_4/outputs/models/proxy_rul/proxy_rul_estimates.csv,6b9aacc7e01036ed2d5116cd0500c45a8061d02400a551c5cc6a1ff7a4530302,2026-03-16T16:08:53.073164+00:00
 main_4/outputs/models/proxy_rul/proxy_rul_summary.json,42a452a6751b8fa1afcd07a1a314d8722ef43d0cfd9dd69b55340291a8c030f5,2026-03-16T16:08:53.334932+00:00
 main_4/outputs/models/degradation/degradation_best_fits.csv,e00d13a4f8d6f476250b3ffc90eef4dd11a76299ab2f7593f94c4a178e39ac93,2026-03-16T16:08:22.311620+00:00
+main_4/outputs/ultimate_load_refocus/residual_refinement/model_comparison.csv,e5de2025726a2f00dd30d21fc921cde7d1d255b5e29ec8028a2f8cc7182df652,2026-03-25T13:24:57.071481+00:00
+main_4/outputs/ultimate_load_refocus/residual_refinement/best_model.csv,8838afd4dba1faeeeaabce3c5cb37f6e3fbb5a72551c5a7324706b2723c204cc,2026-03-25T13:24:57.073723+00:00
+main/artifacts/manifest.json,eafb1aaf764ae57d26fc3b13b8952d4a7d105fd001c58301e08f785ebd108985,2026-03-06T22:38:43.570000+00:00
+main_4/configs/thresholds.yaml,fbe267c3e4e38e4f2219e6518ce79f69e069bb8742de88d824ad0ff7ee00ad57,2026-03-16T13:09:13.789516+00:00
+main_4/configs/ultimate_load_refocus.yaml,1e8bbb963c098c5691f233d201879eab853e9796ec867366d26458ecdbbe6d4c,2026-04-01T14:58:13.933058+00:00
 Data/splits/train_manifest.csv,97640ba83fcf13d8199f25f85600124adaa3b85c0129a1c408d57cdbdce934d7,2026-06-30T13:37:56.673985+00:00
 Data/splits/val_manifest.csv,1b5ef275bf7210c1847eb500d30af67443cd865cb0297218f7e9840ec66fc706,2026-06-30T13:37:56.674898+00:00
 Data/splits/test_manifest.csv,c504035d18df9423fe7bd9914716844e010cc7f729c612a2b61cd095be742a57,2026-06-30T13:37:56.675333+00:00
@@ -59,7 +65,6 @@ main_2/build_pdf_report.py,6b8a3463ecb0b502c43127991b6ab4358a8cdf3405010aca6db74
 main_3/src/rul/estimator.py,953cbf87a4b7745a7c5724e09efa2cece5be43cf2bb3645acd19a92578d65e1b,2026-04-01T14:58:13.908150+00:00
 main_3/src/data/io.py,5be5cff56fae2ef966ff530c5119ec12df5bf63bc486e05ca9a26c48d7820dae,2026-04-01T14:58:13.877714+00:00
 main_4/configs/features.yaml,35185dab072b1364982734a09e8a50b8ce9c3c1c98ce57a2f14f58a3e34a69b8,2026-04-01T14:58:13.969793+00:00
-main_4/configs/ultimate_load_refocus.yaml,1e8bbb963c098c5691f233d201879eab853e9796ec867366d26458ecdbbe6d4c,2026-04-01T14:58:13.933058+00:00
 main_4/configs/modeling.yaml,6b34309e7c75d5efbd3723cb7a20e47fd702d5ff5aaaaf78b06ff1cd344fafc6,2026-04-01T14:58:13.930014+00:00
 main_4/src/corrosion_proxy_rul/models_hidden_damage.py,3b07a46d976816987af2683acd638f2e16cd60d3607952bf5aadef79af79f239,2026-04-01T14:58:13.870958+00:00
 main_4/src/corrosion_proxy_rul/data_loading.py,d866b8f7e24824d0da39fb6048aabbf6709cb47ad9323c5f2149d9768d939b41,2026-04-01T14:58:13.912328+00:00

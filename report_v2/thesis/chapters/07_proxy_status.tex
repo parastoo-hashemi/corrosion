@@ -1,0 +1,31 @@
+\chapter{Degradation and Threshold-Status Analysis}\label{ch:proxy}
+This chapter answers RQ5 by tracing the source of each quantity in the downstream pipeline. A computationally complete curve-and-threshold workflow is not itself validation of the physical trajectory or of remaining useful life.
+
+\section{Observed, estimated, and derived quantities}
+The photographic time series supplies repeated visible-corrosion observations. The structural model supplies estimated wire-area loss or load at times where no structural test was performed. A curve fitted to such estimates is one further modelling layer. A crossing time derived from that curve and a chosen threshold is another.
+
+For an estimated structural signal $\widehat a_i(t)$, a fitted curve $h_i(t)$, and a threshold $\tau$, a candidate crossing is
+\begin{equation}
+t_i^{\ast}(\tau)=\inf\{t:h_i(t)\geq\tau\}.
+\end{equation}
+A forward interval can be reported only when $t_i^{\ast}$ is later than the last observation and falls within the chosen projection horizon. Crossing before or during observation is a different status. Failure to cross within a finite projection is a model/horizon outcome, not evidence that the real specimen survives indefinitely.
+
+The earlier implementation fitted curves to both measured surface series and estimated structural series. The refined implementation focuses threshold screening on estimated wire-area-loss fraction. These versions differ in signal, thresholds, and horizon; their crossing counts should not be interpreted as a controlled improvement in prognostic accuracy.
+
+\section{Refined saved output}
+The refined curve-selection output contains 48 fits: 27 linear and 21 monotone-isotonic. Smoothness or monotonicity is a modelling constraint, not evidence that the inferred path reproduces the specimen's actual hidden degradation. The structural models were refitted on available structural data before generating these trajectories; the saved degradation inputs are not fully out-of-fold structural predictions.
+
+Table~\ref{tab:thresholds} reports the status of all 144 specimen--threshold combinations for wire-area-loss thresholds 0.20, 0.30, and 0.40 and a 365-day projection horizon. There are zero future crossings at every threshold. Across threshold combinations, 45 are already crossed at baseline, two cross during observation, and 97 do not cross within the horizon. These counts are combinations, not counts of distinct specimens across all thresholds.
+\begin{table}[htbp]\centering
+\caption{Threshold status of model-derived wire-area-loss trajectories for 48 specimens per threshold. Values are counts, not measured failures. Thresholds are fractions expressed here as percentages. ``Not crossed'' means within the configured 365-day projection horizon; the term does not imply a validated survival observation. Future crossing count is zero at all thresholds.}\label{tab:thresholds}
+\input{\shared/tables/threshold_summary.tex}
+\end{table}
+\fig{threshold_status}{1}{Refined threshold-status distribution from estimated wire-area-loss trajectories. Each horizontal bar contains 48 specimens at one exploratory threshold. Crossings already present at baseline and during observation are retained, while no crossing is forecast after the last observation within the 365-day horizon. Grey cases do not cross within that model horizon. These are downstream model statuses, not observed structural failures or calibrated survival outcomes.}{fig:thresholds}
+
+\section{Why this is not validated prognosis}
+Neither the inferred structural paths nor the threshold meanings have independent longitudinal validation. Refitting on all terminal measurements creates an optimism risk if subsequent trajectories are read as out-of-sample predictions. Replacing those inputs with held-out estimates would address part of that information-flow problem, but would not validate an intermediate structural path or establish that the selected thresholds define service-life failure.
+
+The baseline-crossed cases are particularly diagnostic. Some estimated wire-loss levels are high before substantial visible corrosion is recorded, which motivates a physical-plausibility review. This is an unresolved diagnostic concern, not an experimentally established explanation of each baseline crossing. The correct response is to inspect the model and measurement chain, not to recast baseline crossing as zero remaining useful life.
+
+\section{Contribution of the downstream analysis}
+The useful output is an explicit account of signal provenance, fitting assumptions, and crossing status. It makes the dependence on structural estimates visible and demonstrates where validation data are missing. It supports methodological development and diagnostic screening of the computational chain. It does not supply a validated prognostic score or an operational maintenance interval. The discussion now integrates this boundary with the surface and capacity findings.

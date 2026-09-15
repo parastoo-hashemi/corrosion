@@ -1,0 +1,51 @@
+\documentclass[11pt,a4paper,oneside]{report}
+\usepackage[a4paper,margin=27mm,headheight=14pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage{microtype,graphicx,booktabs,array,longtable,tabularx}
+\usepackage{enumitem,placeins,xcolor,fancyhdr,xurl}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue!45!black]{hyperref}
+\newcommand{\shared}{..}
+\newcommand{\draftversion}{Version 1}
+\newcommand{\ppts}{percentage points}
+\newcommand{\fig}[4]{\begin{figure}[htbp]\centering\includegraphics[width=#2\linewidth]{\shared/figures/#1.pdf}\caption{#3}\label{#4}\end{figure}}
+\setlength{\parskip}{3pt}
+\setlist{itemsep=3pt,topsep=4pt}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\nouppercase{\leftmark}}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{.3pt}
+\hypersetup{pdftitle={What corrosion photographs can support: surface assessment and terminal capacity in ferrocement},pdfauthor={Parastoo Hashemi Alvar}}
+\begin{document}
+\pagenumbering{roman}
+\begin{titlepage}
+\centering
+{\large POLITECNICO DI TORINO\par}\vspace{24mm}
+{\large MSc Technical Activity\par}\vspace{8mm}
+{\Huge\bfseries What Corrosion\par Photographs Can Support\par}\vspace{9mm}
+{\Large Surface assessment, terminal capacity,\par and the limits of inference in ferrocement\par}\vspace{21mm}
+{\Large Parastoo Hashemi Alvar\par}\vfill
+{\large Thesis-style manuscript\par}\vspace{3mm}
+{\draftversion\quad |\quad 16 September 2026\par}\vspace{8mm}
+\begin{minipage}{.8\textwidth}\small\centering
+A synthesis and re-verification of saved modelling experiments on a predecessor experimental dataset. Prepared for scientific review; programme-specific submission metadata and approval are not asserted.
+\end{minipage}
+\end{titlepage}
+\input{chapters/00_abstract}
+\tableofcontents\listoffigures\listoftables
+\clearpage\pagenumbering{arabic}
+\include{chapters/01_introduction}
+\include{chapters/02_background}
+\include{chapters/03_dataset}
+\include{chapters/04_methods}
+\include{chapters/05_surface_results}
+\include{chapters/06_structural_results}
+\include{chapters/07_proxy_status}
+\include{chapters/08_discussion}
+\include{chapters/09_limitations}
+\include{chapters/10_status_conclusions}
+\appendix
+\include{chapters/11_reproducibility}
+\bibliographystyle{IEEEtran}
+\bibliography{\shared/references/references}
+\end{document}

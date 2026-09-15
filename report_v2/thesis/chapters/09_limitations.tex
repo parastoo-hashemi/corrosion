@@ -1,0 +1,37 @@
+\chapter{Limitations and Threats to Validity}\label{ch:limitations}
+The limitations are part of the central result because they determine which uses the evidence can support. This chapter groups them by the part of the inference chain they constrain.
+
+\section{Experimental design and independent sample size}
+There are only 48 independent specimens and two campaigns. Repeated photographs improve the visual record but do not increase the structural sample size. Mesh, chloride, and terminal duration are aligned with campaign, preventing identification of their separate effects in the pooled data. Treatment variation remains, but small and uneven groups further restrict transfer evaluation.
+
+The specimens and laboratory photography do not represent a sampled population of in-service structures. The study does not estimate performance under changes in camera, illumination, cementitious substrate, construction history, or field exposure. An additional random split of the same observations would not establish those forms of validity.
+
+\section{Labels and measurement meaning}
+Visible-rust labels and image descriptors may be closely aligned by construction or measurement procedure. The observed near-identity for total rust limits claims of independent predictive discovery. Exact equivalence of the historical image-processing recipe was not established. The current reconstruction also cannot recover every undocumented predecessor preprocessing choice.
+
+Wire-area loss concerns a selected cross-sectional measurement, not a fully observed internal-damage field. Ultimate load is a terminal structural outcome. Both are measured once per specimen, and neither supplies time-varying structural ground truth. The fraction-versus-percent convention must remain explicit. Category schemas differ between historical builds, so apparent classification improvements across them are not interpretable as controlled gains.
+
+\section{Evaluation, selection, and statistical uncertainty}
+Specimen-disjoint splits prevent a direct overlap of specimen histories, but they do not remove campaign confounding, target-adjacent features, or selection bias. Earlier image-fallback and imputation procedures are historical implementation limitations rather than evidence that all preprocessing was fitted independently in every old benchmark. The focused capacity implementation fits its preprocessing within training folds.
+
+Per-family model selection and reporting use the same evaluation folds. No untouched external confirmation set validates the selected structural pipeline. Fold standard deviations describe variation over dependent splits; they are not sampling confidence intervals. Small within-mesh test sets make $R^2$ and rank correlation unstable, and a mean over folds can hide asymmetric campaign or treatment failures.
+
+A negative mean $R^2$ is evidence of poor performance under that score and partitioning, not a theorem that every prediction is useless. Conversely, moderate pooled MAE does not establish calibration, useful ranking within a subgroup, or adequate performance for a structural decision.
+
+\section{Prediction time and structural modelling}
+The primary load experiment scores terminal images, so it does not quantify a fixed lead time before testing. Training with repeated terminal labels is a legitimate formulation only when the target is stated as eventual terminal load. It is not supervision for current capacity at every photographed time.
+
+The row-level training objective gives more influence to specimens with more retained images. A separate specimen-summary experiment partly addresses the representation issue, but is not a general proof that this weighting is harmless. Metadata definitions include design, treatment, and exposure information; the availability and measurement timing of each field in a future deployment need independent assessment.
+
+\section{Degradation and threshold screening}
+Structural trajectories are model-generated and partly informed by refits to terminal data. Their fitted smoothness is not validated physical degradation. Threshold choices are exploratory, and no lifetime-event labels validate threshold crossing as failure. Zero future crossings must not be shortened to zero crossings: many combinations are already crossed at baseline or during observation. Model-horizon non-crossing is not an observed right-censored survival outcome.
+
+\section{Four-class classification branch}
+The branch is prepared but untrained. Its severe class imbalance and small validation/test specimen counts remain unresolved performance issues. Augmented images share information with their originals and do not create independent specimens. The manifests protect specimen separation and keep validation/test originals unaugmented, but these properties alone do not establish classifier accuracy or robustness.
+
+\section{Software and reproducibility}
+Two current issues constrain model regeneration: unquoted YAML \texttt{NO} becomes boolean false for the no-treatment group, and numeral/word substitutions involving \texttt{main\_first} remain in source and configuration files. The cited saved modelling outputs predate the affected source modification timestamps, supporting the historical-output interpretation. Modification times do not establish the exact historical executable, root cause, or freedom from all earlier errors.
+
+The present rebuild reproduces aggregation and figures from saved data and checks immutable-report hashes. It does not claim push-button reproduction of the historical training. Historical hardware, exact package environments, and full compute budgets are not consistently archived. These constraints are documented with concrete source paths in Appendix~\ref{app:reproduction}.
+
+Taken together, the limitations support a focused scientific conclusion rather than an operational predictor. The final chapter states what is completed, what remains prepared, and what additional evidence each stronger claim would require.

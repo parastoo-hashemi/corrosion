@@ -1,0 +1,40 @@
+\chapter{Dataset and Experimental Context}\label{ch:data}
+The meaning of every result depends on what was measured and when. This chapter establishes the specimen, campaign, and supervision structure before any model score is considered.
+
+\section{Experimental units and alignment}
+The current aligned dataset contains 791 photographic observations from 48 physical specimens. The raw archive contains 792 PNG files; one is unreadable. Independent archive verification reproduced the saved readability audit. Specimens have 15--18 retained observations, with a median of 16, across an overall range of weeks 0--36. These observations span 25 distinct week values, reflecting the combined schedules rather than a common uniformly sampled sequence.
+
+The experimental unit for structural inference is the specimen. Images of one specimen share design, exposure, surface characteristics, and the eventual destructive test. Counting each image as an independent structural sample would overstate the information available.
+
+\fig{dataset_supervision}{1}{Dataset and supervision structure on the current aligned basis. There are 791 readable photographs across 48 specimens. Visible total-rust and peak-rust labels accompany repeated observations; wire-area loss and ultimate load are each measured once per specimen at terminal testing. Arrows summarize acquisition and label availability, not a causal model. Counts are reproduced from the saved aligned table.}{fig:supervision}
+
+\section{Campaign design and confounding}
+There are two campaigns with 24 specimens each. Table~\ref{tab:design} records the observed combinations of the main design and exposure variables. Treatment protocols vary within campaigns, so these are two campaign-level combinations of selected factors, not two identical sets of specimens.
+\begin{table}[htbp]\centering
+\caption{Observed campaign-level design combinations for all 48 specimens. Mesh count, chloride concentration, and terminal exposure do not vary independently across campaigns. Exposure days here are derived from the recorded terminal week; they are not a claim about failure time.}\label{tab:design}
+\begin{tabular}{lrrrr}\toprule
+Campaign & Specimens & Mesh layers & NaCl (\%) & Terminal week (days)\\\midrule
+1 & 24 & 7 & 3.5 & 28 (196)\\
+2 & 24 & 4 & 5.0 & 36 (252)\\\bottomrule
+\end{tabular}
+\end{table}
+No observation combines the first campaign's mesh count with the second campaign's chloride and duration. A predictor using any of these factors can therefore identify the same broad division of the dataset. Their separate causal contributions cannot be recovered from their pooled associations in this design.
+
+\section{Targets and units}\label{sec:targets}
+\textbf{Visible total rust} is the recorded fraction of the inspected surface expressed in percent. \textbf{Peak rust} describes the most affected local region, also expressed in percent. They are distinct targets: a feature aligned with total coverage does not automatically establish the same numerical identity with the peak label.
+
+\textbf{Wire-area loss} is a terminal cross-sectional measurement reported as a fraction in the current aligned table. The workbook's percentage-like column name is misleading: multiplying the stored fraction by 100 produces percent. Comparisons with an earlier representation that uses percentage units require this conversion. MAE of a fraction and MAE in percentage points must not be placed on the same numerical scale without it.
+
+\textbf{Ultimate load} is the terminal maximum load from bending, expressed in kilonewtons. The predecessor thesis describes four-point bending after ageing and the microscopic examination of a selected longitudinal wire layer near the crack surface \citep[secs.~4.2.2.3, 4.2.3, and 5.2.1]{hossain_thesis}. Both wire-area loss and load are directly measured terminal endpoints. Neither provides a repeated measurement of structural state through exposure.
+
+\section{Supervision asymmetry and target reuse}
+All retained image observations have the visible targets, whereas only 48 rows carry each measured structural endpoint. These structural rows coincide with the terminal observation for each specimen. There is no observed service-life endpoint, longitudinal structural trajectory, or time-to-failure supervision.
+
+The later capacity workflow joins the terminal load back onto earlier images of the same specimen for training. This is a target assignment for a supervised experiment, not an additional physical measurement. The assigned label always means eventual terminal load; it must not be read as the specimen's measured capacity at the image's earlier time.
+
+\section{Dataset versions and classification balance}
+Earlier modelling generations retained a 792-row basis and used fallback or imputed image features for the unreadable image. The current basis excludes that observation. Historical categorical schemas also differ: an earlier interpretable phase uses five categories, while the current total-rust schema has four. Consequently, historical classification metrics are not transferable to the current branch.
+
+The current total-rust class counts are 658, 99, 20, and 14 for classes 1--4. This imbalance remains a design consideration even after uniform augmentation: generating the same number of transformed copies per original does not increase the number of independent specimens or equalize class frequencies. Chapter~\ref{ch:status} reports the actual retained split inventory.
+
+The dataset supports a strong description of visible condition and a bounded evaluation of terminal endpoints. The next chapter explains how evaluation regimes preserve the specimen unit while changing the population being tested.
