@@ -1,0 +1,163 @@
+\chapter{Conclusions and Next Steps}
+\label{ch:conclusions}
+
+This chapter closes the report by returning explicitly to the research
+questions posed in Chapter~\ref{ch:introduction}, stating the activity's
+overall scientific conclusion, and setting out what should be done next.
+It is a synthesis, not a further results chapter: no new evidence is
+introduced here, and every claim below is a restatement, at a bounded
+level of confidence, of a conclusion already established in
+Chapters~\ref{ch:activities}--\ref{ch:status}.
+
+\section{Answers to the Research Questions}
+\label{sec:conclusions-rq}
+
+\textbf{RQ1 (visible-corrosion estimation).} Visible surface corrosion is
+the strongest and most consistently learnable image-based quantity in the
+available dataset, reached with useful accuracy by three distinct
+representations in turn (Chapter~\ref{ch:activities}). This should not be
+read as unqualified: a total-rust benchmark in particular carries a
+label-adjacency risk that peak-rust benchmarks do not
+(Chapter~\ref{ch:results}), and campaign-level visible-corrosion
+robustness is supported across both later phases, whereas treatment-level
+behaviour is phase-dependent rather than uniformly robust or uniformly
+fragile (Chapter~\ref{ch:interpretation}). The conclusion is bounded to
+this dataset and these representations, not a claim of universal
+generalisation.
+
+\textbf{RQ2 (hidden structural condition).} Structural inference is
+substantially weaker and far less transferable than visible-corrosion
+estimation. The weaker structural results must be interpreted in light of
+the sparse, terminal, and campaign-confounded supervision available for
+those targets: structural labels are one measurement per specimen, while
+visible-corrosion labels are dense and repeated
+(Chapter~\ref{ch:introduction}, Chapter~\ref{ch:dataset}). One
+implementation's structural models are mixed-input; a later
+implementation's final, robustness-weighted structural selections use
+metadata alone; and campaign-holdout evaluation exposes severe transfer
+limitations in both (Chapter~\ref{ch:results}). None of this establishes
+that no physical relationship exists between surface corrosion and
+structural capacity — only that this dataset and design do not isolate one
+robustly (Chapter~\ref{ch:interpretation}). The available experiments do
+not isolate the relative contribution of data limitations, image
+information, and model representation to this weakness.
+
+\textbf{RQ3 (incremental image value for terminal ultimate load).} Under
+the pooled setting actually tested, images did not provide reliable
+incremental predictive value beyond specimen and exposure metadata
+(Chapter~\ref{ch:activities}, Chapter~\ref{ch:results}). A post-onset
+analysis showed a limited improvement in some metrics once corrosion had
+visibly progressed, but it did not overturn the pooled result, and
+neither subgroup nor campaign-transfer evidence was strong enough to
+support a general claim that images add value. This conclusion is specific to the terminal
+ultimate-load target and the feature representations tested, not a
+general statement about image value elsewhere in the project.
+
+\textbf{RQ4 (evaluation robustness).} Which evaluation regime is used
+materially changes what can be claimed. A grouped specimen holdout is
+useful for estimating generalisation to unseen specimens within the
+observed design mixture, but is insufficient on its own to support a
+transfer claim. Leave-one-campaign-out is especially revealing for
+structural targets, but because campaign identity is entangled with mesh
+configuration, chloride level, and exposure duration in this dataset, it
+is better understood as an extrapolative stress test than as an ordinary
+estimate of future deployment performance
+(Chapter~\ref{ch:dataset}, Chapter~\ref{ch:results}). Treatment-level
+fragility in visible-corrosion estimation is a genuine finding in one
+implementation but is not reproduced in another, and should be treated as
+phase-specific rather than a settled, project-wide property
+(Chapter~\ref{ch:results}, Chapter~\ref{ch:interpretation}).
+
+\textbf{RQ5 (degradation and proxy-RUL).} The activity produced a working
+methodological and diagnostic threshold-screening pipeline, not a
+validated remaining-life prediction method. Its structural inputs are
+model-derived trajectories, not measurements; no true remaining-useful-life
+supervision exists anywhere in the dataset; and the refined pipeline
+configuration's own output shows zero \emph{future} threshold crossings —
+not zero crossings overall, since many cases are already crossed at
+baseline or during observation
+(Chapter~\ref{ch:results}, Chapter~\ref{ch:interpretation}). Its
+structural inputs are not yet drawn from out-of-fold predictions
+(Chapter~\ref{ch:engineering}), which further limits how the resulting
+trajectories should be read.
+
+\section{Overall Scientific Conclusion}
+\label{sec:conclusions-overall}
+
+The activity began with a broad question: how much can be recovered about
+a ferrocement specimen's condition from its repeated corrosion imagery
+alone? The evidence gathered across this report answers that question with
+a hierarchy of confidence rather than a single number. Visible surface
+condition is the quantity most reliably recovered from images. Hidden
+structural inference is markedly weaker, a result that is consistent
+with — and must be interpreted in light of — its sparse and
+campaign-confounded supervision, though the available evidence does not
+isolate how much of that weakness is attributable to the supervision
+itself as opposed to the image information or model representations used.
+Longitudinal degradation and proxy-RUL screening sit
+furthest from direct observation and carry correspondingly the least
+evidential weight, remaining exploratory and dependent on the model
+estimates beneath them (Chapter~\ref{ch:interpretation}).
+
+The central lesson this activity supports is not that one model
+outperformed another. It is that how strong a claim can legitimately be
+made is jointly determined by how directly the target is observable, how
+densely it is supervised, where the label itself came from, whether a
+metadata-only baseline was checked before crediting an image, and which
+evaluation regime was used to test the result. Read against that lesson,
+the project's later decision to refocus the structural research question
+away from a sparse, multiply-derived hidden-damage estimate and toward
+terminal ultimate load — one of the two structural quantities measured
+directly, for every specimen, at a single defined timepoint, and the one
+selected for this analysis — was a scientifically sound narrowing of
+scope, not a retreat: it exchanged a harder-to-validate question for a
+more bounded, directly testable one, and answered it plainly.
+
+\section{Next Steps}
+\label{sec:conclusions-next}
+
+Future work falls into three levels, kept explicitly distinct.
+
+\textbf{Immediate research step — prepared, not yet trained.} The
+four-class visible-corrosion classification branch has complete,
+leakage-safe data preparation but no trained model. The recommended path
+is a simple baseline first, with any more complex convolutional or
+transformer architecture attempted only once that baseline exists;
+validation and test partitions must remain specimen-disjoint and the test
+partition untouched until a single final evaluation; and class-sensitive
+metrics, not overall accuracy, should be reported given the severity of
+the class imbalance (Chapter~\ref{ch:status}).
+
+\textbf{Methodological refinement with existing data — recommended, with
+key items still incomplete.} Regenerating degradation inputs from genuinely out-of-fold
+structural predictions, checking the physical plausibility of baseline
+structural estimates, completing the project's model and feature-artifact
+contracts, and repairing the two live reproducibility issues identified in
+Chapter~\ref{ch:engineering} are all achievable without new data. None of
+this would, on its own, make any remaining-useful-life claim validated;
+it would only make the existing exploratory pipeline more transparent and
+easier to audit.
+
+\textbf{Data required for stronger scientific claims — a future
+requirement, not scheduled work.} The evidence gap this report has
+identified is ultimately a data gap, not a modelling gap. Materially
+stronger structural or prognostic claims would require additional
+independent campaigns, experimental design factors decoupled from
+campaign identity, more structural-labelled specimens, repeated structural
+measurements over time rather than a single terminal one, and — if
+remaining-useful-life is ever to be a directly supervised objective —
+observed lifetime or failure-event data. No degree of model refinement
+applied to the present dataset can substitute for this missing
+supervision.
+
+\section{Closing Statement}
+\label{sec:conclusions-closing}
+
+This activity does not deliver a deployment-ready predictor of structural
+condition or remaining service life, and it was not positioned to. What it
+does deliver is a progressively more rigorously evaluated account of what
+repeated corrosion imagery, in this specific experimental setting, can and
+cannot support — where the evidence is strong, where it is genuinely
+uncertain, and why — together with a progressively more reproducible and
+source-traceable basis on which the next modelling and experimental steps
+can be built.

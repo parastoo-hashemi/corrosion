@@ -1,0 +1,156 @@
+\chapter{Limitations}
+\label{ch:limitations}
+
+This chapter states the limitations of the evidence and implementation
+underlying Chapters~\ref{ch:activities}--\ref{ch:interpretation}, organised
+by category rather than by project phase. It does not re-run the results
+chapter: each item below is stated once, concisely, with a pointer to
+where it was established, and the consequence for what the report can and
+cannot claim.
+
+\section{Dataset and Experimental-Design Limitations}
+\label{sec:lim-dataset}
+
+Every result in this report ultimately rests on 48 physical specimens
+tested across only two experimental campaigns, within which steel-mesh
+configuration, chloride concentration, and terminal ageing duration
+co-vary almost perfectly (Section~\ref{sec:confounding}). Structural
+supervision is available at a single terminal timepoint per specimen, with
+no repeated or intermediate structural measurement and no observed
+failure-event time (Section~\ref{sec:structural-supervision}). The
+photographic record covers external surface appearance only; nothing in
+the dataset directly measures internal or subsurface condition at any
+non-terminal timepoint. Treatment groups are uneven in size, from two
+specimens in the smallest protocol to eighteen in the largest
+(Table~\ref{tab:campaign-design}). Together, these properties bound every
+downstream claim about structural condition, degradation, or transfer
+across campaigns or treatments to what a two-campaign, 48-specimen design
+can support — a limitation of the physical experiment this project
+inherited, not of the modelling choices made within it.
+
+\section{Label and Target Limitations}
+\label{sec:lim-labels}
+
+Visible-corrosion labels are manually assigned quantities
+(Section~\ref{sec:data-modalities}), not an independent instrumental
+ground truth, and two independent findings show that a benchmark built
+against them can be label-adjacent rather than purely image-driven: the
+classical baseline's peak-rust prediction is dominated by a rust-mask
+feature closely aligned with the label (Section~\ref{sec:phase1}), and the
+robustness-quantification phase's total-rust benchmark uses a feature
+correlated with its label at Spearman $\rho=0.9996$
+(Section~\ref{sec:phase4a}). The category schema used for the two
+severity targets differs between dataset builds — five ordinal levels
+historically, four currently (Table~\ref{tab:category-schema}) — a
+genuine version difference in the underlying workbook, not a data-quality
+error, but one that prevents any five-class and four-class classification
+result from being compared directly. Proxy-RUL thresholds (wire-loss
+percentages, a load ratio, a composite health-index cutoff, or the refined
+pipeline's single-series thresholds) are engineering screening choices,
+not values derived from an independently validated failure criterion
+(Section~\ref{sec:proxy-rul}), and no ground-truth remaining-useful-life
+value exists anywhere in the dataset against which any of them could be
+checked.
+
+\section{Generalisation Limitations}
+\label{sec:lim-generalisation}
+
+A grouped specimen holdout answers a narrower question than transfer to a
+new treatment or campaign (Section~\ref{sec:grouped-holdout}), and
+leave-one-campaign-out in this dataset is better understood as a severe
+extrapolation stress test than as an estimate of ordinary future
+performance, given how completely campaign identity is entangled with the
+principal design variables (Section~\ref{sec:loco}). Treatment-level
+(leave-one-treatment-out) behaviour for visible-corrosion targets is not a
+settled project-wide property: it is a genuine failure mode in the
+interpretable-feature phase and is not reproduced in the
+robustness-quantification phase's own treatment-holdout evaluation
+(Section~\ref{sec:results-visible}), and the report does not know why.
+Within-mesh subgroup analyses are based on only twenty-four specimens per
+group (Section~\ref{sec:phase4b}), which limits how much confidence any
+single subgroup result — positive or negative — can carry on its own.
+
+\section{Structural-Modelling Limitations}
+\label{sec:lim-structural}
+
+Every structural claim in this report is built on 48 labelled specimens
+(Section~\ref{sec:lim-dataset}); no amount of downstream modelling
+sophistication changes this. The interpretable-feature phase's structural
+models are mixed-input — metadata, manually assigned corrosion labels, and
+image descriptors together, not image-only
+(Section~\ref{sec:phase3-structural}) — while the robustness-quantification
+phase's final, robustness-weighted selections use metadata alone
+(Section~\ref{sec:results-structural}); no phase in this project has
+produced a robustness-weighted structural model shown to rely on image
+input. The degradation stage's structural estimates remain in-sample
+refits rather than out-of-fold predictions (Section~\ref{sec:eng-contracts}),
+so no validated longitudinal structural state exists at any non-terminal
+week for any specimen — every such value in the dataset is model-derived,
+not measured (Table~\ref{tab:quantity-availability}). As established in
+Chapter~\ref{ch:interpretation}, this bounds what can be inferred to
+predictive identifiability from this specific dataset; it does not bound,
+and this report does not claim to bound, whether a physical relationship
+between surface corrosion and structural capacity exists.
+
+\section{Prognostic / Proxy-RUL Limitations}
+\label{sec:lim-rul}
+
+No true remaining-useful-life supervision exists in this dataset
+(Section~\ref{sec:proxy-rul}), and this report's use of "proxy-RUL"
+throughout is a deliberate, consistently applied qualification of that
+fact. Every threshold used to derive a proxy-RUL or threshold-status value
+is a screening assumption, not a validated failure criterion
+(Section~\ref{sec:lim-labels}). Many specimens are already past the
+relevant threshold at their first observation in the refined pipeline's
+own accounting, and that same pipeline's own output shows \emph{zero
+future} threshold crossings across every tested case — not zero crossings
+overall, since baseline- and during-observation-crossed cases are common
+(Section~\ref{sec:results-degradation}). No out-of-fold structural
+trajectory feeds either generation of the degradation model
+(Section~\ref{sec:eng-contracts}), and no validation exists against an
+observed future failure or a repeated structural measurement of any
+specimen. None of this makes the pipeline useless: as
+Chapter~\ref{ch:interpretation} establishes, its value is methodological
+and diagnostic — it clarifies exactly what data a validated version would
+require — and that value is independent of, and unaffected by, its not
+being a validated prognostic method.
+
+\section{Current Classification-Branch Limitations}
+\label{sec:lim-classification}
+
+The four-class severity schema is severely imbalanced, with the majority
+class accounting for over four-fifths of images
+(Table~\ref{tab:data-modalities}). No classifier has been trained,
+compared, or evaluated on this data at the time of writing
+(Section~\ref{sec:phase5}), so no accuracy, macro-F1, or confusion-matrix
+result exists to limit. Uniform six-fold augmentation increases the
+absolute amount of training data without changing the relative class
+proportions, and does not by itself address the imbalance
+(Section~\ref{sec:phase5}). Because no model has been trained, performance
+on held-out or external data is entirely unknown; this report does not
+speculate about the accuracy a ResNet-50 or Vision Transformer
+architecture might achieve, since neither has been implemented for this
+task.
+
+\section{Software and Reproducibility Limitations}
+\label{sec:lim-software}
+
+Stated briefly here and detailed in Chapter~\ref{ch:engineering}, to which
+this section defers rather than repeats: a live YAML boolean-parsing bug
+and a broader "1"/"first"~$\rightarrow$~"main\_first" string-substitution
+pattern currently prevent an unmodified rerun of several \texttt{main\_4}
+pipeline stages (Section~\ref{sec:eng-schema}); \texttt{main\_4} has no
+exported dependency specification (Section~\ref{sec:eng-evolution}); and
+two of the five artifact-contract improvements the project's own
+documentation recommends remain unimplemented
+(Section~\ref{sec:eng-contracts}). These are reproducibility limitations
+of the current source tree, not limitations of the scientific evidence
+itself: the saved scientific-output artifacts from the affected
+\texttt{main}--\texttt{main\_4} pipeline generations that underpin the
+regression, structural, degradation, and robustness results reported here
+were generated before the earliest observed source-corruption timestamp
+(Section~\ref{sec:eng-schema}) and remain valid on that basis. The later
+\texttt{augmentation} branch, which underpins the four-class
+classification data preparation, is independently confirmed unaffected by
+this corruption (Section~\ref{sec:eng-schema}) and is not part of this
+claim.

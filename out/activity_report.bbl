@@ -1,0 +1,24 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Hossain(2025)]{hossain_thesis}
+Md~Al~Amin Hossain.
+\newblock Automated image analysis techniques for assessing the corrosion in
+  historical cementitious composites: An experimental analysis of ferrocement
+  samples.
+\newblock Master's thesis, Politecnico di Torino, 2025.
+
+\bibitem[Sorrentino et~al.(2025)Sorrentino, Melchiorre, Hossain, Lenticchia,
+  and Tondolo]{artiste2025}
+Gerardo Sorrentino, Jonathan Melchiorre, Md~Al~Amin Hossain, Erica Lenticchia,
+  and Francesco Tondolo.
+\newblock {AI}-driven corrosion estimation in ferrocement for structural health
+  monitoring.
+\newblock In \emph{Proceedings of the ARTISTE 2025 Conference}, Turin, Italy,
+  2025.
+
+\end{thebibliography}

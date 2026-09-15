@@ -1,0 +1,339 @@
+\chapter{Scientific Interpretation and Research Decisions}
+\label{ch:interpretation}
+
+Chapter~\ref{ch:activities} described what was built; Chapter~\ref{ch:results}
+established what the integrated evidence shows. This chapter asks what
+those findings mean scientifically, and why they justified the major
+research decisions the project actually took. It does not repeat the
+chronological narrative or the metric-by-metric synthesis of the two
+preceding chapters; results are cited by reference, briefly, only where a
+specific number is the direct subject of an interpretive claim. This
+chapter distinguishes throughout between what the evidence supports
+observing and what may be inferred from it, and prefers hedged language
+("is consistent with," "suggests," "cannot distinguish between") to
+causal claims wherever a causal mechanism is not established by the
+project's or the predecessor's own documentation.
+
+\section{From Visible Corrosion to Structural Condition: An Evidence Hierarchy}
+\label{sec:interp-hierarchy}
+
+The project's successive research questions form an evidence hierarchy,
+not a sequence of independent tasks — and not a literal universal
+computational pipeline in which each stage is generated exclusively from
+the stage immediately above it. Figure~\ref{fig:evidence-hierarchy} sets
+this out as a ladder of increasing inferential distance from directly
+observed quantities, decreasing supervision density, and increasing
+dependence on modelling assumptions; actual feature inputs at each stage
+are phase-dependent, not fixed by the ladder position alone. Direct
+observations and labels — images, visible-corrosion labels, and
+specimen/exposure metadata — sit at the top, densely available for nearly
+every observation (Section~\ref{sec:data-modalities}). Image
+representations and image-based estimates are computed from these
+observations. Hidden structural condition is a model's estimate, fit on 48
+terminal measurements and applied to weeks at which no structural
+measurement exists (Section~\ref{sec:structural-supervision}); its actual
+inputs vary by phase rather than depending on the image-
+representation tier alone — the interpretable-feature phase's structural
+models are mixed-input (metadata, manually assigned corrosion labels, and
+image descriptors together), while the robustness-quantification phase's
+final selections use metadata only (Section~\ref{sec:results-structural}).
+Degradation trajectories are curves fitted to those estimated, not
+measured, series (Section~\ref{sec:phase3-degradation}). Proxy-RUL is a
+threshold-crossing time read off an extrapolation of one of those fitted
+curves (Section~\ref{sec:proxy-rul}).
+
+\begin{figure}[htbp]
+\centering
+\resizebox{0.85\textwidth}{!}{\input{figures/fig_6_1_evidence_hierarchy.tex}}
+\caption{Conceptual report schematic (not a measured result). Position in
+the ladder reflects increasing inferential distance from directly observed
+quantities, decreasing supervision density, and increasing dependence on
+modelling assumptions — not a universal computational dependency in which
+each stage is generated solely from the stage immediately above it; actual
+feature inputs are phase-dependent, as discussed in the surrounding text.
+This illustrates why evidential confidence decreases downstream, not that
+downstream estimation is impossible.}
+\label{fig:evidence-hierarchy}
+\end{figure}
+
+This hierarchy is offered as an organising explanation for a pattern
+already established in Chapter~\ref{ch:results}: results become
+progressively less robust and more heavily qualified moving down it.
+That pattern is consistent with supervision becoming sparser and model
+dependence compounding at each step; it is not, on its own, proof that any
+particular downstream quantity cannot in principle be estimated more
+reliably with different data or methods. The distinction matters for how
+the rest of this chapter should be read: each section below interprets why
+the evidence looks the way it does, without treating the hierarchy itself
+as an argument for impossibility.
+
+\section{Why Visible Corrosion Was the Strongest Image-Based Task}
+\label{sec:interp-visible}
+
+Three independent phases, using unrelated representations (a fixed colour
+threshold, a frozen deep embedding, and an explicitly engineered
+multi-family feature set), each reached useful grouped-holdout accuracy
+for a visible-corrosion target (Section~\ref{sec:results-visible}). This
+consistency across unrelated representations is consistent with the
+underlying task being genuinely well suited to image-based estimation:
+corrosion is a surface phenomenon that manifests directly in the
+photographic record, and it is the one target family labelled at the same
+fine time resolution as the images themselves
+(Section~\ref{sec:data-modalities}), giving every phase far more
+supervision to learn from than any structural target could offer.
+
+This should not, however, be read as a uniform success story. Peak rust
+provides more meaningful independent evidence of genuine image-driven
+estimation than the total-rust benchmarks do, precisely because two
+separate phases independently found total/current rust predictions
+dominated by a feature closely aligned with, or nearly identical to, the
+label itself (Section~\ref{sec:results-visible}). The lesson this
+supports is specific and worth stating plainly: high predictive accuracy
+is not sufficient evidence of a learned visual concept if the dominant
+feature substantially reconstructs the target's own definition. This
+chapter treats that lesson as a general one, applicable beyond the two
+cases in which it was directly observed, not as a defect specific to
+those two phases. Robustness, similarly, does not transfer uniformly:
+campaign-level robustness for visible corrosion is a replicated finding,
+while treatment-level robustness is not
+(Section~\ref{sec:results-robustness}). The difference may partly reflect
+changes in treatment-group definition, size, or composition between the
+two implementations; the available evidence establishes the disagreement
+itself, not its mechanism, and does not rule out the visual task as a
+contributor.
+
+\section{Why Structural Inference Was Harder}
+\label{sec:interp-structural}
+
+Hidden structural condition differs from visible corrosion along every
+axis identified in Chapter~\ref{ch:dataset}: it is measured once per
+specimen rather than repeatedly, at a single terminal timepoint rather
+than throughout the observation period, for only 48 specimens rather than
+791 observations (Section~\ref{sec:structural-supervision}). This sparse,
+single-timepoint supervision is a major limitation consistent with the
+observed instability of structural models relative to visible-corrosion
+models, independent of any claim about the images themselves. It is
+compounded by the experimental design's near-perfect alignment of
+campaign identity with steel-mesh configuration, chloride concentration,
+and ageing duration (Section~\ref{sec:confounding}): a model trained on
+all 48 rows has, in effect, only two campaign-level combinations of the
+principal design variables (mesh configuration, chloride level, and
+terminal duration) to learn from — treatment variation still exists within
+each campaign — and evaluating it under leave-one-campaign-out asks it to
+extrapolate to a combination of those variables it has never encountered
+(Section~\ref{sec:loco}).
+
+The available evidence supports a narrow, specific conclusion, and it is
+important not to overstate it in either direction. It would be wrong to
+conclude that surface corrosion does not affect structural capacity — no
+result here tests that physical claim directly, and Chapter~\ref{ch:results}
+explicitly avoided asserting it. The evidence instead supports the
+narrower claim that this dataset and this experimental design do not
+isolate a robust, incremental, image-based relationship to hidden
+structural capacity. The distinction is between a physical relationship,
+which the available evidence can neither confirm nor rule out, and
+predictive identifiability from this specific dataset, which is what was
+actually tested and what the project's results speak to. Reading the
+mixed-input character of the interpretable-feature phase's structural
+models alongside the metadata-only character of the robustness-
+quantification phase's final selections (Section~\ref{sec:results-structural})
+reinforces this reading: even when image descriptors are made available to
+a structural model, the model does not consistently rely on them once
+selection is made robustness-aware.
+
+\section{Metadata Dominance: Signal or Shortcut?}
+\label{sec:interp-metadata}
+
+Metadata's dominance of the terminal-load prediction task
+(Section~\ref{sec:results-incremental}) admits two readings that hold
+simultaneously rather than competing. Steel-mesh configuration, chloride
+exposure, ageing duration, and treatment protocol are genuine design and
+exposure variables with a plausible physical relationship to structural
+response; there is nothing suspect, in itself, about a model finding them
+predictive. At the same time, because these same variables are almost
+perfectly aligned with campaign identity in this sample
+(Section~\ref{sec:confounding}), a pooled model's reliance on them cannot
+be distinguished, from the pooled evidence alone, from the model simply
+having learned which campaign a specimen came from. Both readings are
+consistent with the same pooled result, and the available evidence does
+not adjudicate between them from the pooled analysis alone.
+
+This is why metadata should not be described as invalid or as a nuisance
+variable to be engineered away: it may well carry real information about
+structural response, and a metadata-only baseline is exactly the right
+comparison against which to judge whether images add anything further
+(Section~\ref{sec:multimodal}). What the mesh-stratified and campaign-
+holdout evidence adds (Section~\ref{sec:results-structural}) is a second,
+independent check on the same question, without relying on the pooled
+correlation at all. The failure to retain predictive quality within mesh
+groups and under campaign holdout weakens the evidence that the pooled
+metadata relationship is transferable beyond campaign-linked structure; it
+does not disprove a genuine physical metadata effect, only the claim that
+the pooled result demonstrates one. This is why pooled predictive
+performance can be genuinely useful — it is still the strongest available
+baseline for this task — while simultaneously being insufficient evidence,
+on its own, of a transferable structural relationship.
+
+\section{Why the Research Question Was Refocused}
+\label{sec:interp-refocus}
+
+The shift from hidden-damage estimation toward the terminal ultimate-load
+refocus (Section~\ref{sec:phase4b}) is best read as a scientifically
+motivated narrowing of claim scope, not as a retreat from a failed
+experiment. The hidden-damage chain — estimate structural condition at
+every observation week, fit a degradation curve to those estimates,
+extrapolate to a threshold crossing — compounds a separate layer of
+modelling uncertainty at each step (Section~\ref{sec:results-degradation}).
+Terminal ultimate load, by contrast, is directly measured for every one of
+the 48 specimens at a single, well-defined timepoint
+(Section~\ref{sec:experimental-context}), which removes the need for any
+intervening model-estimated quantity between the data and the target.
+
+Reframing the question around that directly measured endpoint also made
+the resulting experiment more bounded and directly testable. "Do images
+add information beyond known design and exposure metadata for a directly
+measured terminal endpoint?" is a bounded, answerable question with a
+specific comparison built in from the start (Section~\ref{sec:multimodal}).
+"Can a sparse hidden state be estimated at every intermediate week and
+then extrapolated into a remaining-life estimate?" is not incoherent, but
+is substantially harder to validate and diagnose, because disagreement at
+the final stage cannot be cleanly attributed to one component without
+independent intermediate ground truth. The refocused study's own
+design — matched feature-set comparisons, a mesh-stratified check, and a
+campaign-holdout stress test, all reported together rather than as a
+single isolated accuracy number (Section~\ref{sec:phase4b}) — is
+consistent with this being a stronger experimental design, not merely a
+narrower one.
+
+\section{Scientific Value of the Negative Results}
+\label{sec:interp-negative}
+
+Several of the project's most useful findings are negative, and they
+should be read as evidence, not as failures to be minimised. That images
+do not provide a reliable pooled improvement over metadata for terminal
+ultimate load (Section~\ref{sec:results-incremental}) provides evidence
+against an otherwise plausible claim in this dataset, under the tested
+pooled setting, rather than merely failing to confirm it. That
+every feature-set configuration achieves negative $R^2$ within a single
+mesh family (Section~\ref{sec:phase4b}) reveals a gap between absolute
+error and explained variance that a less careful evaluation would have
+missed entirely. That structural performance collapses under
+leave-one-campaign-out in every phase that tested it
+(Section~\ref{sec:results-structural}) identifies exactly which evaluation
+regime future work in this dataset must budget for. That the refined
+proxy-RUL configuration yields a zero future-crossings result — no
+projected future threshold crossing among any of the tested cases, even
+though many are already crossed at baseline or during observation
+(Section~\ref{sec:results-degradation}) — is a more informative outcome
+than a handful of plausible-looking but unvalidated future estimates would
+have been. That the residual-correction attempt on
+top of the metadata-only baseline measurably worsened performance
+(Section~\ref{sec:phase4b}) was recorded rather than discarded, which is
+itself part of what makes the surrounding positive claims credible. Each
+of these findings narrows the space of defensible claims, exposes a
+specific confound or data requirement, and motivates a specific next
+check — which is what a negative result is for.
+
+\section{What the Proxy-RUL Work Contributes}
+\label{sec:interp-rul}
+
+The proxy-RUL pipeline's contribution is methodological and diagnostic,
+not prognostic, and this chapter states that distinction directly rather
+than qualifying it away. Executing the four-step derivation end to end,
+twice, under two independently configured settings
+(Section~\ref{sec:results-degradation}), forced an explicit separation
+between observed and model-estimated condition series
+(Table~\ref{tab:quantity-availability}) that a less disciplined pipeline
+could have left implicit. The refined generation's threshold-status
+taxonomy — crossed at baseline, crossed during observation, or not crossed
+within the horizon — is a more transparent way of reporting the same
+underlying uncertainty than a single ambiguous "weeks remaining" figure
+would be, and its own zero future-crossings result is itself a diagnostic
+finding: the absence of any projected future crossing, together with the
+large number of already-baseline-crossed cases, is consistent with
+threshold status being strongly influenced by already-elevated baseline
+structural estimates, although that decomposition was not itself
+quantified. The physical plausibility of those baseline structural
+estimates remains, by the project's own account, an unresolved validation
+check rather than a settled fact. The project's own supporting
+documentation separately and explicitly recommends exporting genuinely
+held-out (out-of-fold) structural predictions in place of the current
+in-sample refits for any future degradation-modelling work — naming the
+relevant risk directly: that degradation and proxy outputs built on
+in-sample structural refits can appear more confident than the underlying
+structural model's own robustness evidence would justify. This is a
+downstream-optimism risk the project's own documentation makes visible,
+not one this chapter is introducing for the first time.
+
+None of this amounts to validated remaining-life estimation, and the
+project's own dataset does not support it: true RUL validation would
+require either a recorded failure-event time or repeated, rather than
+single-terminal, structural measurements per specimen
+(Section~\ref{sec:proxy-rul}), and neither is present. The pipeline's
+value lies in having built, tested, and critically examined the
+derivation chain that such data would require — clarifying exactly what
+is still missing — rather than in having produced a usable service-life
+number.
+
+\section{Interpretation of the Four-Class Classification Direction}
+\label{sec:interp-classification}
+
+The current four-class classification effort is a reasonable next
+direction on methodological grounds, independent of what a future trained
+classifier will show. It targets a directly observable quantity — image to
+severity category — rather than a model-derived or extrapolated one,
+using an explicit, current schema kept distinct from the historical
+five-level scheme used in the earlier dataset build
+(Section~\ref{sec:dataset-audit}). Its
+class imbalance was characterised before any training was attempted
+(Section~\ref{sec:phase5}), its specimen-level grouped split and leakage-
+safety runtime check were implemented and verified rather than merely
+documented, and its augmentation recipes were chosen or rejected on stated
+physical-plausibility grounds rather than convenience. Read together,
+these choices show the branch incorporating, from the outset, the
+methodological lessons the earlier regression work had to establish
+one at a time over several phases (Section~\ref{sec:interp-lessons}) —
+which is a reasonable basis for describing it as well prepared, whatever
+its eventual accuracy turns out to be.
+
+This should not be read as more than it is. No classifier has been
+trained, compared, or evaluated on this data, and no ResNet-50 or Vision
+Transformer experiment exists yet in this project
+(Section~\ref{sec:results-classification}). The evaluation practice
+already specified for whichever training procedure is used next —
+macro-averaged F1 and per-class recall in preference to overall accuracy,
+given the severity of the class imbalance, and a test partition left
+untouched until final evaluation (Section~\ref{sec:metrics}) — is stated
+here as the standard this branch should be held to, not as a result
+already obtained.
+
+\section{Methodological Lessons}
+\label{sec:interp-lessons}
+
+Several lessons recur across the sections above and are worth drawing
+together briefly, as a closing statement rather than a scorecard. Evaluation design can matter more than model complexity: the
+project's regime comparisons changed which results were credible more
+than any change of model family did (Section~\ref{sec:interp-visible},
+Section~\ref{sec:eval-regimes}). A grouped holdout is necessary but not
+sufficient: it answers a narrower question than transfer to a new
+treatment or campaign, and the project's own later phases treated
+additional regimes as required, not optional
+(Section~\ref{sec:principles}). Accuracy without attention to target
+provenance can be actively misleading, as the total-rust and peak-rust
+contrast shows directly (Section~\ref{sec:interp-visible}). A metadata-only
+baseline is not an optional control but a precondition for any claim that
+images add value (Section~\ref{sec:interp-metadata}). Sparse downstream
+labels bound what any model, however capable, can be shown to establish,
+independent of modelling effort (Section~\ref{sec:interp-structural}).
+Negative results are informative and should shape the next question rather
+than be minimised or omitted (Section~\ref{sec:interp-negative}). And
+where a directly measured endpoint exists, it is preferable to a longer
+chain of model-derived proxies for exactly the reason the terminal-load
+refocus illustrates: each additional derived step is an additional,
+separately uncertain modelling assumption
+(Section~\ref{sec:interp-refocus}).
+
+These lessons are offered as this project's own accumulated methodological
+position, consistent with the evidence reviewed in
+Chapters~\ref{ch:activities} and~\ref{ch:results}, rather than as general
+claims about machine learning practice beyond this project's scope.

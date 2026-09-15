@@ -1,0 +1,86 @@
+\chapter*{Executive Summary}
+\addcontentsline{toc}{chapter}{Executive Summary}
+
+\paragraph{Purpose and evidence basis.} This report documents an MSc
+technical activity investigating how much can be learned about a
+ferrocement specimen's condition from repeated corrosion photography. It
+builds on a predecessor experimental dataset — 48 specimens fabricated,
+chloride-exposed, and terminally tested across two campaigns, external to
+the present activity — and works from the resulting photographic record,
+specimen metadata, and terminal mechanical measurements. Visible-corrosion
+labels are available for nearly every image in the current audited basis
+(791 of 792 raw files), while wire-area loss and ultimate load are each
+obtained only once per specimen, at the end of its exposure period. This
+asymmetry between dense surface supervision and sparse terminal structural
+supervision governs how every finding in this report should be read.
+
+\paragraph{Technical activity.} The activity comprised: an audit and
+alignment of the raw photographic and workbook data; three successive
+approaches to visible-corrosion estimation (a classical handcrafted
+baseline, a frozen deep-image embedding, and an interpretable
+multi-family feature representation); a feasibility study of hidden
+structural-condition inference; systematic robustness evaluation under
+grouped, treatment-held-out, and campaign-held-out specimen partitions; a
+refocused study explicitly testing whether images add value beyond
+metadata for terminal ultimate load; an exploratory degradation-curve and
+proxy-remaining-useful-life screening pipeline; preparation of a
+leakage-safe dataset and augmentation pipeline for a four-class
+corrosion-severity classification task; and an audit of the project's own
+software and reproducibility practices.
+
+\paragraph{Main findings.} The evidence supports a clear hierarchy of
+confidence:
+\begin{enumerate}
+\item \textbf{Visible corrosion} is the strongest and most consistently
+learnable image-based quantity in this dataset, across three distinct
+representations.
+\item \textbf{Hidden structural inference} is substantially weaker: the
+available structural models are either mixed-input or, in their final,
+most carefully selected form, metadata-only, and none transfers reliably
+across campaigns.
+\item \textbf{Terminal ultimate load}, one of the two directly measured
+terminal structural endpoints and the endpoint selected for the
+refocused analysis, is dominated by specimen and exposure metadata under
+pooled evaluation; no robust incremental benefit from image-derived
+features was established.
+\item \textbf{Degradation and proxy-remaining-useful-life screening}
+remain exploratory: the pipeline is a working demonstration of a
+derivation chain, not a validated prognostic method.
+\end{enumerate}
+Two cross-cutting points qualify all four: which evaluation regime is used
+materially changes what can be claimed, and leave-one-campaign-out is a
+severe extrapolation stress test in this dataset because campaign identity
+is entangled with steel-mesh configuration, chloride level, and exposure
+duration. In addition, some strong visible-corrosion benchmarks rely on
+image-derived features that are very closely aligned with the target,
+creating shortcut or label-adjacency risk; the strongest case is the
+near-reconstructive total-rust pairing identified by the later feature
+audit, and this is checked and flagged explicitly where it applies.
+
+\paragraph{Scope and limitations.} Every structural or prognostic
+conclusion in this report is built on 48 terminal structural
+measurements, from only two experimental campaigns whose design factors
+are almost perfectly confounded with campaign identity. No specimen has a
+repeated or intermediate structural measurement, and no specimen has an
+observed failure or lifetime event; structural values reported at
+non-terminal weeks are always model estimates, never measurements. The
+four-class classification branch's data preparation is complete, but no
+classifier has been trained, compared, or evaluated at the time of
+writing.
+
+\paragraph{Current status and next direction.} The main report body
+(dataset audit, methodological framework, activity chronology, integrated
+results, interpretation, software/reproducibility audit, limitations, and
+conclusions) is complete. Reproducibility has improved over the course of
+the project — deterministic augmentation, saved split manifests, and an
+automated feature-diagnostics report are already in place — though two
+live configuration and source-code issues, identified and located in this
+report, still prevent an unmodified rerun of some pipeline stages. The
+most immediately justified next modelling step is training a baseline
+classifier for the prepared four-class branch, evaluated with
+specimen-disjoint, class-sensitive metrics. Beyond that, materially
+stronger structural or remaining-life claims will ultimately require new
+experimental evidence — additional independent campaigns, decoupled
+design factors, more structural-labelled specimens, repeated structural
+measurements, and observed lifetime data — rather than further model
+refinement alone.
