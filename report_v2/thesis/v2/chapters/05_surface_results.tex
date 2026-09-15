@@ -1,0 +1,40 @@
+\chapter{Results: Visible Surface Corrosion}\label{ch:surface}
+This chapter answers RQ1 and the surface component of RQ4. The evidence supports learnable visible corrosion, while also showing why a highly accurate visual benchmark must be checked for label adjacency.
+
+\section{Signal across distinct representations}
+The classical threshold-feature benchmark, frozen image embedding, and interpretable multi-family representation all give positive grouped-test $R^2$ for peak-rust estimation. Table~\ref{tab:surfacehistory} reports selected saved results with their own evaluation contexts. The rows are not an ordered competition: they differ in representation, fitting procedure, and selection.
+\begin{table}[htbp]\centering\small
+\caption[Historical peak-rust results and protocol scope]{Historical peak-rust estimation on the 792-row, 48-specimen basis. MAE and RMSE are in percentage points. The classical row is its selected current-corrosion model under grouped holdout, with 159 test observations from ten specimens reconstructed from the saved IDs and split definition; the embedding rows use the same held-out 159 observations from ten specimens; the interpretable row is its grouped-holdout winner on 159 observations. These protocols are not identical, so the table establishes signal across representations rather than a causal ranking of representations.}\label{tab:surfacehistory}
+\begin{tabular}{llrrr}\toprule
+Representation & Model & MAE & RMSE & $R^2$\\\midrule
+Classical + metadata & RandomForest & 2.379 & 4.254 & 0.900\\
+Frozen embedding & Image-only MLP & 5.626 & 9.264 & 0.524\\
+Embedding + metadata & Multimodal MLP & 5.748 & 9.865 & 0.460\\
+Interpretable mixed features & MLP regressor & 4.209 & 6.234 & 0.784\\\bottomrule
+\end{tabular}
+\end{table}
+The embedding experiment is useful because its image-only configuration demonstrates signal without specimen metadata in the regression input. Its comparison with the multimodal configuration tests adding metadata to images. It cannot answer whether images improve a metadata model: that experiment lacks a metadata-only anchor.
+
+These representations are distinct computational approaches applied to overlapping specimens. Their agreement is corroboration within the same experimental resource, not three independent physical replications. Nor does a positive score establish field robustness under different cameras, substrates, illumination, or exposure mechanisms.
+
+\section{Near reconstruction of a surface label}\label{sec:adjacency}
+In the refined feature audit, total surface-rust percentage and the independently named rust-area image feature have Spearman correlation 0.9996 across all 791 aligned observations. Their mean absolute difference is approximately 0.00023 percentage points, with a maximum of approximately 0.00050 percentage points. Figure~\ref{fig:adjacency} shows both the agreement and the small residuals.
+
+\fig{label_adjacency}{1}{Numerical alignment of the total surface-rust label and the rust-area feature on all 791 matched observations. The left panel compares the two percentages with an identity line; the right panel shows feature-minus-label residuals in percentage points. Spearman correlation is 0.9996. This is evidence of near label reconstruction; it does not independently verify that identical code or thresholds created the original label.}{fig:adjacency}
+
+This result is useful as a measurement-consistency check. It is weak evidence for a broad claim that a model discovered a new relation between appearance and corrosion state. Learning a nearly equivalent feature-to-label mapping is different from recovering an independent physical target. The classical peak-rust benchmark has a related concern because a colour-mask feature dominates its importance ranking, but that is a different target and the available evidence does not establish the same numerical identity.
+
+Peak rust remains the more informative surface benchmark in the refined analysis, although its strongest spatial rust descriptors are themselves closely related to the quantity being measured. This is not automatically an invalid task: automating a visual measurement can be useful. The claim should be measurement estimation within the observed label system, not inference of hidden structural damage.
+
+\section{Regime sensitivity is phase-dependent}
+For the earlier interpretable representation, the per-regime selected total-rust model has mean $R^2=0.582$ under campaign exclusion and $-0.677$ under treatment exclusion. Corresponding peak-rust values are $0.595$ and $-0.077$. These are means over two campaign folds and seven treatment folds, respectively, on the 792-row basis. Individual treatment test sets are small and uneven; averaging their $R^2$ values can amplify a poor low-variance fold.
+
+The refined surface experiment does not reproduce this treatment-level deterioration. Tracking its grouped winners, total-rust GradientBoosting has LOTO/grouped MAE ratio 0.549, while peak-rust RandomForest has ratio 0.758. Their mean treatment-fold $R^2$ values are 0.995 and 0.957 across nine folds. The corresponding LOTO Spearman values in the saved robustness table are 0.989 and 0.972. These results apply to the refined 791-row basis and its more specific treatment grouping.
+
+Figure~\ref{fig:robustness} places the surface and structural patterns side by side using fixed models. Its ratios should not be confused with the reselected-model $R^2$ values above. For example, a positive campaign-out $R^2$ for the best available peak-rust model does not imply that its original grouped winner keeps the same absolute error.
+
+\fig{robustness_synthesis}{1}{Evaluation-regime sensitivity expressed as MAE divided by each model's own grouped-holdout MAE. Values above one indicate larger error. For the interpretable representation, fixed grouped winners are RandomForest for total rust, wire-area loss, and ultimate load, and MLP for peak rust. For the refined representation they are GradientBoosting for total rust and RandomForest for the other targets; the wire-loss row is the diagnostic winner, not the final robustness-selected CatBoost. Earlier grouping uses one holdout, seven treatment folds, and two campaign folds; refined grouping uses five holdouts, nine treatment folds, and two campaign folds. Structural results have 48 independent terminal specimens. The generations are normalized separately.}{fig:robustness}
+
+\FloatBarrier
+\section{Answer to the surface question}
+Visible corrosion is consistently learnable within the saved experiments, but the strongest total-coverage result is almost reconstructive. Campaign-out surface results remain informative in both later representations; treatment-out results differ between them. The available evidence does not isolate whether representation, label/schema changes, or treatment grouping explains that disagreement. The defensible conclusion is phase-dependent treatment robustness, followed by a separate assessment of structural targets in the next chapter.

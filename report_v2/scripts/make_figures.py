@@ -31,14 +31,12 @@ ref='main_4/outputs/ultimate_load_refocus/'
 d=raw(master);s=raw(ref+'data/specimen_summary_table.csv')
 
 # Observation structure; arrows represent data acquisition, not causal pathways.
-fig,ax=plt.subplots(figsize=(7.2,3.4));ax.set(xlim=(0,1),ylim=(0,1));ax.axis('off')
-box(ax,.02,.62,.29,.32,'48 specimens','Two campaigns\n24 specimens in each')
-box(ax,.39,.62,.58,.32,'Repeated photography','791 readable observations\n15–18 photographs per specimen',TEAL)
-box(ax,.02,.10,.44,.32,'Visible surface labels','Total rust and peak rust\nObserved throughout exposure',TEAL)
-box(ax,.53,.10,.44,.32,'Terminal structural endpoints','Wire-area loss + ultimate load\nOne measurement of each per specimen',ORANGE)
-ax.annotate('',(.38,.78),(.32,.78),arrowprops=dict(arrowstyle='->',color=GREY,lw=1.5))
-ax.annotate('',(.24,.43),(.56,.60),arrowprops=dict(arrowstyle='->',color=GREY,lw=1.5))
-ax.annotate('',(.75,.43),(.79,.60),arrowprops=dict(arrowstyle='->',color=GREY,lw=1.5))
+fig,ax=plt.subplots(figsize=(7.2,3.5));ax.set(xlim=(0,1),ylim=(0,1));ax.axis('off')
+box(ax,.20,.72,.60,.24,'48 ferrocement specimens','Two campaigns; 24 specimens in each')
+box(ax,.02,.13,.44,.42,'Surface observations','791 readable photographs\n15–18 per specimen\nTotal-rust and peak-rust labels',TEAL)
+box(ax,.53,.13,.44,.42,'Terminal measurements','48 paired terminal records\nWire-area loss + ultimate load\nEach endpoint measured once',ORANGE)
+ax.annotate('',(.24,.57),(.38,.70),arrowprops=dict(arrowstyle='->',color=GREY,lw=1.5))
+ax.annotate('',(.75,.57),(.62,.70),arrowprops=dict(arrowstyle='->',color=GREY,lw=1.5))
 ax.text(.5,.015,'No measured structural trajectories or lifetime-event labels',ha='center',color=INK,fontsize=10)
 finish(fig,'dataset_supervision',[master],'Acquisition/supervision schematic; counts independently verified. Geometry is illustrative.')
 
@@ -61,14 +59,24 @@ ax=fig.add_subplot(gs[0,:]);ax.axis('off')
 design=table('campaign_design')
 cell=[[f'Campaign {i+1}',str(r.specimens),str(r.mesh),f'{r.chloride_pct:g}%',f'{r.terminal_week} weeks'] for i,r in enumerate(design.itertuples())]
 tab=ax.table(cellText=cell,colLabels=['Observed combination','Specimens','Mesh layers','NaCl','Terminal exposure'],colWidths=[.28,.15,.17,.15,.25],loc='center',cellLoc='center',colColours=['#EAF0F4']*5);tab.auto_set_font_size(False);tab.set_fontsize(9);tab.scale(1,1.6)
+all_x=s.surface_total_rust_pct_terminal;all_y=s.terminal_ultimate_load_kn_target
+assert len(s)==48 and np.isfinite(all_x).all() and np.isfinite(all_y).all()
+xpad=.04*(all_x.max()-all_x.min());ypad=.08*(all_y.max()-all_y.min())
+xlimits=(float(all_x.min()-xpad),float(all_x.max()+xpad));ylimits=(float(all_y.min()-ypad),float(all_y.max()+ypad))
+scatter_checks=[]
 for j,(label,g) in enumerate([('Pooled',s),('4 meshes',s[s.n_steel_mesh==4]),('7 meshes',s[s.n_steel_mesh==7])]):
     ax=fig.add_subplot(gs[1,j]);x=g.surface_total_rust_pct_terminal;y=g.terminal_ultimate_load_kn_target
     for mesh,c in [(4,ORANGE),(7,BLUE)]:
         sel=g.n_steel_mesh==mesh;ax.scatter(x[sel],y[sel],color=c,s=22,alpha=.85,edgecolor='white',linewidth=.4)
     rho=spearmanr(x,y).statistic;ax.set_title(f'{label}: n = {len(g)}\nSpearman ρ = {rho:.3f}')
-    ax.set(xlabel='Terminal total rust (%)',ylim=(.1,1.7));ax.grid(alpha=.15)
+    ax.set(xlabel='Terminal total rust (%)',xlim=xlimits,ylim=ylimits);ax.grid(alpha=.15)
+    assert x.between(*xlimits).all() and y.between(*ylimits).all()
+    plotted=sum(len(c.get_offsets()) for c in ax.collections)
+    assert plotted==len(g)
+    scatter_checks.append(dict(panel=label,source_rows=len(g),plotted_points=plotted,all_points_within_axes=True,xlim=xlimits,ylim=ylimits))
     if j==0:ax.set_ylabel('Terminal load (kN)')
 finish(fig,'confounding',[master,ref+'data/specimen_summary_table.csv',ref+'correlations/mesh_stratified_corrosion_vs_ultimate_load.csv'],'Observed design combinations plus terminal total-rust/load scatter; no causal regression line.')
+(OUT/'figures/FIGURE_DATA_CHECKS.json').write_text(json.dumps({'confounding':scatter_checks},indent=2)+'\n')
 
 cap=table('pooled_capacity');cap=cap.iloc[::-1].reset_index(drop=True)
 fig,axes=plt.subplots(1,2,figsize=(7.2,3.5),sharey=True,gridspec_kw={'width_ratios':[1.5,1],'wspace':.17})
@@ -99,7 +107,7 @@ f=raw('main_4/outputs/features/image_features.csv');m=d.merge(f[['sample_name','
 fig,axes=plt.subplots(1,2,figsize=(7.2,3.1))
 axes[0].scatter(m.surface_total_rust_pct,m.img_rust_area_ratio_pct,s=10,alpha=.45,color=TEAL);v=max(m.surface_total_rust_pct.max(),m.img_rust_area_ratio_pct.max());axes[0].plot([0,v],[0,v],color=GREY,lw=.8,ls='--')
 axes[0].set(xlabel='Total surface-rust label (%)',ylabel='Rust-area image feature (%)',title='791 matched observations')
-axes[1].hist(m.img_rust_area_ratio_pct-m.surface_total_rust_pct,bins=30,color=BLUE,edgecolor='white');axes[1].set(xlabel='Feature minus label (percentage points)',ylabel='Observations',title='Near numerical reconstruction');axes[1].ticklabel_format(axis='x',style='sci',scilimits=(0,0))
+axes[1].hist((m.img_rust_area_ratio_pct-m.surface_total_rust_pct)*1e4,bins=30,color=BLUE,edgecolor='white');axes[1].set(xlabel='Feature minus label\n($10^{-4}$ percentage points)',ylabel='Observations',title='Near numerical reconstruction')
 fig.tight_layout()
 finish(fig,'label_adjacency',[master,'main_4/outputs/features/image_features.csv'],'Scatter and residual histogram quantify near-identity without assuming identical label-generation code.')
 

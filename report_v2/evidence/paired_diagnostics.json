@@ -1,0 +1,50 @@
+{
+  "paired": {
+    "specimens": 48,
+    "evaluations_per_specimen": 2,
+    "mean_delta_kn": 0.0002186461712142563,
+    "median_delta_kn": 0.009439029875818572,
+    "improved": 19,
+    "worsened": 29,
+    "unchanged": 0,
+    "min_delta_kn": -0.18375539900179338,
+    "max_delta_kn": 0.1246901604126891,
+    "metadata_specimen_mae": 0.17273346963456704,
+    "metadata_hsv_specimen_mae": 0.1729521158057813
+  },
+  "fold_sizes": [
+    {
+      "analysis": "Four meshes",
+      "folds": 10,
+      "test_min": 4,
+      "test_max": 5,
+      "source": "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_4/grouped_cv/selected_best_models/experiments/metadata_only/Ridge/fold_metrics.csv"
+    },
+    {
+      "analysis": "Seven meshes",
+      "folds": 10,
+      "test_min": 4,
+      "test_max": 5,
+      "source": "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_7/grouped_cv/selected_best_models/experiments/metadata_only/Ridge/fold_metrics.csv"
+    },
+    {
+      "analysis": "Post onset",
+      "folds": 10,
+      "test_min": 8,
+      "test_max": 9,
+      "source": "main_4/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/selected_best_models/experiments/metadata_only/Ridge/fold_metrics.csv"
+    }
+  ],
+  "classical_reconstructed": {
+    "total_rows": 792,
+    "total_specimens": 48,
+    "test_rows": 159,
+    "test_specimens": 10,
+    "train_specimens": 38,
+    "method": "Reconstruct GroupShuffleSplit(test_size=0.2, random_state=42) from main/modeling.py using saved legacy specimen IDs; not a saved holdout prediction manifest."
+  },
+  "sources": {
+    "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv": "b4ecbcba7ac127f6853bcf285ab60f7fdb94337349684d6cf0bef4d7d70c388a",
+    "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/terminal_fold_predictions.csv": "2c357ec2cbb9aa2ac4c516a11b43cf74908975a755a2b8ed35d3b0d405987756"
+  }
+}

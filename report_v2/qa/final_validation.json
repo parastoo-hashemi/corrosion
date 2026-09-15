@@ -1,0 +1,37 @@
+{
+  "documents": [
+    {
+      "pdf": "report_v2/thesis/thesis.pdf",
+      "pages": 44,
+      "citations": 8,
+      "sha256": "5006a70cd9d420931f7b57f9917f10e1e088eedc16eca9e890595e973062ef23",
+      "overfull_boxes": 0
+    },
+    {
+      "pdf": "report_v2/article/article.pdf",
+      "pages": 5,
+      "citations": 7,
+      "sha256": "2a78c97edfc48ede4fc593f8f301a36b3b22539ff213fe43d8741aac7772927f",
+      "overfull_boxes": 0
+    },
+    {
+      "pdf": "report_v2/thesis/v2/thesis.pdf",
+      "pages": 37,
+      "citations": 8,
+      "sha256": "b4abf58ea9a50dcf8653520523ff877917cb409e9ec6179e19a5fbaabf0de16b",
+      "overfull_boxes": 0
+    },
+    {
+      "pdf": "report_v2/article/v2/article.pdf",
+      "pages": 5,
+      "citations": 7,
+      "sha256": "0d55faaee2cce7dddce7e0074181df46c27b58bdbecfa1f24d49d52efbe7cfce",
+      "overfull_boxes": 0
+    }
+  ],
+  "figure_count": 8,
+  "numeric_lines": 181,
+  "numeric_lint_exceptions": 0,
+  "frozen_report_unchanged": true,
+  "scope": "Numeric matching is supplemented by manual scientific and grammar review in FINAL_VERIFICATION.md."
+}

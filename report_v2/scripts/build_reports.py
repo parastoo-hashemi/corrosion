@@ -10,6 +10,7 @@ for p in masters:
  (OUT/'qa'/f'{p.parent.parent.name}_{p.parent.name}_build.txt').write_text(run.stdout)
  if run.returncode:print(run.stdout[-6500:]);raise SystemExit(run.returncode)
  log=p.with_suffix('.log').read_text(errors='replace')
+ (OUT/'qa'/f'{p.parent.parent.name}_{p.parent.name}_latex_log.txt').write_text(log)
  errors=re.findall(r'^.*(?:undefined references|undefined citations|Citation .* undefined|Reference .* undefined|Rerun to get cross-references right|! LaTeX Error|! Package .* Error).*$',log,re.M|re.I)
  if errors:raise RuntimeError(f'{p}: {errors}')
  records.append(dict(document=str(p.relative_to(ROOT)),pdf=str(p.with_suffix('.pdf').relative_to(ROOT)),errors=0,unresolved_references=0,overfull_boxes=len(re.findall('Overfull',log)),underfull_boxes=len(re.findall('Underfull',log))))

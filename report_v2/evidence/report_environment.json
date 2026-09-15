@@ -1,0 +1,36 @@
+{
+  "scope": "Report aggregation and PDF build environment; not a reconstruction of historical training.",
+  "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:07:20) [Clang 20.1.8 ]",
+  "python_executable": "/opt/anaconda3/envs/env/bin/python",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "numpy": "2.4.3",
+    "pandas": "3.0.1",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "Pillow": "12.1.1",
+    "PyYAML": "6.0.3",
+    "scikit-learn": "1.8.0",
+    "pypdf": "6.9.0"
+  },
+  "tools": {
+    "pdflatex": [
+      "pdfTeX 3.141592653-2.6-1.40.29 (TeX Live 2026)",
+      "kpathsea version 6.4.2",
+      "Copyright 2026 Han The Thanh (pdfTeX) et al."
+    ],
+    "latexmk": [
+      "Latexmk, John Collins, 15 June 2025. Version 4.87"
+    ],
+    "bibtex": [
+      "BibTeX 0.99e (TeX Live 2026)",
+      "kpathsea version 6.4.2",
+      "Copyright 2026 Oren Patashnik."
+    ],
+    "pdftoppm": [
+      "pdftoppm version 26.04.0",
+      "Copyright 2005-2026 The Poppler Developers - http://poppler.freedesktop.org",
+      "Copyright 1996-2011, 2022 Glyph & Cog, LLC"
+    ]
+  }
+}

@@ -6,8 +6,8 @@
       "main_4/outputs/data/master_table.csv"
     ],
     "description": "Acquisition/supervision schematic; counts independently verified. Geometry is illustrative.",
-    "sha256": "aa6b723bf6496d61d3dc9ca0acc075b411cb751808514fb3742d2a47ead4cffe",
-    "generated_utc": "2026-09-15T23:10:55.819832+00:00"
+    "sha256": "56c7da7e8c7054901c9accc98e88164f835f3d91c29cf815404ae952da0a58e4",
+    "generated_utc": "2026-09-15T23:28:56.467181+00:00"
   },
   {
     "figure": "report_v2/figures/evaluation_regimes.pdf",
@@ -18,8 +18,8 @@
       "main_4/outputs/splits/master_leave_one_campaign_out.csv"
     ],
     "description": "Conceptual grouping schematic checked against saved specimen-disjoint manifests.",
-    "sha256": "15c0939f6881f77bdf782e8390082aecdb4a8ceeca4eb42196fb95adf91ed9a2",
-    "generated_utc": "2026-09-15T23:10:55.918648+00:00"
+    "sha256": "893c01318a772b9e1b09c00cbfa7e67f5f1859c6836b1620485ea0d04437bab9",
+    "generated_utc": "2026-09-15T23:28:56.565518+00:00"
   },
   {
     "figure": "report_v2/figures/confounding.pdf",
@@ -30,8 +30,8 @@
       "main_4/outputs/ultimate_load_refocus/correlations/mesh_stratified_corrosion_vs_ultimate_load.csv"
     ],
     "description": "Observed design combinations plus terminal total-rust/load scatter; no causal regression line.",
-    "sha256": "509df5f6828e7287e4ded7b464ca58ae6d9af2d7040f895a9f668a5729d66937",
-    "generated_utc": "2026-09-15T23:10:56.119119+00:00"
+    "sha256": "9467abb64147a41b843758f2fc6ffe2ca67f7bcbcff227791bdcddfbafbe7cf0",
+    "generated_utc": "2026-09-15T23:28:56.761325+00:00"
   },
   {
     "figure": "report_v2/figures/capacity_ablation.pdf",
@@ -40,8 +40,8 @@
       "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison.csv"
     ],
     "description": "Per-feature-set selected models; mean and sample SD of fold metrics; no inferential intervals.",
-    "sha256": "21de26c0c592ef19563f8c795439564cd4b4d2297741307675933e0f1e66542a",
-    "generated_utc": "2026-09-15T23:10:56.244117+00:00"
+    "sha256": "80dc744fab1d8a6ebf2bf4be3943278c9415e9fd44929d9cd9a6567fdf4f078d",
+    "generated_utc": "2026-09-15T23:28:56.879846+00:00"
   },
   {
     "figure": "report_v2/figures/robustness_synthesis.pdf",
@@ -52,8 +52,8 @@
       "main_4/outputs/diagnostics/tables/benchmark_best_model_robustness.csv"
     ],
     "description": "Within-generation normalized MAE; fixed grouped-holdout winner tracked by target. Not a cross-generation raw-metric ranking.",
-    "sha256": "961f90f88791d602d53b37cb02965a708b54731ab56593eb8188c99bc37f6352",
-    "generated_utc": "2026-09-15T23:10:56.377568+00:00"
+    "sha256": "9d6e669326afbd085963268b4067e5adaf3e30583d41030a9d136d9c808132b7",
+    "generated_utc": "2026-09-15T23:28:57.015206+00:00"
   },
   {
     "figure": "report_v2/figures/label_adjacency.pdf",
@@ -63,8 +63,8 @@
       "main_4/outputs/features/image_features.csv"
     ],
     "description": "Scatter and residual histogram quantify near-identity without assuming identical label-generation code.",
-    "sha256": "8810f76ef8a7e147a05f866b7a2eca3a595d3199b3619ffb28ba22c694058c15",
-    "generated_utc": "2026-09-15T23:10:56.529358+00:00"
+    "sha256": "bda0d4b12d32ec2ec43bb3f09ace4607425be80ca239f61d5adc14dc3e310f73",
+    "generated_utc": "2026-09-15T23:28:57.237464+00:00"
   },
   {
     "figure": "report_v2/figures/threshold_status.pdf",
@@ -74,7 +74,7 @@
       "main_4/configs/thresholds.yaml"
     ],
     "description": "Statuses of model-derived wire-loss trajectories, not observed failure events.",
-    "sha256": "f045512a4400c4aca2f20a720b612192a0aeaa8cb0dfd9bcd7c7cd40a3cb84b0",
-    "generated_utc": "2026-09-15T23:10:56.653391+00:00"
+    "sha256": "c48e5cd0b20e9d4458abbd733aa28c75b7b9ff15098eb483fde654dd342a898a",
+    "generated_utc": "2026-09-15T23:28:57.327007+00:00"
   }
 ]
