@@ -315,6 +315,10 @@ def add_split_column(rows: pd.DataFrame, split_name: str) -> pd.DataFrame:
 def build_manifests(
     data: pd.DataFrame, is_augmented: pd.Series
 ) -> tuple[dict[str, pd.DataFrame], pd.DataFrame]:
+    """Keep training augmentations while retaining only held-out originals.
+
+    Augmented copies of validation/test specimens must be excluded entirely;
+    putting them in training would reveal the held-out specimen."""
     train_mask = data["specimen_id"].isin(TRAIN_SPECIMENS)
     val_specimen_mask = data["specimen_id"].isin(VAL_SPECIMENS)
     test_specimen_mask = data["specimen_id"].isin(TEST_SPECIMENS)
@@ -344,6 +348,7 @@ def validate_manifests(
     manifests: dict[str, pd.DataFrame],
     excluded: pd.DataFrame,
 ) -> list[str]:
+    """Check specimen disjointness and original/augmentation membership before writing."""
     messages: list[str] = []
 
     specimen_sets = {

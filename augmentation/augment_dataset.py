@@ -386,6 +386,7 @@ def audit_sources(
 
 
 def stable_rng(seed: int, image_name: str, augmentation_index: int) -> np.random.Generator:
+    """Derive per-image randomness so worker scheduling cannot change augmentation."""
     material = f"{seed}|{image_name}|{augmentation_index}".encode("utf-8")
     digest = hashlib.sha256(material).digest()
     derived_seed = int.from_bytes(digest[:8], byteorder="big", signed=False)
@@ -418,6 +419,10 @@ def apply_recipe(
     recipe_name: str,
     rng: np.random.Generator,
 ) -> tuple[Image.Image, dict[str, Any]]:
+    """Transform appearance under the classification label-preservation assumption.
+
+    These transformations are not evidence that structural outcomes or a
+    color-threshold regression target remain invariant."""
     image = source.convert("RGB")
     parameters: dict[str, Any] = {}
 
@@ -534,6 +539,7 @@ def build_metadata_rows(
     output_dir: Path,
     image_dir: Path,
 ) -> list[dict[str, Any]]:
+    """Retain original-image and specimen identity for later leakage-safe splitting."""
     rows: list[dict[str, Any]] = []
     for record in records:
         for output in generated[record.original_image_name]:

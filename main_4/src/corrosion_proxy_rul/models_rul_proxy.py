@@ -1,3 +1,9 @@
+"""Exploratory threshold status on model-estimated wire-loss trajectories.
+
+The dataset has terminal structural measurements, not observed failure times.
+The right_censored field means no model-curve crossing within the chosen grid;
+it is not an observed survival-study censoring record."""
+
 from __future__ import annotations
 
 from pathlib import Path
@@ -10,6 +16,10 @@ from .visualization import save_barplot
 
 
 def run_proxy_rul(degradation_best_df, degradation_grid_df, configs, output_dir: Path):
+    """Distinguish past crossings from future model-curve crossings.
+
+    Only the latter populate proxy_rul_days. Neither kind validates remaining
+    life, because the longitudinal structural signal is model-derived."""
     ensure_dir(output_dir)
     proxy_cfg = configs["thresholds"]["proxy_rul"]
     thresholds = proxy_cfg["thresholds"]

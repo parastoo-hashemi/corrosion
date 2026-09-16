@@ -1,3 +1,8 @@
+"""Grouped evaluation definitions for the historical main_3 experiment.
+
+The independent unit is a specimen, not one photograph from its time series.
+Campaign holdout addresses transfer across confounded experimental settings."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -22,6 +27,7 @@ def group_shuffle_split(
     test_size: float,
     random_state: int,
 ) -> SplitDefinition:
+    """Separate complete groups so repeated images cannot leak between partitions."""
     splitter = GroupShuffleSplit(
         n_splits=1, test_size=test_size, random_state=random_state
     )
@@ -62,6 +68,7 @@ def build_splits(
     random_state: int,
     test_size: float,
 ) -> list[SplitDefinition]:
+    """Map the requested evaluation regime to its original grouping variable."""
     if strategy == "group_shuffle":
         return [
             group_shuffle_split(

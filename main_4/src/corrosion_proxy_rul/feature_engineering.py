@@ -1,3 +1,9 @@
+"""Join image descriptors and select historical modelling feature families.
+
+Measured outcomes and observation identifiers are excluded to avoid direct
+target or identity leakage. Campaign-linked metadata can still encode design
+confounding; excluding identifiers does not establish causal interpretation."""
+
 from __future__ import annotations
 
 import numpy as np
@@ -67,6 +73,7 @@ HIDDEN_DAMAGE_FEATURE_SETS = {
 
 
 def build_full_feature_table(master_df: pd.DataFrame, image_feature_df: pd.DataFrame) -> pd.DataFrame:
+    """Require an observation-key join so image descriptors cannot multiply rows."""
     merged = master_df.merge(
         image_feature_df.drop(columns=["specimen_id", "image_path"], errors="ignore"),
         on="sample_name",
@@ -77,10 +84,12 @@ def build_full_feature_table(master_df: pd.DataFrame, image_feature_df: pd.DataF
 
 
 def build_hidden_damage_feature_table(feature_df: pd.DataFrame) -> pd.DataFrame:
+    """Use rows with observed structural supervision, not inferred time-series labels."""
     return feature_df.loc[feature_df["has_structural_label"]].copy().reset_index(drop=True)
 
 
 def get_model_feature_columns(df: pd.DataFrame, target_col: str) -> list[str]:
+    """Exclude outcomes and administrative fields before any model-specific processing."""
     exclude = set(EXCLUDE_FOR_MODELING)
     exclude.add(target_col)
     feature_cols = [

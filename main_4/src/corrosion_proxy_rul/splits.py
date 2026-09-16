@@ -1,3 +1,9 @@
+"""Specimen-grouped evaluation manifests for the historical structural pipeline.
+
+Photographs from one specimen share an outcome and must never cross a split.
+Treatment/campaign holdouts test a different transfer question from random
+specimen holdout; campaign and mesh are aligned in this experiment."""
+
 from __future__ import annotations
 
 from typing import Dict
@@ -26,6 +32,10 @@ def build_split_manifests(
     test_size: float,
     random_state: int,
 ) -> Dict[str, pd.DataFrame]:
+    """Keep the supplied grouping unit intact in every evaluation regime.
+
+    Callers use specimen identity for grouped holdout; treatment and campaign
+    holdouts intentionally remove whole experimental groups."""
     manifests = {}
 
     group_rows = []
@@ -58,6 +68,7 @@ def build_split_manifests(
 
 
 def split_summary(manifest_df: pd.DataFrame) -> pd.DataFrame:
+    """Expose specimen overlap explicitly so row counts cannot conceal leakage."""
     rows = []
     for (strategy, split_id), split_df in manifest_df.groupby(["strategy", "split_id"]):
         train = split_df.loc[split_df["membership"] == "train"]
