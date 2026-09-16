@@ -1,0 +1,5 @@
+{
+  "target": "wire_area_loss_frac",
+  "best_model_name": "XGBoost",
+  "target_transform": "sqrt"
+}

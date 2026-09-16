@@ -1,0 +1,52 @@
+{
+  "time_utc": "2026-09-16T15:23:09.764474+00:00",
+  "changed_report_files": [
+    "report_v2/README.md",
+    "report_v2/scripts/README.md"
+  ],
+  "added_report_guides": [
+    "report_v2/article/README.md",
+    "report_v2/figures/README.md",
+    "report_v2/references/README.md",
+    "report_v2/tables/README.md",
+    "report_v2/thesis/README.md"
+  ],
+  "unchanged_existing_report_files_hashed": 115,
+  "unchanged_v3_files_hashed": 45,
+  "preserved_symlinks": 7,
+  "unchanged_linked_archive_files_hashed": 237,
+  "indexed_assets": {
+    "figures": 27,
+    "tables": 29,
+    "references": 6,
+    "scripts": 6
+  },
+  "indexed_thesis_chapters": 12,
+  "local_links_checked": 144,
+  "anchors_checked": 0,
+  "new_guides_eligible_for_tracking": true,
+  "v3_pdf_hashes": [
+    {
+      "path": "report_v2/thesis/v3/thesis.pdf",
+      "sha256": "1382691cc4f8197bc84a155f20cba76305201a411ac9d4ad7cbdc3cc3c5dee13",
+      "size": 461796
+    },
+    {
+      "path": "report_v2/article/v3/article.pdf",
+      "sha256": "3a8630c9a99b2cf5977b79ab7090e5b1f5b50598bdd5faffcdfa2c51be1eba34",
+      "size": 214043
+    }
+  ],
+  "git_unchanged": true,
+  "git_after": {
+    "head": "19a6ae86496894378a1475de34aa6bdd93682b07",
+    "branch": "master",
+    "refs": "19a6ae86496894378a1475de34aa6bdd93682b07 refs/heads/cleanup/delivery-prep\n19a6ae86496894378a1475de34aa6bdd93682b07 refs/heads/master\nc5a4f1af2329bc7dbf27b9ec807d8dc3047020ff refs/heads/report-rebuild-codex\n7e69d7a152d43adf261aa16bb3dfea8f2ecfbb4c refs/heads/report-rebuild-codex-v3\n1089b3e7f6c7f798a3bf5c6ccd07eb6c1fb3e322 refs/remotes/origin/HEAD\n1089b3e7f6c7f798a3bf5c6ccd07eb6c1fb3e322 refs/remotes/origin/master",
+    "index_sha256": "a19d0ab18ad7db881115300f44092d8956755447e79c17d8fdfd20158c92d822",
+    "staged": ""
+  },
+  "manuscripts_rebuilt": false,
+  "scientific_scripts_executed": false,
+  "failures": [],
+  "passed": true
+}

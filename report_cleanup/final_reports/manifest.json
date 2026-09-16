@@ -1,0 +1,801 @@
+{
+  "backup": {
+    "path_relative_to_repository_parent": "corrosion_reports_before_final_layout_20260916_153201.tar.gz",
+    "sha256": "d233cb39f8fa9db66c5b435d7a64e64b59004ac0e4d9448882694fda398f181f",
+    "archive_bytes": 48878236,
+    "verified_files": 383,
+    "verified_report_symlinks": 7
+  },
+  "moved_files": [
+    {
+      "old_path": "report_v2/.DS_Store",
+      "new_path": "final_reports/.DS_Store",
+      "size": 10244,
+      "sha256": "25d271e76e776c47d0e614587288cdbd3eddb6606c9425f9255015a8a888bcce"
+    },
+    {
+      "old_path": "report_v2/README.md",
+      "new_path": "final_reports/README.md",
+      "size": 3915,
+      "sha256": "42224c7e2a977138e59330f7179f5e6a92af2ab7410f3f362cccfc406e1194e2"
+    },
+    {
+      "old_path": "report_v2/.gitignore",
+      "new_path": "final_reports/.gitignore",
+      "size": 177,
+      "sha256": "44ca24ae5ffd5f8cb36b622bec509d23e17734a207594a6d2f7a253d0291ed82"
+    },
+    {
+      "old_path": "report_v2/tables/mesh_capacity.csv",
+      "new_path": "final_reports/tables/mesh_capacity.csv",
+      "size": 3118,
+      "sha256": "b5a343bcf15cd86c32a323fd8c9ac82ed4689abfd55fc0bde34512a1bfdea651"
+    },
+    {
+      "old_path": "report_v2/tables/paired_specimen_errors.csv",
+      "new_path": "final_reports/tables/paired_specimen_errors.csv",
+      "size": 3337,
+      "sha256": "667a630d777a343748610bc890a316c06ce51c3a338b8d0c1f7f8b03047f8915"
+    },
+    {
+      "old_path": "report_v2/tables/embedding.csv",
+      "new_path": "final_reports/tables/embedding.csv",
+      "size": 173,
+      "sha256": "f4ca53c925c1d80b017b82fd7d9a8e348cbfbf0123dece0970cf9d145a1d1324"
+    },
+    {
+      "old_path": "report_v2/tables/source_hashes.csv",
+      "new_path": "final_reports/tables/source_hashes.csv",
+      "size": 11919,
+      "sha256": "742108fe69eab1c647c640d1f055ace305fefaad0be73711cfde89ce21f42a9d"
+    },
+    {
+      "old_path": "report_v2/tables/threshold_summary.csv",
+      "new_path": "final_reports/tables/threshold_summary.csv",
+      "size": 561,
+      "sha256": "2e8c6b9a60fab431c1276656f34a9563b28c425930d74acdb5d23a0f80de4704"
+    },
+    {
+      "old_path": "report_v2/tables/pooled_capacity.csv",
+      "new_path": "final_reports/tables/pooled_capacity.csv",
+      "size": 1721,
+      "sha256": "28ce119f999536c7f631606d40621941431b748846dd203403d681eebb29ab3e"
+    },
+    {
+      "old_path": "report_v2/tables/current_corruption_inventory.csv",
+      "new_path": "final_reports/tables/current_corruption_inventory.csv",
+      "size": 1114,
+      "sha256": "7b61f8bd89c15dead665bcd179329e3c07efcfbb3a6eb67529abc12edd58d912"
+    },
+    {
+      "old_path": "report_v2/tables/post_onset_capacity_article.tex",
+      "new_path": "final_reports/tables/post_onset_capacity_article.tex",
+      "size": 435,
+      "sha256": "1da6a4206dfd7b7ebd4944a6025fbe63f2b08ea6a3465972916482787152ee19"
+    },
+    {
+      "old_path": "report_v2/tables/post_onset_capacity.tex",
+      "new_path": "final_reports/tables/post_onset_capacity.tex",
+      "size": 513,
+      "sha256": "35e45f543ca70f5938bf3bf437e05d3e2888043e75fd3da08787d85781c2bd25"
+    },
+    {
+      "old_path": "report_v2/tables/classification_splits.csv",
+      "new_path": "final_reports/tables/classification_splits.csv",
+      "size": 158,
+      "sha256": "f5db9724d26d1a56df00aa93a4ded8a37b26ecebd1dadec03ea5c25cc188a4da"
+    },
+    {
+      "old_path": "report_v2/tables/split_checks.csv",
+      "new_path": "final_reports/tables/split_checks.csv",
+      "size": 6674,
+      "sha256": "9041bd63bd31a69bc766c20509a097a65cf7cd8ad4c6f7568ad219a5cb255bce"
+    },
+    {
+      "old_path": "report_v2/tables/loco_capacity.tex",
+      "new_path": "final_reports/tables/loco_capacity.tex",
+      "size": 548,
+      "sha256": "a774833cf104f1a401c0ed1e60c2e74ad0bd473d5c29ba03e917704891766383"
+    },
+    {
+      "old_path": "report_v2/tables/pooled_capacity_article.tex",
+      "new_path": "final_reports/tables/pooled_capacity_article.tex",
+      "size": 435,
+      "sha256": "45396868473ccc24407d5b690d94dc5c608972443fbe273fb03a1da6968245b2"
+    },
+    {
+      "old_path": "report_v2/tables/threshold_status.csv",
+      "new_path": "final_reports/tables/threshold_status.csv",
+      "size": 138,
+      "sha256": "a6384a2ca2bf3bbec8b6433304b86ea82cc9d9073d7427edb1c3a40efafbcbc0"
+    },
+    {
+      "old_path": "report_v2/tables/README.md",
+      "new_path": "final_reports/tables/README.md",
+      "size": 4998,
+      "sha256": "a79611ef2a15f2d799fa72887b77ade26443e796c9c97ae8c57e540d7b515559"
+    },
+    {
+      "old_path": "report_v2/tables/paired_statistics.tex",
+      "new_path": "final_reports/tables/paired_statistics.tex",
+      "size": 134,
+      "sha256": "5da019a0db695d7bfb4efe73061fd344286ee52e51ac9e7d4c74f3ff1dc512ee"
+    },
+    {
+      "old_path": "report_v2/tables/pooled_capacity.tex",
+      "new_path": "final_reports/tables/pooled_capacity.tex",
+      "size": 513,
+      "sha256": "4c61292332070e02d3afddbf3a5596065f9463917204414b89b34c8a6ecc7116"
+    },
+    {
+      "old_path": "report_v2/tables/correlations_recomputed.csv",
+      "new_path": "final_reports/tables/correlations_recomputed.csv",
+      "size": 181,
+      "sha256": "4989cff3e27af35ea067e25d0747b43dd413ff06d14a1a61d9005c2c1401fc84"
+    },
+    {
+      "old_path": "report_v2/tables/robust_structural_selection.csv",
+      "new_path": "final_reports/tables/robust_structural_selection.csv",
+      "size": 464,
+      "sha256": "09589c7a51a4bbb5ebfae76e2552f39cbe0443a5bfdf68ccf36cac57f5f9abe6"
+    },
+    {
+      "old_path": "report_v2/tables/threshold_summary.tex",
+      "new_path": "final_reports/tables/threshold_summary.tex",
+      "size": 199,
+      "sha256": "1c784dd45f854b555190c84dc8522fa314cf8645849a3fcb9865df57ff6ec1cc"
+    },
+    {
+      "old_path": "report_v2/tables/classical.csv",
+      "new_path": "final_reports/tables/classical.csv",
+      "size": 556,
+      "sha256": "ba7014b8ce968663ed6cd885c159051cffa95e77ff7ecd842b423523caa6ab90"
+    },
+    {
+      "old_path": "report_v2/tables/campaign_design.csv",
+      "new_path": "final_reports/tables/campaign_design.csv",
+      "size": 122,
+      "sha256": "04f0212f3087e27f957453982832ee25bdf874e3d89444585440275ed4914304"
+    },
+    {
+      "old_path": "report_v2/tables/mesh_capacity.tex",
+      "new_path": "final_reports/tables/mesh_capacity.tex",
+      "size": 958,
+      "sha256": "9c6b5f6297cd564a5dfa6b9ef7f03dbe9736b103928441795b7556e2d1c6aba6"
+    },
+    {
+      "old_path": "report_v2/tables/robustness_ratios.csv",
+      "new_path": "final_reports/tables/robustness_ratios.csv",
+      "size": 1900,
+      "sha256": "b7299fd894c1c1969e6e3dc08b3b9c016d36b743603486bd067841a9ca5a3f82"
+    },
+    {
+      "old_path": "report_v2/tables/loco_capacity.csv",
+      "new_path": "final_reports/tables/loco_capacity.csv",
+      "size": 1827,
+      "sha256": "264fe212ac67c534822dc3e24cc55f681e50213da1ba19c00ea85d48efe981bf"
+    },
+    {
+      "old_path": "report_v2/tables/classification_splits.tex",
+      "new_path": "final_reports/tables/classification_splits.tex",
+      "size": 205,
+      "sha256": "6d39db0ef4db7c66794e79c7fc342dbafeef74b98db42d6cb7092a36c029da57"
+    },
+    {
+      "old_path": "report_v2/tables/refined_robustness.csv",
+      "new_path": "final_reports/tables/refined_robustness.csv",
+      "size": 1947,
+      "sha256": "1621c6ab2900160ff3394e144bd51649df02977bf502f6b877de317ed268c176"
+    },
+    {
+      "old_path": "report_v2/tables/historical_artifact_timestamps.csv",
+      "new_path": "final_reports/tables/historical_artifact_timestamps.csv",
+      "size": 9356,
+      "sha256": "99d4e985b871c41ebd51dbc1fc0e16e65998fd2525f772d697b8e2e43bde8c01"
+    },
+    {
+      "old_path": "report_v2/tables/post_onset_capacity.csv",
+      "new_path": "final_reports/tables/post_onset_capacity.csv",
+      "size": 1734,
+      "sha256": "798775ec40eec36f1d55101fcb81ea1d400d6f6bc7e39bae9830276c02333a4f"
+    },
+    {
+      "old_path": "report_v2/tables/interpretable_regime_winners.csv",
+      "new_path": "final_reports/tables/interpretable_regime_winners.csv",
+      "size": 1496,
+      "sha256": "09956e3c0f5d6005c20ee7bd421dc25bcb328eabf7fb6008bdf45be238cec7d7"
+    },
+    {
+      "old_path": "report_v2/references/kapoor2023_metadata.json",
+      "new_path": "final_reports/references/kapoor2023_metadata.json",
+      "size": 42989,
+      "sha256": "34788e42f2153d26714471fd7fb9b0cdc88d85a62e855e531a20602902d2ddaf"
+    },
+    {
+      "old_path": "report_v2/references/SOURCES.md",
+      "new_path": "final_reports/references/SOURCES.md",
+      "size": 2254,
+      "sha256": "7b8bad811e7a1acf6bf7c7f35d44c1cfd617b6980c1bd3e64a8f6ba39c7d9380"
+    },
+    {
+      "old_path": "report_v2/references/references.bib",
+      "new_path": "final_reports/references/references.bib",
+      "size": 3422,
+      "sha256": "52f0159e2359c8644ee5f5287df75ac9a45d06e3f8dcc6b567d4e6189b7c2023"
+    },
+    {
+      "old_path": "report_v2/references/spencer2019_metadata.json",
+      "new_path": "final_reports/references/spencer2019_metadata.json",
+      "size": 97265,
+      "sha256": "4f1681b046944b93a1eb4383b694efdafd4902e965dba27c60de833d6c0d1cd7"
+    },
+    {
+      "old_path": "report_v2/references/README.md",
+      "new_path": "final_reports/references/README.md",
+      "size": 905,
+      "sha256": "95d85abe7d71bd3622343595df594429e812b074ecadd875f6c858766645e99e"
+    },
+    {
+      "old_path": "report_v2/references/roberts2017_metadata.json",
+      "new_path": "final_reports/references/roberts2017_metadata.json",
+      "size": 26713,
+      "sha256": "b7a514dcb1c98bd4f79f46b3c8393f791fc7958ff75c292e2946ae8e535b2633"
+    },
+    {
+      "old_path": "report_v2/references/atha2018_metadata.json",
+      "new_path": "final_reports/references/atha2018_metadata.json",
+      "size": 15715,
+      "sha256": "eb418c2adebca45a11f219f440b1896b8b89f295fc8d7a9e35f2e8165cb7f5cc"
+    },
+    {
+      "old_path": "report_v2/figures/PAIRED_PROVENANCE.json",
+      "new_path": "final_reports/figures/PAIRED_PROVENANCE.json",
+      "size": 774,
+      "sha256": "6e8228b2bc2e85aacff8584e110a8d2bd93a66f8ad8d166b5b44747c00c4e406"
+    },
+    {
+      "old_path": "report_v2/figures/label_adjacency.png",
+      "new_path": "final_reports/figures/label_adjacency.png",
+      "size": 64372,
+      "sha256": "1ba133c1578e1105857a46c78a485210dbf72e7ff9f71decc288d3100f358e05"
+    },
+    {
+      "old_path": "report_v2/figures/ridge_coefficients.png",
+      "new_path": "final_reports/figures/ridge_coefficients.png",
+      "size": 91971,
+      "sha256": "d7907c503f9f13edc458f15310c58ef718920085128603be76aeee86181c25f1"
+    },
+    {
+      "old_path": "report_v2/figures/PROVENANCE.json",
+      "new_path": "final_reports/figures/PROVENANCE.json",
+      "size": 7896,
+      "sha256": "fbfd916268a400422f990b41b95f3a659d7e1bab7e1eca065f4d5d27a47dd930"
+    },
+    {
+      "old_path": "report_v2/figures/ridge_coefficients.pdf",
+      "new_path": "final_reports/figures/ridge_coefficients.pdf",
+      "size": 15290,
+      "sha256": "1b9cedc9512a54608be442daa34eaeaea5a038e540d447fea17da9e54c2154e7"
+    },
+    {
+      "old_path": "report_v2/figures/label_adjacency.pdf",
+      "new_path": "final_reports/figures/label_adjacency.pdf",
+      "size": 24513,
+      "sha256": "bda0d4b12d32ec2ec43bb3f09ace4607425be80ca239f61d5adc14dc3e310f73"
+    },
+    {
+      "old_path": "report_v2/figures/capacity_ablation.pdf",
+      "new_path": "final_reports/figures/capacity_ablation.pdf",
+      "size": 17102,
+      "sha256": "80dc744fab1d8a6ebf2bf4be3943278c9415e9fd44929d9cd9a6567fdf4f078d"
+    },
+    {
+      "old_path": "report_v2/figures/FIGURE_DATA_CHECKS.json",
+      "new_path": "final_reports/figures/FIGURE_DATA_CHECKS.json",
+      "size": 798,
+      "sha256": "3b5ee05058424a464e863a94bf38fca48f19f3d20bb1cb3256296569e53ecfcb"
+    },
+    {
+      "old_path": "report_v2/figures/robustness_synthesis.png",
+      "new_path": "final_reports/figures/robustness_synthesis.png",
+      "size": 57342,
+      "sha256": "e023f435e1ea7a96f7d4e1f95e7472bba019848f83cdcf4a15390fa7e44079d5"
+    },
+    {
+      "old_path": "report_v2/figures/robustness_synthesis.pdf",
+      "new_path": "final_reports/figures/robustness_synthesis.pdf",
+      "size": 18576,
+      "sha256": "9d6e669326afbd085963268b4067e5adaf3e30583d41030a9d136d9c808132b7"
+    },
+    {
+      "old_path": "report_v2/figures/capacity_ablation.png",
+      "new_path": "final_reports/figures/capacity_ablation.png",
+      "size": 48739,
+      "sha256": "7604b84b79f8397775899c8b512bdc67417e6eb18fd262043f46fd85de4b68c6"
+    },
+    {
+      "old_path": "report_v2/figures/PROVENANCE.md",
+      "new_path": "final_reports/figures/PROVENANCE.md",
+      "size": 3912,
+      "sha256": "68dd3d570b03bb9ce8af541023c3fb2b05b51d5710467eef0dafb86453a11138"
+    },
+    {
+      "old_path": "report_v2/figures/PAIRED_PROVENANCE.md",
+      "new_path": "final_reports/figures/PAIRED_PROVENANCE.md",
+      "size": 582,
+      "sha256": "ad81b315248f99affd3dc6b9238b799e335c4afce7c79e58aa24557a07b4348e"
+    },
+    {
+      "old_path": "report_v2/figures/README.md",
+      "new_path": "final_reports/figures/README.md",
+      "size": 3551,
+      "sha256": "7aa3d546c0af0fa7c5e6009ec229c50133402f2081e040e73aed1233d4d732a5"
+    },
+    {
+      "old_path": "report_v2/figures/ridge_learning_curve.pdf",
+      "new_path": "final_reports/figures/ridge_learning_curve.pdf",
+      "size": 19042,
+      "sha256": "9f26afe95e4792f7544b11231d79c71af20df9f0a484486bc75017a6be4d7711"
+    },
+    {
+      "old_path": "report_v2/figures/confounding.png",
+      "new_path": "final_reports/figures/confounding.png",
+      "size": 71945,
+      "sha256": "a056cb6eff5f2019cfb17adc824de7a9d96911c245d7556a19aefda5256e6d67"
+    },
+    {
+      "old_path": "report_v2/figures/ridge_terminal_diagnostics.pdf",
+      "new_path": "final_reports/figures/ridge_terminal_diagnostics.pdf",
+      "size": 16101,
+      "sha256": "8c8a62dfaf86e472f6b5cf5e2c61f97941a025b25f776e855cc8dd80dace0ad4"
+    },
+    {
+      "old_path": "report_v2/figures/ridge_terminal_diagnostics.png",
+      "new_path": "final_reports/figures/ridge_terminal_diagnostics.png",
+      "size": 85134,
+      "sha256": "b029a2ffe8f5f1ed14451ffe60249ebc10244a2d40df848cf154bad044b5c38a"
+    },
+    {
+      "old_path": "report_v2/figures/confounding.pdf",
+      "new_path": "final_reports/figures/confounding.pdf",
+      "size": 17438,
+      "sha256": "9467abb64147a41b843758f2fc6ffe2ca67f7bcbcff227791bdcddfbafbe7cf0"
+    },
+    {
+      "old_path": "report_v2/figures/ridge_learning_curve.png",
+      "new_path": "final_reports/figures/ridge_learning_curve.png",
+      "size": 71692,
+      "sha256": "2ef5dc39c20bb9692632796b2e9206c04c01ea7cef919864cff97709033eae6b"
+    },
+    {
+      "old_path": "report_v2/figures/threshold_status.png",
+      "new_path": "final_reports/figures/threshold_status.png",
+      "size": 50035,
+      "sha256": "1dbde37a9ecf3d5163b589a801f9d9640ebe2ac8a39db85400202e9559a2bbe4"
+    },
+    {
+      "old_path": "report_v2/figures/threshold_status.pdf",
+      "new_path": "final_reports/figures/threshold_status.pdf",
+      "size": 14368,
+      "sha256": "c48e5cd0b20e9d4458abbd733aa28c75b7b9ff15098eb483fde654dd342a898a"
+    },
+    {
+      "old_path": "report_v2/figures/paired_specimen_errors.pdf",
+      "new_path": "final_reports/figures/paired_specimen_errors.pdf",
+      "size": 21344,
+      "sha256": "0532159686bf622d1931bd9c306617edc4a1601e63d170ec55761930bd53c462"
+    },
+    {
+      "old_path": "report_v2/figures/paired_specimen_errors.png",
+      "new_path": "final_reports/figures/paired_specimen_errors.png",
+      "size": 66699,
+      "sha256": "9c6d0cdea2cb337c67d56a0d3da3158e03714e62b03c17e4e6ac561617775ca1"
+    },
+    {
+      "old_path": "report_v2/figures/evaluation_regimes.png",
+      "new_path": "final_reports/figures/evaluation_regimes.png",
+      "size": 57515,
+      "sha256": "c5336bbca228fbec7fd626747aab4d247af1b5d8a6bbb0b28960990224ec98f8"
+    },
+    {
+      "old_path": "report_v2/figures/dataset_supervision.pdf",
+      "new_path": "final_reports/figures/dataset_supervision.pdf",
+      "size": 20632,
+      "sha256": "56c7da7e8c7054901c9accc98e88164f835f3d91c29cf815404ae952da0a58e4"
+    },
+    {
+      "old_path": "report_v2/figures/dataset_supervision.png",
+      "new_path": "final_reports/figures/dataset_supervision.png",
+      "size": 78335,
+      "sha256": "5d3ddb718f33609718564b3fa803c3463086af97c06b1759506f9bb8413876f5"
+    },
+    {
+      "old_path": "report_v2/figures/evaluation_regimes.pdf",
+      "new_path": "final_reports/figures/evaluation_regimes.pdf",
+      "size": 18942,
+      "sha256": "893c01318a772b9e1b09c00cbfa7e67f5f1859c6836b1620485ea0d04437bab9"
+    },
+    {
+      "old_path": "report_v2/scripts/paired_diagnostics.py",
+      "new_path": "final_reports/scripts/paired_diagnostics.py",
+      "size": 5919,
+      "sha256": "4cd491d98b04a7202b684bde5ddc40a8d2bcf7a4f6970277c308a1a9299fc2e8"
+    },
+    {
+      "old_path": "report_v2/scripts/_project_paths.py",
+      "new_path": "final_reports/scripts/_project_paths.py",
+      "size": 279,
+      "sha256": "bfc8d0ec5902f28d58f81b9a907181d0adb958cb0cba047ce612baadaaec8f96"
+    },
+    {
+      "old_path": "report_v2/scripts/make_figures.py",
+      "new_path": "final_reports/scripts/make_figures.py",
+      "size": 13810,
+      "sha256": "8f38216c81d7c9f77aec9fb8eb972f49fd151b35b079d2cec807141fbe2c830d"
+    },
+    {
+      "old_path": "report_v2/scripts/audit_saved_figures.py",
+      "new_path": "final_reports/scripts/audit_saved_figures.py",
+      "size": 10775,
+      "sha256": "4ca5fc819a3ea2f71a2a7a9509fb898d336ad46ec1ddfd8cae0960f2f6b1ac21"
+    },
+    {
+      "old_path": "report_v2/scripts/README.md",
+      "new_path": "final_reports/scripts/README.md",
+      "size": 2465,
+      "sha256": "d615214c54e54ea670173fa1205821d5d3901eb2cdfa930286ff48e6cccd6ce7"
+    },
+    {
+      "old_path": "report_v2/scripts/audit_evidence.py",
+      "new_path": "final_reports/scripts/audit_evidence.py",
+      "size": 18516,
+      "sha256": "125371def226cd032b2ae3cea5615b452021a88a0059a8409718ba3f34ba9df5"
+    },
+    {
+      "old_path": "report_v2/scripts/make_v3_figures.py",
+      "new_path": "final_reports/scripts/make_v3_figures.py",
+      "size": 9346,
+      "sha256": "fd350f8475e5101923824aaa0a8d1d0da3ba45d3c4be90c83278457c0069826a"
+    },
+    {
+      "old_path": "report_v2/thesis/README.md",
+      "new_path": "final_reports/sources/thesis/README.md",
+      "size": 1996,
+      "sha256": "39cb032765e3da4d5f4fd5a958b753078e038bff368cb5f8342c02542e316fe1"
+    },
+    {
+      "old_path": "report_v2/thesis/v3/thesis.tex",
+      "new_path": "final_reports/sources/thesis/thesis.tex",
+      "size": 4184,
+      "sha256": "eff3dc3b2af37d71be707048364e42b21facd5903952d909f24ffd332ce55d9a"
+    },
+    {
+      "old_path": "report_v2/thesis/v3/thesis.pdf",
+      "new_path": "final_reports/thesis.pdf",
+      "size": 461796,
+      "sha256": "1382691cc4f8197bc84a155f20cba76305201a411ac9d4ad7cbdc3cc3c5dee13"
+    },
+    {
+      "old_path": "report_v2/thesis/v3/chapters/11_reproducibility.tex",
+      "new_path": "final_reports/sources/thesis/chapters/11_reproducibility.tex",
+      "size": 10436,
+      "sha256": "0fc02ae51093c38558a9215fbca7dde10076b56567e26b0f6a128e90f1042654"
+    },
+    {
+      "old_path": "report_v2/thesis/v3/chapters/02_background.tex",
+      "new_path": "final_reports/sources/thesis/chapters/02_background.tex",
+      "size": 5535,
+      "sha256": "df800161cdf796f68794efebe715facc59548572af4b3164e01b3c65cb56a102"
+    },
+    {
+      "old_path": "report_v2/thesis/v3/chapters/07_proxy_status.tex",
+      "new_path": "final_reports/sources/thesis/chapters/07_proxy_status.tex",
+      "size": 4484,
+      "sha256": "58db9d4ab476761b1f7150a40c3585c8170908057ec71a2b457e190abca4babd"
+    },
+    {
+      "old_path": "report_v2/thesis/v3/chapters/01_introduction.tex",
+      "new_path": "final_reports/sources/thesis/chapters/01_introduction.tex",
+      "size": 4800,
+      "sha256": "d24242deeac8b9e329417d47693f92b18ecb0c5a7e1c06a1b037665e2f2642af"
+    },
+    {
+      "old_path": "report_v2/thesis/v3/chapters/08_discussion.tex",
+      "new_path": "final_reports/sources/thesis/chapters/08_discussion.tex",
+      "size": 5833,
+      "sha256": "fae7e7181ac93ba813d600d355e6362c12528ab22c3c14dd9778bf69212615ce"
+    },
+    {
+      "old_path": "report_v2/thesis/v3/chapters/05_surface_results.tex",
+      "new_path": "final_reports/sources/thesis/chapters/05_surface_results.tex",
+      "size": 7630,
+      "sha256": "df90b2274d8ef4e93aaabd318f6ab014d2f1085830196fede89ad86f496b81c7"
+    },
+    {
+      "old_path": "report_v2/thesis/v3/chapters/10_status_conclusions.tex",
+      "new_path": "final_reports/sources/thesis/chapters/10_status_conclusions.tex",
+      "size": 6054,
+      "sha256": "d33fbaa70af3b950cf1c00d4392e92fd83ddcebda2e5a4cc2dc0ab0c66ee4604"
+    },
+    {
+      "old_path": "report_v2/thesis/v3/chapters/09_limitations.tex",
+      "new_path": "final_reports/sources/thesis/chapters/09_limitations.tex",
+      "size": 6260,
+      "sha256": "204d5166cdf760ef411ebb0a802bbdcd6a6541ba6d3b094b976eba120413ad40"
+    },
+    {
+      "old_path": "report_v2/thesis/v3/chapters/00_abstract.tex",
+      "new_path": "final_reports/sources/thesis/chapters/00_abstract.tex",
+      "size": 4436,
+      "sha256": "504645b8dabab33a748e7ca2c78623e7239f45747b5bb176475272ec763c25b9"
+    },
+    {
+      "old_path": "report_v2/thesis/v3/chapters/06_structural_results.tex",
+      "new_path": "final_reports/sources/thesis/chapters/06_structural_results.tex",
+      "size": 16321,
+      "sha256": "ff7da0d259e71a57841dca6edbd87df87a8b7068a2ef211ca770ad98217c5cf8"
+    },
+    {
+      "old_path": "report_v2/thesis/v3/chapters/03_dataset.tex",
+      "new_path": "final_reports/sources/thesis/chapters/03_dataset.tex",
+      "size": 5627,
+      "sha256": "e6bf218125b40406bb9b9ad98b7c784672d0af42ff8384dfc79aa84f64007f9e"
+    },
+    {
+      "old_path": "report_v2/thesis/v3/chapters/04_methods.tex",
+      "new_path": "final_reports/sources/thesis/chapters/04_methods.tex",
+      "size": 9425,
+      "sha256": "a8fec9d0365973299cd35fb1b5a93c8dc3b9766b50427ebef2181bc84b580b0d"
+    },
+    {
+      "old_path": "report_v2/article/README.md",
+      "new_path": "final_reports/sources/article/README.md",
+      "size": 940,
+      "sha256": "3555acba92583dd47168a964159d507d9703c5d7d044461a9f8090015eee72b5"
+    },
+    {
+      "old_path": "report_v2/article/v3/article.tex",
+      "new_path": "final_reports/sources/article/article.tex",
+      "size": 21160,
+      "sha256": "a5d40bd442a87d5c16f173f40e486a2bd322d69bb72f1f396c361c988f8c3799"
+    },
+    {
+      "old_path": "report_v2/article/v3/article.pdf",
+      "new_path": "final_reports/article.pdf",
+      "size": 214043,
+      "sha256": "3a8630c9a99b2cf5977b79ab7090e5b1f5b50598bdd5faffcdfa2c51be1eba34"
+    }
+  ],
+  "removed_files": [
+    {
+      "path": "report_v2/thesis/v3/thesis.out",
+      "size": 17215,
+      "sha256": "2591f60dea92ffa52a44f02095b738b0313b7200dba709827c93371710e66cf9",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/thesis/v3/thesis.toc",
+      "size": 6912,
+      "sha256": "4815955c68f990d90c165fdf40b8afc1047cb1beaf0021ac5d6bf2d4c1d3fa68",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/thesis/v3/thesis.bbl",
+      "size": 3199,
+      "sha256": "bc847bbfb5d6ff48b2fa687fcf661e4549f11ba405220a2284b01acc26599331",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/thesis/v3/thesis.blg",
+      "size": 2019,
+      "sha256": "d9ed35ea98265d55494439d86953c3d44b52126e5e193e20093f6ef485274aac",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/thesis/v3/thesis.fls",
+      "size": 34778,
+      "sha256": "56697741f8a0dcc719c750bbd593b1e99114969a05d687b2910ce15ce89625f4",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/thesis/v3/thesis.log",
+      "size": 51471,
+      "sha256": "51885c26a28310a8f6534b25214186ed73a70e00a2130dcb376914c4c4669d9a",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/thesis/v3/thesis.aux",
+      "size": 1177,
+      "sha256": "f1aeea9d926cc31f53a7bed58b08681f826912d84c476b930e2c3f2e0eca98f0",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/thesis/v3/thesis.lot",
+      "size": 1381,
+      "sha256": "6f4f8eb1df01d00dfadf0af1293b7d055e3567a0d68359c3fdd3251dd1d135ad",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/thesis/v3/thesis.lof",
+      "size": 1581,
+      "sha256": "50399b74619a53ee7897bb36204f9fbc682663515e0230d1770db6c9758ebe45",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/thesis/v3/thesis.fdb_latexmk",
+      "size": 24447,
+      "sha256": "58565706b0db530ff7e0951faf838956b211843b37c3438a79af9948a7c6c40c",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/thesis/v3/chapters/09_limitations.aux",
+      "size": 2055,
+      "sha256": "6dba35765ea5cd75d8fd1f17b8e1d986fb0be7c97c4a6cbed2a501175556a6bb",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/thesis/v3/chapters/03_dataset.aux",
+      "size": 2384,
+      "sha256": "df81b84d099e99432cf21b1b636b7d06f40fe298e12a61d943ccd14d46952571",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/thesis/v3/chapters/04_methods.aux",
+      "size": 2734,
+      "sha256": "ec7e8c39a3a4e1b579179a57e6685c3d6105d78846dab1e36c2ac4bfefa5bcaa",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/thesis/v3/chapters/06_structural_results.aux",
+      "size": 5011,
+      "sha256": "c2c5964583bf4aa332c02166a3a02847a2fab01f872932aa74a89043c909e077",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/thesis/v3/chapters/11_reproducibility.aux",
+      "size": 2937,
+      "sha256": "948b2d7fad65db9fd3a62c5225cd7c01ec37fc6e60a4d5301260dbcb451bbfe5",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/thesis/v3/chapters/02_background.aux",
+      "size": 1794,
+      "sha256": "6429803a627d7d9ee85a38cb3f1b75919f41047709e270bcc5399a2c4309c67f",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/thesis/v3/chapters/07_proxy_status.aux",
+      "size": 1884,
+      "sha256": "e0a4037448556b23f66d5c80d02eaf15b052a4c183fa6b27e2ca44087ce60c2c",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/thesis/v3/chapters/05_surface_results.aux",
+      "size": 2536,
+      "sha256": "3b2e7b657b0bca13c8e5d56c512cb4944e0204bba5f62ee1df55d73c54aaeec4",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/thesis/v3/chapters/10_status_conclusions.aux",
+      "size": 2040,
+      "sha256": "9e217fcbd6987bb27890f7b70c1f4acecb873122a166c9d637930c644d5e49b3",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/thesis/v3/chapters/01_introduction.aux",
+      "size": 1548,
+      "sha256": "d850b1fc799402d8b5cbdc4c7d92cb4951140856d82941e9eea35217e1fe6592",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/thesis/v3/chapters/08_discussion.aux",
+      "size": 1780,
+      "sha256": "54568cbbc87cd258c51bdb88bdc00d13a0f050e8030316715f0c1bdd16594203",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/thesis/v3/figures/README.md",
+      "size": 200,
+      "sha256": "35065f605b09f0aa7226ddc8f37402436e115b0ecc6160b9a55f5dea3e13e244",
+      "reason": "Empty figure-directory pointer; same guidance retained in source and figure guides; original backed up"
+    },
+    {
+      "path": "report_v2/article/v3/article.aux",
+      "size": 8054,
+      "sha256": "6ba228a5fbc243e02c6e11bec84ccf2f56bcffdd8401424cb5aa31a9ca72868a",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/article/v3/article.log",
+      "size": 26771,
+      "sha256": "b2fb35bd8b24e08a159dac12e0541951ab5c9c52ef2374f437769fa9214b9148",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/article/v3/article.fls",
+      "size": 22447,
+      "sha256": "cbe22b9441b82ab550edebb0fca98c70f2c46af59de3a38dfff3edb5113a9647",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/article/v3/article.blg",
+      "size": 1409,
+      "sha256": "615f9dd818b5642a8a786f8412dcbb4d4cecf457ae12a924fde0612011a200e5",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/article/v3/article.fdb_latexmk",
+      "size": 15849,
+      "sha256": "1728506cfeb30b31a449c4394e3909ad0b1ba01fba5b6e406acc409531585c2f",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/article/v3/article.out",
+      "size": 4111,
+      "sha256": "88c556ad82502104f8c66f11b8b5451d65c7cd9df1f21c61a06d662690e5080b",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    },
+    {
+      "path": "report_v2/article/v3/article.bbl",
+      "size": 2783,
+      "sha256": "916ee33443a624bfa09b3b890877d010d64b92cbd10aafb0ac1b97c7fafdb14b",
+      "reason": "LaTeX build product; editable .tex/.bib sources retained"
+    }
+  ],
+  "removed_symlinks": [
+    {
+      "path": "report_v2/evidence",
+      "target": "../archive/agent_working_notes/report_v2/evidence",
+      "resolved": "archive/agent_working_notes/report_v2/evidence"
+    },
+    {
+      "path": "report_v2/qa",
+      "target": "../archive/agent_working_notes/report_v2/qa",
+      "resolved": "archive/agent_working_notes/report_v2/qa"
+    },
+    {
+      "path": "report_v2/critique",
+      "target": "../archive/agent_working_notes/report_v2/critique",
+      "resolved": "archive/agent_working_notes/report_v2/critique"
+    },
+    {
+      "path": "report_v2/FINAL_VERIFICATION.md",
+      "target": "../archive/agent_working_notes/report_v2/FINAL_VERIFICATION.md",
+      "resolved": "archive/agent_working_notes/report_v2/FINAL_VERIFICATION.md"
+    },
+    {
+      "path": "report_v2/RESEARCH_NOTES.md",
+      "target": "../archive/agent_working_notes/report_v2/RESEARCH_NOTES.md",
+      "resolved": "archive/agent_working_notes/report_v2/RESEARCH_NOTES.md"
+    },
+    {
+      "path": "report_v2/VERIFICATION_LOG.md",
+      "target": "../archive/agent_working_notes/report_v2/VERIFICATION_LOG.md",
+      "resolved": "archive/agent_working_notes/report_v2/VERIFICATION_LOG.md"
+    },
+    {
+      "path": "report_v2/thesis/v3/FIGURE_AUDIT.md",
+      "target": "../../../archive/agent_working_notes/report_v2/thesis/v3/FIGURE_AUDIT.md",
+      "resolved": "archive/agent_working_notes/report_v2/thesis/v3/FIGURE_AUDIT.md"
+    }
+  ],
+  "new_archive_link": {
+    "path": "final_reports/records",
+    "target": "../archive/agent_working_notes/report_v2"
+  },
+  "old_root": "report_v2",
+  "new_root": "final_reports",
+  "removed_empty_directories": [
+    "report_v2/thesis/v3/chapters",
+    "report_v2/thesis/v3/figures",
+    "report_v2/thesis/v3",
+    "report_v2/article/v3",
+    "report_v2/tables",
+    "report_v2/references",
+    "report_v2/figures",
+    "report_v2/scripts",
+    "report_v2/thesis",
+    "report_v2/article",
+    "report_v2"
+  ]
+}

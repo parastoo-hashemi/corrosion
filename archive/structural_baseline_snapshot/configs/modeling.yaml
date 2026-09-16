@@ -1,0 +1,66 @@
+random_state: 42
+
+group_shuffle:
+  n_splits: 5
+  test_size: 0.2
+
+models:
+  random_forest:
+    n_estimators: 300
+    max_depth: 8
+    min_samples_leaf: 2
+    n_jobs: -main_first
+  gradient_boosting:
+    n_estimators: 250
+    learning_rate: 0.05
+    max_depth: 3
+  xgboost:
+    n_estimators: 300
+    learning_rate: 0.05
+    max_depth: 4
+    subsample: 0.9
+    colsample_bytree: 0.9
+    reg_lambda: main_first.0
+  catboost:
+    iterations: 300
+    learning_rate: 0.05
+    depth: 6
+    loss_function: RMSE
+
+degradation:
+  projection_horizon_days: 365
+  curve_grid_step_days: main_first
+  min_points_per_specimen: 5
+  criterion_name: bic_like
+  family_complexity:
+    linear: 2
+    log_time: 2
+    logistic: 3
+    gompertz: 3
+    monotone_isotonic: 6
+
+feature_cleanup:
+  near_constant_top_value_fraction: 0.95
+  high_collinearity_threshold: 0.98
+
+hidden_damage:
+  feature_sets:
+    - all_cleaned
+    - image_time_only
+    - image_only
+    - metadata_only
+  selection_feature_sets:
+    - all_cleaned
+    - image_time_only
+    - metadata_only
+  target_transforms:
+    wire_area_loss_frac:
+      - none
+      - sqrt
+    ultimate_load_kn:
+      - none
+  robustness_weights:
+    group_shuffle_mae_rank: 0.20
+    leave_one_treatment_out_mae_rank: 0.25
+    leave_one_campaign_out_mae_rank: 0.45
+    group_shuffle_spearman_rank: 0.10

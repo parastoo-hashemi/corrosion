@@ -1,0 +1,4 @@
+split,rows,specimens,originals,augmented,class_1,class_2,class_3,class_4
+train,3846,38,641,3205,3156,540,78,72
+val,75,5,75,0,67,4,3,1
+test,75,5,75,0,65,5,4,1

@@ -1,0 +1,13 @@
+strategy,model,mae,rmse,r2,folds,n_test_min,n_test_max,target
+group_shuffle,mlp_regressor,4.208694226807103,6.233760596454311,0.7843370915196706,1,159,159,peak_rust_pct
+leave_one_campaign_out,hist_gradient_boosting,6.211431711913367,8.882772244890138,0.5945599356185396,2,360,432,peak_rust_pct
+leave_one_treatment_out,random_forest,4.741652366797044,7.245375787957069,-0.07676866741346396,7,30,306,peak_rust_pct
+group_shuffle,random_forest,1.381352855848717,3.1416748912566432,0.645778932568914,1,159,159,surface_total_rust_pct
+leave_one_campaign_out,random_forest,2.095867953437958,3.90614668798728,0.5815116675452274,2,360,432,surface_total_rust_pct
+leave_one_treatment_out,mlp_regressor,1.532629491968208,2.6592626493010707,-0.6772010266881079,7,30,306,surface_total_rust_pct
+group_shuffle,random_forest,0.1206849593253961,0.1681663519934566,0.384536726745149,1,10,10,ultimate_load_kn
+leave_one_campaign_out,extra_trees,0.6242643055555555,0.6553027831903209,-8.356059477314027,2,24,24,ultimate_load_kn
+leave_one_treatment_out,random_forest,0.15815762332651942,0.1890025211503659,-4.568635895776479,7,2,18,ultimate_load_kn
+group_shuffle,random_forest,3.899300292857145,4.99541275926641,0.3103769511894754,1,10,10,wire_area_loss_pct
+leave_one_campaign_out,hist_gradient_boosting,12.280402777777777,15.410269006190163,-0.38697213767299343,2,24,24,wire_area_loss_pct
+leave_one_treatment_out,hist_gradient_boosting,10.759258071853719,13.064825517614965,-5.481000590091155,7,2,18,wire_area_loss_pct

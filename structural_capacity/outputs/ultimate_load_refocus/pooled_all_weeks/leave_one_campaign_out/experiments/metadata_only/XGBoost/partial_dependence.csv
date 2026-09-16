@@ -1,0 +1,12 @@
+feature,feature_value,feature_value_label,prediction_mean,feature_kind
+nacl_pct,3.5,3.5,2.1806524022942697,numeric
+nacl_pct,5.0,5,2.113158116147732,numeric
+n_steel_mesh,4.0,4,1.9669966096371676,numeric
+n_steel_mesh,7.0,7,2.315127577100481,numeric
+treatment_coarse,False,False,2.150994477923088,categorical
+treatment_coarse,MI,MI,2.150994477923088,categorical
+treatment_coarse,PA,PA,2.150994477923088,categorical
+treatment_coarse,SA,SA,2.154322404324933,categorical
+treatment_coarse,SA_PA,SA_PA,2.151069041751278,categorical
+treatment_coarse,SA_VF,SA_VF,2.150240675537987,categorical
+treatment_coarse,VF,VF,2.150994477923088,categorical

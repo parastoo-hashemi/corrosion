@@ -1,0 +1,32 @@
+[
+  {
+    "path": "README.md",
+    "size": 10742,
+    "sha256": "fe5ae75e60eb06c807083bd9fe4f6b3f19f10f0e2ad537a76f705656f6754a22"
+  },
+  {
+    "path": "report_cleanup/out_audit/README.md",
+    "size": 10418,
+    "sha256": "35f5be6b10f5388649c7e8a7bb2e6d6555a3f4277a007f97d3e7069ba9aa3a9f"
+  },
+  {
+    "path": "report_cleanup/renaming/verify_renaming.py",
+    "size": 15414,
+    "sha256": "e15924cf8104072e236a399ff6acd1c8ff15ba570bfbd41ad37f38ef74d18bae"
+  },
+  {
+    "path": "report_cleanup/renaming/edited_files.json",
+    "size": 8323,
+    "sha256": "fb5f4a041096cd82eeb228e7642efdb487bc6616d3fb5e18cf45633c4d78bbc6"
+  },
+  {
+    "path": "report_cleanup/renaming/added_files.json",
+    "size": 19948,
+    "sha256": "599faf1d973afa6827b6a06f01a146f8474b6008dd294af28b8d55667e6c81fb"
+  },
+  {
+    "path": "report_cleanup/renaming/verification_full.json",
+    "size": 4535,
+    "sha256": "977ac8c84ccca4ca3b1aebfbc8078f966fc5f95f89904c26cac6f4b22737f9db"
+  }
+]

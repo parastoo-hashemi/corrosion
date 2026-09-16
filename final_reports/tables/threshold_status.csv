@@ -1,0 +1,4 @@
+threshold_wire_area_loss_frac,crossed_by_baseline,crossed_during_observation,not_crossed_within_horizon
+0.2,32,1,15
+0.3,8,1,39
+0.4,5,0,43

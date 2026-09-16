@@ -1,0 +1,414 @@
+{
+  "created_utc": "2026-09-16T10:41:12.851467+00:00",
+  "authorization": "User: Clean build files safely. Scope is the 36 audited out build products and empty directories; preserve every PDF.",
+  "removed_files": [
+    {
+      "path": "out/1_corrosion_condition_pipeline_ieee.tex.aux",
+      "size": 5781,
+      "sha256": "7402fe052dda6821076696157bf84d62061651fdbe39e56bc7151f2ae24a3b96",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/1_corrosion_condition_pipeline_ieee.tex.log",
+      "size": 29271,
+      "sha256": "3fa7b4948e810b5227c068785bdb399953d1263b190ee6a21b4a51932201b080",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/1_corrosion_condition_pipeline_ieee.tex.synctex.gz",
+      "size": 94962,
+      "sha256": "379a6e63b2cd38220df5170139b2f9459a02cd375124724be3b17d9eb09d2255",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/activity_report.aux",
+      "size": 1665,
+      "sha256": "5c6564e2ea1218a2fd6c037c20b56a50812c65ebf98c4818e472d732c8b58849",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/activity_report.bbl",
+      "size": 948,
+      "sha256": "27208a4cf9396882a63d880e5683adeb1fa98fe588372251f4b61f40665732af",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/activity_report.blg",
+      "size": 1620,
+      "sha256": "4344303d8d16613e9c03f01b175e950bee07c5c88f37bbe6615f59c7f4e54874",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/activity_report.log",
+      "size": 63483,
+      "sha256": "88f504cc0865721e5cd7046dfbbfb50d0a2acb5a291d6a7f7390ba95af3ce6d0",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/activity_report.out",
+      "size": 22160,
+      "sha256": "85bcf558d949fe21188bbfcc06ee791eb17b6705097a08056b65d0a5e6218244",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/activity_report.synctex.gz",
+      "size": 639996,
+      "sha256": "ed9feade0265556b436b70bee1dbc91bc1853010719c7b8e09b17dbfdf811ed0",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/activity_report.toc",
+      "size": 9475,
+      "sha256": "ec2eb867eefa86c9ac224527059880c174dfcd8bd8726a1ba033ddb7a2d7009b",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/augmentation_methodology_final.aux",
+      "size": 13324,
+      "sha256": "e2f15fb6cc3407fe0b21d4756a7d5a2f64c5edd20f27c1c4155ade53dfc9b4a7",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/augmentation_methodology_final.log",
+      "size": 39492,
+      "sha256": "facabf8091a14d11e744c15607117eb264e58ad22c41245ab63b47b90a7963d4",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/augmentation_methodology_final.out",
+      "size": 3630,
+      "sha256": "b0bf48ff7266fff099c3f618e16455f139dacaad877cb7e0c23448151b235be4",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/augmentation_methodology_final.synctex.gz",
+      "size": 131614,
+      "sha256": "d16daa979483383ffe586c6c1520bf3381ed0026a753fe58548320c308bf29db",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/augmentation_methodology_final.toc",
+      "size": 2152,
+      "sha256": "71177263730ed810d5a067c7511fd65e9761aa97a6ddc4dee1e1fdd89aae9ca7",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/chapters/01_introduction.aux",
+      "size": 2434,
+      "sha256": "a9ebd2d083eb8a0a7b10b64abaa59b8acda2ff36a2d73451917637bf91ef287c",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/chapters/02_dataset_context_audit.aux",
+      "size": 6998,
+      "sha256": "b6c3a4ca9b731bd3fbb6cc933cae35312038acf41b7f093749a635ecb662cfcd",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/chapters/03_methodological_framework.aux",
+      "size": 5787,
+      "sha256": "1d9f07b571855b1119c92016bd2a093df5cc99568b6fff11815e05402df3f8a4",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/chapters/04_research_and_development_activities.aux",
+      "size": 14758,
+      "sha256": "18481833f620a09252458cb120776bca2c43ac6364f60342c97b469c6cd12ec8",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/chapters/05_integrated_results_and_comparative_analysis.aux",
+      "size": 6091,
+      "sha256": "d489be2cc8e9e17ac09c9abfafb782637bb0cdf5519f8e9e58bf8a1e4b29bd57",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/chapters/06_scientific_interpretation_and_research_decisions.aux",
+      "size": 4665,
+      "sha256": "a35efdc6f840f9e4b60de54fe0bd2b5ebc395361d21d553967c8c714e2be92b0",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/chapters/07_software_engineering_and_reproducibility.aux",
+      "size": 2764,
+      "sha256": "12372550879c8d33809362978db94bcb64237052bdd2e6baf6ac56691771f63c",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/chapters/08_limitations.aux",
+      "size": 2631,
+      "sha256": "6d7666b1999cb196713c1dd17d4ff3b2e2a2b9951c1fd346c85352f8dca02007",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/chapters/09_current_status_and_remaining_work.aux",
+      "size": 2811,
+      "sha256": "d585b9771d03f20efb3361052224f5ed174887bf246fd123b9059748bab209f5",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/chapters/10_conclusions_and_next_steps.aux",
+      "size": 1927,
+      "sha256": "77ef475cfebe2ddcd14c229444a0929846e385d4e4b3a634f71c26c2b773f3b8",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/corrosion_condition_pipeline_ieee.aux",
+      "size": 6239,
+      "sha256": "9a120dd352e8f6a54d37ad544d3110f869693b9720399d4fd9a9293c807519d9",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/corrosion_condition_pipeline_ieee.log",
+      "size": 32600,
+      "sha256": "abf8040759350179b9a7779f0f5a20d0a84eb819b0de5b354733b48f9b06472e",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/corrosion_condition_pipeline_ieee.synctex.gz",
+      "size": 100716,
+      "sha256": "2f410ec672ccbc7e39b44a7f8ba9dd16c1ab7979fd587e91f211c38a6f938c7b",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/mainreport/01_introduction.aux",
+      "size": 1080,
+      "sha256": "52567a63266e5a56d380b7294e52c1bd31d46f0252595276cd636ae58f2565e7",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/mainreport/02_methods.aux",
+      "size": 1594,
+      "sha256": "f0e6aeadd8decf57adab02466c1f955f81d5801598922f0fe323c87560fa3fb1",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/mainreport/03_results.aux",
+      "size": 3629,
+      "sha256": "fc5f5d3cc58cb351dd4887a7b5320287bed3648e57f3e7437530f88d1d968836",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/mainreport/04_discussion.aux",
+      "size": 2293,
+      "sha256": "9e8db9ebce8c2b03bf6b54ee0b78cb743928c6048ec09db306e8da55a14bffb3",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/mainreport/05_conclusion.aux",
+      "size": 1064,
+      "sha256": "35b3dc0d7b442a45b9a61bae40fb0e4e8e90d1b0fde3898be2c66cad8b233c54",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/ultimate_load_refocus_ieee.aux",
+      "size": 4406,
+      "sha256": "e037672aba2495aab88c08650d52e4f07fdbe5f05751b3041128d4ffe49a3521",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/ultimate_load_refocus_ieee.log",
+      "size": 29457,
+      "sha256": "cd191bbea3702a093f45149a7ce7e5c9dd076c4f033b0168099ca33c2bfc3d88",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    },
+    {
+      "path": "out/ultimate_load_refocus_ieee.synctex.gz",
+      "size": 60698,
+      "sha256": "2b2849d7935feb1d9b17a677f0bd5ad97f76b37e08505e3da858406e16508a7b",
+      "reason": "Audited LaTeX build auxiliary; full out backup verified before removal."
+    }
+  ],
+  "removed_directories": [
+    "out/Conferences",
+    "out/Data",
+    "out/Data/Images_dataset",
+    "out/Documentation",
+    "out/Documentation/Conferences",
+    "out/Documentation/Thesis",
+    "out/Thesis",
+    "out/__pycache__",
+    "out/catboost_info",
+    "out/catboost_info/learn",
+    "out/catboost_info/tmp",
+    "out/chapters",
+    "out/codex",
+    "out/configs",
+    "out/figures",
+    "out/figures/generated_scripts",
+    "out/frontmatter",
+    "out/mainreport",
+    "out/notes",
+    "out/outputs",
+    "out/outputs/.matplotlib",
+    "out/outputs/audit",
+    "out/outputs/data",
+    "out/outputs/diagnostics",
+    "out/outputs/diagnostics/figures",
+    "out/outputs/diagnostics/figures/benchmarks",
+    "out/outputs/diagnostics/figures/benchmarks/feature_importance",
+    "out/outputs/diagnostics/figures/benchmarks/feature_importance/hidden_damage",
+    "out/outputs/diagnostics/figures/benchmarks/feature_importance/hidden_damage/ultimate_load_kn",
+    "out/outputs/diagnostics/figures/benchmarks/feature_importance/hidden_damage/wire_area_loss_frac",
+    "out/outputs/diagnostics/figures/benchmarks/feature_importance/surface",
+    "out/outputs/diagnostics/figures/benchmarks/feature_importance/surface/peak_rust_pct",
+    "out/outputs/diagnostics/figures/benchmarks/feature_importance/surface/surface_total_rust_pct",
+    "out/outputs/diagnostics/figures/benchmarks/predictions",
+    "out/outputs/diagnostics/figures/benchmarks/predictions/hidden_damage",
+    "out/outputs/diagnostics/figures/benchmarks/predictions/hidden_damage/ultimate_load_kn",
+    "out/outputs/diagnostics/figures/benchmarks/predictions/hidden_damage/wire_area_loss_frac",
+    "out/outputs/diagnostics/figures/benchmarks/predictions/surface",
+    "out/outputs/diagnostics/figures/benchmarks/predictions/surface/peak_rust_pct",
+    "out/outputs/diagnostics/figures/benchmarks/predictions/surface/surface_total_rust_pct",
+    "out/outputs/diagnostics/figures/degradation",
+    "out/outputs/diagnostics/figures/distributions",
+    "out/outputs/diagnostics/figures/features",
+    "out/outputs/diagnostics/figures/inventory",
+    "out/outputs/diagnostics/figures/proxy",
+    "out/outputs/diagnostics/figures/temporal",
+    "out/outputs/diagnostics/tables",
+    "out/outputs/eda",
+    "out/outputs/eda/figures",
+    "out/outputs/eda/tables",
+    "out/outputs/features",
+    "out/outputs/improvements",
+    "out/outputs/improvements/baseline_snapshot",
+    "out/outputs/improvements/baseline_snapshot/diagnostics",
+    "out/outputs/improvements/baseline_snapshot/models",
+    "out/outputs/improvements/baseline_snapshot/models/degradation",
+    "out/outputs/improvements/baseline_snapshot/models/hidden_damage",
+    "out/outputs/improvements/baseline_snapshot/models/hidden_damage/splits",
+    "out/outputs/improvements/baseline_snapshot/models/hidden_damage/ultimate_load_kn",
+    "out/outputs/improvements/baseline_snapshot/models/hidden_damage/ultimate_load_kn/group_shuffle",
+    "out/outputs/improvements/baseline_snapshot/models/hidden_damage/ultimate_load_kn/leave_one_campaign_out",
+    "out/outputs/improvements/baseline_snapshot/models/hidden_damage/ultimate_load_kn/leave_one_treatment_out",
+    "out/outputs/improvements/baseline_snapshot/models/hidden_damage/wire_area_loss_frac",
+    "out/outputs/improvements/baseline_snapshot/models/hidden_damage/wire_area_loss_frac/group_shuffle",
+    "out/outputs/improvements/baseline_snapshot/models/hidden_damage/wire_area_loss_frac/leave_one_campaign_out",
+    "out/outputs/improvements/baseline_snapshot/models/hidden_damage/wire_area_loss_frac/leave_one_treatment_out",
+    "out/outputs/improvements/baseline_snapshot/models/proxy_rul",
+    "out/outputs/improvements/tables",
+    "out/outputs/logs",
+    "out/outputs/models",
+    "out/outputs/models/degradation",
+    "out/outputs/models/hidden_damage",
+    "out/outputs/models/hidden_damage/splits",
+    "out/outputs/models/hidden_damage/ultimate_load_kn",
+    "out/outputs/models/hidden_damage/ultimate_load_kn/experiments",
+    "out/outputs/models/hidden_damage/ultimate_load_kn/experiments/all_cleaned__none",
+    "out/outputs/models/hidden_damage/ultimate_load_kn/experiments/all_cleaned__none/group_shuffle",
+    "out/outputs/models/hidden_damage/ultimate_load_kn/experiments/all_cleaned__none/leave_one_campaign_out",
+    "out/outputs/models/hidden_damage/ultimate_load_kn/experiments/all_cleaned__none/leave_one_treatment_out",
+    "out/outputs/models/hidden_damage/ultimate_load_kn/experiments/image_only__none",
+    "out/outputs/models/hidden_damage/ultimate_load_kn/experiments/image_only__none/group_shuffle",
+    "out/outputs/models/hidden_damage/ultimate_load_kn/experiments/image_only__none/leave_one_campaign_out",
+    "out/outputs/models/hidden_damage/ultimate_load_kn/experiments/image_only__none/leave_one_treatment_out",
+    "out/outputs/models/hidden_damage/ultimate_load_kn/experiments/image_time_only__none",
+    "out/outputs/models/hidden_damage/ultimate_load_kn/experiments/image_time_only__none/group_shuffle",
+    "out/outputs/models/hidden_damage/ultimate_load_kn/experiments/image_time_only__none/leave_one_campaign_out",
+    "out/outputs/models/hidden_damage/ultimate_load_kn/experiments/image_time_only__none/leave_one_treatment_out",
+    "out/outputs/models/hidden_damage/ultimate_load_kn/experiments/metadata_only__none",
+    "out/outputs/models/hidden_damage/ultimate_load_kn/experiments/metadata_only__none/group_shuffle",
+    "out/outputs/models/hidden_damage/ultimate_load_kn/experiments/metadata_only__none/leave_one_campaign_out",
+    "out/outputs/models/hidden_damage/ultimate_load_kn/experiments/metadata_only__none/leave_one_treatment_out",
+    "out/outputs/models/hidden_damage/ultimate_load_kn/group_shuffle",
+    "out/outputs/models/hidden_damage/ultimate_load_kn/leave_one_campaign_out",
+    "out/outputs/models/hidden_damage/ultimate_load_kn/leave_one_treatment_out",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/all_cleaned__none",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/all_cleaned__none/group_shuffle",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/all_cleaned__none/leave_one_campaign_out",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/all_cleaned__none/leave_one_treatment_out",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/all_cleaned__sqrt",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/all_cleaned__sqrt/group_shuffle",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/all_cleaned__sqrt/leave_one_campaign_out",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/all_cleaned__sqrt/leave_one_treatment_out",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/image_only__none",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/image_only__none/group_shuffle",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/image_only__none/leave_one_campaign_out",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/image_only__none/leave_one_treatment_out",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/image_only__sqrt",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/image_only__sqrt/group_shuffle",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/image_only__sqrt/leave_one_campaign_out",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/image_only__sqrt/leave_one_treatment_out",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/image_time_only__none",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/image_time_only__none/group_shuffle",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/image_time_only__none/leave_one_campaign_out",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/image_time_only__none/leave_one_treatment_out",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/image_time_only__sqrt",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/image_time_only__sqrt/group_shuffle",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/image_time_only__sqrt/leave_one_campaign_out",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/image_time_only__sqrt/leave_one_treatment_out",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/metadata_only__none",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/metadata_only__none/group_shuffle",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/metadata_only__none/leave_one_campaign_out",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/metadata_only__none/leave_one_treatment_out",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/metadata_only__sqrt",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/metadata_only__sqrt/group_shuffle",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/metadata_only__sqrt/leave_one_campaign_out",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/experiments/metadata_only__sqrt/leave_one_treatment_out",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/group_shuffle",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/leave_one_campaign_out",
+    "out/outputs/models/hidden_damage/wire_area_loss_frac/leave_one_treatment_out",
+    "out/outputs/models/proxy_rul",
+    "out/outputs/models/surface",
+    "out/outputs/models/surface/peak_rust_pct",
+    "out/outputs/models/surface/peak_rust_pct/group_shuffle",
+    "out/outputs/models/surface/peak_rust_pct/leave_one_campaign_out",
+    "out/outputs/models/surface/peak_rust_pct/leave_one_treatment_out",
+    "out/outputs/models/surface/splits",
+    "out/outputs/models/surface/surface_total_rust_pct",
+    "out/outputs/models/surface/surface_total_rust_pct/group_shuffle",
+    "out/outputs/models/surface/surface_total_rust_pct/leave_one_campaign_out",
+    "out/outputs/models/surface/surface_total_rust_pct/leave_one_treatment_out",
+    "out/outputs/reports",
+    "out/outputs/splits",
+    "out/references",
+    "out/src",
+    "out/src/corrosion_proxy_rul",
+    "out/src/corrosion_proxy_rul/__pycache__",
+    "out/tables"
+  ],
+  "preserved_files": [
+    {
+      "path": "out/1_corrosion_condition_pipeline_ieee.tex copy.pdf",
+      "size": 650188,
+      "sha256": "fe0291d584fc14ed655df697c1d7762f6f9f5176116391143c29e4941c505e3b"
+    },
+    {
+      "path": "out/1_corrosion_condition_pipeline_ieee.tex.pdf",
+      "size": 647124,
+      "sha256": "c03986e6a6d0aa30c55bf3c47b7500891e5c6719e22963dce8e61ac670e75c45"
+    },
+    {
+      "path": "out/activity_report.pdf",
+      "size": 1195126,
+      "sha256": "66f8f2537e77118fa5fc77a7c6e51dc560bdd99ee71b11fd1e8099b23f66b6f6"
+    },
+    {
+      "path": "out/augmentation_methodology_final.pdf",
+      "size": 16395919,
+      "sha256": "c11303cc389f3b4da52a88f041cfdfd2b5a526feba17cd9e9bba026195b72a17"
+    },
+    {
+      "path": "out/corrosion_condition_pipeline_ieee.pdf",
+      "size": 749962,
+      "sha256": "18db477f360fc38322b6a62394a60ecc9b06bbc390688e122aa7a9270c00d640"
+    },
+    {
+      "path": "out/ultimate_load_refocus_ieee.pdf",
+      "size": 369632,
+      "sha256": "d48254ea248b2738056750b0c7055fb5d1e6aa08632101aeff75b0f1bac752e4"
+    }
+  ],
+  "backup": {
+    "path_relative_to_repository_parent": "corrosion_out_before_build_cleanup_20260916_104012.tar.gz",
+    "sha256": "63260d1f82b9971a0b4984d167cd9d4719fa6ad0953d8731358eba387863cd39",
+    "archive_bytes": 20581847,
+    "verified_file_count": 42,
+    "verified_directory_count": 150,
+    "all_archived_file_sha256_match": true,
+    "verified_before_removal": true
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "description": "Preserved selected research figures and papers. Exact matching copies were freshly SHA-256 verified; these are provenance links, not instructions to delete either copy.",
+  "files": [
+    {
+      "sha256": "f567905c030b1680e77d4a22a7756d19bd0cb31e16719175836de1fd3a55c073",
+      "exact_sources": [
+        "condition_assessment/reports/meeting_report/figures/hidden_damage_relationships.png"
+      ],
+      "old_path": "emiling/main_3/hidden_damage_relationships.png",
+      "path": "selected_results/condition_assessment/hidden_damage_relationships.png"
+    },
+    {
+      "sha256": "c398135af24326aa3b1e18aeabb567f7e21cd9afc9ea7af216c5fcb5536c0d43",
+      "exact_sources": [
+        "condition_assessment/reports/figures/damage_regression_parity.png"
+      ],
+      "old_path": "emiling/main_3/damage_regression_parity.png",
+      "path": "selected_results/condition_assessment/damage_regression_parity.png"
+    },
+    {
+      "sha256": "c3ae52e35745ebe694d38f91257e1a729cb78bab3576914234fea0a65bff54aa",
+      "exact_sources": [
+        "condition_assessment/reports/meeting_report/figures/corrosion_examples.png"
+      ],
+      "old_path": "emiling/main_3/corrosion_examples.png",
+      "path": "selected_results/condition_assessment/corrosion_examples.png"
+    },
+    {
+      "sha256": "17e930bc39e05547e3af5034c22a8ddbcaff34e633a1c6060089e44b294a9df8",
+      "exact_sources": [
+        "condition_assessment/reports/figures/risk_distribution.png"
+      ],
+      "old_path": "emiling/main_3/risk_distribution.png",
+      "path": "selected_results/condition_assessment/risk_distribution.png"
+    },
+    {
+      "sha256": "cc67457c061045c41f5b5a2eec72b7dcc9d9e2ef77e414c1cba46f26f26d501d",
+      "exact_sources": [
+        "condition_assessment/reports/meeting_report/figures/corrosion_distributions.png"
+      ],
+      "old_path": "emiling/main_3/corrosion_distributions.png",
+      "path": "selected_results/condition_assessment/corrosion_distributions.png"
+    },
+    {
+      "sha256": "82aabafeb8ca325b4ca0205c33706901064faa8cd48a50432ae3050480ee085b",
+      "exact_sources": [
+        "condition_assessment/reports/figures/corrosion_model_mae.png"
+      ],
+      "old_path": "emiling/main_3/corrosion_model_mae.png",
+      "path": "selected_results/condition_assessment/corrosion_model_mae.png"
+    },
+    {
+      "sha256": "18db477f360fc38322b6a62394a60ecc9b06bbc390688e122aa7a9270c00d640",
+      "exact_sources": [
+        "out/corrosion_condition_pipeline_ieee.pdf"
+      ],
+      "old_path": "emiling/main_3/corrosion_condition_pipeline_ieee.pdf",
+      "path": "selected_results/condition_assessment/corrosion_condition_pipeline_ieee.pdf"
+    },
+    {
+      "sha256": "b00ee7ec0f1be83b384373b7f049fb83e39ba706b136e9219a7b626609dc5557",
+      "exact_sources": [
+        "condition_assessment/reports/figures/degradation_examples_peak_rust.png"
+      ],
+      "old_path": "emiling/main_3/degradation_examples_peak_rust.png",
+      "path": "selected_results/condition_assessment/degradation_examples_peak_rust.png"
+    },
+    {
+      "sha256": "85b8caa319aee08ffd0bfa38d61dd81b0d5fa1d7fa2fb78d62b0011034d08a0c",
+      "exact_sources": [
+        "condition_assessment/reports/meeting_report/figures/dataset_overview.png"
+      ],
+      "old_path": "emiling/main_3/dataset_overview.png",
+      "path": "selected_results/condition_assessment/dataset_overview.png"
+    },
+    {
+      "sha256": "42422ec392e6009252a978408c4f9d9d12adb26e19a5e7f1509aef509925bf84",
+      "exact_sources": [
+        "condition_assessment/reports/figures/corrosion_model_macro_f1.png"
+      ],
+      "old_path": "emiling/main_3/corrosion_model_macro_f1.png",
+      "path": "selected_results/condition_assessment/corrosion_model_macro_f1.png"
+    },
+    {
+      "sha256": "7ca5148283e5f2bced25f032693ea8243db8551039d093acc6012bced8b69e84",
+      "exact_sources": [
+        "condition_assessment/reports/meeting_report/figures/degradation_examples_panel.png"
+      ],
+      "old_path": "emiling/main_3/degradation_examples_panel.png",
+      "path": "selected_results/condition_assessment/degradation_examples_panel.png"
+    },
+    {
+      "sha256": "c1e082ca68d5982b2beedcd5a764d1b735b26ec69e0760a26afe38cd21dbaa1e",
+      "exact_sources": [
+        "condition_assessment/reports/figures/grouped_regression_mae_summary.png"
+      ],
+      "old_path": "emiling/main_3/grouped_regression_mae_summary.png",
+      "path": "selected_results/condition_assessment/grouped_regression_mae_summary.png"
+    },
+    {
+      "sha256": "3ee03ce8d60df2c3494042e3178f1b880a578e615348a7848399baa6099ec828",
+      "exact_sources": [
+        "condition_assessment/reports/figures/corrosion_regression_parity.png"
+      ],
+      "old_path": "emiling/main_3/corrosion_regression_parity.png",
+      "path": "selected_results/condition_assessment/corrosion_regression_parity.png"
+    },
+    {
+      "sha256": "1f132c22e4036102c81a48022e97be4a0710dd386b70515227d41f9408bdb46f",
+      "exact_sources": [
+        "condition_assessment/reports/figures/damage_model_mae.png"
+      ],
+      "old_path": "emiling/main_3/damage_model_mae.png",
+      "path": "selected_results/condition_assessment/damage_model_mae.png"
+    },
+    {
+      "sha256": "5b26a82abee3c6b51569007766e788b530e760e47c4c7809e8b0c02f95397e74",
+      "exact_sources": [
+        "condition_assessment/reports/meeting_report/figures/feature_alignment.png"
+      ],
+      "old_path": "emiling/main_3/feature_alignment.png",
+      "path": "selected_results/condition_assessment/feature_alignment.png"
+    },
+    {
+      "sha256": "46bffd8d989600426fa09c35ce4c74983fb9cbc30f80a22c0ee339829e962ea4",
+      "exact_sources": [
+        "condition_assessment/reports/figures/rul_histogram.png"
+      ],
+      "old_path": "emiling/main_3/rul_histogram.png",
+      "path": "selected_results/condition_assessment/rul_histogram.png"
+    },
+    {
+      "sha256": "499fe9bfc38d35dcb116c39d6132335a2dae1b0bba28bcb691cbb0192c22bc09",
+      "exact_sources": [
+        "structural_capacity/outputs/ultimate_load_refocus/splits/grouped_cv_balance.png"
+      ],
+      "old_path": "emiling/main_4/grouped_cv_balance.png",
+      "path": "selected_results/structural_capacity/grouped_cv_balance.png"
+    },
+    {
+      "sha256": "59c49af0c2d27d7b58e7bc251dda7b4425e09603252104a380fc65da7870a4b3",
+      "exact_sources": [
+        "structural_capacity/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_balance.png"
+      ],
+      "old_path": "emiling/main_4/leave_one_campaign_out_balance.png",
+      "path": "selected_results/structural_capacity/leave_one_campaign_out_balance.png"
+    },
+    {
+      "sha256": "bcaf4b557ba91651d15f49c2508f831c44a4e453ba72ae0390b866a0dad89d1f",
+      "exact_sources": [
+        "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/model_metric_heatmap.png"
+      ],
+      "old_path": "emiling/main_4/model_metric_heatmap.png",
+      "path": "selected_results/structural_capacity/model_metric_heatmap.png"
+    },
+    {
+      "sha256": "6d8ac1d4635b8b3171b9489e6a5b5707c438c4c3c7a7d4404a58a2f6a747be47",
+      "exact_sources": [
+        "structural_capacity/outputs/ultimate_load_refocus/correlations/mesh_stratified_corrosion_vs_ultimate_load.png"
+      ],
+      "old_path": "emiling/main_4/mesh_stratified_corrosion_vs_ultimate_load.png",
+      "path": "selected_results/structural_capacity/mesh_stratified_corrosion_vs_ultimate_load.png"
+    },
+    {
+      "sha256": "a40f870baa5763bb50d4e017fc9b8157774e8a02634bd5e65f773b1bddb0cc44",
+      "exact_sources": [
+        "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison_bars.png",
+        "archive/agent_working_notes/report_v2/qa/v3/M4-01_replay.png"
+      ],
+      "old_path": "emiling/main_4/feature_set_comparison_bars.png",
+      "path": "selected_results/structural_capacity/feature_set_comparison_bars.png"
+    },
+    {
+      "sha256": "d48254ea248b2738056750b0c7055fb5d1e6aa08632101aeff75b0f1bac752e4",
+      "exact_sources": [
+        "out/ultimate_load_refocus_ieee.pdf"
+      ],
+      "old_path": "emiling/main_4/ultimate_load_refocus_ieee.pdf",
+      "path": "selected_results/structural_capacity/ultimate_load_refocus_ieee.pdf"
+    },
+    {
+      "sha256": "6f2465674ec382537626d8add537b3a553eb8bf3e6acb044ed73eb0b8a5a9393",
+      "exact_sources": [
+        "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/learning_curve.png",
+        "archive/agent_working_notes/report_v2/qa/v3/R-04_replay.png"
+      ],
+      "old_path": "emiling/main_4/metadata_only+Ridge/learning_curve.png",
+      "path": "selected_results/structural_capacity/metadata_only+Ridge/learning_curve.png"
+    },
+    {
+      "sha256": "baa8e0589365da3f24bddb72f6ef38fefae80b6e9803b9b9eebbad0ce201c52c",
+      "exact_sources": [
+        "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/cv_stability.png"
+      ],
+      "old_path": "emiling/main_4/metadata_only+Ridge/cv_stability.png",
+      "path": "selected_results/structural_capacity/metadata_only+Ridge/cv_stability.png"
+    },
+    {
+      "sha256": "61f65ec17908b110abbecb464ab3abe5e874124c67c67971b1f8b8023b679a41",
+      "exact_sources": [
+        "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/residual_analysis.png"
+      ],
+      "old_path": "emiling/main_4/metadata_only+Ridge/residual_analysis.png",
+      "path": "selected_results/structural_capacity/metadata_only+Ridge/residual_analysis.png"
+    },
+    {
+      "sha256": "5755c77b4691695f6590790886e1f2bd476f1aca43839fdc671c7d208a065b9b",
+      "exact_sources": [
+        "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/error_distribution.png",
+        "archive/agent_working_notes/report_v2/qa/v3/R-02_replay.png"
+      ],
+      "old_path": "emiling/main_4/metadata_only+Ridge/error_distribution.png",
+      "path": "selected_results/structural_capacity/metadata_only+Ridge/error_distribution.png"
+    },
+    {
+      "sha256": "30eb8759d48ce8619463b8cc3419d1e3925e24efddeadc1041ff4a74c089d39d",
+      "exact_sources": [
+        "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/uncertainty.png",
+        "archive/agent_working_notes/report_v2/qa/v3/R-08_replay.png"
+      ],
+      "old_path": "emiling/main_4/metadata_only+Ridge/uncertainty.png",
+      "path": "selected_results/structural_capacity/metadata_only+Ridge/uncertainty.png"
+    },
+    {
+      "sha256": "478c4681b01232fd7dab7cfa5282a34aeb2e9212f1edf6d4636db98db40c0c20",
+      "exact_sources": [
+        "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/feature_importance.png",
+        "archive/agent_working_notes/report_v2/qa/v3/R-03_replay.png"
+      ],
+      "old_path": "emiling/main_4/metadata_only+Ridge/feature_importance.png",
+      "path": "selected_results/structural_capacity/metadata_only+Ridge/feature_importance.png"
+    },
+    {
+      "sha256": "4e9af3f18ec60f46d6c7481d1496f08c0bee2aebc428ca337c1cbdbf6e154fc9",
+      "exact_sources": [
+        "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/partial_dependence.png",
+        "archive/agent_working_notes/report_v2/qa/v3/R-05_replay.png"
+      ],
+      "old_path": "emiling/main_4/metadata_only+Ridge/partial_dependence.png",
+      "path": "selected_results/structural_capacity/metadata_only+Ridge/partial_dependence.png"
+    },
+    {
+      "sha256": "cc0853d453c9ff98bdfd517b1c2c63cdd67ac2cbabecc10f30cf5870428b6469",
+      "exact_sources": [
+        "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/prediction_vs_ground_truth.png",
+        "archive/agent_working_notes/report_v2/qa/v3/R-06_replay.png"
+      ],
+      "old_path": "emiling/main_4/metadata_only+Ridge/prediction_vs_ground_truth.png",
+      "path": "selected_results/structural_capacity/metadata_only+Ridge/prediction_vs_ground_truth.png"
+    }
+  ]
+}

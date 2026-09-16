@@ -1,0 +1,8 @@
+2026-03-11 12:05:54,108 | INFO | src.data.canonical | Loading spreadsheet: /Users/parastoo/All_projects/Proj_corrosion/Data/Images_Dataset_A-Z.xlsx
+2026-03-11 12:05:54,249 | INFO | src.data.canonical | Scanning image directory: /Users/parastoo/All_projects/Proj_corrosion/Data/Images_dataset
+2026-03-11 12:05:54,279 | INFO | src.data.canonical | Loading spreadsheet: /Users/parastoo/All_projects/Proj_corrosion/Data/Images_Dataset_A-Z.xlsx
+2026-03-11 12:05:54,313 | INFO | src.data.canonical | Scanning image directory: /Users/parastoo/All_projects/Proj_corrosion/Data/Images_dataset
+2026-03-11 12:07:57,440 | INFO | src.features.extractor | Extracted image features for 100/792 records
+2026-03-11 12:09:31,255 | INFO | src.features.extractor | Extracted image features for 200/792 records
+2026-03-11 12:11:06,266 | INFO | src.features.extractor | Extracted image features for 300/792 records
+2026-03-11 12:12:40,339 | INFO | src.features.extractor | Extracted image features for 400/792 records

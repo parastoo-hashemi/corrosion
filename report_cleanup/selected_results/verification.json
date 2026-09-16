@@ -1,0 +1,35 @@
+{
+  "time_utc": "2026-09-16T15:09:02.439619+00:00",
+  "preserved_files_hashed": 31,
+  "research_files_preserved": 30,
+  "research_files_indexed": 30,
+  "exact_matching_source_copies_checked": 37,
+  "archive_files_verified": 31,
+  "local_links_checked": 231,
+  "heading_anchors_checked": 6,
+  "historical_paths_resolved": 31,
+  "research_files_and_guides_eligible_for_tracking": true,
+  "unit_tests": {
+    "command": "python -B -m unittest discover -s tests",
+    "passed": 14,
+    "failed": 0
+  },
+  "git_unchanged": true,
+  "git_after": {
+    "head": "19a6ae86496894378a1475de34aa6bdd93682b07",
+    "branch": "master",
+    "refs": "19a6ae86496894378a1475de34aa6bdd93682b07 refs/heads/cleanup/delivery-prep\n19a6ae86496894378a1475de34aa6bdd93682b07 refs/heads/master\nc5a4f1af2329bc7dbf27b9ec807d8dc3047020ff refs/heads/report-rebuild-codex\n7e69d7a152d43adf261aa16bb3dfea8f2ecfbb4c refs/heads/report-rebuild-codex-v3\n1089b3e7f6c7f798a3bf5c6ccd07eb6c1fb3e322 refs/remotes/origin/HEAD\n1089b3e7f6c7f798a3bf5c6ccd07eb6c1fb3e322 refs/remotes/origin/master",
+    "index_sha256": "a19d0ab18ad7db881115300f44092d8956755447e79c17d8fdfd20158c92d822",
+    "staged": ""
+  },
+  "backup": {
+    "path_relative_to_repository_parent": "corrosion_selected_results_before_reorganization_20260916_145900.tar.gz",
+    "sha256": "bc0db26718842526b017fee1941ff553c4c4064ca0ca326371a450d3ccd255ba",
+    "archive_bytes": 8696768,
+    "verified_files": 31,
+    "verified_directories": 4,
+    "verified_before_reorganization": true
+  },
+  "failures": [],
+  "passed": true
+}

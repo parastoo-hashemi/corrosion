@@ -1,0 +1,9 @@
+{
+  "main_first": "exploratory_prototype",
+  "main": "classical_corrosion",
+  "main_2": "image_embeddings",
+  "main_3": "condition_assessment",
+  "main_4": "structural_capacity",
+  "augmentation": "classification_data_preparation",
+  "main_4_old": "archive/structural_baseline_snapshot"
+}

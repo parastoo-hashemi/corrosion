@@ -1,0 +1,122 @@
+Corrosion Prediction Project: Recommended Scientific Solution
+==============================================================
+
+Context
+-------
+You provided:
+1) Structured measurements in Excel: 792 records, 48 specimens, week 0 to week 36.
+2) Image dataset: 792 image files aligned 1:1 with table IDs.
+3) Scientific references in Documentation (conference paper + thesis).
+
+Main observations from the data
+-------------------------------
+1) The table has one semantic header row inside row-1; this is now handled in code.
+2) Corrosion target distribution is highly skewed:
+   - B_Peak_Rust_Percentage_[%] median is low, but high-tail values exist.
+3) Longitudinal structure is strong:
+   - Each specimen has a time series (15 to 18 observations).
+   - Week and corrosion are positively correlated within specimens.
+4) One image is corrupted:
+   - E01-20240508-17W.png
+   - The pipeline handles this safely by median-imputed image features.
+
+Reference alignment with your scientific documents
+--------------------------------------------------
+1) Conference paper (ARTISTE 2025):
+   - Uses RGB-threshold corrosion labeling and ResNet-50 transfer learning.
+   - Reports improved fine-tuned performance (validation accuracy ~0.81, macro-F1 ~0.81).
+   - Uses class thresholds aligned with low/medium/high corrosion evidence.
+2) Thesis (Chapter 7):
+   - Describes finalized RGB thresholds:
+     rust [25,0,0] to [255,100,80],
+     black pores [0,0,0] to [5,5,0],
+     gray [60,70,35] to [120,105,95].
+   - Confirms 792-image dataset and strip-based corrosion quantification pipeline.
+3) The implemented features and threshold logic use the same domain assumptions.
+
+Scientific modeling strategy
+----------------------------
+A single model is not enough. The best practical design is a 3-model system:
+
+Model A: Current corrosion quantification
+- Goal: estimate peak rust percentage at current week.
+- Inputs: metadata + extracted image features.
+- Why: image contains the most direct corrosion evidence.
+
+Model B: Progression model
+- Goal: estimate corrosion level as a function of week and material/treatment metadata.
+- Inputs: metadata + week.
+- Why: needed for forward trajectory prediction and planning.
+
+Model C: Time-to-threshold model
+- Goal: estimate remaining weeks to severe corrosion threshold.
+- Inputs: metadata + current week + current corrosion estimate.
+- Why: directly answers maintenance timing decisions.
+
+Validation protocol
+-------------------
+- Group-aware validation is mandatory.
+- We split by specimen (GroupKFold / GroupShuffleSplit) to prevent leakage across weeks
+  from the same specimen.
+- Metrics:
+  - MAE and RMSE for engineering error magnitude.
+  - R2 for explained variance.
+
+Validated results from this repository (trained and saved)
+----------------------------------------------------------
+Task A: current_corrosion (metadata + image features -> peak rust %)
+- Best model: RandomForest
+- Holdout MAE: 2.3794
+- Holdout RMSE: 4.2543
+- Holdout R2: 0.8996
+
+Task B: progression (metadata + week -> peak rust % trajectory)
+- Best model: GradientBoosting
+- Holdout MAE: 6.7144
+- Holdout RMSE: 9.3294
+- Holdout R2: 0.5170
+
+Task C: time_to_threshold (metadata + week + current corrosion -> remaining weeks)
+- Severe threshold: 20% peak rust
+- Best model: RandomForest
+- Holdout MAE: 2.2114 weeks
+- Holdout RMSE: 3.0947 weeks
+- Holdout R2: 0.7820
+
+Why this is strong for your professor
+-------------------------------------
+1) It reproduces the literature logic (RGB/rust evidence + ML).
+2) It avoids optimistic leakage by grouped validation.
+3) It serves both research and operational usage:
+   - current assessment,
+   - future progression,
+   - time prediction.
+4) It is deployable via API for integration into lab workflow.
+
+Alternative methods to discuss
+------------------------------
+1) CNN transfer learning (ResNet-50 / EfficientNet)
+   - Strong for image classification (paper reports good validation accuracy).
+   - Needs GPU and careful balancing/augmentation for regression use.
+2) Multimodal deep learning (CNN + tabular branch)
+   - Potentially strongest end-to-end approach.
+   - Higher complexity and deployment burden.
+3) Survival analysis (Cox / random survival forests)
+   - Better treatment of censored specimens for time-to-event.
+   - Requires additional assumptions and specialized tooling.
+
+Final recommendation
+--------------------
+Start with the implemented tabular + interpretable image-feature pipeline as baseline,
+because it is robust, explainable, and already deployable. Then propose a phase-2 deep
+learning extension (ResNet-based multimodal model) if your professor approves a higher
+compute budget.
+
+Deployment status
+-----------------
+- Deployed locally as FastAPI service.
+- Endpoints validated:
+  - /health
+  - /predict/current
+  - /predict/progression
+  - /predict/time-to-threshold

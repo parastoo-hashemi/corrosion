@@ -1,0 +1,80 @@
+{
+  "removed_files": [
+    {
+      "path": "report_v2/scripts/build_reports.py",
+      "sha256": "4dd9ad4b633c69d3364c6c6a6b6d6722c8fce86e475944d423d56ab4b51b2597",
+      "size": 1930,
+      "reason": "Obsolete v1/v2 LaTeX build wrapper; direct latexmk commands are documented."
+    },
+    {
+      "path": "report_v2/scripts/build_v3_reports.py",
+      "sha256": "459373b4de8d4794dad3e6d8059723e66650dca12d5b84aa9d6f45756abad9a0",
+      "size": 880,
+      "reason": "Optional v3 LaTeX build wrapper; direct latexmk commands preserve compilation."
+    },
+    {
+      "path": "report_v2/scripts/render_review.py",
+      "sha256": "79c71900950ec2248823275cdcf1b926b6213b39d4811b9b7b6f56ab7fd8c281",
+      "size": 1884,
+      "reason": "Obsolete v1/v2 PDF review contact-sheet generator."
+    },
+    {
+      "path": "report_v2/scripts/render_v3_review.py",
+      "sha256": "35b492b520d4c107be5b4908e72cf9aec142688135fac34807367a156f8106e8",
+      "size": 1766,
+      "reason": "Optional PDF review contact-sheet generator; finished PDFs and sources remain."
+    },
+    {
+      "path": "report_v2/scripts/revise_drafts.py",
+      "sha256": "3ae150b5efd884244f6c26c83032c17c8c473f8f6588bd159a3e8b875c7e0dc3",
+      "size": 17093,
+      "reason": "One-off v1-to-v2 manuscript revision script; those draft sources were previously removed."
+    },
+    {
+      "path": "report_v2/scripts/make_bibliography.py",
+      "sha256": "ab5e15f292b93f5cf64b8a02fbc3efe1f43304f460d262b6fdeccac237b3ed8b",
+      "size": 1698,
+      "reason": "One-off bibliography assembly; finalized bibliography and metadata remain."
+    },
+    {
+      "path": "report_v2/scripts/validate_documents.py",
+      "sha256": "308f3488e1252e9e0aa06a6507c71601db5743a97bd7f16d5a90128e55751bc8",
+      "size": 9137,
+      "reason": "Obsolete all-draft QA script; current delivery verifier and scientific evidence audits remain."
+    },
+    {
+      "path": "exploratory_prototype/generate_slide_image.py",
+      "sha256": "8796d82e6ae76f23f8cded02f617e6210ec8c136b9e3afc53d8a0b5a76739070",
+      "size": 1162,
+      "reason": "Standalone presentation-mask utility using a former Windows path; scientific image processing and saved mask remain."
+    },
+    {
+      "path": "report_cleanup/renaming/source_before/report_v2/scripts/validate_documents.py",
+      "sha256": "e3db3273502e76c7251b2706a3193ec459aef3276bfb238bedea4e6734a7b1fb",
+      "size": 8889,
+      "reason": "Redundant historical Python backup of a removed publication-only utility; exact bytes are retained in the external backup."
+    },
+    {
+      "path": "report_cleanup/alias_removal/source_before/report_v2/scripts/validate_documents.py",
+      "sha256": "85887af73dd22597ce01a798ff1963bac851b4c0ae0baa34733fcbe78581e529",
+      "size": 8902,
+      "reason": "Redundant historical Python backup of a removed publication-only utility; exact bytes are retained in the external backup."
+    }
+  ],
+  "active_tools_removed": 8,
+  "backup_copies_removed": 2,
+  "backup": {
+    "path_relative_to_repository_parent": "corrosion_removed_publication_tools_20260916_115832.tar.gz",
+    "sha256": "746cb4dd9ae4c0584cdd96444f4055ebf199fecf5185c0194a5f48b93144f8f3",
+    "verified_members": 10
+  },
+  "imports_referencing_removed_tools": [],
+  "remaining_source_references": [],
+  "git_before": {
+    "head": "19a6ae86496894378a1475de34aa6bdd93682b07",
+    "branch": "master",
+    "refs": "19a6ae86496894378a1475de34aa6bdd93682b07 refs/heads/cleanup/delivery-prep\n19a6ae86496894378a1475de34aa6bdd93682b07 refs/heads/master\nc5a4f1af2329bc7dbf27b9ec807d8dc3047020ff refs/heads/report-rebuild-codex\n7e69d7a152d43adf261aa16bb3dfea8f2ecfbb4c refs/heads/report-rebuild-codex-v3\n1089b3e7f6c7f798a3bf5c6ccd07eb6c1fb3e322 refs/remotes/origin/HEAD\n1089b3e7f6c7f798a3bf5c6ccd07eb6c1fb3e322 refs/remotes/origin/master\n",
+    "index_sha256": "a19d0ab18ad7db881115300f44092d8956755447e79c17d8fdfd20158c92d822",
+    "staged": ""
+  }
+}

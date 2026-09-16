@@ -1,0 +1,27 @@
+[
+  {
+    "path": "report_v2/README.md",
+    "sha256": "a49341351bf9a47a0f8d759306a36bfaa9d0ca642aa645b034fb880e1e9d0d9b",
+    "size": 2599
+  },
+  {
+    "path": "report_v2/scripts/README.md",
+    "sha256": "aa573dfc935f90244f96c82176876eb423d6f8ae2fac11145d9dc819c0364fa8",
+    "size": 1585
+  },
+  {
+    "path": "report_cleanup/renaming/verify_renaming.py",
+    "sha256": "44e4379914f00e61d224da40dd35c3df70cb2e1045b4842c9440cc00839f89a5",
+    "size": 21948
+  },
+  {
+    "path": "report_cleanup/renaming/edited_files.json",
+    "sha256": "b019d1ee82f38dc9a201f608a2a21c1c8e4fd02a897248a620d91a9304548537",
+    "size": 8323
+  },
+  {
+    "path": "report_cleanup/renaming/added_files.json",
+    "sha256": "cc1bdb79e755bf1eeb3a88a5fa65b06b9b9d9f6ccb22b629bf202ab164ad4bd4",
+    "size": 22654
+  }
+]

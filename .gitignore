@@ -69,3 +69,5 @@ archive/agent_working_notes/report_v2/qa/**/*.png
 archive/agent_working_notes/report_v2/qa/*_text.txt
 archive/agent_working_notes/report_v2/qa/v3/*_text.txt
 archive/agent_working_notes/report_v2/evidence/predecessor_*.txt
+
+/archive

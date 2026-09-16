@@ -1,0 +1,152 @@
+\documentclass[conference]{IEEEtran}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,graphicx,booktabs,array,microtype,xurl}
+\usepackage{cite,flushend}
+\usepackage[hidelinks]{hyperref}
+\newcommand{\shared}{../..}
+\newcommand{\draftversion}{Version 3}
+\input{\shared/tables/paired_statistics.tex}
+\title{Surface Evidence and Terminal Capacity:\\Evaluation Limits in a Small Ferrocement Dataset}
+\author{\IEEEauthorblockN{Parastoo Hashemi Alvar}\IEEEauthorblockA{Politecnico di Torino\\Turin, Italy}}
+\begin{document}
+\maketitle
+\begin{abstract}
+Accurate visual corrosion estimation need not imply transferable structural prediction. Saved experiments on 48 ferrocement specimens provide 791 readable photographs, but wire-area loss and ultimate load are each measured only once per specimen. Campaign identity coincides with mesh, chloride and terminal exposure. Specimen-disjoint repeated five-fold evaluation compares image-only, metadata-only and combined inputs for terminal load. Metadata-only Ridge gives mean terminal-test MAE 0.173\,kN with fold standard deviation 0.046\,kN. The tested image descriptors do not establish a reliable pooled increment, and individual baseline errors remain substantial. A post-onset gain is limited to some metrics. Every selected within-mesh configuration has negative mean test $R^2$; campaign exclusion is an extrapolation stress test. Scoring uses terminal images, not an early horizon. The contribution is a bounded account of how supervision, metadata controls and evaluation constrain structural claims. Downstream thresholds are not validated remaining-life predictions; the separate four-class classifier remains untrained.
+\end{abstract}
+\begin{IEEEkeywords}
+ferrocement, corrosion imaging, terminal capacity, grouped evaluation, confounding
+\end{IEEEkeywords}
+
+\section{Introduction}
+Repeated photographs provide dense visible-corrosion observations, while destructive structural tests provide sparse supervision. Success at estimating a surface label therefore need not establish internal damage or future capacity. Campaign differences in reinforcement and exposure can further support pooled predictions without identifying a transferable image-to-structure relationship.
+
+Using an inherited ferrocement dataset \cite{hossain_thesis,artiste2025}, we ask: \emph{do image-derived descriptors improve terminal-load prediction beyond specimen and exposure metadata, and what survives more restrictive evaluation?} We check saved predictions and compare pooled, within-mesh and campaign-exclusion results. No new model training is performed. The primary score uses terminal photographs, not a fixed early horizon; neither repeated structural measurements nor lifetime-event labels exist.
+
+\section{Related Work}
+The predecessor thesis documents the campaigns, terminal bending tests and microscopic wire assessment \cite{hossain_thesis}. Its related conference paper develops surface-image analysis and three-class classification \cite{artiste2025}, distinct from the current untrained four-class branch. The present work concerns subsequent modelling on inherited observations, not a new experiment.
+
+Atha and Jahanshahi study convolutional-network corrosion detection \cite{atha2018}; Spencer et al. review vision-based inspection and monitoring \cite{spencer2019}. Detecting surface evidence does not itself validate structural-capacity prediction. For structured datasets, Roberts et al. discuss blocking and restricted predictor support \cite{roberts2017}, while Kapoor and Narayanan examine leakage and resulting scientific claims \cite{kapoor2023}. These motivate specimen grouping and explicit prediction timing. Cawley and Talbot identify bias from finite-sample model selection \cite{cawley2010}; our selected-model comparisons are therefore exploratory, not nested evaluations. This focused review does not establish exhaustive novelty.
+
+\section{Dataset and Methods}
+\subsection{Observation and supervision structure}
+The aligned basis consists of 791 readable photographs from 48 specimens. One of the 792 raw PNG files is unreadable, independently confirmed from the local archive. Each specimen has 15--18 retained photographs. Visible total-rust and peak-rust labels are available repeatedly, but each structural endpoint---wire-area loss and ultimate load---is measured only at the terminal observation.
+
+There are 24 specimens per campaign. One campaign uses seven mesh layers, 3.5\% NaCl, and terminal week 28; the other uses four mesh layers, 5.0\% NaCl, and terminal week 36. Treatment protocols vary within the campaigns. Thus the dataset has two jointly observed campaign-level combinations of the principal design/exposure variables, with no crossed combinations that isolate their separate effects.
+
+Wire-area loss is stored as a fraction in the current aligned table despite a percentage-like workbook column name. Ultimate load is measured in kN. The former concerns selected longitudinal wire cross-sections near the crack surface; it is not a time-resolved internal-damage field \cite{hossain_thesis}. Neither endpoint is an observed service-life failure time.
+
+\begin{figure*}[t]\centering
+\includegraphics[width=.94\textwidth]{\shared/figures/confounding.pdf}
+\caption{Observed campaign combinations and terminal total-rust/load associations. Orange denotes four-mesh specimens and blue denotes seven-mesh specimens. The pooled analysis uses one terminal observation for each of 48 specimens; within-mesh panels have 24 each. Correlations are recomputed from saved specimen summaries. The pooled positive association becomes approximately null for four meshes and negative for seven meshes. This demonstrates sensitivity to group structure, not a decomposition of causal effects.}\label{fig:confounding}
+\end{figure*}
+
+\subsection{Target and information flow}
+For specimen $i$ observed at time $t$, let $I_{it}$ be its image, $m_{it}$ its metadata, and $u_i$ its terminal ultimate load. The focused experiment fits
+\begin{equation}
+\widehat u_{it}=g\left(\phi(I_{it}),m_{it}\right), \qquad y_{it}=u_i,
+\label{eq:target}
+\end{equation}
+where $\phi$ supplies the selected image descriptors. Terminal load is joined to the specimen's earlier photographs for training. This repeats the target, not the physical structural measurement. The main reported score uses only the terminal observations of held-out specimens.
+
+All photographs of a specimen stay in one partition. Preprocessing is fitted on training-fold inputs. The input contract excludes measured structural labels, manually assigned visible targets, identifiers, and future-derived summary fields. Metadata include campaign, series, treatment descriptors, mesh count, chloride, cover, week, and ageing days. The image families contain RGB and HSV descriptors; the comparisons include metadata-only, each image-only family, and combinations.
+
+Models include Ridge and tree ensembles. Each feature family is represented by its selected saved model. The training objective uses retained image rows, so a specimen with more photographs has more influence. The evaluation unit remains a terminal specimen. The source and prediction audits support these distinctions, without asserting that all historical preprocessing choices in earlier generations were leakage-free.
+
+\subsection{Evaluation and sensitivity analyses}
+The main analysis uses two repetitions of five specimen folds, stratified by mesh for the pooled experiment. All 48 specimens are tested in each repetition; individual terminal test folds contain nine or ten specimens. Tables report arithmetic mean fold MAE, $R^2$, and Spearman correlation, with sample fold SD where shown. Repeated folds share specimens and training data, so SD is descriptive and is not a confidence interval on deployment error.
+
+Within-mesh analyses repeat the comparison separately for the 24 specimens in each mesh group, with four or five terminal test specimens per fold. Campaign exclusion trains on one campaign and tests on the other, giving two directions. Because the withheld campaign also changes mesh, chloride, and duration, leave-one-campaign-out (LOCO) is an extrapolation stress test.
+
+A post-onset sensitivity analysis retains observations at and after the first total-rust label of at least 0.5\%, leaving 43 terminal specimens and eight or nine terminal test specimens per fold. This is a pragmatic cutoff rather than a universal visibility threshold; later observations are retained even if their recorded rust falls below it. A separate specimen-summary experiment tests residual correction of metadata predictions using corrosion summaries within mesh groups.
+
+\subsection{Scope of the comparisons}
+The same saved folds are used to select and report the feature-family winners. This limits confirmatory interpretation, especially for small differences. A per-regime best model also differs from a fixed-model robustness test: ratios across evaluation regimes are meaningful as model deterioration only when the same model is retained. Finally, negative test $R^2$ means error exceeds the test-set-mean reference under that score. In small, narrow-range groups, this score can be highly variable; it does not imply every prediction lacks useful rank information.
+
+\section{Results}
+\subsection{Visible estimation is supported, with label adjacency}
+Historical experiments using classical colour features, frozen image embeddings, and interpretable descriptors demonstrate visible-corrosion signal under grouped specimen evaluation. They use partly different dataset and label schemas and are not ranked as one benchmark here. Their agreement is evidence from distinct representations on overlapping specimens, not independent experimental replication.
+
+A more specific limit appears in the refined total-rust audit. Across 791 matched observations, the total-rust label and rust-area image feature have Spearman correlation 0.9996 and mean absolute difference approximately 0.00023 percentage points. This is near numerical reconstruction. It supports consistency of the visual measurement pipeline, but is not independent evidence that images recover hidden structural condition. The precise historical label-generation procedure is not established by the correlation alone. This near-identity concerns the refined feature generation; the earlier interpretable rust-area descriptor has only weak label correlation.
+
+\subsection{Pooled image features do not establish an increment}
+Table~\ref{tab:ablation} reports all seven selected feature families. Metadata-only Ridge gives MAE 0.173\,kN, fold SD 0.046\,kN, RMSE 0.214\,kN, and mean Spearman 0.758. Adding HSV features changes unrounded MAE from 0.172711 to 0.173003\,kN and mean Spearman from 0.758 to 0.771. This is no observed MAE improvement, and the small difference does not establish equivalence.
+\begin{table}[t]\centering
+\caption{Pooled terminal-load results: 48 specimens, ten grouped folds. MAE and sample fold SD are in kN; $R^2$ and $\rho$ are mean fold metrics. The same folds select and score the displayed configurations.}\label{tab:ablation}
+\footnotesize\input{\shared/tables/pooled_capacity_article.tex}
+\end{table}
+
+Metadata+RGB also selects Ridge; all image-only families and metadata+RGB+HSV select CatBoost. Their MAEs exceed metadata-only Ridge. Since input and model choices can change together, Table~\ref{tab:ablation} compares selected pipelines rather than isolated feature effects.
+
+\subsection{Paired errors with Ridge fixed}
+Pairing saved metadata-only and metadata+HSV Ridge predictions by specimen and split makes their small average difference more interpretable. We average absolute errors over each specimen's two held-out evaluations and then compare the two configurations with equal specimen weights. Adding HSV improves \pairedImproved{} specimens and worsens \pairedWorsened{}. The mean change is approximately $+\pairedMean$\,kN and the median is $+\pairedMedian$\,kN, where positive values indicate worse error with HSV.
+
+\begin{figure*}[t]\centering
+\includegraphics[width=.89\textwidth]{\shared/figures/paired_specimen_errors.pdf}
+\caption{Paired change in mean absolute terminal error when adding HSV descriptors to Ridge metadata inputs. The same specimen/split keys are paired, and two held-out evaluations are averaged for each of 48 specimens. Negative values favour the image-enhanced model. There are \pairedImproved{} improvements and \pairedWorsened{} worsenings; the dashed line is the specimen-weighted mean. This is descriptive analysis after selection, not a confidence interval, significance test, or equivalence analysis.}\label{fig:paired}
+\end{figure*}
+Figure~\ref{fig:paired} shows that a near-zero mean combines gains and losses. Its specimen weighting differs from Table~\ref{tab:ablation}'s equal weighting of folds, so the two average differences need not be identical. Fixing the model family sharpens the descriptive comparison but does not remove the original selection limitations.
+
+\subsection{Absolute errors of the metadata anchor}
+Figure~\ref{fig:ridge-terminal} complements the paired comparison by showing where metadata-only Ridge errs. Each point averages two held-out terminal predictions for one specimen. Both mesh groups contain substantial residuals despite the competitive pooled mean. Group separation is therefore not evidence of uniformly accurate within-group prediction.
+
+\begin{figure*}[t]\centering
+\includegraphics[width=.84\textwidth]{\shared/figures/ridge_terminal_diagnostics.pdf}
+\caption{Metadata-only Ridge terminal diagnostics for 48 specimens, 24 per mesh group. Points average two held-out predictions per specimen from the pooled repeated five-fold evaluation. Left: parity with an identity line and equal axes covering all measured loads (1.60--2.87\,kN). Right: signed error, prediction minus observation. These post-selection diagnostics use terminal images and provide no early-horizon or calibrated-interval validation.}\label{fig:ridge-terminal}
+\end{figure*}
+Averaging predictions before absolute error gives MAE 0.171941\,kN; the primary mean of fold MAEs remains 0.172711\,kN. This also differs from the paired analysis, which averages absolute errors first. The original plot’s two-repeat SD bars are not calibrated prediction intervals and are omitted. Repeat stability alone does not establish accuracy.
+
+\subsection{A limited post-onset improvement}
+In the 43-specimen post-onset subset, metadata+RGB+HSV CatBoost has MAE 0.163\,kN and mean $R^2=0.660$, versus metadata-only Ridge MAE 0.173\,kN and $R^2=0.633$. The corresponding Spearman values are 0.791 and 0.803. The combined configuration improves some metrics while metadata retains slightly higher rank correlation. This is a limited sensitivity result with a changed sample and selected model, not a demonstrated general benefit or an overturning of the pooled finding.
+
+\subsection{Pooled association weakens under design controls}
+Figure~\ref{fig:confounding} shows pooled Spearman 0.462 between terminal total rust and load, compared with $-0.046$ within the four-mesh family and $-0.401$ within the seven-mesh family. The change is compatible with strong influence of the between-group structure. It does not identify the separate physical contribution of mesh, corrosion, chloride, or duration.
+
+Every selected feature-family model has negative mean test $R^2$ within either mesh group. Values range from $-3.557$ to $-0.806$ for four meshes and from $-4.654$ to $-0.298$ for seven meshes. Some absolute errors and rank correlations remain moderate: the selected seven-mesh HSV model gives MAE 0.137\,kN and Spearman 0.460, with mean $R^2=-0.386$. Thus the finding is weak and unstable capacity prediction under restricted design variation, not universally absent rank information.
+
+Under campaign exclusion, the selected metadata-only model is GradientBoosting, with mean MAE 0.465\,kN and $R^2=-4.639$ over two directions. Because this model differs from pooled Ridge, a quotient of those two MAEs would not describe deterioration of one fixed model. A separate refined structural experiment does provide that fixed-model comparison: metadata-only RandomForest load MAE increases from 0.174 to 0.564\,kN under campaign exclusion, or 3.236 times its own grouped error. Both diagnostics constrain transfer claims, while answering different selection questions.
+
+
+\begin{table}[t]\centering
+\caption{Selected controls for terminal load. Each within-mesh row uses 24 specimens over ten folds. LOCO uses 48 specimens over two directions. The full within-mesh comparison has seven feature families per subset; all selected families have negative mean test $R^2$. MAE is in kN.}\label{tab:controls}
+\footnotesize
+\begin{tabular}{llrrr}\toprule
+Subset & Features / model & MAE & $R^2$ & $\rho$\\\midrule
+4 meshes & Metadata / Ridge & .208 & -1.476 & .301\\
+4 meshes & All / CatBoost & .194 & -.998 & .081\\
+7 meshes & Metadata / Ridge & .216 & -3.093 & -.050\\
+7 meshes & HSV / CatBoost & .137 & -.386 & .460\\
+LOCO & Metadata / GB & .465 & -4.639 & .217\\\bottomrule
+\end{tabular}
+\end{table}
+Here ``All'' means metadata+RGB+HSV, and GB denotes GradientBoosting. The non-metadata row in each mesh group is that group's lowest-MAE selected feature family.
+
+\subsection{Downstream and development status}
+The specimen-summary residual-refinement experiment selects no second-stage correction; its metadata-only Ridge baseline remains selected with MAE approximately 0.173\,kN and Spearman 0.749. This adds a negative result on the tested correction, not an independent external validation.
+
+The model-derived wire-loss threshold analysis covers 144 specimen--threshold combinations: 45 already crossed at baseline, two during observation and 97 not crossed within the horizon, with no future crossing. These unvalidated structural paths do not establish remaining useful life. The separate four-class branch remains prepared and untrained.
+
+\section{Discussion and Limitations}
+\subsection{Interpretation of the central finding}
+The pooled and paired comparisons do not establish incremental image-to-capacity value, and Fig.~\ref{fig:ridge-terminal} exposes individual errors of the metadata anchor. Metadata can encode both physical design and campaign membership; their contributions cannot be separated here. Within-mesh and campaign-out results limit portability without establishing that corrosion appearance is physically unrelated to capacity.
+
+Sparse supervision, confounding, representation limitations and unmeasured variation remain possible contributors to structural error; their relative effects are not isolated. Terminal-load refocusing shortens the validation chain to a measured endpoint and metadata control, but does not supply early warning. That claim requires restricting observations to predeclared horizons and evaluating the resulting prediction separately.
+
+\subsection{Threats to validity}
+There are 48 independent structural outcomes and only two campaign-level design combinations. Within-mesh test sets are small and narrow in response range; campaign exclusion does not represent typical deployment. Tested descriptors and a focused literature review do not exhaust the available approaches.
+
+Selection uses the reported folds, whose dependence makes SD descriptive, not an uncertainty interval or equivalence test. Training weights image rows, not specimens equally. Cover is recorded as a failure-surface quantity; its availability before destructive testing is unverified and must be checked for early use. Post-onset eligibility and model selection differ from the primary comparison.
+
+Live code contains a YAML category parsed as a boolean and corrupted string substitutions. Saved outputs predate affected source timestamps, but this does not establish their exact executable history. Verification reconstructs saved aggregates and figures without retraining; historical environment details are incomplete, and training reproduction requires code repair.
+
+\section{Conclusion and Future Work}
+The tested image descriptors do not establish reliable pooled incremental value for terminal load beyond metadata. The post-onset gain is limited to some metrics, while within-mesh and campaign-out results constrain transfer and discrimination. These are empirical limits of the present study, not an impossibility claim about imaging.
+
+Next studies should fix model families for image increments, evaluate complete selection procedures and restrict early-observation horizons. The four-class classifier remains a separate experiment. Stronger structural claims require crossed designs and independent structural measurements; prognosis additionally requires a defined lifetime endpoint and event or censoring information.
+
+\section*{Reproducibility Note}
+This manuscript is \draftversion\ (16 September 2026). The companion thesis appendix and figure audit provide saved-data paths, hashes, provenance and commands. Original data, frozen reports and trained models are preserved.
+
+\bibliographystyle{IEEEtran}
+\bibliography{\shared/references/references}
+\end{document}

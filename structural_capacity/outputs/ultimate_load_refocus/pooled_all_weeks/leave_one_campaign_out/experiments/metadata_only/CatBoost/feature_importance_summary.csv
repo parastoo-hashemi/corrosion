@@ -1,0 +1,12 @@
+feature,importance_kind,importance,importance_abs
+cover_mm,feature_importance,56.9362749472981,56.9362749472981
+split_group_treatment,feature_importance,13.1322442133327,13.1322442133327
+series_id,feature_importance,12.26017898520878,12.26017898520878
+treatment_label_coarse,feature_importance,7.367286000216882,7.367286000216882
+treatment_protocol,feature_importance,5.288557234864259,5.288557234864259
+treatment_coarse,feature_importance,4.859719248798598,4.859719248798598
+ageing_days,feature_importance,0.09389944958363089,0.09389944958363089
+week,feature_importance,0.061839920697043055,0.061839920697043055
+campaign_id,feature_importance,0.0,0.0
+n_steel_mesh,feature_importance,0.0,0.0
+nacl_pct,feature_importance,0.0,0.0

@@ -1,0 +1,206 @@
+{
+  "time_utc": "2026-09-16T15:00:10.126756+00:00",
+  "backup": {
+    "path_relative_to_repository_parent": "corrosion_selected_results_before_reorganization_20260916_145900.tar.gz",
+    "sha256": "bc0db26718842526b017fee1941ff553c4c4064ca0ca326371a450d3ccd255ba",
+    "archive_bytes": 8696768,
+    "verified_files": 31,
+    "verified_directories": 4,
+    "verified_before_reorganization": true
+  },
+  "moved_files": [
+    {
+      "old_path": "emiling/.DS_Store",
+      "new_path": "selected_results/.DS_Store",
+      "size": 8196,
+      "sha256": "9aad053e829b1179773263fd1d4894e83027714568b26d44c65d09c59ba3bee5"
+    },
+    {
+      "old_path": "emiling/main_3/hidden_damage_relationships.png",
+      "new_path": "selected_results/condition_assessment/hidden_damage_relationships.png",
+      "size": 232931,
+      "sha256": "f567905c030b1680e77d4a22a7756d19bd0cb31e16719175836de1fd3a55c073"
+    },
+    {
+      "old_path": "emiling/main_3/damage_regression_parity.png",
+      "new_path": "selected_results/condition_assessment/damage_regression_parity.png",
+      "size": 136155,
+      "sha256": "c398135af24326aa3b1e18aeabb567f7e21cd9afc9ea7af216c5fcb5536c0d43"
+    },
+    {
+      "old_path": "emiling/main_3/corrosion_examples.png",
+      "new_path": "selected_results/condition_assessment/corrosion_examples.png",
+      "size": 3561281,
+      "sha256": "c3ae52e35745ebe694d38f91257e1a729cb78bab3576914234fea0a65bff54aa"
+    },
+    {
+      "old_path": "emiling/main_3/risk_distribution.png",
+      "new_path": "selected_results/condition_assessment/risk_distribution.png",
+      "size": 44173,
+      "sha256": "17e930bc39e05547e3af5034c22a8ddbcaff34e633a1c6060089e44b294a9df8"
+    },
+    {
+      "old_path": "emiling/main_3/corrosion_distributions.png",
+      "new_path": "selected_results/condition_assessment/corrosion_distributions.png",
+      "size": 146187,
+      "sha256": "cc67457c061045c41f5b5a2eec72b7dcc9d9e2ef77e414c1cba46f26f26d501d"
+    },
+    {
+      "old_path": "emiling/main_3/corrosion_model_mae.png",
+      "new_path": "selected_results/condition_assessment/corrosion_model_mae.png",
+      "size": 120578,
+      "sha256": "82aabafeb8ca325b4ca0205c33706901064faa8cd48a50432ae3050480ee085b"
+    },
+    {
+      "old_path": "emiling/main_3/corrosion_condition_pipeline_ieee.pdf",
+      "new_path": "selected_results/condition_assessment/corrosion_condition_pipeline_ieee.pdf",
+      "size": 749962,
+      "sha256": "18db477f360fc38322b6a62394a60ecc9b06bbc390688e122aa7a9270c00d640"
+    },
+    {
+      "old_path": "emiling/main_3/degradation_examples_peak_rust.png",
+      "new_path": "selected_results/condition_assessment/degradation_examples_peak_rust.png",
+      "size": 167187,
+      "sha256": "b00ee7ec0f1be83b384373b7f049fb83e39ba706b136e9219a7b626609dc5557"
+    },
+    {
+      "old_path": "emiling/main_3/dataset_overview.png",
+      "new_path": "selected_results/condition_assessment/dataset_overview.png",
+      "size": 240975,
+      "sha256": "85b8caa319aee08ffd0bfa38d61dd81b0d5fa1d7fa2fb78d62b0011034d08a0c"
+    },
+    {
+      "old_path": "emiling/main_3/corrosion_model_macro_f1.png",
+      "new_path": "selected_results/condition_assessment/corrosion_model_macro_f1.png",
+      "size": 141632,
+      "sha256": "42422ec392e6009252a978408c4f9d9d12adb26e19a5e7f1509aef509925bf84"
+    },
+    {
+      "old_path": "emiling/main_3/degradation_examples_panel.png",
+      "new_path": "selected_results/condition_assessment/degradation_examples_panel.png",
+      "size": 301987,
+      "sha256": "7ca5148283e5f2bced25f032693ea8243db8551039d093acc6012bced8b69e84"
+    },
+    {
+      "old_path": "emiling/main_3/grouped_regression_mae_summary.png",
+      "new_path": "selected_results/condition_assessment/grouped_regression_mae_summary.png",
+      "size": 53184,
+      "sha256": "c1e082ca68d5982b2beedcd5a764d1b735b26ec69e0760a26afe38cd21dbaa1e"
+    },
+    {
+      "old_path": "emiling/main_3/corrosion_regression_parity.png",
+      "new_path": "selected_results/condition_assessment/corrosion_regression_parity.png",
+      "size": 279641,
+      "sha256": "3ee03ce8d60df2c3494042e3178f1b880a578e615348a7848399baa6099ec828"
+    },
+    {
+      "old_path": "emiling/main_3/damage_model_mae.png",
+      "new_path": "selected_results/condition_assessment/damage_model_mae.png",
+      "size": 116464,
+      "sha256": "1f132c22e4036102c81a48022e97be4a0710dd386b70515227d41f9408bdb46f"
+    },
+    {
+      "old_path": "emiling/main_3/feature_alignment.png",
+      "new_path": "selected_results/condition_assessment/feature_alignment.png",
+      "size": 300116,
+      "sha256": "5b26a82abee3c6b51569007766e788b530e760e47c4c7809e8b0c02f95397e74"
+    },
+    {
+      "old_path": "emiling/main_3/rul_histogram.png",
+      "new_path": "selected_results/condition_assessment/rul_histogram.png",
+      "size": 58540,
+      "sha256": "46bffd8d989600426fa09c35ce4c74983fb9cbc30f80a22c0ee339829e962ea4"
+    },
+    {
+      "old_path": "emiling/main_4/grouped_cv_balance.png",
+      "new_path": "selected_results/structural_capacity/grouped_cv_balance.png",
+      "size": 92314,
+      "sha256": "499fe9bfc38d35dcb116c39d6132335a2dae1b0bba28bcb691cbb0192c22bc09"
+    },
+    {
+      "old_path": "emiling/main_4/leave_one_campaign_out_balance.png",
+      "new_path": "selected_results/structural_capacity/leave_one_campaign_out_balance.png",
+      "size": 82549,
+      "sha256": "59c49af0c2d27d7b58e7bc251dda7b4425e09603252104a380fc65da7870a4b3"
+    },
+    {
+      "old_path": "emiling/main_4/model_metric_heatmap.png",
+      "new_path": "selected_results/structural_capacity/model_metric_heatmap.png",
+      "size": 352369,
+      "sha256": "bcaf4b557ba91651d15f49c2508f831c44a4e453ba72ae0390b866a0dad89d1f"
+    },
+    {
+      "old_path": "emiling/main_4/mesh_stratified_corrosion_vs_ultimate_load.png",
+      "new_path": "selected_results/structural_capacity/mesh_stratified_corrosion_vs_ultimate_load.png",
+      "size": 943737,
+      "sha256": "6d8ac1d4635b8b3171b9489e6a5b5707c438c4c3c7a7d4404a58a2f6a747be47"
+    },
+    {
+      "old_path": "emiling/main_4/feature_set_comparison_bars.png",
+      "new_path": "selected_results/structural_capacity/feature_set_comparison_bars.png",
+      "size": 141022,
+      "sha256": "a40f870baa5763bb50d4e017fc9b8157774e8a02634bd5e65f773b1bddb0cc44"
+    },
+    {
+      "old_path": "emiling/main_4/ultimate_load_refocus_ieee.pdf",
+      "new_path": "selected_results/structural_capacity/ultimate_load_refocus_ieee.pdf",
+      "size": 369632,
+      "sha256": "d48254ea248b2738056750b0c7055fb5d1e6aa08632101aeff75b0f1bac752e4"
+    },
+    {
+      "old_path": "emiling/main_4/metadata_only+Ridge/learning_curve.png",
+      "new_path": "selected_results/structural_capacity/metadata_only+Ridge/learning_curve.png",
+      "size": 147265,
+      "sha256": "6f2465674ec382537626d8add537b3a553eb8bf3e6acb044ed73eb0b8a5a9393"
+    },
+    {
+      "old_path": "emiling/main_4/metadata_only+Ridge/cv_stability.png",
+      "new_path": "selected_results/structural_capacity/metadata_only+Ridge/cv_stability.png",
+      "size": 54873,
+      "sha256": "baa8e0589365da3f24bddb72f6ef38fefae80b6e9803b9b9eebbad0ce201c52c"
+    },
+    {
+      "old_path": "emiling/main_4/metadata_only+Ridge/residual_analysis.png",
+      "new_path": "selected_results/structural_capacity/metadata_only+Ridge/residual_analysis.png",
+      "size": 120998,
+      "sha256": "61f65ec17908b110abbecb464ab3abe5e874124c67c67971b1f8b8023b679a41"
+    },
+    {
+      "old_path": "emiling/main_4/metadata_only+Ridge/error_distribution.png",
+      "new_path": "selected_results/structural_capacity/metadata_only+Ridge/error_distribution.png",
+      "size": 107876,
+      "sha256": "5755c77b4691695f6590790886e1f2bd476f1aca43839fdc671c7d208a065b9b"
+    },
+    {
+      "old_path": "emiling/main_4/metadata_only+Ridge/uncertainty.png",
+      "new_path": "selected_results/structural_capacity/metadata_only+Ridge/uncertainty.png",
+      "size": 174692,
+      "sha256": "30eb8759d48ce8619463b8cc3419d1e3925e24efddeadc1041ff4a74c089d39d"
+    },
+    {
+      "old_path": "emiling/main_4/metadata_only+Ridge/feature_importance.png",
+      "new_path": "selected_results/structural_capacity/metadata_only+Ridge/feature_importance.png",
+      "size": 85475,
+      "sha256": "478c4681b01232fd7dab7cfa5282a34aeb2e9212f1edf6d4636db98db40c0c20"
+    },
+    {
+      "old_path": "emiling/main_4/metadata_only+Ridge/partial_dependence.png",
+      "new_path": "selected_results/structural_capacity/metadata_only+Ridge/partial_dependence.png",
+      "size": 129618,
+      "sha256": "4e9af3f18ec60f46d6c7481d1496f08c0bee2aebc428ca337c1cbdbf6e154fc9"
+    },
+    {
+      "old_path": "emiling/main_4/metadata_only+Ridge/prediction_vs_ground_truth.png",
+      "new_path": "selected_results/structural_capacity/metadata_only+Ridge/prediction_vs_ground_truth.png",
+      "size": 113037,
+      "sha256": "cc0853d453c9ff98bdfd517b1c2c63cdd67ac2cbabecc10f30cf5870428b6469"
+    }
+  ],
+  "folder_map": {
+    "emiling": "selected_results",
+    "emiling/main_3": "selected_results/condition_assessment",
+    "emiling/main_4": "selected_results/structural_capacity"
+  },
+  "research_file_count": 30,
+  "nonresearch_metadata_count": 1
+}

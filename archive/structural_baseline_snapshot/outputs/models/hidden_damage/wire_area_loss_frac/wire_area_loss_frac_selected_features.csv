@@ -1,0 +1,9 @@
+target,feature_name,feature_set_name,target_transform,source_family
+wire_area_loss_frac,ageing_days,metadata_only,none,temporal
+wire_area_loss_frac,campaign_id,metadata_only,none,tabular_metadata
+wire_area_loss_frac,cover_mm,metadata_only,none,tabular_metadata
+wire_area_loss_frac,series_id,metadata_only,none,tabular_metadata
+wire_area_loss_frac,split_group_treatment,metadata_only,none,tabular_metadata
+wire_area_loss_frac,treatment_coarse,metadata_only,none,tabular_metadata
+wire_area_loss_frac,treatment_label_coarse,metadata_only,none,tabular_metadata
+wire_area_loss_frac,treatment_protocol,metadata_only,none,tabular_metadata

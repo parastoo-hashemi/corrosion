@@ -1,0 +1,10 @@
+[
+  {
+    "path": ".idea/workspace.xml",
+    "before_sha256": "a73cf9b3cfe0204377b1ea8862f1c77d036789f40e7853d0b501439498e87352",
+    "observed_sha256": "dbe85540456b912709ddd256400ca023630ce9b029bb337588095176ce548192",
+    "before_size": 10050,
+    "observed_size": 473685,
+    "note": "Ignored IDE workspace state changed during this task; left untouched. This is not source or scientific evidence."
+  }
+]

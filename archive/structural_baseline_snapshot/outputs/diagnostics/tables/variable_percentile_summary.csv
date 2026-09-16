@@ -1,0 +1,109 @@
+variable,label,percentile,value
+surface_total_rust_pct,Surface total rust (%),0.01,0.0
+surface_total_rust_pct,Surface total rust (%),0.05,0.0
+surface_total_rust_pct,Surface total rust (%),0.1,0.0
+surface_total_rust_pct,Surface total rust (%),0.25,0.051
+surface_total_rust_pct,Surface total rust (%),0.5,0.345
+surface_total_rust_pct,Surface total rust (%),0.75,3.165
+surface_total_rust_pct,Surface total rust (%),0.9,7.526
+surface_total_rust_pct,Surface total rust (%),0.95,12.974499999999999
+surface_total_rust_pct,Surface total rust (%),0.99,34.079100000000004
+peak_rust_pct,Peak rust (%),0.01,0.0
+peak_rust_pct,Peak rust (%),0.05,0.0
+peak_rust_pct,Peak rust (%),0.1,0.002
+peak_rust_pct,Peak rust (%),0.25,0.1935
+peak_rust_pct,Peak rust (%),0.5,1.008
+peak_rust_pct,Peak rust (%),0.75,9.7455
+peak_rust_pct,Peak rust (%),0.9,18.882
+peak_rust_pct,Peak rust (%),0.95,27.495
+peak_rust_pct,Peak rust (%),0.99,57.307900000000004
+peak_rust_location_cm,Peak rust location (cm),0.01,1.51
+peak_rust_location_cm,Peak rust location (cm),0.05,1.51
+peak_rust_location_cm,Peak rust location (cm),0.1,1.51
+peak_rust_location_cm,Peak rust location (cm),0.25,1.51
+peak_rust_location_cm,Peak rust location (cm),0.5,6.5
+peak_rust_location_cm,Peak rust location (cm),0.75,16.49
+peak_rust_location_cm,Peak rust location (cm),0.9,21.49
+peak_rust_location_cm,Peak rust location (cm),0.95,21.49
+peak_rust_location_cm,Peak rust location (cm),0.99,21.49
+wire_area_loss_frac,Wire area loss (fraction),0.01,0.0015322
+wire_area_loss_frac,Wire area loss (fraction),0.05,0.018475000000000002
+wire_area_loss_frac,Wire area loss (fraction),0.1,0.026770000000000002
+wire_area_loss_frac,Wire area loss (fraction),0.25,0.141325
+wire_area_loss_frac,Wire area loss (fraction),0.5,0.21045
+wire_area_loss_frac,Wire area loss (fraction),0.75,0.269775
+wire_area_loss_frac,Wire area loss (fraction),0.9,0.42667000000000005
+wire_area_loss_frac,Wire area loss (fraction),0.95,0.47502999999999995
+wire_area_loss_frac,Wire area loss (fraction),0.99,0.5416470000000001
+ultimate_load_kn,Ultimate load (kN),0.01,1.6
+ultimate_load_kn,Ultimate load (kN),0.05,1.6205
+ultimate_load_kn,Ultimate load (kN),0.1,1.654
+ultimate_load_kn,Ultimate load (kN),0.25,1.87
+ultimate_load_kn,Ultimate load (kN),0.5,2.25
+ultimate_load_kn,Ultimate load (kN),0.75,2.4225
+ultimate_load_kn,Ultimate load (kN),0.9,2.753
+ultimate_load_kn,Ultimate load (kN),0.95,2.8225
+ultimate_load_kn,Ultimate load (kN),0.99,2.8606000000000003
+img_rust_area_ratio_pct,Image rust area ratio (%),0.01,0.0
+img_rust_area_ratio_pct,Image rust area ratio (%),0.05,0.0
+img_rust_area_ratio_pct,Image rust area ratio (%),0.1,0.0003256003256003
+img_rust_area_ratio_pct,Image rust area ratio (%),0.25,0.05120065120065115
+img_rust_area_ratio_pct,Image rust area ratio (%),0.5,0.3449192782526116
+img_rust_area_ratio_pct,Image rust area ratio (%),0.75,3.1648080314746982
+img_rust_area_ratio_pct,Image rust area ratio (%),0.9,7.526414326414327
+img_rust_area_ratio_pct,Image rust area ratio (%),0.95,12.974358974358974
+img_rust_area_ratio_pct,Image rust area ratio (%),0.99,34.07929995929996
+img_strip_rust_max_pct,Image peak strip rust (%),0.01,0.0
+img_strip_rust_max_pct,Image peak strip rust (%),0.05,0.0
+img_strip_rust_max_pct,Image peak strip rust (%),0.1,0.0065189048239895
+img_strip_rust_max_pct,Image peak strip rust (%),0.25,0.4634941329856584
+img_strip_rust_max_pct,Image peak strip rust (%),0.5,2.2320730117340286
+img_strip_rust_max_pct,Image peak strip rust (%),0.75,13.982398956975228
+img_strip_rust_max_pct,Image peak strip rust (%),0.9,28.27249022164277
+img_strip_rust_max_pct,Image peak strip rust (%),0.95,39.53715775749674
+img_strip_rust_max_pct,Image peak strip rust (%),0.99,63.429856584093876
+img_strip_peak_location_cm,Image peak strip location (cm),0.01,0.4994708994708994
+img_strip_peak_location_cm,Image peak strip location (cm),0.05,0.4994708994708994
+img_strip_peak_location_cm,Image peak strip location (cm),0.1,0.4994708994708994
+img_strip_peak_location_cm,Image peak strip location (cm),0.25,1.748148148148148
+img_strip_peak_location_cm,Image peak strip location (cm),0.5,6.493121693121693
+img_strip_peak_location_cm,Image peak strip location (cm),0.75,16.98201058201058
+img_strip_peak_location_cm,Image peak strip location (cm),0.9,22.47619047619047
+img_strip_peak_location_cm,Image peak strip location (cm),0.95,23.475132275132275
+img_strip_peak_location_cm,Image peak strip location (cm),0.99,23.475132275132275
+img_brightness_mean,Brightness mean,0.01,122.84371835571835
+img_brightness_mean,Brightness mean,0.05,144.8753767467101
+img_brightness_mean,Brightness mean,0.1,157.21348039614708
+img_brightness_mean,Brightness mean,0.25,176.55245719712383
+img_brightness_mean,Brightness mean,0.5,196.9064827024827
+img_brightness_mean,Brightness mean,0.75,225.045092660426
+img_brightness_mean,Brightness mean,0.9,243.44975281508616
+img_brightness_mean,Brightness mean,0.95,252.3688088454755
+img_brightness_mean,Brightness mean,0.99,254.9668954008954
+img_rust_blob_count,Rust blob count,0.01,0.0
+img_rust_blob_count,Rust blob count,0.05,0.0
+img_rust_blob_count,Rust blob count,0.1,1.0
+img_rust_blob_count,Rust blob count,0.25,28.0
+img_rust_blob_count,Rust blob count,0.5,165.0
+img_rust_blob_count,Rust blob count,0.75,486.0
+img_rust_blob_count,Rust blob count,0.9,1011.0
+img_rust_blob_count,Rust blob count,0.95,1503.0
+img_rust_blob_count,Rust blob count,0.99,2839.8000000000025
+img_edge_to_center_rust_ratio,Edge/center rust ratio,0.01,0.00038175626685682003
+img_edge_to_center_rust_ratio,Edge/center rust ratio,0.05,0.20464834505088975
+img_edge_to_center_rust_ratio,Edge/center rust ratio,0.1,0.3789475217036444
+img_edge_to_center_rust_ratio,Edge/center rust ratio,0.25,0.7674603089520468
+img_edge_to_center_rust_ratio,Edge/center rust ratio,0.5,1.248431213809465
+img_edge_to_center_rust_ratio,Edge/center rust ratio,0.75,2.8748371770595726
+img_edge_to_center_rust_ratio,Edge/center rust ratio,0.9,9.28662901870123
+img_edge_to_center_rust_ratio,Edge/center rust ratio,0.95,69.5716939240917
+img_edge_to_center_rust_ratio,Edge/center rust ratio,0.99,114364.32029552381
+predicted_wire_area_loss_frac,Predicted hidden damage (fraction),0.01,0.0446464434083968
+predicted_wire_area_loss_frac,Predicted hidden damage (fraction),0.05,0.0635931073793235
+predicted_wire_area_loss_frac,Predicted hidden damage (fraction),0.1,0.0669790945175028
+predicted_wire_area_loss_frac,Predicted hidden damage (fraction),0.25,0.1403378538433743
+predicted_wire_area_loss_frac,Predicted hidden damage (fraction),0.5,0.2124306402430568
+predicted_wire_area_loss_frac,Predicted hidden damage (fraction),0.75,0.2557548770681015
+predicted_wire_area_loss_frac,Predicted hidden damage (fraction),0.9,0.4063222795488329
+predicted_wire_area_loss_frac,Predicted hidden damage (fraction),0.95,0.4093145716423696
+predicted_wire_area_loss_frac,Predicted hidden damage (fraction),0.99,0.4614326919216795

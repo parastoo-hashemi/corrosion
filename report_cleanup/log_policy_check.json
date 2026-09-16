@@ -1,0 +1,212 @@
+{
+  "passed": true,
+  "ignore_checks": [
+    {
+      "path": "condition_assessment/logs/run_all.log",
+      "ignored": false,
+      "source": ".gitignore",
+      "pattern": "!condition_assessment/logs/run_all.log"
+    },
+    {
+      "path": "condition_assessment/logs/07_fit_degradation_models.log",
+      "ignored": false,
+      "source": ".gitignore",
+      "pattern": "!condition_assessment/logs/07_fit_degradation_models.log"
+    },
+    {
+      "path": "structural_capacity/outputs/logs/run_ultimate_load_refocus.log",
+      "ignored": false,
+      "source": ".gitignore",
+      "pattern": "!structural_capacity/outputs/logs/run_ultimate_load_refocus.log"
+    },
+    {
+      "path": "archive/structural_baseline_snapshot/outputs/logs/run_audit_validation.log",
+      "ignored": false,
+      "source": ".gitignore",
+      "pattern": "!archive/structural_baseline_snapshot/outputs/logs/run_audit_validation.log"
+    },
+    {
+      "path": "archive/structural_baseline_snapshot/outputs/logs/run_full_baseline.log",
+      "ignored": false,
+      "source": ".gitignore",
+      "pattern": "!archive/structural_baseline_snapshot/outputs/logs/run_full_baseline.log"
+    },
+    {
+      "path": "archive/structural_baseline_snapshot/outputs/logs/train_surface_models.log",
+      "ignored": false,
+      "source": ".gitignore",
+      "pattern": "!archive/structural_baseline_snapshot/outputs/logs/train_surface_models.log"
+    },
+    {
+      "path": "archive/structural_baseline_snapshot/outputs/logs/train_hidden_damage_models.log",
+      "ignored": false,
+      "source": ".gitignore",
+      "pattern": "!archive/structural_baseline_snapshot/outputs/logs/train_hidden_damage_models.log"
+    },
+    {
+      "path": "archive/structural_baseline_snapshot/outputs/logs/train_degradation_models.log",
+      "ignored": false,
+      "source": ".gitignore",
+      "pattern": "!archive/structural_baseline_snapshot/outputs/logs/train_degradation_models.log"
+    },
+    {
+      "path": "archive/structural_baseline_snapshot/outputs/logs/train_rul_proxy_models.log",
+      "ignored": false,
+      "source": ".gitignore",
+      "pattern": "!archive/structural_baseline_snapshot/outputs/logs/train_rul_proxy_models.log"
+    },
+    {
+      "path": "debug.log",
+      "ignored": true,
+      "source": ".gitignore",
+      "pattern": "*.log"
+    },
+    {
+      "path": "logs/new_run.log",
+      "ignored": true,
+      "source": ".gitignore",
+      "pattern": "*.log"
+    },
+    {
+      "path": "logs/debug.log.1",
+      "ignored": true,
+      "source": ".gitignore",
+      "pattern": "*.log.[0-9]*"
+    },
+    {
+      "path": "logs/debug.log.1.gz",
+      "ignored": true,
+      "source": ".gitignore",
+      "pattern": "*.log.[0-9]*"
+    },
+    {
+      "path": "logs/debug.log.gz",
+      "ignored": true,
+      "source": ".gitignore",
+      "pattern": "*.log.gz"
+    },
+    {
+      "path": "structural_capacity/outputs/logs/train_hidden_damage_models.log",
+      "ignored": true,
+      "source": ".gitignore",
+      "pattern": "*.log"
+    },
+    {
+      "path": "condition_assessment/logs/05_train_corrosion_models.log",
+      "ignored": true,
+      "source": ".gitignore",
+      "pattern": "*.log"
+    },
+    {
+      "path": "structural_capacity/outputs/logs/smoke_ultimate_load_refocus.log",
+      "ignored": true,
+      "source": ".gitignore",
+      "pattern": "*.log"
+    },
+    {
+      "path": "report_v2/thesis/v3/thesis.log",
+      "ignored": true,
+      "source": "report_v2/.gitignore",
+      "pattern": "**/*.log"
+    },
+    {
+      "path": "structural_capacity/outputs/reports/ultimate_load_refocus_ieee.log",
+      "ignored": true,
+      "source": ".gitignore",
+      "pattern": "*.log"
+    },
+    {
+      "path": "archive/structural_baseline_snapshot/outputs/logs/new_run.log",
+      "ignored": true,
+      "source": ".gitignore",
+      "pattern": "*.log"
+    },
+    {
+      "path": "condition_assessment/logs/.mpl/fontlist-v390.json",
+      "ignored": true,
+      "source": ".gitignore",
+      "pattern": "**/logs/.mpl/"
+    },
+    {
+      "path": "structural_capacity/outputs/results/metrics.csv",
+      "ignored": false,
+      "source": "",
+      "pattern": ""
+    },
+    {
+      "path": "condition_assessment/configs/reproduction.yaml",
+      "ignored": false,
+      "source": "",
+      "pattern": ""
+    },
+    {
+      "path": "condition_assessment/logs/training_metrics.json",
+      "ignored": false,
+      "source": "",
+      "pattern": ""
+    },
+    {
+      "path": "report_v2/figures/final_result.pdf",
+      "ignored": false,
+      "source": "",
+      "pattern": ""
+    }
+  ],
+  "preserved_log_files": 49,
+  "preserved_log_sha256": {
+    "structural_capacity/main.log": "6690480e993e79c24229d8d0c4c62d77640caa26ab55a65534abdb19c26c060d",
+    "condition_assessment/main.log": "d8c656acb439c490d1b8b03e2dca1c3f762dbf0693a8686b717a7b96e041b6f7",
+    "classical_corrosion/main.log": "c3b5aee3c74eb12ebae119e609bf0dce5e9677532aae7abe361092c73b56bc31",
+    "out/ultimate_load_refocus_ieee.log": "cd191bbea3702a093f45149a7ce7e5c9dd076c4f033b0168099ca33c2bfc3d88",
+    "out/augmentation_methodology_final.log": "facabf8091a14d11e744c15607117eb264e58ad22c41245ab63b47b90a7963d4",
+    "out/activity_report.log": "88f504cc0865721e5cd7046dfbbfb50d0a2acb5a291d6a7f7390ba95af3ce6d0",
+    "out/1_corrosion_condition_pipeline_ieee.tex.log": "3fa7b4948e810b5227c068785bdb399953d1263b190ee6a21b4a51932201b080",
+    "out/corrosion_condition_pipeline_ieee.log": "abf8040759350179b9a7779f0f5a20d0a84eb819b0de5b354733b48f9b06472e",
+    "image_embeddings/main.log": "4912682011149a174b74e104a3c9e38f0053dcb8bc9522d9e38f59afe137ea89",
+    "report_v2/article/v3/article.log": "b2fb35bd8b24e08a159dac12e0541951ab5c9c52ef2374f437769fa9214b9148",
+    "report_v2/thesis/v3/thesis.log": "51885c26a28310a8f6534b25214186ed73a70e00a2130dcb376914c4c4669d9a",
+    "archive/structural_baseline_snapshot/main.log": "6690480e993e79c24229d8d0c4c62d77640caa26ab55a65534abdb19c26c060d",
+    "archive/structural_baseline_snapshot/outputs/logs/run_eda.log": "22e5745671dd8ce6a22564a6a9dfe32a66126f9dfbb8263b96647537782f6763",
+    "archive/structural_baseline_snapshot/outputs/logs/train_surface_models.log": "34e5fc711744bf0c884d006dc9e2ad8dc63e61ab75765da13a5e94e80be85648",
+    "archive/structural_baseline_snapshot/outputs/logs/run_audit_validation.log": "c66af45968b3474fe8a97d1b6fd61eb73240c526d76314cd4defd9a135153ed9",
+    "archive/structural_baseline_snapshot/outputs/logs/run_full_baseline.log": "422dcd072129449a326275e5d97da0e79855263cb5480369826eee749c1f9e8f",
+    "archive/structural_baseline_snapshot/outputs/logs/run_diagnostics_visualizations.log": "9dae4c82bc623af9e4cf99ab30e7bfca8fdbca03563a90613e4913b71068ae35",
+    "archive/structural_baseline_snapshot/outputs/logs/train_rul_proxy_models.log": "ee5a27f0eb836a65b4f1edecc6ea042ed3253398749a9e6186c25564aeed3198",
+    "archive/structural_baseline_snapshot/outputs/logs/run_extract_image_features.log": "b409800b6c10c4500a88f1bf2a2fae33ef13be0b1fc33a7156e46bcd571e5b5e",
+    "archive/structural_baseline_snapshot/outputs/logs/run_ultimate_load_diagnostic_plots.log": "47d15e8268ae89152d251e1d97c71268d86f65058659a9b76be49c9c7a5a7c4d",
+    "archive/structural_baseline_snapshot/outputs/logs/run_model_improvement_analysis.log": "b49181227c5c5ca06356b6f29a8a0cfc8fc813c3bcd7f993781f94c790ba5c3b",
+    "archive/structural_baseline_snapshot/outputs/logs/train_degradation_models.log": "e2d74972d351ec9d12261b11cfa3d6688f07291b7fd68b26e8e8e9ef54c5a4a0",
+    "archive/structural_baseline_snapshot/outputs/logs/run_ultimate_load_mesh_analysis.log": "e69a3ebc6e6c029be28722e49d5f409fb2d239d51c18b6aceadb15dcfa2e473f",
+    "archive/structural_baseline_snapshot/outputs/logs/run_learning_curve_analysis.log": "aa99383be50ef940890b065891e1b4efee3a6386037d1bedfd9285067dfa5c78",
+    "archive/structural_baseline_snapshot/outputs/logs/train_hidden_damage_models.log": "3bdb63c1583d543e9738f8fbd2885e7f7d0a0a08b968e779afcaee409d44ee0a",
+    "condition_assessment/logs/08_estimate_rul.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "condition_assessment/logs/run_all.log": "c7e2c666f6f64d7f7fad0c70a8bca36e4a4086be0ef8b32a604bd1af3875b284",
+    "condition_assessment/logs/05_train_corrosion_models.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "condition_assessment/logs/07_fit_degradation_models.log": "63256ddc21577b1f89030e4c5cbf7e30eb17977384d5a821671a3d078e2d40f3",
+    "condition_assessment/logs/04_extract_features.log": "f73ad2a41c9f0d4e8b0f48bc99ccf7e78a30f1618668bb46dfc393e708ac9656",
+    "condition_assessment/logs/09_generate_reports.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "condition_assessment/logs/06_train_damage_models.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "condition_assessment/reports/corrosion_condition_pipeline_ieee.log": "26d3184777b4a89c05db9ff1a02c8c691c4dfa163560bc948f98d433754e014a",
+    "structural_capacity/outputs/logs/run_eda.log": "22e5745671dd8ce6a22564a6a9dfe32a66126f9dfbb8263b96647537782f6763",
+    "structural_capacity/outputs/logs/train_surface_models.log": "34e5fc711744bf0c884d006dc9e2ad8dc63e61ab75765da13a5e94e80be85648",
+    "structural_capacity/outputs/logs/run_audit_validation.log": "c66af45968b3474fe8a97d1b6fd61eb73240c526d76314cd4defd9a135153ed9",
+    "structural_capacity/outputs/logs/run_full_baseline.log": "422dcd072129449a326275e5d97da0e79855263cb5480369826eee749c1f9e8f",
+    "structural_capacity/outputs/logs/smoke_ultimate_load_refocus.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "structural_capacity/outputs/logs/run_diagnostics_visualizations.log": "9dae4c82bc623af9e4cf99ab30e7bfca8fdbca03563a90613e4913b71068ae35",
+    "structural_capacity/outputs/logs/train_rul_proxy_models.log": "ee5a27f0eb836a65b4f1edecc6ea042ed3253398749a9e6186c25564aeed3198",
+    "structural_capacity/outputs/logs/run_extract_image_features.log": "b409800b6c10c4500a88f1bf2a2fae33ef13be0b1fc33a7156e46bcd571e5b5e",
+    "structural_capacity/outputs/logs/run_ultimate_load_diagnostic_plots.log": "47d15e8268ae89152d251e1d97c71268d86f65058659a9b76be49c9c7a5a7c4d",
+    "structural_capacity/outputs/logs/run_ultimate_load_refocus.log": "ff41f8289304929680859fa50e7bf7410ce999a2727e117a162955f9e133ed4a",
+    "structural_capacity/outputs/logs/run_model_improvement_analysis.log": "b49181227c5c5ca06356b6f29a8a0cfc8fc813c3bcd7f993781f94c790ba5c3b",
+    "structural_capacity/outputs/logs/train_degradation_models.log": "e2d74972d351ec9d12261b11cfa3d6688f07291b7fd68b26e8e8e9ef54c5a4a0",
+    "structural_capacity/outputs/logs/run_ultimate_load_mesh_analysis.log": "e69a3ebc6e6c029be28722e49d5f409fb2d239d51c18b6aceadb15dcfa2e473f",
+    "structural_capacity/outputs/logs/run_learning_curve_analysis.log": "aa99383be50ef940890b065891e1b4efee3a6386037d1bedfd9285067dfa5c78",
+    "structural_capacity/outputs/logs/train_hidden_damage_models.log": "3bdb63c1583d543e9738f8fbd2885e7f7d0a0a08b968e779afcaee409d44ee0a",
+    "structural_capacity/outputs/reports/ultimate_load_refocus_ieee.log": "96883db6f1f43ec49b9ec00c9f1e1750a9ef53563cd59527760800f21cf8126a"
+  },
+  "index_unchanged": true,
+  "index_sha256": "a19d0ab18ad7db881115300f44092d8956755447e79c17d8fdfd20158c92d822",
+  "branch": "master",
+  "head": "19a6ae86496894378a1475de34aa6bdd93682b07",
+  "staged_changes": false
+}

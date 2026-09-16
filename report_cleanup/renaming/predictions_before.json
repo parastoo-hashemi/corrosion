@@ -1,0 +1,84 @@
+[
+  {
+    "model": "current_corrosion_model.joblib",
+    "input_columns": [
+      "N_Steel_Mesh",
+      "Treatment",
+      "NaCl%",
+      "Ageing_Days",
+      "Cover_(Faliure_Surface)_[mm]",
+      "week",
+      "series",
+      "img_r_mean",
+      "img_g_mean",
+      "img_b_mean",
+      "img_r_std",
+      "img_g_std",
+      "img_b_std",
+      "img_h_mean",
+      "img_s_mean",
+      "img_v_mean",
+      "img_h_std",
+      "img_s_std",
+      "img_v_std",
+      "img_rg_diff_mean",
+      "img_red_dominance_pct",
+      "img_rust_mask_pct",
+      "img_black_mask_pct",
+      "img_gray_mask_pct",
+      "img_rust_to_black_ratio"
+    ],
+    "predictions": [
+      1.0666666666666666e-05,
+      1.0666666666666666e-05,
+      1.0666666666666666e-05
+    ],
+    "array_sha256": "6c3524e8db774f9dade192df9c271a7d8628f9cea0913a19c9d247b457ff2756"
+  },
+  {
+    "model": "progression_model.joblib",
+    "input_columns": [
+      "N_Steel_Mesh",
+      "Treatment",
+      "NaCl%",
+      "Ageing_Days",
+      "Cover_(Faliure_Surface)_[mm]",
+      "week",
+      "series"
+    ],
+    "predictions": [
+      -2.9912349631543766,
+      -0.11626969420587735,
+      16.42543357101281
+    ],
+    "array_sha256": "61514de425a073b91ca03f587d0ff48e37967f05b3e4205215c5ecdcc205ede3"
+  },
+  {
+    "model": "time_to_threshold_model.joblib",
+    "input_columns": [
+      "N_Steel_Mesh",
+      "Treatment",
+      "NaCl%",
+      "Ageing_Days",
+      "Cover_(Faliure_Surface)_[mm]",
+      "week",
+      "series",
+      "B_Peak_Rust_Percentage_[%]"
+    ],
+    "predictions": [
+      21.888258658008656,
+      14.048746031746033,
+      12.16426313131313
+    ],
+    "array_sha256": "3e3e60b91dfaa8c012adf1101ebaea7f969548feb48dbb4669777abf1a12518e"
+  },
+  {
+    "model": "embedding_neural_head",
+    "predictions": [
+      0.4215913712978363,
+      0.4215913712978363,
+      0.42159131169319153
+    ],
+    "array_sha256": "8814f12f29ffeca1ca86c386dc2614b3a323071ec3c5a1c0a258591f1ee1d375"
+  }
+]

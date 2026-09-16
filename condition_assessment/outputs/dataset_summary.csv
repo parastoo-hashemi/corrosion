@@ -1,0 +1,2 @@
+rows,image_rows,unique_specimens,campaigns,treatments,week_min,week_max,structural_rows,structural_weeks,duplicate_record_ids,duplicate_specimen_week,invalid_record_ids,missing_images
+792,792,48,"['campaign_2022_mesh7_nacl0.035_age201', 'campaign_2024_mesh4_nacl0.050_age260']","['MI', 'NO', 'PA', 'SA', 'SA_PA', 'SA_VF', 'VF']",0.0,36.0,48,"[28, 36]",0,0,0,0

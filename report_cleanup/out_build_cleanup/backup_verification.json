@@ -1,0 +1,9 @@
+{
+  "path_relative_to_repository_parent": "corrosion_out_before_build_cleanup_20260916_104012.tar.gz",
+  "sha256": "63260d1f82b9971a0b4984d167cd9d4719fa6ad0953d8731358eba387863cd39",
+  "archive_bytes": 20581847,
+  "verified_file_count": 42,
+  "verified_directory_count": 150,
+  "all_archived_file_sha256_match": true,
+  "verified_before_removal": true
+}

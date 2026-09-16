@@ -1,0 +1,2144 @@
+[
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/paired_diagnostics.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_4/grouped_cv/selected_best_models/experiments/metadata_only/Ridge/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/mesh_stratified/mesh_4/grouped_cv/selected_best_models/experiments/metadata_only/Ridge/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/paired_diagnostics.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_7/grouped_cv/selected_best_models/experiments/metadata_only/Ridge/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/mesh_stratified/mesh_7/grouped_cv/selected_best_models/experiments/metadata_only/Ridge/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/paired_diagnostics.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/paired_diagnostics.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/paired_diagnostics.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/selected_best_models/experiments/metadata_only/Ridge/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/selected_best_models/experiments/metadata_only/Ridge/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main/reports/current_corrosion_metrics.csv",
+    "current_path": "classical_corrosion/reports/current_corrosion_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_2/reports/model_comparison.csv",
+    "current_path": "image_embeddings/reports/model_comparison.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_2/reports/predictions_best_model.csv",
+    "current_path": "image_embeddings/reports/predictions_best_model.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_3/outputs/canonical_dataset.csv",
+    "current_path": "condition_assessment/outputs/canonical_dataset.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_3/outputs/corrosion_regression_metrics.csv",
+    "current_path": "condition_assessment/outputs/corrosion_regression_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_3/outputs/corrosion_regression_metrics.csv per-fold metrics",
+    "current_path": "condition_assessment/outputs/corrosion_regression_metrics.csv per-fold metrics",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_3/outputs/damage_regression_metrics.csv",
+    "current_path": "condition_assessment/outputs/damage_regression_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_3/outputs/damage_regression_metrics.csv per-fold metrics",
+    "current_path": "condition_assessment/outputs/damage_regression_metrics.csv per-fold metrics",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/configs/specimen_mapping.yaml",
+    "current_path": "structural_capacity/configs/specimen_mapping.yaml",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/audit/verified_facts.json",
+    "current_path": "structural_capacity/outputs/audit/verified_facts.json",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/data/master_table.csv",
+    "current_path": "structural_capacity/outputs/data/master_table.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/diagnostics/tables/benchmark_best_model_robustness.csv",
+    "current_path": "structural_capacity/outputs/diagnostics/tables/benchmark_best_model_robustness.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/features/image_features.csv",
+    "current_path": "structural_capacity/outputs/features/image_features.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/models/degradation/degradation_best_fits.csv",
+    "current_path": "structural_capacity/outputs/models/degradation/degradation_best_fits.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/models/hidden_damage/best_models.csv",
+    "current_path": "structural_capacity/outputs/models/hidden_damage/best_models.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/models/proxy_rul/proxy_rul_estimates.csv",
+    "current_path": "structural_capacity/outputs/models/proxy_rul/proxy_rul_estimates.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/models/proxy_rul/proxy_rul_summary.json",
+    "current_path": "structural_capacity/outputs/models/proxy_rul/proxy_rul_summary.json",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/models/surface/peak_rust_pct/leave_one_treatment_out/peak_rust_pct_fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/models/surface/peak_rust_pct/leave_one_treatment_out/peak_rust_pct_fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/models/surface/surface_total_rust_pct/leave_one_treatment_out/surface_total_rust_pct_fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/models/surface/surface_total_rust_pct/leave_one_treatment_out/surface_total_rust_pct_fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/splits/master_group_shuffle.csv",
+    "current_path": "structural_capacity/outputs/splits/master_group_shuffle.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/splits/master_group_shuffle_summary.csv",
+    "current_path": "structural_capacity/outputs/splits/master_group_shuffle_summary.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/splits/master_leave_one_campaign_out.csv",
+    "current_path": "structural_capacity/outputs/splits/master_leave_one_campaign_out.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/splits/master_leave_one_campaign_out_summary.csv",
+    "current_path": "structural_capacity/outputs/splits/master_leave_one_campaign_out_summary.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/splits/master_leave_one_treatment_out.csv",
+    "current_path": "structural_capacity/outputs/splits/master_leave_one_treatment_out.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/splits/master_leave_one_treatment_out_summary.csv",
+    "current_path": "structural_capacity/outputs/splits/master_leave_one_treatment_out_summary.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/correlations/mesh_stratified_corrosion_vs_ultimate_load.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/correlations/mesh_stratified_corrosion_vs_ultimate_load.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/data/specimen_summary_table.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/data/specimen_summary_table.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_4/grouped_cv/specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/mesh_stratified/mesh_4/grouped_cv/specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_7/grouped_cv/specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/mesh_stratified/mesh_7/grouped_cv/specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_feature_set_comparison.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/mesh_stratified/mesh_feature_set_comparison.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/hsv_only/CatBoost/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/hsv_only/CatBoost/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/hsv_only/CatBoost/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/hsv_only/CatBoost/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb/Ridge/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb/Ridge/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb/Ridge/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb/Ridge/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb_hsv/CatBoost/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb_hsv/CatBoost/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb_hsv/CatBoost/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb_hsv/CatBoost/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_hsv/CatBoost/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_hsv/CatBoost/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_hsv/CatBoost/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_hsv/CatBoost/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_only/CatBoost/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_only/CatBoost/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_only/CatBoost/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_only/CatBoost/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/leave_one_campaign_out/feature_set_comparison.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/leave_one_campaign_out/feature_set_comparison.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/selected_best_model_per_feature_set.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/selected_best_model_per_feature_set.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_post_onset/leave_one_campaign_out/specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_post_onset/leave_one_campaign_out/specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/residual_refinement/best_model.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/residual_refinement/best_model.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/residual_refinement/model_comparison.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/residual_refinement/model_comparison.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/splits/grouped_cv_specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/splits/grouped_cv_specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/claims.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_3/reports/figures/corrosion_model_macro_f1.png",
+    "current_path": "condition_assessment/reports/figures/corrosion_model_macro_f1.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_3/reports/figures/corrosion_model_mae.png",
+    "current_path": "condition_assessment/reports/figures/corrosion_model_mae.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_3/reports/figures/corrosion_regression_parity.png",
+    "current_path": "condition_assessment/reports/figures/corrosion_regression_parity.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_3/reports/figures/damage_model_mae.png",
+    "current_path": "condition_assessment/reports/figures/damage_model_mae.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_3/reports/figures/damage_regression_parity.png",
+    "current_path": "condition_assessment/reports/figures/damage_regression_parity.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_3/reports/figures/degradation_examples_peak_rust.png",
+    "current_path": "condition_assessment/reports/figures/degradation_examples_peak_rust.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_3/reports/figures/grouped_regression_mae_summary.png",
+    "current_path": "condition_assessment/reports/figures/grouped_regression_mae_summary.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_3/reports/figures/risk_distribution.png",
+    "current_path": "condition_assessment/reports/figures/risk_distribution.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_3/reports/figures/rul_histogram.png",
+    "current_path": "condition_assessment/reports/figures/rul_histogram.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_3/reports/meeting_report/figures/corrosion_distributions.png",
+    "current_path": "condition_assessment/reports/meeting_report/figures/corrosion_distributions.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_3/reports/meeting_report/figures/corrosion_examples.png",
+    "current_path": "condition_assessment/reports/meeting_report/figures/corrosion_examples.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_3/reports/meeting_report/figures/dataset_overview.png",
+    "current_path": "condition_assessment/reports/meeting_report/figures/dataset_overview.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_3/reports/meeting_report/figures/degradation_examples_panel.png",
+    "current_path": "condition_assessment/reports/meeting_report/figures/degradation_examples_panel.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_3/reports/meeting_report/figures/feature_alignment.png",
+    "current_path": "condition_assessment/reports/meeting_report/figures/feature_alignment.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_3/reports/meeting_report/figures/hidden_damage_relationships.png",
+    "current_path": "condition_assessment/reports/meeting_report/figures/hidden_damage_relationships.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/correlations/mesh_stratified_corrosion_vs_ultimate_load.png",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/correlations/mesh_stratified_corrosion_vs_ultimate_load.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/cv_stability.png",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/cv_stability.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/error_distribution.png",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/error_distribution.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/feature_importance.png",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/feature_importance.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/learning_curve.png",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/learning_curve.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/partial_dependence.png",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/partial_dependence.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/prediction_vs_ground_truth.png",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/prediction_vs_ground_truth.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/residual_analysis.png",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/residual_analysis.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/uncertainty.png",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/uncertainty.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison_bars.png",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison_bars.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/model_metric_heatmap.png",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/model_metric_heatmap.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/splits/grouped_cv_balance.png",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/splits/grouped_cv_balance.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/candidate_inventory.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_balance.png",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_balance.png",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_3/outputs/canonical_dataset.csv (792 rows: surface_total_rust_pct, peak_rust_pct, peak_rust_location_cm). Meeting-report panel generator not found; saved values, schema, and ranges checked, but exact bin-edge recipe was not reconstructed.",
+    "current_path": "condition_assessment/outputs/canonical_dataset.csv (792 rows: surface_total_rust_pct, peak_rust_pct, peak_rust_location_cm). Meeting-report panel generator not found; saved values, schema, and ranges checked, but exact bin-edge recipe was not reconstructed.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_3/outputs/canonical_dataset.csv and dataset_summary.csv; meeting-report generator not located. Counts and schema agree with saved historical data.",
+    "current_path": "condition_assessment/outputs/canonical_dataset.csv and dataset_summary.csv; meeting-report generator not located. Counts and schema agree with saved historical data.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_3/outputs/canonical_dataset.csv and degradation_forecasts.parquet; selected curves E04, F02, F06, G04, S1MI01, S3PA03 are present. Meeting-panel generator/selection recipe not found.",
+    "current_path": "condition_assessment/outputs/canonical_dataset.csv and degradation_forecasts.parquet; selected curves E04, F02, F06, G04, S1MI01, S3PA03 are present. Meeting-panel generator/selection recipe not found.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_3/outputs/canonical_dataset.csv joined one-to-one to main_3/outputs/image_features.csv by record_id. Recomputed Pearson r=0.257148, 0.182837, 0.247840 on 792 complete pairs. Panel generator not found.",
+    "current_path": "condition_assessment/outputs/canonical_dataset.csv joined one-to-one to main_3/outputs/image_features.csv by record_id. Recomputed Pearson r=0.257148, 0.182837, 0.247840 on 792 complete pairs. Panel generator not found.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_3/outputs/canonical_dataset.csv restricted to has_structural_labels (48 terminal rows), with wire_area_loss_pct and ultimate_load_kn. Meeting-panel generator not found.",
+    "current_path": "condition_assessment/outputs/canonical_dataset.csv restricted to has_structural_labels (48 terminal rows), with wire_area_loss_pct and ultimate_load_kn. Meeting-panel generator not found.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_3/outputs/corrosion_classification_metrics.csv, strategy=group_shuffle; main_3/src/orchestration.py:run_report_stage and src/visualization/plots.py:plot_metric_bars.",
+    "current_path": "condition_assessment/outputs/corrosion_classification_metrics.csv, strategy=group_shuffle; main_3/src/orchestration.py:run_report_stage and src/visualization/plots.py:plot_metric_bars.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_3/outputs/corrosion_regression_metrics.csv and damage_regression_metrics.csv, strategy=group_shuffle. Values agree with those source rows and M3-05/M3-07; dedicated summary generator not found.",
+    "current_path": "condition_assessment/outputs/corrosion_regression_metrics.csv and damage_regression_metrics.csv, strategy=group_shuffle. Values agree with those source rows and M3-05/M3-07; dedicated summary generator not found.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_3/outputs/corrosion_regression_metrics.csv, strategy=group_shuffle; run_report_stage and plot_metric_bars. Both targets are percentage errors, although the saved y-axis only says mae.",
+    "current_path": "condition_assessment/outputs/corrosion_regression_metrics.csv, strategy=group_shuffle; run_report_stage and plot_metric_bars. Both targets are percentage errors, although the saved y-axis only says mae.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_3/outputs/corrosion_regression_predictions.parquet filtered only on strategy=group_shuffle; run_report_stage passes BOTH surface_total_rust_pct and peak_rust_pct to plot_regression_predictions.",
+    "current_path": "condition_assessment/outputs/corrosion_regression_predictions.parquet filtered only on strategy=group_shuffle; run_report_stage passes BOTH surface_total_rust_pct and peak_rust_pct to plot_regression_predictions.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_3/outputs/damage_regression_metrics.csv, strategy=group_shuffle; run_report_stage and plot_metric_bars. Load is in kN and wire loss in percentage points.",
+    "current_path": "condition_assessment/outputs/damage_regression_metrics.csv, strategy=group_shuffle; run_report_stage and plot_metric_bars. Load is in kN and wire loss in percentage points.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_3/outputs/damage_regression_predictions.parquet, strategy=group_shuffle; run_report_stage passes BOTH ultimate_load_kn and wire_area_loss_pct to plot_regression_predictions.",
+    "current_path": "condition_assessment/outputs/damage_regression_predictions.parquet, strategy=group_shuffle; run_report_stage passes BOTH ultimate_load_kn and wire_area_loss_pct to plot_regression_predictions.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_3/outputs/degradation_forecasts.parquet and rul_estimates.csv; run_report_stage selects the first six specimens after sorting failure_probability descending and estimated_rul_weeks ascending; plot_trajectory_examples.",
+    "current_path": "condition_assessment/outputs/degradation_forecasts.parquet and rul_estimates.csv; run_report_stage selects the first six specimens after sorting failure_probability descending and estimated_rul_weeks ascending; plot_trajectory_examples.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_3/outputs/rul_estimates.csv and main_3/src/visualization/plots.py:plot_risk_distribution; counts independently checked.",
+    "current_path": "condition_assessment/outputs/rul_estimates.csv and main_3/src/visualization/plots.py:plot_risk_distribution; counts independently checked.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_3/outputs/rul_estimates.csv; plot_rul_histogram explicitly drops missing estimated_rul_weeks. There are 33 finite values, including 23 exactly zero, and 15 omitted non-crossings.",
+    "current_path": "condition_assessment/outputs/rul_estimates.csv; plot_rul_histogram explicitly drops missing estimated_rul_weeks. There are 33 finite values, including 23 exactly zero, and 15 omitted non-crossings.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_3/reports/corrosion_condition_pipeline_ieee.tex; embedded assets in main_3/reports/figures/ and main_3/reports/meeting_report/figures/. Same-name canonical PDF differs in both bytes and normalized extracted text; its exact editing/compilation history is not established.",
+    "current_path": "condition_assessment/reports/corrosion_condition_pipeline_ieee.tex; embedded assets in main_3/reports/figures/ and main_3/reports/meeting_report/figures/. Same-name canonical PDF differs in both bytes and normalized extracted text; its exact editing/compilation history is not established.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_3/reports/figures/preprocessing/{G01-20240221-6W,F03-20240417-14W,D05-20240807-30W}.png; main_3/src/visualization/plots.py:create_preprocessing_previews and main_3/src/features/image_processing.py are related preprocessing code. The meeting montage generator was not located, and raw-to-montage fidelity was not reconstructed.",
+    "current_path": "condition_assessment/reports/figures/preprocessing/{G01-20240221-6W,F03-20240417-14W,D05-20240807-30W}.png; main_3/src/visualization/plots.py:create_preprocessing_previews and main_3/src/features/image_processing.py are related preprocessing code. The meeting montage generator was not located, and raw-to-montage fidelity was not reconstructed.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_4/outputs/reports/ultimate_load_refocus_ieee.tex; data and figure assets under main_4/outputs/ultimate_load_refocus/. Same-name canonical PDF differs in bytes and normalized text, so exact draft reproduction is not asserted.",
+    "current_path": "structural_capacity/outputs/reports/ultimate_load_refocus_ieee.tex; data and figure assets under main_4/outputs/ultimate_load_refocus/. Same-name canonical PDF differs in bytes and normalized text, so exact draft reproduction is not asserted.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/correlations/mesh_stratified_corrosion_vs_ultimate_load.csv and data/specimen_summary_table.csv; the total-rust correlations were independently verified in v2.",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/correlations/mesh_stratified_corrosion_vs_ultimate_load.csv and data/specimen_summary_table.csv; the total-rust correlations were independently verified in v2.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/feature_importance_full_fit.csv; fit_model_bundle standardizes all encoded columns, including one-hot columns; extract_feature_importance sums absolute encoded coefficients by raw feature, and plot_feature_importance plots them.",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/feature_importance_full_fit.csv; fit_model_bundle standardizes all encoded columns, including one-hot columns; extract_feature_importance sums absolute encoded coefficients by raw feature, and plot_feature_importance plots them.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/fold_metrics.csv; ultimate_load_refocus.py:plot_cv_stability.",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/fold_metrics.csv; ultimate_load_refocus.py:plot_cv_stability.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/learning_curve_raw.csv (50 rows), learning_curve_summary.csv (five fractions) and fold_metrics.csv; compute_learning_curve and plot_learning_curve. Every saved summary mean/sample SD is independently recomputed.",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/learning_curve_raw.csv (50 rows), learning_curve_summary.csv (five fractions) and fold_metrics.csv; compute_learning_curve and plot_learning_curve. Every saved summary mean/sample SD is independently recomputed.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/partial_dependence.csv; compute_partial_dependence_data copies the reference rows and replaces one field while leaving the rest fixed; plot_partial_dependence.",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/partial_dependence.csv; compute_partial_dependence_data copies the reference rows and replaces one field while leaving the rest fixed; plot_partial_dependence.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv (96 rows) and terminal_oof_predictions.csv (48 rows); aggregate_prediction_rows and plot_prediction_vs_truth. Mean, sample SD, counts and signed errors independently recomputed; observed range is 1.60\u20132.87 kN.",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv (96 rows) and terminal_oof_predictions.csv (48 rows); aggregate_prediction_rows and plot_prediction_vs_truth. Mean, sample SD, counts and signed errors independently recomputed; observed range is 1.60\u20132.87 kN.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_oof_predictions.csv, independently reconstructed from terminal_fold_predictions.csv; plot_error_histogram.",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_oof_predictions.csv, independently reconstructed from terminal_fold_predictions.csv; plot_error_histogram.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_oof_predictions.csv, reconstructed from terminal_fold_predictions.csv; plot_residuals.",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_oof_predictions.csv, reconstructed from terminal_fold_predictions.csv; plot_residuals.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_oof_predictions.csv; plot_uncertainty. Each SD uses just two held-out predictions with overlapping training data.",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_oof_predictions.csv; plot_uncertainty. Each SD uses just two held-out predictions with overlapping training data.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison.csv; ultimate_load_refocus.py:plot_best_feature_set_bars.",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison.csv; ultimate_load_refocus.py:plot_best_feature_set_bars.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/model_comparison.csv (35 configurations); ultimate_load_refocus.py:plot_model_metric_heatmap.",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/model_comparison.csv (35 configurations); ultimate_load_refocus.py:plot_model_metric_heatmap.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/splits/grouped_cv_balance_summary.csv and grouped_cv_specimen_manifest.csv; counts independently recomputed from manifest.",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/splits/grouped_cv_balance_summary.csv and grouped_cv_specimen_manifest.csv; counts independently recomputed from manifest.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/audit_decisions.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_balance_summary.csv and leave_one_campaign_out_specimen_manifest.csv; counts independently recomputed.",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_balance_summary.csv and leave_one_campaign_out_specimen_manifest.csv; counts independently recomputed.",
+    "existed_before": false,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_3/outputs/canonical_dataset.csv",
+    "current_path": "condition_assessment/outputs/canonical_dataset.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_3/outputs/corrosion_classification_metrics.csv",
+    "current_path": "condition_assessment/outputs/corrosion_classification_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_3/outputs/corrosion_regression_metrics.csv",
+    "current_path": "condition_assessment/outputs/corrosion_regression_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_3/outputs/corrosion_regression_predictions.parquet",
+    "current_path": "condition_assessment/outputs/corrosion_regression_predictions.parquet",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_3/outputs/damage_regression_metrics.csv",
+    "current_path": "condition_assessment/outputs/damage_regression_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_3/outputs/damage_regression_predictions.parquet",
+    "current_path": "condition_assessment/outputs/damage_regression_predictions.parquet",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_3/outputs/degradation_forecasts.parquet",
+    "current_path": "condition_assessment/outputs/degradation_forecasts.parquet",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_3/outputs/image_features.csv",
+    "current_path": "condition_assessment/outputs/image_features.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_3/outputs/rul_estimates.csv",
+    "current_path": "condition_assessment/outputs/rul_estimates.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_3/reports/corrosion_condition_pipeline_ieee.pdf",
+    "current_path": "condition_assessment/reports/corrosion_condition_pipeline_ieee.pdf",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_3/src/visualization/plots.py",
+    "current_path": "condition_assessment/src/visualization/plots.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_4/outputs/reports/ultimate_load_refocus_ieee.pdf",
+    "current_path": "structural_capacity/outputs/reports/ultimate_load_refocus_ieee.pdf",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/feature_importance_full_fit.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/feature_importance_full_fit.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/learning_curve_raw.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/learning_curve_raw.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/learning_curve_summary.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/learning_curve_summary.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/partial_dependence.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/partial_dependence.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_oof_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_oof_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/model_comparison.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/model_comparison.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/splits/grouped_cv_balance_summary.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/splits/grouped_cv_balance_summary.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/splits/grouped_cv_specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/splits/grouped_cv_specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_balance_summary.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_balance_summary.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json",
+    "recorded_path": "main_4/src/corrosion_proxy_rul/ultimate_load_refocus.py",
+    "current_path": "structural_capacity/src/corrosion_proxy_rul/ultimate_load_refocus.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main/api.py",
+    "current_path": "classical_corrosion/api.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main/artifacts/manifest.json",
+    "current_path": "classical_corrosion/artifacts/manifest.json",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main/data_utils.py",
+    "current_path": "classical_corrosion/data_utils.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main/reports/current_corrosion_metrics.csv",
+    "current_path": "classical_corrosion/reports/current_corrosion_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main/train_models.py",
+    "current_path": "classical_corrosion/train_models.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_2/build_pdf_report.py",
+    "current_path": "image_embeddings/build_pdf_report.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_2/reports/model_comparison.csv",
+    "current_path": "image_embeddings/reports/model_comparison.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_2/reports/predictions_best_model.csv",
+    "current_path": "image_embeddings/reports/predictions_best_model.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_2/visualize.py",
+    "current_path": "image_embeddings/visualize.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_3/outputs/canonical_dataset.csv",
+    "current_path": "condition_assessment/outputs/canonical_dataset.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_3/outputs/corrosion_regression_metrics.csv",
+    "current_path": "condition_assessment/outputs/corrosion_regression_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_3/outputs/damage_regression_metrics.csv",
+    "current_path": "condition_assessment/outputs/damage_regression_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_3/src/data/io.py",
+    "current_path": "condition_assessment/src/data/io.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_3/src/rul/estimator.py",
+    "current_path": "condition_assessment/src/rul/estimator.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/configs/features.yaml",
+    "current_path": "structural_capacity/configs/features.yaml",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/configs/modeling.yaml",
+    "current_path": "structural_capacity/configs/modeling.yaml",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/configs/specimen_mapping.yaml",
+    "current_path": "structural_capacity/configs/specimen_mapping.yaml",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/configs/thresholds.yaml",
+    "current_path": "structural_capacity/configs/thresholds.yaml",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/configs/ultimate_load_refocus.yaml",
+    "current_path": "structural_capacity/configs/ultimate_load_refocus.yaml",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/audit/verified_facts.json",
+    "current_path": "structural_capacity/outputs/audit/verified_facts.json",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/data/master_table.csv",
+    "current_path": "structural_capacity/outputs/data/master_table.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/diagnostics/tables/benchmark_best_model_robustness.csv",
+    "current_path": "structural_capacity/outputs/diagnostics/tables/benchmark_best_model_robustness.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/features/image_features.csv",
+    "current_path": "structural_capacity/outputs/features/image_features.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/models/degradation/degradation_best_fits.csv",
+    "current_path": "structural_capacity/outputs/models/degradation/degradation_best_fits.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/models/hidden_damage/best_models.csv",
+    "current_path": "structural_capacity/outputs/models/hidden_damage/best_models.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/models/proxy_rul/proxy_rul_estimates.csv",
+    "current_path": "structural_capacity/outputs/models/proxy_rul/proxy_rul_estimates.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/models/proxy_rul/proxy_rul_summary.json",
+    "current_path": "structural_capacity/outputs/models/proxy_rul/proxy_rul_summary.json",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/models/surface/peak_rust_pct/leave_one_treatment_out/peak_rust_pct_fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/models/surface/peak_rust_pct/leave_one_treatment_out/peak_rust_pct_fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/models/surface/surface_total_rust_pct/leave_one_treatment_out/surface_total_rust_pct_fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/models/surface/surface_total_rust_pct/leave_one_treatment_out/surface_total_rust_pct_fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/splits/master_group_shuffle.csv",
+    "current_path": "structural_capacity/outputs/splits/master_group_shuffle.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/splits/master_group_shuffle_summary.csv",
+    "current_path": "structural_capacity/outputs/splits/master_group_shuffle_summary.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/splits/master_leave_one_campaign_out.csv",
+    "current_path": "structural_capacity/outputs/splits/master_leave_one_campaign_out.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/splits/master_leave_one_campaign_out_summary.csv",
+    "current_path": "structural_capacity/outputs/splits/master_leave_one_campaign_out_summary.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/splits/master_leave_one_treatment_out.csv",
+    "current_path": "structural_capacity/outputs/splits/master_leave_one_treatment_out.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/splits/master_leave_one_treatment_out_summary.csv",
+    "current_path": "structural_capacity/outputs/splits/master_leave_one_treatment_out_summary.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/correlations/mesh_stratified_corrosion_vs_ultimate_load.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/correlations/mesh_stratified_corrosion_vs_ultimate_load.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/data/specimen_summary_table.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/data/specimen_summary_table.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_4/grouped_cv/specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/mesh_stratified/mesh_4/grouped_cv/specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_7/grouped_cv/specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/mesh_stratified/mesh_7/grouped_cv/specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_feature_set_comparison.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/mesh_stratified/mesh_feature_set_comparison.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/hsv_only/CatBoost/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/hsv_only/CatBoost/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/hsv_only/CatBoost/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/hsv_only/CatBoost/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb/Ridge/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb/Ridge/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb/Ridge/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb/Ridge/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb_hsv/CatBoost/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb_hsv/CatBoost/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb_hsv/CatBoost/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb_hsv/CatBoost/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_hsv/CatBoost/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_hsv/CatBoost/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_hsv/CatBoost/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_hsv/CatBoost/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_only/CatBoost/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_only/CatBoost/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_only/CatBoost/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_only/CatBoost/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/leave_one_campaign_out/feature_set_comparison.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/leave_one_campaign_out/feature_set_comparison.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/selected_best_model_per_feature_set.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/selected_best_model_per_feature_set.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_post_onset/leave_one_campaign_out/specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_post_onset/leave_one_campaign_out/specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/residual_refinement/best_model.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/residual_refinement/best_model.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/residual_refinement/model_comparison.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/residual_refinement/model_comparison.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/splits/grouped_cv_specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/splits/grouped_cv_specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/src/corrosion_proxy_rul/__init__.py",
+    "current_path": "structural_capacity/src/corrosion_proxy_rul/__init__.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/src/corrosion_proxy_rul/data_loading.py",
+    "current_path": "structural_capacity/src/corrosion_proxy_rul/data_loading.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/src/corrosion_proxy_rul/eda.py",
+    "current_path": "structural_capacity/src/corrosion_proxy_rul/eda.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/src/corrosion_proxy_rul/models_hidden_damage.py",
+    "current_path": "structural_capacity/src/corrosion_proxy_rul/models_hidden_damage.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/source_hashes.csv",
+    "recorded_path": "main_4/src/corrosion_proxy_rul/ultimate_load_refocus.py",
+    "current_path": "structural_capacity/src/corrosion_proxy_rul/ultimate_load_refocus.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/current_corruption_inventory.csv",
+    "recorded_path": "main/api.py",
+    "current_path": "classical_corrosion/api.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/current_corruption_inventory.csv",
+    "recorded_path": "main/data_utils.py",
+    "current_path": "classical_corrosion/data_utils.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/current_corruption_inventory.csv",
+    "recorded_path": "main/train_models.py",
+    "current_path": "classical_corrosion/train_models.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/current_corruption_inventory.csv",
+    "recorded_path": "main_2/build_pdf_report.py",
+    "current_path": "image_embeddings/build_pdf_report.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/current_corruption_inventory.csv",
+    "recorded_path": "main_2/visualize.py",
+    "current_path": "image_embeddings/visualize.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/current_corruption_inventory.csv",
+    "recorded_path": "main_3/src/data/io.py",
+    "current_path": "condition_assessment/src/data/io.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/current_corruption_inventory.csv",
+    "recorded_path": "main_3/src/rul/estimator.py",
+    "current_path": "condition_assessment/src/rul/estimator.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/current_corruption_inventory.csv",
+    "recorded_path": "main_4/configs/features.yaml",
+    "current_path": "structural_capacity/configs/features.yaml",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/current_corruption_inventory.csv",
+    "recorded_path": "main_4/configs/modeling.yaml",
+    "current_path": "structural_capacity/configs/modeling.yaml",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/current_corruption_inventory.csv",
+    "recorded_path": "main_4/configs/specimen_mapping.yaml",
+    "current_path": "structural_capacity/configs/specimen_mapping.yaml",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/current_corruption_inventory.csv",
+    "recorded_path": "main_4/configs/ultimate_load_refocus.yaml",
+    "current_path": "structural_capacity/configs/ultimate_load_refocus.yaml",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/current_corruption_inventory.csv",
+    "recorded_path": "main_4/src/corrosion_proxy_rul/__init__.py",
+    "current_path": "structural_capacity/src/corrosion_proxy_rul/__init__.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/current_corruption_inventory.csv",
+    "recorded_path": "main_4/src/corrosion_proxy_rul/data_loading.py",
+    "current_path": "structural_capacity/src/corrosion_proxy_rul/data_loading.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/current_corruption_inventory.csv",
+    "recorded_path": "main_4/src/corrosion_proxy_rul/eda.py",
+    "current_path": "structural_capacity/src/corrosion_proxy_rul/eda.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/current_corruption_inventory.csv",
+    "recorded_path": "main_4/src/corrosion_proxy_rul/models_hidden_damage.py",
+    "current_path": "structural_capacity/src/corrosion_proxy_rul/models_hidden_damage.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/current_corruption_inventory.csv",
+    "recorded_path": "main_4/src/corrosion_proxy_rul/ultimate_load_refocus.py",
+    "current_path": "structural_capacity/src/corrosion_proxy_rul/ultimate_load_refocus.py",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/split_checks.csv",
+    "recorded_path": "main_4/outputs/splits/master_group_shuffle.csv",
+    "current_path": "structural_capacity/outputs/splits/master_group_shuffle.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/split_checks.csv",
+    "recorded_path": "main_4/outputs/splits/master_leave_one_campaign_out.csv",
+    "current_path": "structural_capacity/outputs/splits/master_leave_one_campaign_out.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/split_checks.csv",
+    "recorded_path": "main_4/outputs/splits/master_leave_one_treatment_out.csv",
+    "current_path": "structural_capacity/outputs/splits/master_leave_one_treatment_out.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/split_checks.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_4/grouped_cv/specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/mesh_stratified/mesh_4/grouped_cv/specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/split_checks.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_7/grouped_cv/specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/mesh_stratified/mesh_7/grouped_cv/specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/split_checks.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/split_checks.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_post_onset/leave_one_campaign_out/specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_post_onset/leave_one_campaign_out/specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/split_checks.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/splits/grouped_cv_specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/splits/grouped_cv_specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/split_checks.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main/reports/current_corrosion_metrics.csv",
+    "current_path": "classical_corrosion/reports/current_corrosion_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_2/reports/model_comparison.csv",
+    "current_path": "image_embeddings/reports/model_comparison.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_2/reports/predictions_best_model.csv",
+    "current_path": "image_embeddings/reports/predictions_best_model.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_3/outputs/canonical_dataset.csv",
+    "current_path": "condition_assessment/outputs/canonical_dataset.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_3/outputs/corrosion_regression_metrics.csv",
+    "current_path": "condition_assessment/outputs/corrosion_regression_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_3/outputs/damage_regression_metrics.csv",
+    "current_path": "condition_assessment/outputs/damage_regression_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/audit/verified_facts.json",
+    "current_path": "structural_capacity/outputs/audit/verified_facts.json",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/data/master_table.csv",
+    "current_path": "structural_capacity/outputs/data/master_table.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/diagnostics/tables/benchmark_best_model_robustness.csv",
+    "current_path": "structural_capacity/outputs/diagnostics/tables/benchmark_best_model_robustness.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/features/image_features.csv",
+    "current_path": "structural_capacity/outputs/features/image_features.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/models/degradation/degradation_best_fits.csv",
+    "current_path": "structural_capacity/outputs/models/degradation/degradation_best_fits.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/models/hidden_damage/best_models.csv",
+    "current_path": "structural_capacity/outputs/models/hidden_damage/best_models.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/models/proxy_rul/proxy_rul_estimates.csv",
+    "current_path": "structural_capacity/outputs/models/proxy_rul/proxy_rul_estimates.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/models/proxy_rul/proxy_rul_summary.json",
+    "current_path": "structural_capacity/outputs/models/proxy_rul/proxy_rul_summary.json",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/models/surface/peak_rust_pct/leave_one_treatment_out/peak_rust_pct_fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/models/surface/peak_rust_pct/leave_one_treatment_out/peak_rust_pct_fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/models/surface/surface_total_rust_pct/leave_one_treatment_out/surface_total_rust_pct_fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/models/surface/surface_total_rust_pct/leave_one_treatment_out/surface_total_rust_pct_fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/splits/master_group_shuffle.csv",
+    "current_path": "structural_capacity/outputs/splits/master_group_shuffle.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/splits/master_group_shuffle_summary.csv",
+    "current_path": "structural_capacity/outputs/splits/master_group_shuffle_summary.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/splits/master_leave_one_campaign_out.csv",
+    "current_path": "structural_capacity/outputs/splits/master_leave_one_campaign_out.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/splits/master_leave_one_campaign_out_summary.csv",
+    "current_path": "structural_capacity/outputs/splits/master_leave_one_campaign_out_summary.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/splits/master_leave_one_treatment_out.csv",
+    "current_path": "structural_capacity/outputs/splits/master_leave_one_treatment_out.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/splits/master_leave_one_treatment_out_summary.csv",
+    "current_path": "structural_capacity/outputs/splits/master_leave_one_treatment_out_summary.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/correlations/mesh_stratified_corrosion_vs_ultimate_load.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/correlations/mesh_stratified_corrosion_vs_ultimate_load.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/data/specimen_summary_table.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/data/specimen_summary_table.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_4/grouped_cv/specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/mesh_stratified/mesh_4/grouped_cv/specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_7/grouped_cv/specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/mesh_stratified/mesh_7/grouped_cv/specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_feature_set_comparison.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/mesh_stratified/mesh_feature_set_comparison.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/hsv_only/CatBoost/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/hsv_only/CatBoost/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/hsv_only/CatBoost/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/hsv_only/CatBoost/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb/Ridge/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb/Ridge/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb/Ridge/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb/Ridge/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb_hsv/CatBoost/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb_hsv/CatBoost/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb_hsv/CatBoost/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb_hsv/CatBoost/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_hsv/CatBoost/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_hsv/CatBoost/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_hsv/CatBoost/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_hsv/CatBoost/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_only/CatBoost/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_only/CatBoost/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_only/CatBoost/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_only/CatBoost/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/leave_one_campaign_out/feature_set_comparison.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/leave_one_campaign_out/feature_set_comparison.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/selected_best_model_per_feature_set.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/selected_best_model_per_feature_set.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_post_onset/leave_one_campaign_out/specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_post_onset/leave_one_campaign_out/specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/residual_refinement/best_model.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/residual_refinement/best_model.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/residual_refinement/model_comparison.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/residual_refinement/model_comparison.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/splits/grouped_cv_specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/splits/grouped_cv_specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/tables/historical_artifact_timestamps.csv",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_specimen_manifest.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_specimen_manifest.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/figures/PAIRED_PROVENANCE.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/figures/PAIRED_PROVENANCE.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/figures/PROVENANCE.json",
+    "recorded_path": "main_3/outputs/corrosion_regression_metrics.csv",
+    "current_path": "condition_assessment/outputs/corrosion_regression_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/figures/PROVENANCE.json",
+    "recorded_path": "main_3/outputs/damage_regression_metrics.csv",
+    "current_path": "condition_assessment/outputs/damage_regression_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/figures/PROVENANCE.json",
+    "recorded_path": "main_4/configs/thresholds.yaml",
+    "current_path": "structural_capacity/configs/thresholds.yaml",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/figures/PROVENANCE.json",
+    "recorded_path": "main_4/outputs/data/master_table.csv",
+    "current_path": "structural_capacity/outputs/data/master_table.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/figures/PROVENANCE.json",
+    "recorded_path": "main_4/outputs/diagnostics/tables/benchmark_best_model_robustness.csv",
+    "current_path": "structural_capacity/outputs/diagnostics/tables/benchmark_best_model_robustness.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/figures/PROVENANCE.json",
+    "recorded_path": "main_4/outputs/features/image_features.csv",
+    "current_path": "structural_capacity/outputs/features/image_features.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/figures/PROVENANCE.json",
+    "recorded_path": "main_4/outputs/models/proxy_rul/proxy_rul_estimates.csv",
+    "current_path": "structural_capacity/outputs/models/proxy_rul/proxy_rul_estimates.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/figures/PROVENANCE.json",
+    "recorded_path": "main_4/outputs/splits/master_group_shuffle.csv",
+    "current_path": "structural_capacity/outputs/splits/master_group_shuffle.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/figures/PROVENANCE.json",
+    "recorded_path": "main_4/outputs/splits/master_leave_one_campaign_out.csv",
+    "current_path": "structural_capacity/outputs/splits/master_leave_one_campaign_out.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/figures/PROVENANCE.json",
+    "recorded_path": "main_4/outputs/splits/master_leave_one_treatment_out.csv",
+    "current_path": "structural_capacity/outputs/splits/master_leave_one_treatment_out.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/figures/PROVENANCE.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/correlations/mesh_stratified_corrosion_vs_ultimate_load.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/correlations/mesh_stratified_corrosion_vs_ultimate_load.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/figures/PROVENANCE.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/data/specimen_summary_table.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/data/specimen_summary_table.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/figures/PROVENANCE.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/feature_importance_full_fit.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/feature_importance_full_fit.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/figures/PROVENANCE.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/fold_metrics.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/fold_metrics.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/figures/PROVENANCE.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/learning_curve_raw.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/learning_curve_raw.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/figures/PROVENANCE.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/learning_curve_summary.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/learning_curve_summary.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/figures/PROVENANCE.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/figures/PROVENANCE.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_oof_predictions.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_oof_predictions.csv",
+    "existed_before": true,
+    "same_target_before": true
+  },
+  {
+    "source": "report_v2/figures/PROVENANCE.json",
+    "recorded_path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison.csv",
+    "current_path": "structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison.csv",
+    "existed_before": true,
+    "same_target_before": true
+  }
+]

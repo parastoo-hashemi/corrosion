@@ -1,0 +1,12 @@
+feature,importance,importance_abs,importance_kind,direction
+campaign_id,0.36903377878742843,0.36903377878742843,feature_importance,positive
+cover_mm,0.2150288003090767,0.2150288003090767,feature_importance,positive
+n_steel_mesh,0.19493918830893958,0.19493918830893958,feature_importance,positive
+nacl_pct,0.09983750931263936,0.09983750931263936,feature_importance,positive
+series_id,0.035341963356876005,0.035341963356876005,feature_importance,positive
+split_group_treatment,0.03236125090862311,0.03236125090862311,feature_importance,positive
+treatment_label_coarse,0.026128456139182132,0.026128456139182132,feature_importance,positive
+treatment_protocol,0.023965132377125276,0.023965132377125276,feature_importance,positive
+treatment_coarse,0.0033639205001095617,0.0033639205001095617,feature_importance,positive
+week,1.9561852958265656e-17,1.9561852958265656e-17,feature_importance,positive
+ageing_days,1.6046128233047407e-17,1.6046128233047407e-17,feature_importance,positive

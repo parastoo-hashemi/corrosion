@@ -1,0 +1,273 @@
+{
+  "passed": true,
+  "local_links_and_anchors_checked": 118,
+  "source_files_unchanged": [
+    {
+      "path": "condition_assessment/src/data/io.py",
+      "sha256": "5be5cff56fae2ef966ff530c5119ec12df5bf63bc486e05ca9a26c48d7820dae"
+    },
+    {
+      "path": "condition_assessment/src/data/__init__.py",
+      "sha256": "a3c273d3d4ea6f71634fef47e7821098d772b684d3e78a9da42de7314bf896d4"
+    },
+    {
+      "path": "condition_assessment/src/data/canonical.py",
+      "sha256": "6c3da6d70446173312cc678153c4769d7530a9d29e4438b102dfe01643ba7121"
+    }
+  ],
+  "source_files_visible_as_untracked": [
+    "condition_assessment/src/data/__init__.py",
+    "condition_assessment/src/data/canonical.py",
+    "condition_assessment/src/data/io.py"
+  ],
+  "ignore_change_check": {
+    "existing_files_checked": 16276,
+    "changes": [
+      {
+        "path": "condition_assessment/src/data/io.py",
+        "before_ignored": true,
+        "after_ignored": false
+      },
+      {
+        "path": "condition_assessment/src/data/__init__.py",
+        "before_ignored": true,
+        "after_ignored": false
+      },
+      {
+        "path": "condition_assessment/src/data/canonical.py",
+        "before_ignored": true,
+        "after_ignored": false
+      }
+    ]
+  },
+  "ignore_pattern_checks": [
+    {
+      "ignorecase": "true",
+      "path": "condition_assessment/src/data/io.py",
+      "ignored": false,
+      "pattern": ""
+    },
+    {
+      "ignorecase": "true",
+      "path": "condition_assessment/src/data/canonical.py",
+      "ignored": false,
+      "pattern": ""
+    },
+    {
+      "ignorecase": "true",
+      "path": "condition_assessment/src/data/__init__.py",
+      "ignored": false,
+      "pattern": ""
+    },
+    {
+      "ignorecase": "true",
+      "path": "condition_assessment/src/data/future_module.py",
+      "ignored": false,
+      "pattern": ""
+    },
+    {
+      "ignorecase": "true",
+      "path": "future_package/src/data/future_module.py",
+      "ignored": false,
+      "pattern": ""
+    },
+    {
+      "ignorecase": "true",
+      "path": "condition_assessment/src/data/__pycache__/io.cpython-311.pyc",
+      "ignored": true,
+      "pattern": "__pycache__/"
+    },
+    {
+      "ignorecase": "true",
+      "path": "Data/future_dataset.csv",
+      "ignored": true,
+      "pattern": "/Data/"
+    },
+    {
+      "ignorecase": "true",
+      "path": "structural_capacity/Data/future_dataset.csv",
+      "ignored": true,
+      "pattern": "/structural_capacity/Data/"
+    },
+    {
+      "ignorecase": "true",
+      "path": "structural_capacity/outputs/data/future_table.csv",
+      "ignored": true,
+      "pattern": "/structural_capacity/outputs/data/"
+    },
+    {
+      "ignorecase": "true",
+      "path": "structural_capacity/outputs/ultimate_load_refocus/data/future_table.csv",
+      "ignored": true,
+      "pattern": "/structural_capacity/outputs/ultimate_load_refocus/data/"
+    },
+    {
+      "ignorecase": "true",
+      "path": "archive/structural_baseline_snapshot/Data/future_dataset.csv",
+      "ignored": true,
+      "pattern": "/archive/structural_baseline_snapshot/Data/"
+    },
+    {
+      "ignorecase": "true",
+      "path": "archive/structural_baseline_snapshot/outputs/data/future_table.csv",
+      "ignored": true,
+      "pattern": "/archive/structural_baseline_snapshot/outputs/data/"
+    },
+    {
+      "ignorecase": "true",
+      "path": "condition_assessment/logs/future_run.log",
+      "ignored": true,
+      "pattern": "*.log"
+    },
+    {
+      "ignorecase": "true",
+      "path": "condition_assessment/logs/run_all.log",
+      "ignored": false,
+      "pattern": "!condition_assessment/logs/run_all.log"
+    },
+    {
+      "ignorecase": "true",
+      "path": "structural_capacity/outputs/logs/run_ultimate_load_refocus.log",
+      "ignored": false,
+      "pattern": "!structural_capacity/outputs/logs/run_ultimate_load_refocus.log"
+    },
+    {
+      "ignorecase": "false",
+      "path": "condition_assessment/src/data/io.py",
+      "ignored": false,
+      "pattern": ""
+    },
+    {
+      "ignorecase": "false",
+      "path": "condition_assessment/src/data/canonical.py",
+      "ignored": false,
+      "pattern": ""
+    },
+    {
+      "ignorecase": "false",
+      "path": "condition_assessment/src/data/__init__.py",
+      "ignored": false,
+      "pattern": ""
+    },
+    {
+      "ignorecase": "false",
+      "path": "condition_assessment/src/data/future_module.py",
+      "ignored": false,
+      "pattern": ""
+    },
+    {
+      "ignorecase": "false",
+      "path": "future_package/src/data/future_module.py",
+      "ignored": false,
+      "pattern": ""
+    },
+    {
+      "ignorecase": "false",
+      "path": "condition_assessment/src/data/__pycache__/io.cpython-311.pyc",
+      "ignored": true,
+      "pattern": "__pycache__/"
+    },
+    {
+      "ignorecase": "false",
+      "path": "Data/future_dataset.csv",
+      "ignored": true,
+      "pattern": "/Data/"
+    },
+    {
+      "ignorecase": "false",
+      "path": "structural_capacity/Data/future_dataset.csv",
+      "ignored": true,
+      "pattern": "/structural_capacity/Data/"
+    },
+    {
+      "ignorecase": "false",
+      "path": "structural_capacity/outputs/data/future_table.csv",
+      "ignored": true,
+      "pattern": "/structural_capacity/outputs/data/"
+    },
+    {
+      "ignorecase": "false",
+      "path": "structural_capacity/outputs/ultimate_load_refocus/data/future_table.csv",
+      "ignored": true,
+      "pattern": "/structural_capacity/outputs/ultimate_load_refocus/data/"
+    },
+    {
+      "ignorecase": "false",
+      "path": "archive/structural_baseline_snapshot/Data/future_dataset.csv",
+      "ignored": true,
+      "pattern": "/archive/structural_baseline_snapshot/Data/"
+    },
+    {
+      "ignorecase": "false",
+      "path": "archive/structural_baseline_snapshot/outputs/data/future_table.csv",
+      "ignored": true,
+      "pattern": "/archive/structural_baseline_snapshot/outputs/data/"
+    },
+    {
+      "ignorecase": "false",
+      "path": "condition_assessment/logs/future_run.log",
+      "ignored": true,
+      "pattern": "*.log"
+    },
+    {
+      "ignorecase": "false",
+      "path": "condition_assessment/logs/run_all.log",
+      "ignored": false,
+      "pattern": "!condition_assessment/logs/run_all.log"
+    },
+    {
+      "ignorecase": "false",
+      "path": "structural_capacity/outputs/logs/run_ultimate_load_refocus.log",
+      "ignored": false,
+      "pattern": "!structural_capacity/outputs/logs/run_ultimate_load_refocus.log"
+    }
+  ],
+  "headline_values_matched_saved_tables": true,
+  "changed_files": [
+    {
+      "path": ".gitignore",
+      "before_sha256": "f3601bbc21ec10c484fd20a076e6e2f71e587868642479b940b30d23914a7576",
+      "after_sha256": "0beab726e94e667d62a3e1f1fe34095460458452d226701ad7400c134cb4d425"
+    },
+    {
+      "path": "README.md",
+      "before_sha256": "1ab1b7634b81882b513a6e333bc458ca98ee8bfc0c8a8c3c43e3873565a2e3ed",
+      "after_sha256": "2d4deca63eadaa6f5ed93c1310d571995cc7d9623551b286fcb7be447c78b02a"
+    },
+    {
+      "path": "docs/experiments.md",
+      "before_sha256": "7ad8e7d64980515c5b473e1b7d5168d69eca264165eade0e73d2dbc2eb1eb98d",
+      "after_sha256": "8a637bc6fab6d331dd0bd00fd263526ccbd64b4aed95b3e0402b2340a6db84b5"
+    },
+    {
+      "path": "docs/known_issues.md",
+      "before_sha256": "5a317482a73d9a17329db8122bd07a7b12c47e4a4f14f4a271ea43ac939ae30d",
+      "after_sha256": "9165311951eb30e55cda0cdd61a18c44ad80cbf47b5105a37475b68cb7613451"
+    },
+    {
+      "path": "docs/reproduction.md",
+      "before_sha256": "f0bb760269192183d323803eaf9a4ccef97572ad82858af6c0f51b65d5cf8950",
+      "after_sha256": "8b4c5618567306ef9031fc6f5214b3406b81aa28fa9ed59c6c7e5488195661ae"
+    },
+    {
+      "path": "report_v2/README.md",
+      "before_sha256": "7a57ea313dd9fbdb59efdde3df05cd176737255926d0f29f1b23228e03531f1e",
+      "after_sha256": "a49341351bf9a47a0f8d759306a36bfaa9d0ca642aa645b034fb880e1e9d0d9b"
+    },
+    {
+      "path": "report_cleanup/renaming/verify_renaming.py",
+      "before_sha256": "099ff3e532bd4dc164ed38a6689ff92cc20b11fe8e9fdf023e9ebb430777a725",
+      "after_sha256": "560e3c26ff59aea889d140cad5f5de9a7c6d57b2d431eb8054469c1d8e361f96"
+    }
+  ],
+  "time_utc": "2026-09-16T10:58:32.191971+00:00",
+  "git_unchanged": true,
+  "git_state": {
+    "head": "19a6ae86496894378a1475de34aa6bdd93682b07",
+    "branch": "master",
+    "refs": "19a6ae86496894378a1475de34aa6bdd93682b07 refs/heads/cleanup/delivery-prep\n19a6ae86496894378a1475de34aa6bdd93682b07 refs/heads/master\nc5a4f1af2329bc7dbf27b9ec807d8dc3047020ff refs/heads/report-rebuild-codex\n7e69d7a152d43adf261aa16bb3dfea8f2ecfbb4c refs/heads/report-rebuild-codex-v3\n1089b3e7f6c7f798a3bf5c6ccd07eb6c1fb3e322 refs/remotes/origin/HEAD\n1089b3e7f6c7f798a3bf5c6ccd07eb6c1fb3e322 refs/remotes/origin/master",
+    "index_sha256": "a19d0ab18ad7db881115300f44092d8956755447e79c17d8fdfd20158c92d822",
+    "staged": ""
+  },
+  "note": "Ignore-rule and documentation update only. Three existing Python files become visible but remain untracked; no source/data/model/PDF bytes changed. The verifier accepts the explicitly recorded pre-edit document hash in its historical preservation check."
+}

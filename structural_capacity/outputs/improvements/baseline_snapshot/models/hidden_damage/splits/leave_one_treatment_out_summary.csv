@@ -1,0 +1,10 @@
+strategy,split_id,train_rows,test_rows,train_specimens,test_specimens,leakage_detected
+leave_one_treatment_out,leave_one_treatment_out_0,42,6,42,6,False
+leave_one_treatment_out,leave_one_treatment_out_1,42,6,42,6,False
+leave_one_treatment_out,leave_one_treatment_out_2,42,6,42,6,False
+leave_one_treatment_out,leave_one_treatment_out_3,42,6,42,6,False
+leave_one_treatment_out,leave_one_treatment_out_4,41,7,41,7,False
+leave_one_treatment_out,leave_one_treatment_out_5,41,7,41,7,False
+leave_one_treatment_out,leave_one_treatment_out_6,44,4,44,4,False
+leave_one_treatment_out,leave_one_treatment_out_7,45,3,45,3,False
+leave_one_treatment_out,leave_one_treatment_out_8,45,3,45,3,False

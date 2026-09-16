@@ -1,0 +1,26 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Thesis (final reports)" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+    <texify>
+      <compiler>LATEXMK</compiler>
+      <compiler-path>/Library/TeX/texbin/latexmk</compiler-path>
+      <pdf-viewer>system-default</pdf-viewer>
+      <require-focus>true</require-focus>
+      <viewer-command />
+      <compiler-arguments>-halt-on-error</compiler-arguments>
+      <envs />
+      <expand-macros-in-environment-variables>false</expand-macros-in-environment-variables>
+      <before-run-command />
+      <main-file>$PROJECT_DIR$/final_reports/sources/thesis/thesis.tex</main-file>
+      <output-path>$PROJECT_DIR$/final_reports/sources/thesis</output-path>
+      <auxil-path>{mainFileParent}</auxil-path>
+      <working-directory>{mainFileParent}</working-directory>
+      <compile-twice>true</compile-twice>
+      <output-format>PDF</output-format>
+      <latex-distribution>TEXLIVE</latex-distribution>
+      <has-been-run>true</has-been-run>
+      <bib-run-config>[]</bib-run-config>
+      <makeindex-run-config>[]</makeindex-run-config>
+    </texify>
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,40 @@
+{
+  "time_utc": "2026-09-16T15:51:10.725823+00:00",
+  "observed_failure": "TeXiFy thesis bibliography runs BibTeX in out/, where ../../references/references.bib cannot be found.",
+  "configuration": ".run/Thesis_final_reports.run.xml",
+  "configuration_name": "Thesis (final reports)",
+  "compiler": "/Library/TeX/texbin/latexmk",
+  "main_file": "final_reports/sources/thesis/thesis.tex",
+  "working_and_output_directories": "{mainFileParent}",
+  "separate_bibtex_configuration": false,
+  "tested_equivalent_build": {
+    "exit_code": 0,
+    "command": [
+      "/Library/TeX/texbin/latexmk",
+      "-pdf",
+      "-interaction=nonstopmode",
+      "-synctex=1",
+      "-file-line-error",
+      "-halt-on-error",
+      "-output-directory=/var/folders/bn/l0d3s11x0td4pq8v02vr5mrw0000gn/T/corrosion-pycharm-thesis-check-khz9nnst/final_reports/sources/thesis",
+      "thesis.tex"
+    ]
+  },
+  "test_location": "/var/folders/bn/l0d3s11x0td4pq8v02vr5mrw0000gn/T/corrosion-pycharm-thesis-check-khz9nnst",
+  "output_pages": 40,
+  "final_latex_warnings": false,
+  "report_files_unchanged": 93,
+  "original_pdf_sha256": "1382691cc4f8197bc84a155f20cba76305201a411ac9d4ad7cbdc3cc3c5dee13",
+  "git_unchanged": true,
+  "ide_ui_run_verified": false,
+  "ide_ui_note": "Initial configuration and failure were inspected. Later UI state/screenshot became unavailable; saved shared configuration was added through the project filesystem. Its equivalent build command was tested in an isolated copy.",
+  "passed": true,
+  "repository_cleanup_check": {
+    "passed": false,
+    "failures": [
+      "authorized build-file removal: out/chapters/01_introduction.aux",
+      "removed empty output directory: out/chapters"
+    ],
+    "note": "The IDE has regenerated LaTeX auxiliary files under out/chapters. These runtime build outputs were left intact; this check enforces the earlier cleanup state. Report content and Git identity checks passed."
+  }
+}
