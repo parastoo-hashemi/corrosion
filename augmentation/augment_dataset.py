@@ -30,11 +30,11 @@ DEFAULT_IMAGE_DIR = PROJECT_ROOT / "Data" / "Images_dataset"
 DEFAULT_WORKBOOK = PROJECT_ROOT / "Data" / "Images_Dataset_A-Z-1.xlsx"
 DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "Data" / "Images_dataset_augmented"
 DEFAULT_OUTPUT_CSV = PROJECT_ROOT / "Data" / "Images_Dataset_A-Z-1_augmented.csv"
-DEFAULT_REPORT = PROJECT_ROOT / "Documentation" / "augmentation_dataset_report.md"
+DEFAULT_REPORT = PROJECT_ROOT / "augmentation" / "augmentation_dataset_report.md"
 DEFAULT_CODEX_REPORT = (
-    PROJECT_ROOT / "Documentation" / "codex" / "augmentation_dataset_report.md"
+    PROJECT_ROOT / "augmentation" / "codex" / "augmentation_dataset_report.md"
 )
-DEFAULT_CONTACT_SHEET = PROJECT_ROOT / "Documentation" / "augmentation_examples.png"
+DEFAULT_CONTACT_SHEET = PROJECT_ROOT / "augmentation" / "augmentation_examples.png"
 
 SUPPORTED_EXTENSIONS = {".png", ".jpg", ".jpeg", ".tif", ".tiff", ".bmp"}
 RECIPE_NAMES = (

@@ -119,7 +119,7 @@ The CSV has one row per output image, including the copied originals.
 Default:
 
 ```text
-Documentation/augmentation_dataset_report.md
+augmentation/augmentation_dataset_report.md
 ```
 
 ### Codex copy of the dataset report
@@ -127,7 +127,7 @@ Documentation/augmentation_dataset_report.md
 Default:
 
 ```text
-Documentation/codex/augmentation_dataset_report.md
+augmentation/codex/augmentation_dataset_report.md
 ```
 
 Both report files receive the same text.
@@ -137,7 +137,7 @@ Both report files receive the same text.
 Default:
 
 ```text
-Documentation/augmentation_examples.png
+augmentation/augmentation_examples.png
 ```
 
 The contact sheet shows deterministic examples from all four classes.
@@ -154,9 +154,9 @@ The command-line arguments are defined in `parse_args()` at lines 71–106.
 | `--workbook PATH` | `Data/Images_Dataset_A-Z-1.xlsx` | Changes the source Excel workbook. |
 | `--output-dir PATH` | `Data/Images_dataset_augmented` | Changes where copied and augmented images are saved. |
 | `--output-csv PATH` | `Data/Images_Dataset_A-Z-1_augmented.csv` | Changes the output metadata CSV path. |
-| `--report PATH` | `Documentation/augmentation_dataset_report.md` | Changes the first Markdown report path. |
-| `--codex-report PATH` | `Documentation/codex/augmentation_dataset_report.md` | Changes the second Markdown report path. |
-| `--contact-sheet PATH` | `Documentation/augmentation_examples.png` | Changes the contact-sheet path. |
+| `--report PATH` | `augmentation/augmentation_dataset_report.md` | Changes the first Markdown report path. |
+| `--codex-report PATH` | `augmentation/codex/augmentation_dataset_report.md` | Changes the second Markdown report path. |
+| `--contact-sheet PATH` | `augmentation/augmentation_examples.png` | Changes the contact-sheet path. |
 | `--copies N` | `4` | Sets the number of augmented copies per readable original. The original itself is additional. |
 | `--seed N` | `20260630` | Changes the deterministic random values used for augmentation and contact-sheet example selection. |
 | `--workers N` | `min(4, CPU count)` | Sets the number of worker processes used to generate images in parallel. |
@@ -928,8 +928,8 @@ Important:
 The same text is written to:
 
 ```text
-Documentation/augmentation_dataset_report.md
-Documentation/codex/augmentation_dataset_report.md
+augmentation/augmentation_dataset_report.md
+augmentation/codex/augmentation_dataset_report.md
 ```
 
 `write_report()` writes to a temporary `.tmp` file and then renames it to the final path.

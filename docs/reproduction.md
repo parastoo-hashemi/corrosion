@@ -78,7 +78,7 @@ contain the completed preparation results. None demonstrate classifier accuracy.
 ## 4. Compile a report without fitting a model
 
 Use a separate copy for builds, because compilation changes PDFs and auxiliary
-files even when the scientific source is unchanged. The latest produced manuscripts
+files even when the scientific source is unchanged. The current manuscripts
 use existing shared figures/tables/bibliography:
 
 ```bash
@@ -86,11 +86,9 @@ latexmk -cd -pdf -interaction=nonstopmode -halt-on-error report_v2/thesis/v3/the
 latexmk -cd -pdf -interaction=nonstopmode -halt-on-error report_v2/article/v3/article.tex
 ```
 
-The original activity report is compiled independently:
-
-```bash
-latexmk -cd -pdf -interaction=nonstopmode -halt-on-error activity_report/activity_report.tex
-```
+The original activity report and earlier `report_v2` draft versions (v1, v2)
+were removed from the working tree and are no longer part of the delivered
+copy; they remain recoverable from Git history if needed.
 
 These build commands were inspected but not executed during cleanup: the delivered
 PDF hashes are preserved, and the prior report QA contains their compilation and
@@ -99,9 +97,10 @@ same binary hash. After any manuscript edit, compile, render, and visually inspe
 all affected pages.
 
 Reporting scripts in [report_v2/scripts/](../report_v2/scripts/) include commands
-that regenerate shared tables/figures or earlier manuscripts. They are not a
-read-only installation test. In particular, `revise_drafts.py` reconstructs v2,
-and `make_figures.py`, `paired_diagnostics.py`, and `make_v3_figures.py` replace assets.
+that regenerate shared tables/figures. They are not a read-only installation
+test. `revise_drafts.py` reconstructed the now-removed v2 draft and no longer
+has a target to write to; `make_figures.py`, `paired_diagnostics.py`, and
+`make_v3_figures.py` replace assets still in use by the current manuscripts.
 `validate_documents.py` also writes QA files. Use the cleanup verifier for read-only
 checks of preserved scientific artifacts; use the historical report tools only in
 an intentional report-editing copy.

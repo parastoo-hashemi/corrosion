@@ -15,10 +15,9 @@ citations depend on them. Folder numbers are not a quality ranking.
 | `augmentation/` | Offline photometric/geometric augmentation, controlled variants, fixed specimen partitions | Later four-class data preparation; training/evaluation remains pending |
 | `emiling/` | Copies assembled for presentation/report sharing | Export collection; use the source experiments and report provenance for interpretation |
 
-The phase interpretation is grounded in the scripts, configs, saved output tables,
-and [activity report](../activity_report/activity_report.pdf), alongside the
-[v3 thesis](../report_v2/thesis/v3/thesis.pdf). The two report families remain
-available; no authoritative version has been chosen.
+The phase interpretation is grounded in the scripts, configs, saved output
+tables, and the [thesis](../report_v2/thesis/v3/thesis.pdf), which is the
+current report for this project.
 
 ## Reading historical records
 

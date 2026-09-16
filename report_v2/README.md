@@ -2,20 +2,16 @@
 
 ## Which PDF should I read?
 
-The authoritative manuscript version has **not** been selected. The latest produced
-alternatives are the [v3 IEEE article](article/v3/article.pdf) (5 pages) and
-[v3 thesis](thesis/v3/thesis.pdf) (40 pages). The original
-[technical activity report](../activity_report/activity_report.pdf) remains available.
-These are research documents for review; production order is not approval status.
+These are the current reports for this project: the
+[IEEE article](article/v3/article.pdf) (5 pages) and the
+[thesis](thesis/v3/thesis.pdf) (40 pages). Each PDF's LaTeX master and modular
+sources are beside it.
 
-| Version | Thesis | IEEE article |
-|---|---|---|
-| First draft | [44 pages](thesis/thesis.pdf) | [5 pages](article/article.pdf) |
-| v2 | [37 pages](thesis/v2/thesis.pdf) | [5 pages](article/v2/article.pdf) |
-| v3 | [40 pages](thesis/v3/thesis.pdf) | [5 pages](article/v3/article.pdf) |
-
-Each PDF's LaTeX master and modular sources are beside it. Cleanup changed none of
-their bytes, claims, numbers, figures, or bibliography.
+The original activity report and earlier `report_v2` draft versions (v1, v2)
+were removed from the working tree once this v3 version was confirmed as the
+one to deliver. They are not lost — every byte remains recoverable from Git
+history (branches `report-rebuild-codex` and `report-rebuild-codex-v3`) — but
+they are no longer part of the delivered copy.
 
 ## Package map
 

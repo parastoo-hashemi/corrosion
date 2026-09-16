@@ -37,10 +37,9 @@ for another. See the [data dictionary](docs/data_dictionary.md).
 | [main_3/](main_3/) | Interpretable features, structural feasibility, and first proxy-RUL pipeline |
 | [main_4/](main_4/) | Most mature structural generation: robustness analysis and terminal-load refocus |
 | [main_4_old/](main_4_old/) | Retained earlier baseline snapshot; not the current entry point |
-| [augmentation/](augmentation/) | Separate four-class data preparation and specimen split scripts |
-| [activity_report/](activity_report/) | Original technical activity report, source, figures, and bibliography |
-| [report_v2/](report_v2/) | Thesis/article manuscript versions, shared figures, tables, and reporting scripts |
-| [Documentation/](Documentation/) | Source thesis/conference material and saved augmentation reports; locally present, ignored by Git |
+| [augmentation/](augmentation/) | Separate four-class data preparation and specimen split scripts, plus the augmentation methodology report and dataset report |
+| [report_v2/](report_v2/) | Final thesis (`thesis/v3/`) and IEEE article (`article/v3/`) manuscripts, shared figures, tables, and reporting scripts |
+| [Documentation/](Documentation/) | Source predecessor thesis/conference material; locally present, ignored by Git |
 | [emiling/](emiling/) | Historical presentation/export copies; retained for traceability |
 | [out/](out/) | Mixed historical build/output tree of uncertain ownership; preserved |
 | [docs/](docs/) | Curated handoff documentation |
@@ -163,11 +162,11 @@ source is not a clean, validated rerun baseline.
 
 ## Final Report Location
 
-- [Original activity report](activity_report/activity_report.pdf).
-- Latest produced alternatives: [v3 thesis](report_v2/thesis/v3/thesis.pdf)
-  (40 pages) and [v3 IEEE article](report_v2/article/v3/article.pdf) (5 pages).
-- Earlier manuscript versions remain in [report_v2/](report_v2/).
-
-**The authoritative report version has not been selected.** “Latest produced”
-does not mean approved or accepted. All report sources and PDFs retain their
-pre-cleanup bytes. The [cleanup handoff](CLEANUP_HANDOFF.md) records the delivery checks.
+- [Thesis](report_v2/thesis/v3/thesis.pdf) (40 pages) and
+  [IEEE article](report_v2/article/v3/article.pdf) (5 pages) — the current
+  reports for this project. Sources are in
+  [report_v2/thesis/v3/](report_v2/thesis/v3/) and
+  [report_v2/article/v3/](report_v2/article/v3/).
+- Earlier draft versions and the original activity report are retained in
+  Git history, not in the working tree — see the
+  [cleanup handoff](CLEANUP_HANDOFF.md) for what was removed and why.
