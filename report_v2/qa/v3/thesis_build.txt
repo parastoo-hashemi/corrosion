@@ -194,4 +194,3 @@ Latexmk: Using bibtex to make bibliography file(s).
 Latexmk: Found bibliography file(s):
   ../../references/references.bib
 Latexmk: All targets (thesis.pdf) are up-to-date
-

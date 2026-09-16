@@ -1261,4 +1261,3 @@ PDF statistics:
  755 compressed objects within 8 object streams
  161 named destinations out of 1000 (max. 500000)
  32384 words of extra memory for PDF output out of 35830 (max. 10000000)
-
