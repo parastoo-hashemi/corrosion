@@ -443,3 +443,37 @@ New cleanup verification scripts are tooling, not changes to scientific code.
 Scientific source edits are comments/docstrings only. Existing blockers remain
 recorded separately from cleanup regressions. No original scientific output may
 change merely to make a verification script pass.
+
+## Execution outcome and final review
+
+All planned stages completed on `cleanup/delivery-prep`. The external tar archive
+completed successfully; full `tar -tzf` readback confirmed all 16,140 initial files
+and the Git index before any move. The archive is 52,807,580,105 bytes.
+
+Executed 91 action groups covering 329 preserved files; no deletion. Created 26
+relative compatibility links. All 122 Markdown records are accounted for (27 A,
+5 B, 90 C, 0 D), plus the recovered previously deleted prompt. The separate current
+README and five curated guides capture the information needed for handoff.
+Eight scientific-source files received docstrings only, verified by matching
+normalized ASTs and executable tokens. Source files referenced by report checksum
+ledgers were not edited.
+
+All 15,566 protected scientific input/output hashes and sizes match; all seven
+primary report PDFs are byte-identical. Functional checks, CLI help, 120 report
+input/figure dependencies, 96 saved source-hash records, and the existing grouped
+split test pass. The initial path checker required correction to respect commented
+LaTeX includes, `graphicspath`, and the report's `shared`/`fig` macros; no report
+source was changed to satisfy it.
+
+The broader inventory found drift only in untracked `.idea/workspace.xml`, outside
+any cleanup action. Current IDE state is left untouched and its initial content
+remains in the backup; exact hashes are disclosed in `local_state_drift.json`.
+This is not an output-preservation failure. Also documented: three locally present
+`main_3/src/data/` source files are ignored by the existing broad Data ignore rule.
+No source/ignore surgery was made to those historical files. A complete local
+bundle is required; a Git-only transfer is insufficient.
+
+Both professor and student perspectives were reviewed against the new README and
+curated guides. The repository is ready for academic review/continuation with these
+explicit limits; current historical modelling defects and pending classifier
+training/evaluation remain unresolved. Full outcome: `CLEANUP_HANDOFF.md`.
