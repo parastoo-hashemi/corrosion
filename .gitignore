@@ -11,8 +11,14 @@ venv/
 *.pkl
 checkpoints/
 
-# Large raw data
-Data/
+# Local datasets and generated data bundles. Anchor these paths so source
+# packages named data remain visible, including on case-insensitive checkouts.
+/Data/
+/structural_capacity/Data/
+/structural_capacity/outputs/data/
+/structural_capacity/outputs/ultimate_load_refocus/data/
+/archive/structural_baseline_snapshot/Data/
+/archive/structural_baseline_snapshot/outputs/data/
 
 Documentation/
 Images_dataset/
@@ -24,12 +30,29 @@ Images_dataset/
 .mypy_cache/
 .ruff_cache/
 **/.matplotlib/
+**/logs/.mpl/
 *.pyo
 *.swp
 *.swo
 *~
 
-# LaTeX build auxiliaries; PDFs, figures, tables and scientific logs stay visible.
+# Generated logs and rotations. Exact historical exceptions are listed below.
+*.log
+*.log.[0-9]*
+*.log.gz
+
+# Curated experiment history; see docs/log_policy.md.
+!condition_assessment/logs/run_all.log
+!condition_assessment/logs/07_fit_degradation_models.log
+!structural_capacity/outputs/logs/run_ultimate_load_refocus.log
+!archive/structural_baseline_snapshot/outputs/logs/run_audit_validation.log
+!archive/structural_baseline_snapshot/outputs/logs/run_full_baseline.log
+!archive/structural_baseline_snapshot/outputs/logs/train_surface_models.log
+!archive/structural_baseline_snapshot/outputs/logs/train_hidden_damage_models.log
+!archive/structural_baseline_snapshot/outputs/logs/train_degradation_models.log
+!archive/structural_baseline_snapshot/outputs/logs/train_rul_proxy_models.log
+
+# LaTeX build auxiliaries; PDFs, figures and result tables remain visible.
 *.aux
 *.bbl
 *.blg
@@ -40,11 +63,6 @@ Images_dataset/
 *.lof
 *.lot
 *.synctex.gz
-**/thesis.log
-**/article.log
-**/activity_report.log
-**/main.log
-**/figures.log
 
 # Preserve the prior report package's ignored render/extraction policy after archiving.
 archive/agent_working_notes/report_v2/qa/**/*.png

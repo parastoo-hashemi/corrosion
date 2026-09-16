@@ -1,8 +1,0 @@
-{
-  "n_specimens_fit": 48,
-  "family_counts": {
-    "monotone_isotonic": 44,
-    "linear": 3,
-    "gompertz": 1
-  }
-}

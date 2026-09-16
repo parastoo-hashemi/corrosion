@@ -1,8 +1,0 @@
-2026-03-11 12:16:12,612 | INFO | src.features.extractor | Extracted image features for 100/792 records
-2026-03-11 12:17:46,509 | INFO | src.features.extractor | Extracted image features for 200/792 records
-2026-03-11 12:19:20,224 | INFO | src.features.extractor | Extracted image features for 300/792 records
-2026-03-11 12:20:53,149 | INFO | src.features.extractor | Extracted image features for 400/792 records
-2026-03-11 12:22:06,454 | WARNING | src.features.extractor | Feature extraction failed for E01-20240508-17W: cannot identify image file '/Users/parastoo/All_projects/Proj_corrosion/Data/Images_dataset/E01-20240508-17W.png'
-2026-03-11 12:22:27,628 | INFO | src.features.extractor | Extracted image features for 500/792 records
-2026-03-11 12:24:03,224 | INFO | src.features.extractor | Extracted image features for 600/792 records
-2026-03-11 12:25:38,514 | INFO | src.features.extractor | Extracted image features for 700/792 records

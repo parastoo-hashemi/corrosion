@@ -1,3 +1,0 @@
-target,best_model_name,benchmark_note
-surface_total_rust_pct,GradientBoosting,label_reconstruction_sanity_check
-peak_rust_pct,RandomForest,surface_benchmark_with_related_strip_features

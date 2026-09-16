@@ -1,3 +1,0 @@
-target,model_name,split_id,mae,rmse,r2,spearman
-ultimate_load_kn,RandomForest,leave_one_campaign_out_0,0.6187919218474437,0.6536377292716459,-8.63116023769074,0.18055257270889769
-ultimate_load_kn,RandomForest,leave_one_campaign_out_1,0.7763027353395082,0.8078729193039398,-12.667647737770674,0.2655060413529544

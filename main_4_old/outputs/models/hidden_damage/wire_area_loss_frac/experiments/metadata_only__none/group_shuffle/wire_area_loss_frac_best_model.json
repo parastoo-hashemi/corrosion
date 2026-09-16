@@ -1,5 +1,0 @@
-{
-  "target": "wire_area_loss_frac",
-  "best_model_name": "RandomForest",
-  "target_transform": "none"
-}

@@ -1,3 +1,0 @@
-target,model_name,split_id,mae,rmse,r2,spearman
-peak_rust_pct,RandomForest,leave_one_campaign_out_0,0.8438456525523643,2.168679494537029,0.9451912978111773,0.9769568701149629
-peak_rust_pct,RandomForest,leave_one_campaign_out_1,1.2716077668485766,3.271217170128458,0.9296761866676374,0.976746754822043

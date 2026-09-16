@@ -1,3 +1,0 @@
-split_name,repeat_id,fold_id,split_id,n_train_rows,n_test_rows,n_train_terminal_rows,n_test_terminal_rows,train_specimens,test_specimens,train_mae,test_mae,train_rmse,test_rmse,train_r2,test_r2,train_spearman,test_spearman
-leave_one_campaign_out,0,0,leave_one_campaign_out_campaign_1,431,360,24,24,24,24,0.026127491394678747,0.5660005189975102,0.03607628038732984,0.5937574661138483,0.9727446863940965,-6.947353858622558,0.9860752211501914,0.43028070941951757
-leave_one_campaign_out,0,1,leave_one_campaign_out_campaign_2,360,431,24,24,24,24,0.011549324591954568,0.7577768139044444,0.0161601991221577,0.7896801203993148,0.9941129489916621,-12.059004948556371,0.9984774804022173,0.2745867010352034

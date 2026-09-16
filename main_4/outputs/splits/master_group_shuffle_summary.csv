@@ -1,6 +1,0 @@
-strategy,split_id,train_rows,test_rows,train_specimens,test_specimens,leakage_detected
-group_shuffle,gss_0,632,159,38,10,False
-group_shuffle,gss_1,629,162,38,10,False
-group_shuffle,gss_2,629,162,38,10,False
-group_shuffle,gss_3,626,165,38,10,False
-group_shuffle,gss_4,624,167,38,10,False

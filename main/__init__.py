@@ -1,2 +1,0 @@
-"""Corrosion prediction package."""
-

@@ -1,172 +1,112 @@
-# Ferrocement corrosion: images, structural capacity, and research handoff
+# Ferrocement corrosion research
 
-## Project Overview
+This project studies what repeated photographs of surface corrosion can tell us
+about ferrocement specimens and their terminal structural capacity. It includes
+successive modelling experiments and a later four-class image-classification
+preparation study.
 
-This MSc technical activity studies what repeated photographs of surface corrosion
-can tell us about ferrocement specimens and their terminal structural capacity.
-The most mature completed experiment asks whether image-derived corrosion features
-add information beyond specimen metadata when estimating **terminal ultimate load**.
-A separate, later workstream prepares images for four-class corrosion classification.
+**Main finding:** in the most mature terminal-load study, image features did not
+establish a consistent improvement over specimen metadata. Campaign holdout
+exposed weak transfer, and the exploratory degradation work does not validate
+remaining-life prediction. See the [key results and evidence](docs/experiments.md#key-results-and-evidence).
 
-Start with the [report guide](report_v2/README.md), then the
-[experiment map](docs/experiments.md). For continuing the work, read
-[reproduction](docs/reproduction.md) and [known issues](docs/known_issues.md).
+## Start here
 
-## Dataset
-
-The current basis is **48 specimens in two campaigns**, with 792 source images and
-**791 readable, aligned observations**. Each specimen has repeated photographs;
-**both wire-area loss and ultimate load are measured once, at the terminal test**.
-Images therefore do not provide hundreds of independent structural outcomes.
-Campaign, mesh family, chloride concentration, and exposure schedule are aligned,
-which limits generalization and prevents separating their causal contributions.
-
-Raw and prepared assets are in [Data/](Data/). The classification workbook is
-[Images_Dataset_A-Z-1.xlsx](Data/Images_Dataset_A-Z-1.xlsx); historical structural
-pipelines use their own configured workbook copies. Do not substitute one workbook
-for another. See the [data dictionary](docs/data_dictionary.md).
-
-## Project Structure
-
-| Location | Role |
+| Your goal | Reading path |
 |---|---|
-| [Data/](Data/) | Raw workbooks/images, prepared classification images, variants, and fixed splits; locally present, ignored by Git |
-| [main_first/](main_first/) | Exploratory prototype; no defensible held-out benchmark |
-| [main/](main/) | Historical classical corrosion baseline and API code |
-| [main_2/](main_2/) | Historical frozen deep-image embeddings with tabular context |
-| [main_3/](main_3/) | Interpretable features, structural feasibility, and first proxy-RUL pipeline |
-| [main_4/](main_4/) | Most mature structural generation: robustness analysis and terminal-load refocus |
-| [main_4_old/](main_4_old/) | Retained earlier baseline snapshot; not the current entry point |
-| [augmentation/](augmentation/) | Separate four-class data preparation and specimen split scripts, plus the augmentation methodology report and dataset report |
-| [report_v2/](report_v2/) | Final thesis (`thesis/v3/`) and IEEE article (`article/v3/`) manuscripts, shared figures, tables, and reporting scripts |
-| [Documentation/](Documentation/) | Source predecessor thesis/conference material; locally present, ignored by Git |
-| [emiling/](emiling/) | Historical presentation/export copies; retained for traceability |
-| [out/](out/) | Mixed historical build/output tree of uncertain ownership; preserved |
-| [docs/](docs/) | Curated handoff documentation |
-| [archive/agent_working_notes/](archive/agent_working_notes/) | Historical plans, reviews, prompts, and evidence records, mirrored by original path |
-| [report_cleanup/](report_cleanup/) | Move manifest, preservation snapshots, and cleanup checks |
+| Understand the scientific work | [Five-page article](final_reports/article.pdf), then the [40-page thesis](final_reports/thesis.pdf) |
+| Inspect results and historical phases | [Experiment map](docs/experiments.md), with direct links to saved tables, figures and predictions |
+| Browse the selected figures and papers | [Selected results](selected_results/README.md), organized by phase with interpretation notes and provenance |
+| Continue or reproduce the work | [Known issues](docs/known_issues.md), then [reproduction instructions](docs/reproduction.md) |
+| Understand the data and terminology | [Data dictionary](docs/data_dictionary.md) and [project history](docs/project_history.md) |
 
-Physical implementation names are retained because imports, configs, saved paths,
-and report citations depend on them. The [project history](docs/project_history.md)
-explains the phases. Compatibility links retain certain archived lookup paths.
-Local caches, editor settings, and an empty `tmp/` are not research entry points.
+## Current status
 
-## Research Workflow
+| Workstream | What is available | What remains |
+|---|---|---|
+| Terminal structural capacity | Saved benchmarks, specimen splits, predictions and final manuscripts | Repair and validate the current modelling source before a new run |
+| Four-class corrosion classification | Prepared images, augmentation records and fixed specimen partitions | Classifier training and evaluation have not been performed |
+| Reproduction | Preservation checks, documented commands and recorded check environment | A verified historical training environment and complete end-to-end reruns |
 
-Data audit → visible-corrosion modelling → structural feasibility → robustness
-analysis → terminal-load refocus → degradation/proxy-RUL screening → four-class
-classification preparation. This is a research map, not an instruction to rerun
-all historical pipelines; degradation screening also existed in earlier phases.
+Saved results are available for scientific review. Successful file checks or model
+loading do not establish that the present source reproduces those results.
 
-## Key Findings
+## Dataset and interpretation
 
-- Visible corrosion and hidden structural damage are different prediction targets.
-- Some strong surface results mainly reconstruct a closely related image-derived label.
-- Metadata is a strong terminal-load baseline; images do not show a consistent
-  improvement across the evaluated settings.
-- Campaign holdout exposes poor structural transfer; pooled results need that context.
-- Model-derived degradation curves and threshold crossings are exploratory.
-  They are not validated remaining-life predictions.
+The current dataset contains **48 specimens from two campaigns**, with 792 source
+images and **791 readable, aligned observations**. Photographs repeat over time;
+wire-area loss and ultimate load are each measured once per specimen, at the
+terminal test. The independent structural sample is therefore 48 specimens.
 
-Detailed numbers and interpretation belong in the manuscripts and their saved tables.
+Campaign, mesh family, chloride concentration and exposure schedule are aligned,
+which limits generalization and causal interpretation. Some strong surface-model
+results reconstruct a closely related image-derived label. Model-derived curves
+and threshold crossings are exploratory, without observed lifetime outcomes.
 
-## How to Run
+[Data/](Data) holds local datasets and fixed classification splits. Historical
+modelling and current four-class preparation use different workbook/label versions;
+follow the [data dictionary](docs/data_dictionary.md) when selecting inputs.
 
-From this repository's root, with the Python environment described below:
+## Where the work lives
+
+| Location | Purpose |
+|---|---|
+| [structural_capacity/](structural_capacity) | Most mature structural study: robustness analysis and terminal-load refocus |
+| [classification_data_preparation/](classification_data_preparation) | Current four-class preparation and specimen partitions |
+| [exploratory_prototype/](exploratory_prototype) | Earliest exploratory work; no comparable held-out benchmark |
+| [classical_corrosion/](classical_corrosion) | Historical classical corrosion models |
+| [image_embeddings/](image_embeddings) | Historical frozen-image embeddings and tabular context |
+| [condition_assessment/](condition_assessment) | Interpretable features, structural feasibility and first proxy-RUL pipeline |
+| [final_reports/](final_reports) | Current v3 article/thesis, scientific figures, tables and retained analysis scripts |
+| [docs/](docs) | Experiment map, history, data definitions, reproduction and known issues |
+| [Data/](Data), [Documentation/](Documentation) | Local data and predecessor experimental documentation; excluded from Git |
+| [archive/](archive) | Earlier structural snapshot and historical working records |
+| [selected_results/](selected_results/README.md) | Curated collection of 28 figures and two historical papers, formerly `emiling/` |
+| [out/](out) | Six preserved historical PDF exports |
+| [report_cleanup/](report_cleanup) | Maintenance manifests, recovery information and preservation checks |
+
+The [folder migration guide](docs/folder_migration.md) maps old names such as
+`main_3` and `main_4` to these directories. Historical paths can be resolved with:
 
 ```bash
-python report_cleanup/verify_delivery.py --quick
-python augmentation/augment_dataset.py --help
-python augmentation/make_splits.py --help
+python research_paths.py "main_4/outputs/data/master_table.csv"
 ```
 
-These commands check the delivered structure or show command-line options; they
-neither train models nor replace datasets. The full preservation check is:
+The final delivery reports are the v3 article and thesis linked above. A historical
+70-page activity-report draft remains in `out/`; the [export audit](report_cleanup/out_audit/README.md)
+explains its status and other document variants.
+
+## Inspect the handoff
+
+From the repository root:
 
 ```bash
-python report_cleanup/verify_delivery.py --full
+python -B report_cleanup/renaming/verify_renaming.py --quick
 ```
 
-[Reproduction instructions](docs/reproduction.md) give the exact preparation and
-PDF build commands for a separate working copy. Historical training commands are
-in [experiments](docs/experiments.md), with their current execution blockers.
+This checks preservation records, source syntax, paths, links and saved validation
+receipts. It does not train models. The `--full` option also hashes the remaining
+baseline files, reading approximately 49 GB.
 
-## Environment / Dependencies
+The [environment instructions](docs/reproduction.md#environment-and-dependencies)
+list dependencies and installation gaps. The recorded check environment is not a
+verified historical training environment. For a complete transfer, include the
+local data/model bundle and preserve symbolic links.
 
-This handoff was checked with `/opt/anaconda3/envs/env/bin/python` on the delivery
-machine. Substitute your environment's `python` elsewhere. Existing dependency
-files are [main/requirements.txt](main/requirements.txt),
-[main_2/requirements.txt](main_2/requirements.txt),
-[main_3/requirements.txt](main_3/requirements.txt), and
-[augmentation/requirements.txt](augmentation/requirements.txt).
-They specify minimum versions, not locked historical environments.
-**There is no `main_4/requirements.txt`.**
+The ignore rules now expose the three Python files in
+`condition_assessment/src/data/`. They remain untracked until a later approved Git
+update; include them in the local handoff bundle. Raw/generated data exclusions
+remain in place.
 
-The current structural code imports NumPy, pandas, SciPy, scikit-learn, PyYAML,
-Pillow, scikit-image, matplotlib, seaborn, joblib, XGBoost, and CatBoost.
-The split script also needs pandas, which the augmentation requirements file
-currently omits. PDF compilation needs `latexmk`, a LaTeX distribution, BibTeX,
-and the packages declared in each master, including IEEEtran for the article.
-[Verified environment records](report_cleanup/environment.json) describe the
-handoff machine; they do not establish the original training environment.
+## Continue the research
 
-## Outputs
+1. Review the article and the [saved evidence](docs/experiments.md#key-results-and-evidence).
+2. Choose a workstream. The prepared four-class classifier is the clearest pending
+   experiment; use its saved specimen-disjoint partitions and report class imbalance.
+3. For structural reruns, recover intended source/configuration values and resolve
+   the documented category and environment issues in a separate reproduction copy.
+4. Give each new experiment its own output directory, configuration, environment
+   record and comparison with the frozen results.
 
-- Most mature structural results: [main_4/outputs/ultimate_load_refocus/](main_4/outputs/ultimate_load_refocus/).
-  Its `splits/` holds specimen/row manifests; experiment directories hold fold
-  metrics, terminal predictions, fitted models, and diagnostic figures.
-- Earlier robustness/degradation outputs: [main_4/outputs/models/](main_4/outputs/models/)
-  and [diagnostics/](main_4/outputs/diagnostics/).
-- Classification partitions: [Data/splits/](Data/splits/) — 3,846 training rows
-  (641 originals plus 3,205 augmentations), 75 validation originals, and 75 test
-  originals; 38/5/5 disjoint specimens. Classifier training/evaluation is pending.
-- Report assets: [report_v2/tables/](report_v2/tables/),
-  [figures/](report_v2/figures/), and the PDFs below.
-- The [experiment map](docs/experiments.md) locates outputs for every historical phase.
-
-## Reproducibility Notes
-
-Keep all images and augmented copies of a specimen in one split; held-out
-classification partitions contain originals only. The terminal-load workflow
-fits historical image rows with repeated terminal targets and evaluates terminal
-images. It is not an early-warning validation. Model selection used the reported
-folds, and fold variability is descriptive rather than an independent confidence interval.
-
-Saved outputs are preserved. Current historical modelling code has unresolved
-`main_first` substitutions and a YAML `NO`/`False` category issue. Parsing code or
-loading YAML does not establish that training can run correctly. See
-[known issues](docs/known_issues.md) before attempting a new experiment.
-
-A Git clone alone omits ignored raw data, some local model artifacts, and three
-historical `main_3/src/data/` source files. A full
-handoff needs the local data/output bundle as well as the repository. Preserve
-symbolic links when copying the delivery. Do not regenerate results over the
-saved evidence merely to test installation.
-
-## Current Status
-
-**Four-class classifier data preparation: complete. Training and evaluation: not
-yet done.** Historical five-class and predecessor three-class results are different
-experiments. Structural results and reports are available for review; the modelling
-source is not a clean, validated rerun baseline.
-
-## Recommended Next Steps
-
-1. Select the authoritative manuscript version with the supervisor.
-2. In an isolated development copy, recover and verify a runnable modelling source
-   state and repair category handling before producing new results.
-3. Implement the four-class training/evaluation study using the saved specimen
-   partitions, reporting per-class performance and imbalance explicitly.
-4. For structural claims, prioritize independent specimens, crossed experimental
-   factors, and repeated structural measurements over model complexity.
-
-## Final Report Location
-
-- [Thesis](report_v2/thesis/v3/thesis.pdf) (40 pages) and
-  [IEEE article](report_v2/article/v3/article.pdf) (5 pages) — the current
-  reports for this project. Sources are in
-  [report_v2/thesis/v3/](report_v2/thesis/v3/) and
-  [report_v2/article/v3/](report_v2/article/v3/).
-- Earlier draft versions and the original activity report are retained in
-  Git history, not in the working tree — see the
-  [cleanup handoff](CLEANUP_HANDOFF.md) for what was removed and why.
+For stronger structural or lifetime claims, additional independent specimens,
+crossed experimental factors and repeated structural measurements are needed.

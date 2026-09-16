@@ -4,14 +4,14 @@
 
 | Asset | Meaning |
 |---|---|
-| [Data/Images_dataset/](../Data/Images_dataset/) | Supplied analysis PNGs; exact earlier raw-to-PNG preprocessing is not fully recoverable |
+| [Data/Images_dataset/](../Data/Images_dataset) | Supplied analysis PNGs; exact earlier raw-to-PNG preprocessing is not fully recoverable |
 | [Data/Images_Dataset_A-Z-1.xlsx](../Data/Images_Dataset_A-Z-1.xlsx) | Current four-class preparation workbook |
 | [Data/Images_Dataset_A-Z.xlsx](../Data/Images_Dataset_A-Z.xlsx) | Historical modelling workbook; do not interchange with the classification revision |
-| [main_4/outputs/data/master_table.csv](../main_4/outputs/data/master_table.csv) | 791 readable/aligned image observations across 48 specimens |
-| [main_4/outputs/data/terminal_structural_table.csv](../main_4/outputs/data/terminal_structural_table.csv) | Terminal structural observations |
+| [structural_capacity/outputs/data/master_table.csv](../structural_capacity/outputs/data/master_table.csv) | 791 readable/aligned image observations across 48 specimens |
+| [structural_capacity/outputs/data/terminal_structural_table.csv](../structural_capacity/outputs/data/terminal_structural_table.csv) | Terminal structural observations |
 | [Data/Images_Dataset_A-Z-1_augmented.csv](../Data/Images_Dataset_A-Z-1_augmented.csv) | Original/augmented image metadata and transformation provenance |
-| [Data/splits/](../Data/splits/) | Fixed train/validation/test classification manifests |
-| [Data/augmentation_variants/](../Data/augmentation_variants/) | Additional controlled variants; each local README describes its data and whether images are referenced or stored |
+| [Data/splits/](../Data/splits) | Fixed train/validation/test classification manifests |
+| [Data/augmentation_variants/](../Data/augmentation_variants) | Additional controlled variants; each local README describes its data and whether images are referenced or stored |
 
 A specimen is the independent grouping unit. A photograph is a repeated observation.
 Augmentation produces variants of an observation, not new independent specimens.
@@ -40,12 +40,12 @@ The unreadable source image is `E01-20240508-17W.png`; its exclusion leaves 791 
 | OOF | Out-of-fold prediction, made while the specimen is held out | Repeated predictions/folds are dependent; full-fit diagnostics differ |
 
 Image feature definitions are saved in
-[the baseline dictionary](../main_4/outputs/features/feature_dictionary.csv) and
-[the refocused dictionary](../main_4/outputs/ultimate_load_refocus/features/feature_dictionary.csv).
+[the baseline dictionary](../structural_capacity/outputs/features/feature_dictionary.csv) and
+[the refocused dictionary](../structural_capacity/outputs/ultimate_load_refocus/features/feature_dictionary.csv).
 
 ## Label versions and augmentation
 
-The current classification task uses four severity categories. The older `main_3`
+The current classification task uses four severity categories. The older `condition_assessment`
 five-class experiment and the predecessor three-class classification are separate
 label systems. Their metrics cannot be assigned to the current untrained classifier.
 The prepared full image package contains 791 originals and five variants each;

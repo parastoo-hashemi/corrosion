@@ -1,3 +1,0 @@
-target,model_name,split_id,mae,rmse,r2,spearman
-surface_total_rust_pct,GradientBoosting,leave_one_campaign_out_0,0.09525971149200119,0.45919779293849894,0.9927028116476831,0.9991136723082346
-surface_total_rust_pct,GradientBoosting,leave_one_campaign_out_1,0.1769560019396956,1.0789706241831403,0.973696815987428,0.9950204382862804

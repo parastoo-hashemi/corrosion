@@ -6,26 +6,57 @@ Use the repository root as the working directory. On the delivery machine:
 
 ```bash
 cd /Users/parastoo/All_projects/Proj_corrosion/corrosion
-/opt/anaconda3/envs/env/bin/python report_cleanup/verify_delivery.py --quick
-/opt/anaconda3/envs/env/bin/python augmentation/augment_dataset.py --help
-/opt/anaconda3/envs/env/bin/python augmentation/make_splits.py --help
+/opt/anaconda3/envs/env/bin/python report_cleanup/renaming/verify_renaming.py --quick
+/opt/anaconda3/envs/env/bin/python classification_data_preparation/augment_dataset.py --help
+/opt/anaconda3/envs/env/bin/python classification_data_preparation/make_splits.py --help
 ```
 
-On another machine, substitute its checkout and Python interpreter. The check
-requires PyYAML; the CLI help checks require the imports declared in those scripts.
-Quick verification checks source syntax/AST invariance, configs, compatibility
-links, curated documentation links, report inputs, and stored provenance inputs.
-It reports known pre-existing path/config defects separately. To check every
-preserved input/output byte against the pre-cleanup inventory:
+On another machine, substitute its checkout and Python interpreter. The verifier uses Python standard-library modules. CLI help checks require the
+imports declared in those scripts. Quick verification checks folder targets, source
+syntax, edited-file hashes, absence of obsolete root aliases, retained archive links,
+current documentation links, and
+TeX input paths. The saved migration receipts also contain import, configuration,
+model-loading and prediction checks. To hash every pre-existing file against the
+immediately pre-rename inventory:
 
 ```bash
-python report_cleanup/verify_delivery.py --full
+python report_cleanup/renaming/verify_renaming.py --full
 ```
 
 The full check reads approximately 49 GB and writes only its own verification
-records under `report_cleanup/`. It does not run models or modify saved outputs.
+records under `report_cleanup/renaming/`. It does not run models or modify saved outputs.
 A clean checkout needs the ignored local data and artifacts too. Preserve symlinks
-when copying; the archive and compatibility paths form one delivery tree.
+when copying the retained archive-document links. The seven old root folder
+shortcuts have been removed; use the new names in commands and imports.
+
+## Environment and dependencies
+
+The handoff was checked using `/opt/anaconda3/envs/env/bin/python` on the delivery
+machine. Use your environment's Python executable elsewhere. The
+[environment record](../report_cleanup/environment.json) describes that check
+runtime; it does not establish the original training runtime of saved estimators.
+
+Existing minimum-version dependency lists are:
+
+- [Classical models](../classical_corrosion/requirements.txt)
+- [Image embeddings](../image_embeddings/requirements.txt)
+- [Condition assessment](../condition_assessment/requirements.txt)
+- [Classification preparation](../classification_data_preparation/requirements.txt)
+
+There is no `structural_capacity/requirements.txt`. Its current source imports
+NumPy, pandas, SciPy, scikit-learn, PyYAML, Pillow, scikit-image, matplotlib,
+seaborn, joblib, XGBoost and CatBoost. The classification requirements also omit
+pandas, which the split and variant scripts need. These are installation gaps,
+not a tested environment specification. Consult [known issues](known_issues.md)
+before choosing versions; no packages were installed or upgraded during cleanup.
+
+Report builds require `latexmk`, a LaTeX distribution, BibTeX and the packages
+declared in the masters, including IEEEtran for the article.
+
+The ignore-rule correction makes the three files in
+`condition_assessment/src/data/` eligible for tracking, but they remain untracked
+until a later approved Git update. Include them in a local transfer together with
+the ignored data/model bundle. A Git-only clone is not yet the complete handoff.
 
 ## 2. Prepare a separate reproduction copy
 
@@ -37,7 +68,7 @@ The observed Python package versions are recorded in
 [environment.json](../report_cleanup/environment.json); they establish this check
 runtime, not the training runtime of historical saved estimators.
 
-For classification preparation, `augmentation/requirements.txt` supplies NumPy,
+For classification preparation, `classification_data_preparation/requirements.txt` supplies NumPy,
 openpyxl and Pillow minimums. Also install pandas for split/variant scripts. No
 package installation or version changes were performed during cleanup.
 
@@ -49,7 +80,7 @@ this package. The commands below write to a new folder in the reproduction copy,
 leaving the canonical saved dataset and split files in place:
 
 ```bash
-python augmentation/augment_dataset.py \
+python classification_data_preparation/augment_dataset.py \
   --copies 5 --seed 20260630 \
   --output-dir reproduction_run/images \
   --output-csv reproduction_run/augmented.csv \
@@ -57,7 +88,7 @@ python augmentation/augment_dataset.py \
   --codex-report reproduction_run/augmentation_report_copy.md \
   --contact-sheet reproduction_run/contact_sheet.png
 
-python augmentation/make_splits.py \
+python classification_data_preparation/make_splits.py \
   --input-csv reproduction_run/augmented.csv \
   --output-dir reproduction_run/splits \
   --report reproduction_run/split_report.md
@@ -70,10 +101,11 @@ against the handoff evidence. The scripts keep specimen identity and original-im
 provenance; the split script uses the existing explicit 38/5/5 specimen assignment.
 
 Controlled variants are generated separately by
-`python augmentation/create_dataset_variants.py`; consult its `--help` before choosing
-new destinations. The existing [variant package](../Data/augmentation_variants/)
-and [variant report](../Documentation/codex/augmentation_variant_report.md) already
-contain the completed preparation results. None demonstrate classifier accuracy.
+`python classification_data_preparation/create_dataset_variants.py`; consult its `--help` before choosing
+new destinations. The existing [variant package](../Data/augmentation_variants) contains the completed
+preparation results. The former `Documentation/codex/augmentation_variant_report.md`
+path is absent in this delivery; it is not a current reproduction dependency.
+Prepared data do not demonstrate classifier accuracy.
 
 ## 4. Compile a report without fitting a model
 
@@ -82,13 +114,18 @@ files even when the scientific source is unchanged. The current manuscripts
 use existing shared figures/tables/bibliography:
 
 ```bash
-latexmk -cd -pdf -interaction=nonstopmode -halt-on-error report_v2/thesis/v3/thesis.tex
-latexmk -cd -pdf -interaction=nonstopmode -halt-on-error report_v2/article/v3/article.tex
+latexmk -cd -pdf -interaction=nonstopmode -halt-on-error final_reports/sources/thesis/thesis.tex
+latexmk -cd -pdf -interaction=nonstopmode -halt-on-error final_reports/sources/article/article.tex
 ```
 
-The original activity report and earlier `report_v2` draft versions (v1, v2)
-were removed from the working tree and are no longer part of the delivered
-copy; they remain recoverable from Git history if needed.
+The new PDF is written beside its source under `final_reports/sources/`. Review
+it before replacing the delivered PDF at the top of `final_reports/`.
+
+The original activity-report source directory and earlier `report_v2` draft
+versions (v1, v2) were removed from the working tree. A historical compiled
+[activity-report draft](../out/activity_report.pdf) remains among the six PDFs
+in `out/`; it is not the current delivery report. See the
+[export audit](../report_cleanup/out_audit/README.md) for document provenance.
 
 These build commands were inspected but not executed during cleanup: the delivered
 PDF hashes are preserved, and the prior report QA contains their compilation and
@@ -96,14 +133,19 @@ visual review records. Rebuilding on another TeX installation need not yield the
 same binary hash. After any manuscript edit, compile, render, and visually inspect
 all affected pages.
 
-Reporting scripts in [report_v2/scripts/](../report_v2/scripts/) include commands
-that regenerate shared tables/figures. They are not a read-only installation
-test. `revise_drafts.py` reconstructed the now-removed v2 draft and no longer
-has a target to write to; `make_figures.py`, `paired_diagnostics.py`, and
-`make_v3_figures.py` replace assets still in use by the current manuscripts.
-`validate_documents.py` also writes QA files. Use the cleanup verifier for read-only
-checks of preserved scientific artifacts; use the historical report tools only in
-an intentional report-editing copy.
+The retained [scientific report scripts](../final_reports/scripts/README.md) audit saved
+results, recompute summary statistics and regenerate scientific figures/tables.
+They can overwrite outputs and should run only in an intentional reproduction
+copy. `make_figures.py`, `paired_diagnostics.py` and `make_v3_figures.py` regenerate
+assets used by the current manuscripts. `audit_evidence.py` and
+`audit_saved_figures.py` support the scientific provenance checks.
+
+Optional Python manuscript-build wrappers, draft-revision/bibliography assembly,
+PDF contact-sheet rendering and the obsolete all-draft document checker were
+removed. Use the direct `latexmk` commands above for PDF builds and the current
+folder-migration verifier for read-only preservation checks. The
+[publication-tool cleanup record](../report_cleanup/publication_tools/README.md)
+lists removed files and explains how to recover their external backup.
 
 ## 5. Resume modelling only after a separate repair
 

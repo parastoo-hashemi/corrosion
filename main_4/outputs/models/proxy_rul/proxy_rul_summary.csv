@@ -1,4 +1,0 @@
-threshold_wire_area_loss_frac,n_specimens,n_crossed_by_baseline,n_crossed_during_observation,n_future_crossings_within_horizon,n_right_censored,n_crossed_by_last_observation,frac_crossed_by_baseline,frac_crossed_during_observation,frac_crossed_by_last_observation,frac_future_crossings_within_horizon,frac_right_censored
-0.2,48,32,1,0,15,33,0.6666666666666666,0.020833333333333332,0.6875,0.0,0.3125
-0.3,48,8,1,0,39,9,0.16666666666666666,0.020833333333333332,0.1875,0.0,0.8125
-0.4,48,5,0,0,43,5,0.10416666666666667,0.0,0.10416666666666667,0.0,0.8958333333333334

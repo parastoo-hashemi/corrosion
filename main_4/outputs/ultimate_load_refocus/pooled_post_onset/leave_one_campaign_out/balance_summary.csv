@@ -1,3 +1,0 @@
-split_name,repeat_id,fold_id,split_id,train_specimens,test_specimens,train_rows,test_rows,test_terminal_rows,train_mesh_counts,test_mesh_counts,train_campaign_counts,test_campaign_counts,leakage_safe
-leave_one_campaign_out,0,0,leave_one_campaign_out_campaign_1,19,24,242,150,24,"{""4"": 19}","{""7"": 24}","{""campaign_2"": 19}","{""campaign_1"": 24}",True
-leave_one_campaign_out,0,1,leave_one_campaign_out_campaign_2,24,19,150,242,19,"{""7"": 24}","{""4"": 19}","{""campaign_1"": 24}","{""campaign_2"": 19}",True

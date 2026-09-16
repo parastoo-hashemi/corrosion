@@ -1,3 +1,0 @@
-target,model_name,split_id,mae,rmse,r2,spearman
-wire_area_loss_frac,CatBoost,leave_one_campaign_out_0,0.12422602164905565,0.15603110851815466,-0.794908087625452,-0.3782608695652173
-wire_area_loss_frac,CatBoost,leave_one_campaign_out_1,0.1593040277310915,0.19970861579174864,-0.8633852465250971,0.19130434782608693
