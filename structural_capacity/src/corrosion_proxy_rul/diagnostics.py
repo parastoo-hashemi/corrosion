@@ -2016,7 +2016,7 @@ def write_markdown_reports(
         "",
         dataframe_to_markdown(output_inventory_df, index=False),
     ]
-    write_text(ROOT_DIR / "OUTPUT_VISUALIZATION_PLAN.md", "\n".join(output_lines))
+    write_text(ROOT_DIR / "outputs/diagnostics/OUTPUT_VISUALIZATION_PLAN.md", "\n".join(output_lines))
 
     feature_lines = [
         "# Feature Diagnostics",
@@ -2053,7 +2053,7 @@ def write_markdown_reports(
         "- `outputs/diagnostics/tables/high_collinearity_pairs.csv`",
         "- `outputs/diagnostics/tables/feature_target_correlation_summary.csv`",
     ]
-    write_text(ROOT_DIR / "FEATURE_DIAGNOSTICS.md", "\n".join(feature_lines))
+    write_text(ROOT_DIR / "outputs/diagnostics/FEATURE_DIAGNOSTICS.md", "\n".join(feature_lines))
 
     benchmark_lines = [
         "# Benchmark Diagnostics",
@@ -2090,7 +2090,7 @@ def write_markdown_reports(
         "- `outputs/diagnostics/tables/benchmark_best_model_robustness.csv`",
         "- `outputs/diagnostics/tables/split_summary_long.csv`",
     ]
-    write_text(ROOT_DIR / "BENCHMARK_DIAGNOSTICS.md", "\n".join(benchmark_lines))
+    write_text(ROOT_DIR / "outputs/diagnostics/BENCHMARK_DIAGNOSTICS.md", "\n".join(benchmark_lines))
 
     figure_lines = [
         "# Figure Review",
@@ -2102,7 +2102,7 @@ def write_markdown_reports(
             index=False,
         ),
     ]
-    write_text(ROOT_DIR / "FIGURE_REVIEW.md", "\n".join(figure_lines))
+    write_text(ROOT_DIR / "outputs/diagnostics/FIGURE_REVIEW.md", "\n".join(figure_lines))
 
 
 def run_diagnostics() -> dict[str, list[str]]:

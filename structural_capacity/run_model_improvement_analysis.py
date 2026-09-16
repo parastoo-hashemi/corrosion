@@ -201,10 +201,10 @@ def write_improvement_docs(
         "outputs/models/proxy_rul/*",
         "outputs/diagnostics/*",
         "outputs/improvements/tables/*",
-        "SCIENTIFIC_REPORT.md",
+        "outputs/reports/SCIENTIFIC_REPORT.md",
     ]
     changed_files = [
-        "MODEL_IMPROVEMENT_PLAN.md",
+        "../archive/agent_working_notes/main_4/MODEL_IMPROVEMENT_PLAN.md",
         "configs/modeling.yaml",
         "src/corrosion_proxy_rul/feature_engineering.py",
         "src/corrosion_proxy_rul/evaluation.py",
@@ -274,7 +274,7 @@ def write_improvement_docs(
             "- degradation and proxy stages remain descriptive / exploratory downstream analyses",
         ]
     )
-    write_text(ROOT_DIR / "MODEL_IMPROVEMENTS_APPLIED.md", "\n".join(applied_lines))
+    write_text(ROOT_DIR / "outputs/improvements/MODEL_IMPROVEMENTS_APPLIED.md", "\n".join(applied_lines))
 
     results_lines = [
         "# Model Improvement Results",
@@ -319,7 +319,7 @@ def write_improvement_docs(
             "image features robustly infer hidden damage."
         ),
     ]
-    write_text(ROOT_DIR / "MODEL_IMPROVEMENT_RESULTS.md", "\n".join(results_lines))
+    write_text(ROOT_DIR / "outputs/improvements/MODEL_IMPROVEMENT_RESULTS.md", "\n".join(results_lines))
 
 
 def main() -> None:

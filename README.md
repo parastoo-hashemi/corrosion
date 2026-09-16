@@ -100,6 +100,12 @@ remain in place.
 
 ## Continue the research
 
+Preserve specimen-level split boundaries, target units, terminal evaluation scope,
+and the distinction between observed and model-estimated quantities. Keep saved
+data, metrics, predictions, models, figures and manuscript claims unchanged when
+starting new work. Review code/configuration repairs in a separate reproduction
+copy and give new experiments their own results directory.
+
 1. Review the article and the [saved evidence](docs/experiments.md#key-results-and-evidence).
 2. Choose a workstream. The prepared four-class classifier is the clearest pending
    experiment; use its saved specimen-disjoint partitions and report class imbalance.

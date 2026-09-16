@@ -13,6 +13,13 @@ LEGACY_FOLDERS = {
     "main_4_old": "archive/structural_baseline_snapshot",
 }
 
+STRUCTURAL_ARCHIVE_DOCUMENTS = {
+    "BENCHMARK_DIAGNOSTICS.md", "FEATURE_DIAGNOSTICS.md", "FIGURE_REVIEW.md",
+    "MODEL_IMPROVEMENTS_APPLIED.md", "MODEL_IMPROVEMENT_PLAN.md",
+    "MODEL_IMPROVEMENT_RESULTS.md", "OUTPUT_VISUALIZATION_PLAN.md",
+    "PROJECT_CONSTRAINTS.md", "SCIENTIFIC_REPORT.md",
+}
+
 
 def resolve_project_path(recorded_path: str | Path, project_root: Path | None = None) -> Path:
     """Translate a recorded repository path to the current layout.
@@ -28,8 +35,13 @@ def resolve_project_path(recorded_path: str | Path, project_root: Path | None = 
     path = Path(recorded_path)
     if path.is_absolute():
         path = path.relative_to(root)
-    if path.parts and path.parts[0] == "report_cleanup":
+    if path.as_posix() in {"CLAUDE.md", "CLEANUP_HANDOFF.md", "DELIVERY_CLEANUP_PLAN.md"}:
+        path = Path("archive/repository_maintenance") / path
+    elif path.parts and path.parts[0] == "report_cleanup":
         path = Path("archive/repository_maintenance", *path.parts[1:])
+    elif (len(path.parts) == 2 and path.parts[0] in {"main_4", "structural_capacity"}
+          and path.parts[1] in STRUCTURAL_ARCHIVE_DOCUMENTS):
+        path = Path("archive/agent_working_notes/main_4", path.parts[1])
     elif path.parts and path.parts[0] in {"report_v2", "final_reports"}:
         parts = list(path.parts[1:])
         if parts and parts[0] in {"thesis", "article"}:

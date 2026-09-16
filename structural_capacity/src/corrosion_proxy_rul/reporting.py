@@ -26,7 +26,7 @@ def write_readme(root_dir: Path, commands: list[str]) -> None:
     for command in commands:
         text += f"- `{command}`\n"
     text += "\nAll generated artifacts are saved under `outputs/`.\n"
-    write_text(root_dir / "README.md", text)
+    write_text(root_dir / "outputs/reports/BASELINE_WORKFLOW.md", text)
 
 
 def _load_summary(root_dir: Path, relative_path: str) -> pd.DataFrame:
@@ -268,4 +268,4 @@ def write_scientific_report(
             ),
         ]
     )
-    write_text(root_dir / "SCIENTIFIC_REPORT.md", "\n".join(lines))
+    write_text(root_dir / "outputs/reports/SCIENTIFIC_REPORT.md", "\n".join(lines))

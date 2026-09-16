@@ -6,7 +6,9 @@ import tempfile
 import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from corrosion.research_paths import LEGACY_FOLDERS, resolve_artifact_path, resolve_project_path
+from corrosion.research_paths import (
+    LEGACY_FOLDERS, STRUCTURAL_ARCHIVE_DOCUMENTS, resolve_artifact_path, resolve_project_path,
+)
 
 
 class ArtifactPathTests(unittest.TestCase):
@@ -170,6 +172,30 @@ class ProjectPathTests(unittest.TestCase):
             self.assertEqual(resolve_project_path(name, self.root), self.root / name)
         with self.assertRaises(ValueError):
             resolve_project_path("report_cleanup/../../../outside.json", self.root)
+
+    def test_archived_root_documents_resolve_only_at_the_root(self):
+        for name in ["CLAUDE.md", "CLEANUP_HANDOFF.md", "DELIVERY_CLEANUP_PLAN.md"]:
+            target = self.root / "archive/repository_maintenance" / name
+            self.assertEqual(resolve_project_path(name, self.root), target)
+            self.assertEqual(resolve_project_path(self.root / name, self.root), target)
+            self.assertEqual(resolve_project_path(target, self.root), target)
+            for other in ["docs/" + name, name + ".backup", "archive/agent_working_notes/" + name,
+                          "archive/repository_maintenance/root_documents/source_before/" + name]:
+                self.assertEqual(resolve_project_path(other, self.root), self.root / other)
+
+    def test_structural_notes_resolve_without_affecting_new_outputs(self):
+        self.assertEqual(len(STRUCTURAL_ARCHIVE_DOCUMENTS), 9)
+        for name in STRUCTURAL_ARCHIVE_DOCUMENTS:
+            target = self.root / "archive/agent_working_notes/main_4" / name
+            for folder in ["main_4", "structural_capacity"]:
+                self.assertEqual(resolve_project_path(folder + "/" + name, self.root), target)
+                self.assertEqual(resolve_project_path(self.root / folder / name, self.root), target)
+            self.assertEqual(resolve_project_path(target, self.root), target)
+            output = "structural_capacity/outputs/reports/" + name
+            self.assertEqual(resolve_project_path(output, self.root), self.root / output)
+        for name in ["structural_capacity/README.md", "structural_capacity/SCIENTIFIC_REPORT.md.backup",
+                     "structural_capacity/src/SCIENTIFIC_REPORT.md"]:
+            self.assertEqual(resolve_project_path(name, self.root), self.root / name)
 
 
 if __name__ == "__main__":

@@ -50,6 +50,16 @@ It contains cleanup inventories, verification tools and recovery records. Its
 current tools and guide links use the archive directly; no root shortcut is needed.
 Historical recorded paths still resolve with `python research_paths.py`.
 
+## Structural study documentation
+
+`structural_capacity/README.md` is the current guide to the structural phases and
+saved results. Nine historical Markdown shortcuts were removed from that folder;
+their documents remain in [the development archive](../archive/agent_working_notes/main_4).
+The path resolver accepts both `main_4/<note>.md` and `structural_capacity/<note>.md`.
+Future generated notes go into the appropriate `outputs/reports/`,
+`outputs/diagnostics/` or `outputs/improvements/` subfolder and preserve the curated
+README. See the [documentation cleanup record](../archive/repository_maintenance/structural_documentation/README.md).
+
 ## Clean root and historical paths
 
 The seven old root shortcuts have been removed. Use only the descriptive names in
