@@ -1,0 +1,1 @@
+./Documentation/augmentation_email_analysis.md:370:**Recommendation:** Use online augmentation. Keep the Excel file as-is. Define augmentation parameters in `main_2/configs/augmentation.yaml` (as planned in `augmentation_independent_plan.md`). This is reproducible, clean, and requires no data file restructuring.

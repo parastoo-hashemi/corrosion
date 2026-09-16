@@ -1,0 +1,4 @@
+./activity_report/notes/evidence_log.md:134:| 4.6 | Degradation family shift: baseline {gompertz:1, linear:3, monotone_isotonic:44} → improved {linear:27, monotone_isotonic:21} | `main_4/MODEL_IMPROVEMENT_RESULTS.md` | 791 | n/a | Re-verified directly by reading the markdown table this session. |
+./activity_report/notes/evidence_log.md:135:| 4.6 | Quoted conclusion: "The improved models are metadata-dominant, so the project still does not support strong claims that surface image features robustly infer hidden damage." | `main_4/MODEL_IMPROVEMENT_RESULTS.md`, "Final Recommendation" section | 791 | n/a | Direct quote, verified this session. |
+./activity_report/notes/chapter4_batchB_evidence_plan.md:99:  `main_4/MODEL_IMPROVEMENT_RESULTS.md`:** family selection shifted from a
+./activity_report/notes/chapter4_batchB_evidence_plan.md:112:- **Project's own stated conclusion, quoted from `main_4/MODEL_IMPROVEMENT_RESULTS.md`:**

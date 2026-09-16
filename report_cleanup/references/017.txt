@@ -1,0 +1,1 @@
+./Documentation/final_augmentation_strategy.md:6:> **Based on:** `Documentation/augmentation_journal_plan.md`, `Documentation/codex/augmentation_dataset_report.md`, `augmentation/augment_dataset.py`, pixel statistics measured from actual images.

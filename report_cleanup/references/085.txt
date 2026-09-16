@@ -1,0 +1,4 @@
+./main_4_old/CODEBASE_GUIDE.md:102:| `IMPLEMENTATION_PLAN.md` | implementation contract | you want to see how the code structure was planned | Support |
+./main_4_old/IMPLEMENTATION_PLAN.md:104:└── IMPLEMENTATION_PLAN.md
+./main_4/IMPLEMENTATION_PLAN.md:104:└── IMPLEMENTATION_PLAN.md
+./main_4/CODEBASE_GUIDE.md:102:| `IMPLEMENTATION_PLAN.md` | implementation contract | you want to see how the code structure was planned | Support |

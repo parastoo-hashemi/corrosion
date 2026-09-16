@@ -1,0 +1,8 @@
+./MORNING_SUMMARY.md:35:| Complete decision record | `DECISIONS.md`, mirrored to `report_v2/DECISIONS.md` |
+./MORNING_SUMMARY.md:110:All choices and reasons are numbered in `DECISIONS.md`:
+./MORNING_SUMMARY.md:172:their initial values. Changes are confined to `report_v2/`, `DECISIONS.md`, and
+./report_v2/MORNING_SUMMARY.md:35:| Complete decision record | `DECISIONS.md`, mirrored to `report_v2/DECISIONS.md` |
+./report_v2/MORNING_SUMMARY.md:110:All choices and reasons are numbered in `DECISIONS.md`:
+./report_v2/MORNING_SUMMARY.md:172:their initial values. Changes are confined to `report_v2/`, `DECISIONS.md`, and
+./report_v2/README.md:16:| Decisions / delivery guide | `DECISIONS.md`, `MORNING_SUMMARY.md` |
+./activity_report/CODEX_DELIVERY_CLEANUP_PROMPT.md:174:  session's own `CODEX_*_PROMPT.md` files, `DECISIONS.md`,

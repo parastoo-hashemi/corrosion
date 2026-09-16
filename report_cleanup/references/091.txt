@@ -1,0 +1,13 @@
+./main_4_old/run_model_improvement_analysis.py:322:    write_text(ROOT_DIR / "MODEL_IMPROVEMENT_RESULTS.md", "\n".join(results_lines))
+./main_4_old/CODEBASE_GUIDE.md:110:| `MODEL_IMPROVEMENT_RESULTS.md` | before/after improvement comparison | you want to know whether the improvement round actually helped | Core |
+./REPORT_PLANNING.md:73:| 5 | Baseline vs. improved structural-model metrics (within main_4 only) | `OUTPUT_REVIEW.md` (2026-03-16 15:43, pre-improvement): CatBoost nominal best, `wire_area_loss_frac` grouped MAE≈0.087 | `SCIENTIFIC_REPORT.md`/`MODEL_IMPROVEMENT_RESULTS.md` (2026-03-16 17:19+, post-improvement): CatBoost MAE 0.124 | Both (D)/(B) within `main_4` | `OUTPUT_REVIEW.md` documents the pre-robustness-fix baseline that the "Model Improvements Applied" round explicitly measured itself against; it was never marked superseded | Present `OUTPUT_REVIEW.md` numbers only as the documented "before" state of a named before/after comparison, never as a current result |
+./activity_report/notes/evidence_log.md:134:| 4.6 | Degradation family shift: baseline {gompertz:1, linear:3, monotone_isotonic:44} → improved {linear:27, monotone_isotonic:21} | `main_4/MODEL_IMPROVEMENT_RESULTS.md` | 791 | n/a | Re-verified directly by reading the markdown table this session. |
+./activity_report/notes/evidence_log.md:135:| 4.6 | Quoted conclusion: "The improved models are metadata-dominant, so the project still does not support strong claims that surface image features robustly infer hidden damage." | `main_4/MODEL_IMPROVEMENT_RESULTS.md`, "Final Recommendation" section | 791 | n/a | Direct quote, verified this session. |
+./activity_report/notes/chapter4_batchB_evidence_plan.md:99:  `main_4/MODEL_IMPROVEMENT_RESULTS.md`:** family selection shifted from a
+./activity_report/notes/chapter4_batchB_evidence_plan.md:112:- **Project's own stated conclusion, quoted from `main_4/MODEL_IMPROVEMENT_RESULTS.md`:**
+./main_4/run_model_improvement_analysis.py:322:    write_text(ROOT_DIR / "MODEL_IMPROVEMENT_RESULTS.md", "\n".join(results_lines))
+./main_4/CODEBASE_GUIDE.md:110:| `MODEL_IMPROVEMENT_RESULTS.md` | before/after improvement comparison | you want to know whether the improvement round actually helped | Core |
+./main_4/COMPLETE_PROJECT_REPORT.md:256:- `MODEL_IMPROVEMENT_RESULTS.md`
+./main_4/MODEL_IMPROVEMENT_PLAN.md:100:- updated `MODEL_IMPROVEMENT_RESULTS.md`
+./main_4_old/COMPLETE_PROJECT_REPORT.md:256:- `MODEL_IMPROVEMENT_RESULTS.md`
+./main_4_old/MODEL_IMPROVEMENT_PLAN.md:100:- updated `MODEL_IMPROVEMENT_RESULTS.md`

@@ -1,0 +1,129 @@
+augmentation/augment_dataset.py:28:PROJECT_ROOT = Path(__file__).resolve().parents[1]
+augmentation/create_dataset_variants.py:23:PROJECT_ROOT = Path(__file__).resolve().parents[1]
+augmentation/make_splits.py:13:PROJECT_ROOT = Path(__file__).resolve().parents[1]
+augmentation/scripts/measure_image_statistics.py:18:PROJECT_ROOT = Path(__file__).resolve().parents[2]
+augmentation/scripts/plot_augmentation_examples.py:16:PROJECT_ROOT = Path(__file__).resolve().parents[2]
+augmentation/scripts/plot_luminance_extremes.py:14:PROJECT_ROOT = Path(__file__).resolve().parents[2]
+augmentation/scripts/plot_luminance_histogram.py:15:PROJECT_ROOT = Path(__file__).resolve().parents[2]
+main/api.py:10:from corrosion.main.inference import (
+main/data_utils.py:10:REPO_ROOT = Path(__file__).resolve().parents[1]
+main/inference.py:12:from corrosion.main.image_features import extract_image_features
+main/train_models.py:11:from corrosion.main.data_utils import (
+main/train_models.py:23:from corrosion.main.image_features import build_image_feature_table
+main/train_models.py:24:from corrosion.main.modeling import evaluate_models, get_feature_importance
+main_2/api.py:9:from corrosion.main_2.inference import Phase2Artifacts, load_phase2_artifacts, predict_current_corrosion
+main_2/build_pdf_report.py:59:    excel = Path(__file__).resolve().parents[1] / "Data" / "Images_Dataset_A-Z.xlsx"
+main_2/config.py:5:REPO_ROOT = Path(__file__).resolve().parents[1]
+main_2/inference.py:16:from corrosion.main_2.models import RegressionMLP
+main_2/train_phase2.py:22:from corrosion.main_2.config import (
+main_2/train_phase2.py:35:from corrosion.main_2.data import (
+main_2/train_phase2.py:44:from corrosion.main_2.models import RegressionMLP
+main_2/train_phase2.py:45:from corrosion.main_2.report_writer import write_scientific_report
+main_2/train_phase2.py:46:from corrosion.main_2.visualize import create_visualizations
+main_3/scripts/01_inspect_dataset.py:5:from src.config import ensure_project_dirs, load_settings
+main_3/scripts/01_inspect_dataset.py:6:from src.logging_utils import setup_logging
+main_3/scripts/01_inspect_dataset.py:7:from src.orchestration import run_dataset_inspection
+main_3/scripts/02_build_metadata.py:5:from src.config import ensure_project_dirs, load_settings
+main_3/scripts/02_build_metadata.py:6:from src.logging_utils import setup_logging
+main_3/scripts/02_build_metadata.py:7:from src.orchestration import run_metadata_stage
+main_3/scripts/03_preprocess_images.py:5:from src.config import ensure_project_dirs, load_settings
+main_3/scripts/03_preprocess_images.py:6:from src.logging_utils import setup_logging
+main_3/scripts/03_preprocess_images.py:7:from src.orchestration import run_preprocessing_stage
+main_3/scripts/04_extract_features.py:5:from src.config import ensure_project_dirs, load_settings
+main_3/scripts/04_extract_features.py:6:from src.logging_utils import setup_logging
+main_3/scripts/04_extract_features.py:7:from src.orchestration import run_feature_stage
+main_3/scripts/05_train_corrosion_models.py:5:from src.config import ensure_project_dirs, load_settings
+main_3/scripts/05_train_corrosion_models.py:6:from src.logging_utils import setup_logging
+main_3/scripts/05_train_corrosion_models.py:7:from src.orchestration import run_corrosion_stage
+main_3/scripts/06_train_damage_models.py:5:from src.config import ensure_project_dirs, load_settings
+main_3/scripts/06_train_damage_models.py:6:from src.logging_utils import setup_logging
+main_3/scripts/06_train_damage_models.py:7:from src.orchestration import run_damage_stage
+main_3/scripts/07_fit_degradation_models.py:5:from src.config import ensure_project_dirs, load_settings
+main_3/scripts/07_fit_degradation_models.py:6:from src.logging_utils import setup_logging
+main_3/scripts/07_fit_degradation_models.py:7:from src.orchestration import run_degradation_stage
+main_3/scripts/08_estimate_rul.py:5:from src.config import ensure_project_dirs, load_settings
+main_3/scripts/08_estimate_rul.py:6:from src.logging_utils import setup_logging
+main_3/scripts/08_estimate_rul.py:7:from src.orchestration import run_rul_stage
+main_3/scripts/09_generate_reports.py:5:from src.config import ensure_project_dirs, load_settings
+main_3/scripts/09_generate_reports.py:6:from src.logging_utils import setup_logging
+main_3/scripts/09_generate_reports.py:7:from src.orchestration import run_report_stage
+main_3/scripts/_bootstrap.py:7:ROOT = Path(__file__).resolve().parents[1]
+main_3/scripts/_bootstrap.py:9:    sys.path.insert(0, str(ROOT))
+main_3/scripts/run_all.py:5:from src.config import ensure_project_dirs, load_settings
+main_3/scripts/run_all.py:6:from src.logging_utils import setup_logging
+main_3/scripts/run_all.py:7:from src.orchestration import (
+main_3/src/config.py:61:    return Path(__file__).resolve().parents[1]
+main_3/src/degradation/fitter.py:8:from src.config import Settings
+main_3/src/degradation/fitter.py:9:from src.degradation.curves import fit_best_curve, predict_curve
+main_3/src/degradation/fitter.py:10:from src.logging_utils import get_logger
+main_3/src/features/extractor.py:9:from src.config import Settings
+main_3/src/features/extractor.py:10:from src.features.image_processing import preprocess_image
+main_3/src/features/extractor.py:11:from src.logging_utils import get_logger
+main_3/src/features/image_processing.py:10:from src.config import Settings
+main_3/src/models/common.py:16:from src.cv.splits import SplitDefinition, build_splits
+main_3/src/models/common.py:17:from src.evaluation.metrics import classification_metrics, regression_metrics
+main_3/src/orchestration.py:9:from src.config import Settings, ensure_project_dirs
+main_3/src/orchestration.py:10:from src.data.canonical import build_canonical_dataset, export_canonical_dataset
+main_3/src/orchestration.py:11:from src.evaluation.reports import dataframe_to_markdown, write_markdown
+main_3/src/orchestration.py:12:from src.features.extractor import extract_image_features
+main_3/src/orchestration.py:13:from src.degradation.fitter import export_degradation_outputs, fit_degradation_curves
+main_3/src/orchestration.py:14:from src.logging_utils import get_logger
+main_3/src/orchestration.py:15:from src.models.common import evaluate_models, fit_full_pipeline, save_estimator, select_best_model
+main_3/src/orchestration.py:16:from src.models.corrosion import corrosion_classifier_factories, corrosion_regressor_factories
+main_3/src/orchestration.py:17:from src.models.damage import damage_regressor_factories
+main_3/src/orchestration.py:18:from src.rul.estimator import estimate_rul
+main_3/src/orchestration.py:19:from src.visualization.plots import (
+main_3/src/rul/estimator.py:6:from src.config import Settings
+main_3/src/rul/estimator.py:7:from src.rul.health import (
+main_3/src/visualization/plots.py:13:from src.config import Settings
+main_3/src/visualization/plots.py:14:from src.features.image_processing import preprocess_image
+main_3/tests/test_data_parsing.py:9:ROOT = Path(__file__).resolve().parents[1]
+main_3/tests/test_data_parsing.py:11:    sys.path.insert(0, str(ROOT))
+main_3/tests/test_data_parsing.py:13:from src.data.io import parse_record_ids, wire_loss_to_percent
+main_3/tests/test_health.py:7:ROOT = Path(__file__).resolve().parents[1]
+main_3/tests/test_health.py:9:    sys.path.insert(0, str(ROOT))
+main_3/tests/test_health.py:11:from src.rul.health import compute_health_index, risk_class_from_probability
+main_3/tests/test_splits.py:9:ROOT = Path(__file__).resolve().parents[1]
+main_3/tests/test_splits.py:11:    sys.path.insert(0, str(ROOT))
+main_3/tests/test_splits.py:13:from src.cv.splits import build_splits
+main_4/run_audit_validation.py:5:sys.path.insert(0, "src")
+main_4/run_degradation_all_specimens_panel.py:6:sys.path.insert(0, "src")
+main_4/run_diagnostics_visualizations.py:5:sys.path.insert(0, "src")
+main_4/run_eda.py:7:sys.path.insert(0, "src")
+main_4/run_extract_image_features.py:7:sys.path.insert(0, "src")
+main_4/run_full_baseline.py:6:sys.path.insert(0, "src")
+main_4/run_learning_curve_analysis.py:6:sys.path.insert(0, "src")
+main_4/run_model_improvement_analysis.py:8:sys.path.insert(0, "src")
+main_4/run_ultimate_load_diagnostic_plots.py:6:sys.path.insert(0, "src")
+main_4/run_ultimate_load_mesh_analysis.py:6:sys.path.insert(0, "src")
+main_4/run_ultimate_load_refocus.py:7:sys.path.insert(0, "src")
+main_4/train_degradation_models.py:7:sys.path.insert(0, "src")
+main_4/train_hidden_damage_models.py:7:sys.path.insert(0, "src")
+main_4/train_rul_proxy_models.py:7:sys.path.insert(0, "src")
+main_4/train_surface_models.py:7:sys.path.insert(0, "src")
+main_4_old/run_audit_validation.py:5:sys.path.insert(0, "src")
+main_4_old/run_degradation_all_specimens_panel.py:6:sys.path.insert(0, "src")
+main_4_old/run_diagnostics_visualizations.py:5:sys.path.insert(0, "src")
+main_4_old/run_eda.py:7:sys.path.insert(0, "src")
+main_4_old/run_extract_image_features.py:7:sys.path.insert(0, "src")
+main_4_old/run_full_baseline.py:6:sys.path.insert(0, "src")
+main_4_old/run_learning_curve_analysis.py:6:sys.path.insert(0, "src")
+main_4_old/run_model_improvement_analysis.py:8:sys.path.insert(0, "src")
+main_4_old/run_ultimate_load_diagnostic_plots.py:6:sys.path.insert(0, "src")
+main_4_old/run_ultimate_load_mesh_analysis.py:6:sys.path.insert(0, "src")
+main_4_old/train_degradation_models.py:7:sys.path.insert(0, "src")
+main_4_old/train_hidden_damage_models.py:7:sys.path.insert(0, "src")
+main_4_old/train_rul_proxy_models.py:7:sys.path.insert(0, "src")
+main_4_old/train_surface_models.py:7:sys.path.insert(0, "src")
+report_v2/scripts/audit_evidence.py:16:ROOT = Path(__file__).resolve().parents[2]
+report_v2/scripts/audit_saved_figures.py:17:ROOT=Path(__file__).resolve().parents[2]
+report_v2/scripts/build_reports.py:4:ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'report_v2'
+report_v2/scripts/build_v3_reports.py:4:ROOT=Path(__file__).resolve().parents[2]; OUT=ROOT/'report_v2'
+report_v2/scripts/make_bibliography.py:3:r=Path(__file__).resolve().parents[2];out=r/'report_v2/references'
+report_v2/scripts/make_figures.py:14:ROOT=Path(__file__).resolve().parents[2]
+report_v2/scripts/make_v3_figures.py:14:ROOT=Path(__file__).resolve().parents[2]; OUT=ROOT/'report_v2'
+report_v2/scripts/paired_diagnostics.py:11:ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'report_v2';ref=ROOT/'main_4/outputs/ultimate_load_refocus'
+report_v2/scripts/render_review.py:11:ROOT=Path(__file__).resolve().parents[2]
+report_v2/scripts/render_v3_review.py:11:ROOT=Path(__file__).resolve().parents[2]
+report_v2/scripts/revise_drafts.py:4:ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'report_v2'
+report_v2/scripts/validate_documents.py:10:ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'report_v2'

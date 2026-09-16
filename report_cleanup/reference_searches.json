@@ -1,0 +1,1101 @@
+[
+  {
+    "query": "report_v2/evidence",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- report_v2/evidence .",
+    "exit_code": 0,
+    "matches": 173,
+    "result": "references/000.txt"
+  },
+  {
+    "query": "evidence",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- evidence .",
+    "exit_code": 0,
+    "matches": 882,
+    "result": "references/001.txt"
+  },
+  {
+    "query": "report_v2/qa",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- report_v2/qa .",
+    "exit_code": 0,
+    "matches": 30,
+    "result": "references/002.txt"
+  },
+  {
+    "query": "qa",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- qa .",
+    "exit_code": 0,
+    "matches": 75,
+    "result": "references/003.txt"
+  },
+  {
+    "query": "report_v2/critique",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- report_v2/critique .",
+    "exit_code": 0,
+    "matches": 5,
+    "result": "references/004.txt"
+  },
+  {
+    "query": "critique",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- critique .",
+    "exit_code": 0,
+    "matches": 24,
+    "result": "references/005.txt"
+  },
+  {
+    "query": "activity_report/notes",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- activity_report/notes .",
+    "exit_code": 0,
+    "matches": 5,
+    "result": "references/006.txt"
+  },
+  {
+    "query": "notes",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- notes .",
+    "exit_code": 0,
+    "matches": 88,
+    "result": "references/007.txt"
+  },
+  {
+    "query": "AUGMENTATION_PLAN.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- AUGMENTATION_PLAN.md .",
+    "exit_code": 0,
+    "matches": 3,
+    "result": "references/008.txt"
+  },
+  {
+    "query": "CLAUDE.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- CLAUDE.md .",
+    "exit_code": 0,
+    "matches": 4,
+    "result": "references/009.txt"
+  },
+  {
+    "query": "DECISIONS.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- DECISIONS.md .",
+    "exit_code": 0,
+    "matches": 8,
+    "result": "references/010.txt"
+  },
+  {
+    "query": "Documentation/augment_dataset_code_explanation.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- Documentation/augment_dataset_code_explanation.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/011.txt"
+  },
+  {
+    "query": "augment_dataset_code_explanation.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- augment_dataset_code_explanation.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/012.txt"
+  },
+  {
+    "query": "Documentation/augmentation_email_analysis.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- Documentation/augmentation_email_analysis.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/013.txt"
+  },
+  {
+    "query": "augmentation_email_analysis.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- augmentation_email_analysis.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/014.txt"
+  },
+  {
+    "query": "Documentation/augmentation_independent_plan.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- Documentation/augmentation_independent_plan.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/015.txt"
+  },
+  {
+    "query": "augmentation_independent_plan.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- augmentation_independent_plan.md .",
+    "exit_code": 0,
+    "matches": 1,
+    "result": "references/016.txt"
+  },
+  {
+    "query": "Documentation/augmentation_journal_plan.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- Documentation/augmentation_journal_plan.md .",
+    "exit_code": 0,
+    "matches": 1,
+    "result": "references/017.txt"
+  },
+  {
+    "query": "augmentation_journal_plan.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- augmentation_journal_plan.md .",
+    "exit_code": 0,
+    "matches": 4,
+    "result": "references/018.txt"
+  },
+  {
+    "query": "Documentation/augmentation_methodology_final.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- Documentation/augmentation_methodology_final.md .",
+    "exit_code": 0,
+    "matches": 7,
+    "result": "references/019.txt"
+  },
+  {
+    "query": "augmentation_methodology_final.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- augmentation_methodology_final.md .",
+    "exit_code": 0,
+    "matches": 9,
+    "result": "references/020.txt"
+  },
+  {
+    "query": "Documentation/augmentation_methodology_report.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- Documentation/augmentation_methodology_report.md .",
+    "exit_code": 0,
+    "matches": 1,
+    "result": "references/021.txt"
+  },
+  {
+    "query": "augmentation_methodology_report.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- augmentation_methodology_report.md .",
+    "exit_code": 0,
+    "matches": 3,
+    "result": "references/022.txt"
+  },
+  {
+    "query": "Documentation/augmentation_methodology_review.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- Documentation/augmentation_methodology_review.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/023.txt"
+  },
+  {
+    "query": "augmentation_methodology_review.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- augmentation_methodology_review.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/024.txt"
+  },
+  {
+    "query": "Documentation/augmentation_objective_decision.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- Documentation/augmentation_objective_decision.md .",
+    "exit_code": 0,
+    "matches": 1,
+    "result": "references/025.txt"
+  },
+  {
+    "query": "augmentation_objective_decision.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- augmentation_objective_decision.md .",
+    "exit_code": 0,
+    "matches": 9,
+    "result": "references/026.txt"
+  },
+  {
+    "query": "Documentation/augmentation_phase1_intent.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- Documentation/augmentation_phase1_intent.md .",
+    "exit_code": 0,
+    "matches": 1,
+    "result": "references/027.txt"
+  },
+  {
+    "query": "augmentation_phase1_intent.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- augmentation_phase1_intent.md .",
+    "exit_code": 0,
+    "matches": 1,
+    "result": "references/028.txt"
+  },
+  {
+    "query": "Documentation/augmentation_phase2_professor_plan.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- Documentation/augmentation_phase2_professor_plan.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/029.txt"
+  },
+  {
+    "query": "augmentation_phase2_professor_plan.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- augmentation_phase2_professor_plan.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/030.txt"
+  },
+  {
+    "query": "Documentation/augmentation_readiness_assessment.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- Documentation/augmentation_readiness_assessment.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/031.txt"
+  },
+  {
+    "query": "augmentation_readiness_assessment.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- augmentation_readiness_assessment.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/032.txt"
+  },
+  {
+    "query": "Documentation/codex/make_splits_prompt.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- Documentation/codex/make_splits_prompt.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/033.txt"
+  },
+  {
+    "query": "make_splits_prompt.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- make_splits_prompt.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/034.txt"
+  },
+  {
+    "query": "Documentation/final_augmentation_strategy.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- Documentation/final_augmentation_strategy.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/035.txt"
+  },
+  {
+    "query": "final_augmentation_strategy.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- final_augmentation_strategy.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/036.txt"
+  },
+  {
+    "query": "Documentation/final_strategy.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- Documentation/final_strategy.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/037.txt"
+  },
+  {
+    "query": "final_strategy.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- final_strategy.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/038.txt"
+  },
+  {
+    "query": "Documentation/project_review.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- Documentation/project_review.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/039.txt"
+  },
+  {
+    "query": "project_review.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- project_review.md .",
+    "exit_code": 0,
+    "matches": 2,
+    "result": "references/040.txt"
+  },
+  {
+    "query": "Documentation/splitting_strategy.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- Documentation/splitting_strategy.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/041.txt"
+  },
+  {
+    "query": "splitting_strategy.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- splitting_strategy.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/042.txt"
+  },
+  {
+    "query": "Documentation/verification_audit.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- Documentation/verification_audit.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/043.txt"
+  },
+  {
+    "query": "verification_audit.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- verification_audit.md .",
+    "exit_code": 0,
+    "matches": 1,
+    "result": "references/044.txt"
+  },
+  {
+    "query": "MORNING_SUMMARY.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- MORNING_SUMMARY.md .",
+    "exit_code": 0,
+    "matches": 3,
+    "result": "references/045.txt"
+  },
+  {
+    "query": "REPORT_PLANNING.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- REPORT_PLANNING.md .",
+    "exit_code": 0,
+    "matches": 11,
+    "result": "references/046.txt"
+  },
+  {
+    "query": "activity_report/CODEX_DELIVERY_CLEANUP_PROMPT.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- activity_report/CODEX_DELIVERY_CLEANUP_PROMPT.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/047.txt"
+  },
+  {
+    "query": "CODEX_DELIVERY_CLEANUP_PROMPT.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- CODEX_DELIVERY_CLEANUP_PROMPT.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/048.txt"
+  },
+  {
+    "query": "augmentation/README.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- augmentation/README.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/049.txt"
+  },
+  {
+    "query": "README.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- README.md .",
+    "exit_code": 0,
+    "matches": 36,
+    "result": "references/050.txt"
+  },
+  {
+    "query": "main/README.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main/README.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/051.txt"
+  },
+  {
+    "query": "main_2/README.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_2/README.md .",
+    "exit_code": 0,
+    "matches": 2,
+    "result": "references/052.txt"
+  },
+  {
+    "query": "main_3/README.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_3/README.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/053.txt"
+  },
+  {
+    "query": "main_3/reports/meeting_report/executive_summary.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_3/reports/meeting_report/executive_summary.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/054.txt"
+  },
+  {
+    "query": "executive_summary.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- executive_summary.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/055.txt"
+  },
+  {
+    "query": "main_3/reports/meeting_report/figures_explained.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_3/reports/meeting_report/figures_explained.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/056.txt"
+  },
+  {
+    "query": "figures_explained.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- figures_explained.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/057.txt"
+  },
+  {
+    "query": "main_3/reports/meeting_report/limitations_and_next_steps.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_3/reports/meeting_report/limitations_and_next_steps.md .",
+    "exit_code": 0,
+    "matches": 2,
+    "result": "references/058.txt"
+  },
+  {
+    "query": "limitations_and_next_steps.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- limitations_and_next_steps.md .",
+    "exit_code": 0,
+    "matches": 2,
+    "result": "references/059.txt"
+  },
+  {
+    "query": "main_3/reports/meeting_report/main2_vs_main3.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_3/reports/meeting_report/main2_vs_main3.md .",
+    "exit_code": 0,
+    "matches": 2,
+    "result": "references/060.txt"
+  },
+  {
+    "query": "main2_vs_main3.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main2_vs_main3.md .",
+    "exit_code": 0,
+    "matches": 2,
+    "result": "references/061.txt"
+  },
+  {
+    "query": "main_3/reports/meeting_report/results_analysis.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_3/reports/meeting_report/results_analysis.md .",
+    "exit_code": 0,
+    "matches": 2,
+    "result": "references/062.txt"
+  },
+  {
+    "query": "results_analysis.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- results_analysis.md .",
+    "exit_code": 0,
+    "matches": 2,
+    "result": "references/063.txt"
+  },
+  {
+    "query": "main_3/reports/meeting_report/talking_points.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_3/reports/meeting_report/talking_points.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/064.txt"
+  },
+  {
+    "query": "talking_points.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- talking_points.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/065.txt"
+  },
+  {
+    "query": "main_3/reports/meeting_report/technical_report.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_3/reports/meeting_report/technical_report.md .",
+    "exit_code": 0,
+    "matches": 2,
+    "result": "references/066.txt"
+  },
+  {
+    "query": "technical_report.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- technical_report.md .",
+    "exit_code": 0,
+    "matches": 2,
+    "result": "references/067.txt"
+  },
+  {
+    "query": "main_4/BENCHMARK_DIAGNOSTICS.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/BENCHMARK_DIAGNOSTICS.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/068.txt"
+  },
+  {
+    "query": "BENCHMARK_DIAGNOSTICS.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- BENCHMARK_DIAGNOSTICS.md .",
+    "exit_code": 0,
+    "matches": 17,
+    "result": "references/069.txt"
+  },
+  {
+    "query": "main_4/CODEBASE_GUIDE.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/CODEBASE_GUIDE.md .",
+    "exit_code": 0,
+    "matches": 1,
+    "result": "references/070.txt"
+  },
+  {
+    "query": "CODEBASE_GUIDE.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- CODEBASE_GUIDE.md .",
+    "exit_code": 0,
+    "matches": 8,
+    "result": "references/071.txt"
+  },
+  {
+    "query": "main_4/COMPLETE_PROJECT_REPORT.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/COMPLETE_PROJECT_REPORT.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/072.txt"
+  },
+  {
+    "query": "COMPLETE_PROJECT_REPORT.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- COMPLETE_PROJECT_REPORT.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/073.txt"
+  },
+  {
+    "query": "main_4/CSV_SCHEMA_AUDIT.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/CSV_SCHEMA_AUDIT.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/074.txt"
+  },
+  {
+    "query": "CSV_SCHEMA_AUDIT.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- CSV_SCHEMA_AUDIT.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/075.txt"
+  },
+  {
+    "query": "main_4/FEATURE_DIAGNOSTICS.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/FEATURE_DIAGNOSTICS.md .",
+    "exit_code": 0,
+    "matches": 6,
+    "result": "references/076.txt"
+  },
+  {
+    "query": "FEATURE_DIAGNOSTICS.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- FEATURE_DIAGNOSTICS.md .",
+    "exit_code": 0,
+    "matches": 20,
+    "result": "references/077.txt"
+  },
+  {
+    "query": "main_4/FIGURE_EXPLANATION_GUIDE.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/FIGURE_EXPLANATION_GUIDE.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/078.txt"
+  },
+  {
+    "query": "FIGURE_EXPLANATION_GUIDE.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- FIGURE_EXPLANATION_GUIDE.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/079.txt"
+  },
+  {
+    "query": "main_4/FIGURE_REVIEW.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/FIGURE_REVIEW.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/080.txt"
+  },
+  {
+    "query": "FIGURE_REVIEW.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- FIGURE_REVIEW.md .",
+    "exit_code": 0,
+    "matches": 6,
+    "result": "references/081.txt"
+  },
+  {
+    "query": "main_4/FIXES_APPLIED.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/FIXES_APPLIED.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/082.txt"
+  },
+  {
+    "query": "FIXES_APPLIED.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- FIXES_APPLIED.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/083.txt"
+  },
+  {
+    "query": "main_4/IMPLEMENTATION_PLAN.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/IMPLEMENTATION_PLAN.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/084.txt"
+  },
+  {
+    "query": "IMPLEMENTATION_PLAN.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- IMPLEMENTATION_PLAN.md .",
+    "exit_code": 0,
+    "matches": 4,
+    "result": "references/085.txt"
+  },
+  {
+    "query": "main_4/MODEL_IMPROVEMENTS_APPLIED.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/MODEL_IMPROVEMENTS_APPLIED.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/086.txt"
+  },
+  {
+    "query": "MODEL_IMPROVEMENTS_APPLIED.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- MODEL_IMPROVEMENTS_APPLIED.md .",
+    "exit_code": 0,
+    "matches": 6,
+    "result": "references/087.txt"
+  },
+  {
+    "query": "main_4/MODEL_IMPROVEMENT_PLAN.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/MODEL_IMPROVEMENT_PLAN.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/088.txt"
+  },
+  {
+    "query": "MODEL_IMPROVEMENT_PLAN.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- MODEL_IMPROVEMENT_PLAN.md .",
+    "exit_code": 0,
+    "matches": 6,
+    "result": "references/089.txt"
+  },
+  {
+    "query": "main_4/MODEL_IMPROVEMENT_RESULTS.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/MODEL_IMPROVEMENT_RESULTS.md .",
+    "exit_code": 0,
+    "matches": 4,
+    "result": "references/090.txt"
+  },
+  {
+    "query": "MODEL_IMPROVEMENT_RESULTS.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- MODEL_IMPROVEMENT_RESULTS.md .",
+    "exit_code": 0,
+    "matches": 13,
+    "result": "references/091.txt"
+  },
+  {
+    "query": "main_4/NEXT_STEPS_PLAN.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/NEXT_STEPS_PLAN.md .",
+    "exit_code": 0,
+    "matches": 11,
+    "result": "references/092.txt"
+  },
+  {
+    "query": "NEXT_STEPS_PLAN.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- NEXT_STEPS_PLAN.md .",
+    "exit_code": 0,
+    "matches": 18,
+    "result": "references/093.txt"
+  },
+  {
+    "query": "main_4/OUTPUT_REVIEW.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/OUTPUT_REVIEW.md .",
+    "exit_code": 0,
+    "matches": 6,
+    "result": "references/094.txt"
+  },
+  {
+    "query": "OUTPUT_REVIEW.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- OUTPUT_REVIEW.md .",
+    "exit_code": 0,
+    "matches": 23,
+    "result": "references/095.txt"
+  },
+  {
+    "query": "main_4/OUTPUT_VISUALIZATION_PLAN.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/OUTPUT_VISUALIZATION_PLAN.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/096.txt"
+  },
+  {
+    "query": "OUTPUT_VISUALIZATION_PLAN.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- OUTPUT_VISUALIZATION_PLAN.md .",
+    "exit_code": 0,
+    "matches": 4,
+    "result": "references/097.txt"
+  },
+  {
+    "query": "main_4/PROJECT_AUDIT.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/PROJECT_AUDIT.md .",
+    "exit_code": 0,
+    "matches": 3,
+    "result": "references/098.txt"
+  },
+  {
+    "query": "PROJECT_AUDIT.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- PROJECT_AUDIT.md .",
+    "exit_code": 0,
+    "matches": 7,
+    "result": "references/099.txt"
+  },
+  {
+    "query": "main_4/PROJECT_CONSTRAINTS.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/PROJECT_CONSTRAINTS.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/100.txt"
+  },
+  {
+    "query": "PROJECT_CONSTRAINTS.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- PROJECT_CONSTRAINTS.md .",
+    "exit_code": 0,
+    "matches": 8,
+    "result": "references/101.txt"
+  },
+  {
+    "query": "main_4/PROJECT_EXPLANATION_FOR_PRESENTATION.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/PROJECT_EXPLANATION_FOR_PRESENTATION.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/102.txt"
+  },
+  {
+    "query": "PROJECT_EXPLANATION_FOR_PRESENTATION.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- PROJECT_EXPLANATION_FOR_PRESENTATION.md .",
+    "exit_code": 0,
+    "matches": 2,
+    "result": "references/103.txt"
+  },
+  {
+    "query": "main_4/README.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/README.md .",
+    "exit_code": 0,
+    "matches": 9,
+    "result": "references/104.txt"
+  },
+  {
+    "query": "main_4/REPORT_EDIT_SUMMARY.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/REPORT_EDIT_SUMMARY.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/105.txt"
+  },
+  {
+    "query": "REPORT_EDIT_SUMMARY.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- REPORT_EDIT_SUMMARY.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/106.txt"
+  },
+  {
+    "query": "main_4/SCIENTIFIC_REPORT.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/SCIENTIFIC_REPORT.md .",
+    "exit_code": 0,
+    "matches": 6,
+    "result": "references/107.txt"
+  },
+  {
+    "query": "SCIENTIFIC_REPORT.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- SCIENTIFIC_REPORT.md .",
+    "exit_code": 0,
+    "matches": 32,
+    "result": "references/108.txt"
+  },
+  {
+    "query": "main_4/SCIENTIFIC_SOLUTION_PLAN.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4/SCIENTIFIC_SOLUTION_PLAN.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/109.txt"
+  },
+  {
+    "query": "SCIENTIFIC_SOLUTION_PLAN.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- SCIENTIFIC_SOLUTION_PLAN.md .",
+    "exit_code": 0,
+    "matches": 4,
+    "result": "references/110.txt"
+  },
+  {
+    "query": "main_4_old/BENCHMARK_DIAGNOSTICS.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/BENCHMARK_DIAGNOSTICS.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/111.txt"
+  },
+  {
+    "query": "main_4_old/CODEBASE_GUIDE.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/CODEBASE_GUIDE.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/112.txt"
+  },
+  {
+    "query": "main_4_old/COMPLETE_PROJECT_REPORT.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/COMPLETE_PROJECT_REPORT.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/113.txt"
+  },
+  {
+    "query": "main_4_old/CSV_SCHEMA_AUDIT.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/CSV_SCHEMA_AUDIT.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/114.txt"
+  },
+  {
+    "query": "main_4_old/FEATURE_DIAGNOSTICS.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/FEATURE_DIAGNOSTICS.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/115.txt"
+  },
+  {
+    "query": "main_4_old/FIGURE_EXPLANATION_GUIDE.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/FIGURE_EXPLANATION_GUIDE.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/116.txt"
+  },
+  {
+    "query": "main_4_old/FIGURE_REVIEW.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/FIGURE_REVIEW.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/117.txt"
+  },
+  {
+    "query": "main_4_old/FIXES_APPLIED.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/FIXES_APPLIED.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/118.txt"
+  },
+  {
+    "query": "main_4_old/IMPLEMENTATION_PLAN.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/IMPLEMENTATION_PLAN.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/119.txt"
+  },
+  {
+    "query": "main_4_old/MODEL_IMPROVEMENTS_APPLIED.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/MODEL_IMPROVEMENTS_APPLIED.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/120.txt"
+  },
+  {
+    "query": "main_4_old/MODEL_IMPROVEMENT_PLAN.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/MODEL_IMPROVEMENT_PLAN.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/121.txt"
+  },
+  {
+    "query": "main_4_old/MODEL_IMPROVEMENT_RESULTS.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/MODEL_IMPROVEMENT_RESULTS.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/122.txt"
+  },
+  {
+    "query": "main_4_old/NEXT_STEPS_PLAN.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/NEXT_STEPS_PLAN.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/123.txt"
+  },
+  {
+    "query": "main_4_old/OUTPUT_REVIEW.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/OUTPUT_REVIEW.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/124.txt"
+  },
+  {
+    "query": "main_4_old/OUTPUT_VISUALIZATION_PLAN.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/OUTPUT_VISUALIZATION_PLAN.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/125.txt"
+  },
+  {
+    "query": "main_4_old/PROJECT_AUDIT.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/PROJECT_AUDIT.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/126.txt"
+  },
+  {
+    "query": "main_4_old/PROJECT_CONSTRAINTS.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/PROJECT_CONSTRAINTS.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/127.txt"
+  },
+  {
+    "query": "main_4_old/PROJECT_EXPLANATION_FOR_PRESENTATION.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/PROJECT_EXPLANATION_FOR_PRESENTATION.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/128.txt"
+  },
+  {
+    "query": "main_4_old/README.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/README.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/129.txt"
+  },
+  {
+    "query": "main_4_old/REPORT_EDIT_SUMMARY.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/REPORT_EDIT_SUMMARY.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/130.txt"
+  },
+  {
+    "query": "main_4_old/SCIENTIFIC_REPORT.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/SCIENTIFIC_REPORT.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/131.txt"
+  },
+  {
+    "query": "main_4_old/SCIENTIFIC_SOLUTION_PLAN.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old/SCIENTIFIC_SOLUTION_PLAN.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/132.txt"
+  },
+  {
+    "query": "report_v2/DECISIONS.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- report_v2/DECISIONS.md .",
+    "exit_code": 0,
+    "matches": 2,
+    "result": "references/133.txt"
+  },
+  {
+    "query": "report_v2/FINAL_VERIFICATION.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- report_v2/FINAL_VERIFICATION.md .",
+    "exit_code": 1,
+    "matches": 0,
+    "result": "references/134.txt"
+  },
+  {
+    "query": "FINAL_VERIFICATION.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- FINAL_VERIFICATION.md .",
+    "exit_code": 0,
+    "matches": 6,
+    "result": "references/135.txt"
+  },
+  {
+    "query": "report_v2/MORNING_SUMMARY.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- report_v2/MORNING_SUMMARY.md .",
+    "exit_code": 0,
+    "matches": 2,
+    "result": "references/136.txt"
+  },
+  {
+    "query": "report_v2/README.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- report_v2/README.md .",
+    "exit_code": 0,
+    "matches": 4,
+    "result": "references/137.txt"
+  },
+  {
+    "query": "report_v2/RESEARCH_NOTES.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- report_v2/RESEARCH_NOTES.md .",
+    "exit_code": 0,
+    "matches": 2,
+    "result": "references/138.txt"
+  },
+  {
+    "query": "RESEARCH_NOTES.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- RESEARCH_NOTES.md .",
+    "exit_code": 0,
+    "matches": 4,
+    "result": "references/139.txt"
+  },
+  {
+    "query": "report_v2/VERIFICATION_LOG.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- report_v2/VERIFICATION_LOG.md .",
+    "exit_code": 0,
+    "matches": 7,
+    "result": "references/140.txt"
+  },
+  {
+    "query": "VERIFICATION_LOG.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- VERIFICATION_LOG.md .",
+    "exit_code": 0,
+    "matches": 10,
+    "result": "references/141.txt"
+  },
+  {
+    "query": "report_v2/thesis/v3/FIGURE_AUDIT.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- report_v2/thesis/v3/FIGURE_AUDIT.md .",
+    "exit_code": 0,
+    "matches": 3,
+    "result": "references/142.txt"
+  },
+  {
+    "query": "FIGURE_AUDIT.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- FIGURE_AUDIT.md .",
+    "exit_code": 0,
+    "matches": 7,
+    "result": "references/143.txt"
+  },
+  {
+    "query": "report_v2/thesis/v3/V3_CHANGE_SUMMARY.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- report_v2/thesis/v3/V3_CHANGE_SUMMARY.md .",
+    "exit_code": 0,
+    "matches": 1,
+    "result": "references/144.txt"
+  },
+  {
+    "query": "V3_CHANGE_SUMMARY.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- V3_CHANGE_SUMMARY.md .",
+    "exit_code": 0,
+    "matches": 1,
+    "result": "references/145.txt"
+  },
+  {
+    "query": "activity_report/CODEX_AUTONOMOUS_PROMPT.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- activity_report/CODEX_AUTONOMOUS_PROMPT.md .",
+    "exit_code": 0,
+    "matches": 3,
+    "result": "references/146.txt"
+  },
+  {
+    "query": "CODEX_AUTONOMOUS_PROMPT.md",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- CODEX_AUTONOMOUS_PROMPT.md .",
+    "exit_code": 0,
+    "matches": 3,
+    "result": "references/147.txt"
+  },
+  {
+    "query": "main",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main .",
+    "exit_code": 0,
+    "matches": 5571,
+    "result": "references/148.txt"
+  },
+  {
+    "query": "main_2",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_2 .",
+    "exit_code": 0,
+    "matches": 423,
+    "result": "references/149.txt"
+  },
+  {
+    "query": "main_3",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_3 .",
+    "exit_code": 0,
+    "matches": 764,
+    "result": "references/150.txt"
+  },
+  {
+    "query": "main_4",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4 .",
+    "exit_code": 0,
+    "matches": 1405,
+    "result": "references/151.txt"
+  },
+  {
+    "query": "main_first",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_first .",
+    "exit_code": 0,
+    "matches": 156,
+    "result": "references/152.txt"
+  },
+  {
+    "query": "main_4_old",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- main_4_old .",
+    "exit_code": 0,
+    "matches": 10,
+    "result": "references/153.txt"
+  },
+  {
+    "query": "out",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- out .",
+    "exit_code": 0,
+    "matches": 75650,
+    "result": "references/154.txt"
+  },
+  {
+    "query": "Documentation",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- Documentation .",
+    "exit_code": 0,
+    "matches": 140,
+    "result": "references/155.txt"
+  },
+  {
+    "query": "emiling",
+    "command": "rg --hidden --no-ignore -n -F -g '!.git/**' -- emiling .",
+    "exit_code": 0,
+    "matches": 71,
+    "result": "references/156.txt"
+  }
+]

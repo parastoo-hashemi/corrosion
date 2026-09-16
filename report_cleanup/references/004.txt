@@ -1,0 +1,5 @@
+./MORNING_SUMMARY.md:31:| Substantive first-draft review / response | `report_v2/critique/V1_REVIEW.md`, `V2_RESPONSE.md` |
+./MORNING_SUMMARY.md:75:`report_v2/critique/V2_RESPONSE.md`:
+./report_v2/MORNING_SUMMARY.md:31:| Substantive first-draft review / response | `report_v2/critique/V1_REVIEW.md`, `V2_RESPONSE.md` |
+./report_v2/MORNING_SUMMARY.md:75:`report_v2/critique/V2_RESPONSE.md`:
+./activity_report/CODEX_DELIVERY_CLEANUP_PROMPT.md:175:  `MORNING_SUMMARY*.md`, `report_v2/critique/`, `report_v2/evidence/`,

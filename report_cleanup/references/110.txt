@@ -1,0 +1,4 @@
+./main_4_old/IMPLEMENTATION_PLAN.md:103:├── SCIENTIFIC_SOLUTION_PLAN.md
+./main_4/CODEBASE_GUIDE.md:101:| `SCIENTIFIC_SOLUTION_PLAN.md` | original scientific solution design | you want to see the intended modelling philosophy | Support |
+./main_4/IMPLEMENTATION_PLAN.md:103:├── SCIENTIFIC_SOLUTION_PLAN.md
+./main_4_old/CODEBASE_GUIDE.md:101:| `SCIENTIFIC_SOLUTION_PLAN.md` | original scientific solution design | you want to see the intended modelling philosophy | Support |

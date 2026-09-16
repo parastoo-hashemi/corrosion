@@ -1,0 +1,23 @@
+./main_4_old/FIXES_APPLIED.md:26:  - The generated report language was rewritten conservatively, and the stale report-related sentence in [OUTPUT_REVIEW.md](/Users/parastoo/All_projects/Proj_corrosion/main_4/OUTPUT_REVIEW.md) was updated.
+./main_4_old/FIXES_APPLIED.md:37:- [OUTPUT_REVIEW.md](/Users/parastoo/All_projects/Proj_corrosion/main_4/OUTPUT_REVIEW.md)
+./main_4_old/FIXES_APPLIED.md:85:- [OUTPUT_REVIEW.md](/Users/parastoo/All_projects/Proj_corrosion/main_4/OUTPUT_REVIEW.md)
+./main_4_old/NEXT_STEPS_PLAN.md:78:1. `OUTPUT_REVIEW.md`
+./main_4_old/CODEBASE_GUIDE.md:104:| `OUTPUT_REVIEW.md` | strict review of generated outputs | you want an honest assessment of what is scientifically meaningful and what is weak | Core |
+./main_4_old/CSV_SCHEMA_AUDIT.md:12:  - diagnostics and reporting: `src/corrosion_proxy_rul/eda.py`, `src/corrosion_proxy_rul/diagnostics.py`, `src/corrosion_proxy_rul/reporting.py`, `main.tex`, `CODEBASE_GUIDE.md`, `FEATURE_DIAGNOSTICS.md`, `OUTPUT_REVIEW.md`
+./main_4_old/CSV_SCHEMA_AUDIT.md:55:- `OUTPUT_INVENTORY.csv` appears to be documentation-only. It is mentioned in `OUTPUT_REVIEW.md`, but no pipeline code reads it.
+./main_4_old/CSV_SCHEMA_AUDIT.md:79:- Evidence: file contents; referenced in `OUTPUT_REVIEW.md`.
+./main_4/FIXES_APPLIED.md:26:  - The generated report language was rewritten conservatively, and the stale report-related sentence in [OUTPUT_REVIEW.md](/Users/parastoo/All_projects/Proj_corrosion/main_4/OUTPUT_REVIEW.md) was updated.
+./main_4/FIXES_APPLIED.md:37:- [OUTPUT_REVIEW.md](/Users/parastoo/All_projects/Proj_corrosion/main_4/OUTPUT_REVIEW.md)
+./main_4/FIXES_APPLIED.md:85:- [OUTPUT_REVIEW.md](/Users/parastoo/All_projects/Proj_corrosion/main_4/OUTPUT_REVIEW.md)
+./main_4_old/MODEL_IMPROVEMENT_PLAN.md:15:- `OUTPUT_REVIEW.md`
+./main_4/CODEBASE_GUIDE.md:104:| `OUTPUT_REVIEW.md` | strict review of generated outputs | you want an honest assessment of what is scientifically meaningful and what is weak | Core |
+./main_4/MODEL_IMPROVEMENT_PLAN.md:15:- `OUTPUT_REVIEW.md`
+./main_4/NEXT_STEPS_PLAN.md:78:1. `OUTPUT_REVIEW.md`
+./main_4/CSV_SCHEMA_AUDIT.md:12:  - diagnostics and reporting: `src/corrosion_proxy_rul/eda.py`, `src/corrosion_proxy_rul/diagnostics.py`, `src/corrosion_proxy_rul/reporting.py`, `main.tex`, `CODEBASE_GUIDE.md`, `FEATURE_DIAGNOSTICS.md`, `OUTPUT_REVIEW.md`
+./main_4/CSV_SCHEMA_AUDIT.md:55:- `OUTPUT_INVENTORY.csv` appears to be documentation-only. It is mentioned in `OUTPUT_REVIEW.md`, but no pipeline code reads it.
+./main_4/CSV_SCHEMA_AUDIT.md:79:- Evidence: file contents; referenced in `OUTPUT_REVIEW.md`.
+./REPORT_PLANNING.md:73:| 5 | Baseline vs. improved structural-model metrics (within main_4 only) | `OUTPUT_REVIEW.md` (2026-03-16 15:43, pre-improvement): CatBoost nominal best, `wire_area_loss_frac` grouped MAE≈0.087 | `SCIENTIFIC_REPORT.md`/`MODEL_IMPROVEMENT_RESULTS.md` (2026-03-16 17:19+, post-improvement): CatBoost MAE 0.124 | Both (D)/(B) within `main_4` | `OUTPUT_REVIEW.md` documents the pre-robustness-fix baseline that the "Model Improvements Applied" round explicitly measured itself against; it was never marked superseded | Present `OUTPUT_REVIEW.md` numbers only as the documented "before" state of a named before/after comparison, never as a current result |
+./REPORT_PLANNING.md:190:5. **`OUTPUT_REVIEW.md` and `CODEBASE_GUIDE.md` currency.** Both are stale relative to later work in `main_4`. Should the final report simply note this, or does the user want these files corrected as part of a separate documentation-cleanup task (out of scope for the report itself, but worth flagging)?
+./Documentation/verification_audit.md:501:| Partial dependence outputs | Per-experiment output files in nested subdirectories; not listed in `OUTPUT_REVIEW.md` or `CODEBASE_GUIDE.md` |
+./Documentation/project_review.md:42:- **10+ markdown diagnostic reports** (`BENCHMARK_DIAGNOSTICS.md`, `FEATURE_DIAGNOSTICS.md`, `OUTPUT_REVIEW.md`, etc.)
+./Documentation/project_review.md:160:The project's internal documentation (`OUTPUT_REVIEW.md`, `BENCHMARK_DIAGNOSTICS.md`) is admirably honest about limitations. However, the IEEE papers (particularly if they present grouped-holdout numbers as primary results) risk overstating generalization. A reviewer will immediately check whether cross-campaign performance is reported and will flag the 3.24× MAE collapse as the decisive result.

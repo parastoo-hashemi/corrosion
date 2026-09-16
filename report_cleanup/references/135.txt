@@ -1,0 +1,6 @@
+./report_v2/README.md:17:| Claim-to-source audit / final checks | `VERIFICATION_LOG.md`, `FINAL_VERIFICATION.md`, `qa/` |
+./report_v2/qa/final_validation.json:36:  "scope": "Numeric matching is supplemented by manual scientific and grammar review in FINAL_VERIFICATION.md."
+./report_v2/qa/v3/final_validation.json:50:  "scope": "Numeric matching is supplemented by manual scientific and grammar review in FINAL_VERIFICATION.md. V3 additions are reviewed in thesis/v3/FIGURE_AUDIT.md and qa/v3/VERIFICATION.md.",
+./report_v2/MORNING_SUMMARY.md:32:| Claim audit / final verification | `report_v2/VERIFICATION_LOG.md`, `FINAL_VERIFICATION.md`, `evidence/`, `qa/` |
+./report_v2/scripts/validate_documents.py:123:result=dict(documents=pdfs,figure_count=len(figs),numeric_lines=len(rows),numeric_lint_exceptions=0,frozen_report_unchanged=True,scope='Numeric matching is supplemented by manual scientific and grammar review in FINAL_VERIFICATION.md.')
+./MORNING_SUMMARY.md:32:| Claim audit / final verification | `report_v2/VERIFICATION_LOG.md`, `FINAL_VERIFICATION.md`, `evidence/`, `qa/` |
