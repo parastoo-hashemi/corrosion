@@ -1,0 +1,14 @@
+usage: make_splits.py [-h] [--input-csv INPUT_CSV] [--output-dir OUTPUT_DIR]
+                      [--report REPORT] [--overwrite]
+
+Create hardcoded, severity-stratified, specimen-level split manifests for the
+offline-augmented corrosion image dataset.
+
+options:
+  -h, --help            show this help message and exit
+  --input-csv INPUT_CSV
+                        Input augmented metadata CSV.
+  --output-dir OUTPUT_DIR
+                        Directory for train/validation/test manifest CSVs.
+  --report REPORT       Path for the Markdown split report.
+  --overwrite           Allow replacement of existing manifests and report.

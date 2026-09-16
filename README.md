@@ -138,7 +138,8 @@ Saved outputs are preserved. Current historical modelling code has unresolved
 loading YAML does not establish that training can run correctly. See
 [known issues](docs/known_issues.md) before attempting a new experiment.
 
-A Git clone alone omits ignored raw data and some local model artifacts. A full
+A Git clone alone omits ignored raw data, some local model artifacts, and three
+historical `main_3/src/data/` source files. A full
 handoff needs the local data/output bundle as well as the repository. Preserve
 symbolic links when copying the delivery. Do not regenerate results over the
 saved evidence merely to test installation.

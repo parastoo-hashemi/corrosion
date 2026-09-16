@@ -86,6 +86,11 @@ def main() -> int:
             ok = p.is_symlink() and p.exists() and p.resolve() == (ROOT / a['new_path']).resolve()
             checks['links'].append({'path': a['old_path'], 'ok': ok})
             if not ok: failures.append('Compatibility link: ' + a['old_path'])
+        if a['action'] == 'ARCHIVE_FROM_GIT':
+            expected = hashlib.sha256(subprocess.check_output(
+                ['git', 'show', f"{BASE}:{a['old_path']}"], cwd=ROOT)).hexdigest()
+            if sha(ROOT / a['new_path']) != expected:
+                failures.append('Recovered archive content: ' + a['old_path'])
 
     checks['syntax_and_code_invariance'] = []
     for record in touched:
@@ -166,12 +171,29 @@ print("Five documented modules imported; six configs loaded; no pipeline called.
         if r['extension'] != '.tex' or not rel.startswith(('activity_report/', 'report_v2/')): continue
         p = ROOT / rel
         master_dir = p.parent.parent if p.parent.name in ('chapters', 'frontmatter') else p.parent
-        source = p.read_text()
+        source = re.sub(r'(?<!\\)%[^\n]*', '', p.read_text())
+        # Respect each master's declared graphics search path; commented includes
+        # are historical notes, not dependencies used by the TeX build.
+        master_name = 'activity_report.tex' if rel.startswith('activity_report/') else ('article.tex' if '/article/' in rel else 'thesis.tex')
+        master = master_dir / master_name
+        master_source = master.read_text() if master.exists() else source
+        shared_match = re.search(r'\\newcommand\{\\shared\}\{([^}]+)\}', master_source)
+        if shared_match:
+            source = source.replace(r'\shared', shared_match.group(1))
+            for name in re.findall(r'\\fig\{([^}]+)\}', source):
+                raw = shared_match.group(1) + '/figures/' + name + '.pdf'
+                ok = (master_dir / raw).exists()
+                tex_inputs.append({'file': rel, 'command': 'fig', 'target': raw, 'resolves': ok})
+                if not ok: failures.append(f'Report figure macro: {rel}: {raw}')
+        graphics_dirs = []
+        for group in re.findall(r'\\graphicspath\{((?:\{[^}]+\})+)\}', master_source):
+            graphics_dirs.extend(master_dir / item for item in re.findall(r'\{([^}]+)\}', group))
         for cmd, raw in re.findall(r'\\(input|include|includegraphics|bibliography)(?:\[[^]]*\])?\{([^}]+)\}', source):
             if '#' in raw or '\\' in raw: continue
             suffixes = (['', '.tex'] if cmd in ('input', 'include') else
                         ['', '.bib'] if cmd == 'bibliography' else ['', '.pdf', '.png', '.jpg'])
-            ok = any((base / (raw + ext)).exists() for base in (master_dir, p.parent) for ext in suffixes)
+            bases = [master_dir, p.parent] + (graphics_dirs if cmd == 'includegraphics' else [])
+            ok = any((base / (raw + ext)).exists() for base in bases for ext in suffixes)
             tex_inputs.append({'file': rel, 'command': cmd, 'target': raw, 'resolves': ok})
             if not ok: failures.append(f'Report input: {rel}: {raw}')
         for raw in re.findall(r'\\path\{([^}]+)\}', source):
@@ -202,6 +224,7 @@ print("Five documented modules imported; six configs loaded; no pipeline called.
         if not ok: failures.append('Historical source hash: ' + rel)
 
     snapshots = []
+    local_state_drift = []
     if args.full:
         for r in before:
             rel = r['path']; actual = moves.get(rel, rel)
@@ -211,7 +234,13 @@ print("Five documented modules imported; six configs loaded; no pipeline called.
                    'sha256': sha(p) if p.exists() else None}
             snapshots.append(now)
             if now['size'] != r['size'] or now['sha256'] != r['sha256']:
-                failures.append('Preservation mismatch: ' + rel)
+                if rel == '.idea/workspace.xml':
+                    # This untracked local IDE state is not edited by cleanup.
+                    # Expose its drift instead of restoring over live user state.
+                    local_state_drift.append({'before': r, 'after': now,
+                                              'disposition': 'Left current IDE state untouched; original retained in full backup.'})
+                else:
+                    failures.append('Preservation mismatch: ' + rel)
         write_json('all_files_after.json', snapshots)
         protected = json.loads((QA / 'outputs_before.json').read_text())
         names = {r['path'] for r in protected}
@@ -221,9 +250,11 @@ print("Five documented modules imported; six configs loaded; no pipeline called.
         diff = [{'before': r, 'after': by_name.get(r['path'])} for r in protected
                 if r['path'] not in by_name or any(r[k] != by_name[r['path']][k] for k in ('size', 'sha256'))]
         write_json('output_preservation_diff.json', diff)
+        write_json('local_state_drift.json', local_state_drift)
         checks['full_preservation'] = {'all_original_files_checked': len(snapshots),
                                       'scientific_inputs_outputs_checked': len(protected),
-                                      'output_differences': len(diff)}
+                                      'output_differences': len(diff),
+                                      'non_scientific_local_state_drift': len(local_state_drift)}
         if diff: failures.append('Scientific input/output differences')
 
     result = {'mode': 'full' if args.full else 'quick', 'failures': failures,

@@ -1,0 +1,23 @@
+usage: create_dataset_variants.py [-h] [--input-csv INPUT_CSV]
+                                  [--stats-csv STATS_CSV]
+                                  [--output-dir OUTPUT_DIR] [--report REPORT]
+                                  [--seed SEED] [--overwrite] [--copy-images]
+                                  [--workers WORKERS]
+
+Create additional controlled corrosion augmentation variants in a separate
+output folder. This script prepares data only and does not train any model.
+
+options:
+  -h, --help            show this help message and exit
+  --input-csv INPUT_CSV
+  --stats-csv STATS_CSV
+  --output-dir OUTPUT_DIR
+  --report REPORT
+  --seed SEED
+  --overwrite           Replace generated outputs under the augmentation
+                        variants folder.
+  --copy-images         Copy referenced images into size-variant folders. By
+                        default, size variants are manifest-only and reference
+                        Data/Images_dataset_augmented.
+  --workers WORKERS     Parallel workers for sigma image generation and
+                        validation setup.

@@ -34,6 +34,11 @@ Older manifests and prose include absolute paths from previous checkout location
 They were not rewritten because they are saved records. Curated docs use current
 relative paths. A bare Git clone omits ignored `Data/`, `Documentation/`, `.pkl`
 artifacts and local render/build files; provide the complete local bundle for handoff.
+The broad existing `Data/` ignore rule also ignores `main_3/src/data/` on this
+checkout: `io.py`, `canonical.py`, and `__init__.py` are present locally but untracked.
+They are included in the full backup and preservation inventory. A Git-only transfer
+does not contain that complete historical source tree either. No source-tracking
+or ignore-rule change was made to those files during this documentation cleanup.
 Compatibility links must be retained on systems that support symbolic links.
 
 ## Scientific and continuation limits

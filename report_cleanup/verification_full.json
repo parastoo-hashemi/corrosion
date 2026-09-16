@@ -1,0 +1,1417 @@
+{
+  "mode": "full",
+  "failures": [],
+  "known_preexisting_limitations": [
+    {
+      "path": "main_4/configs/features.yaml",
+      "issue": "Pre-existing main_first scalar substitutions; parse success is not type validation"
+    },
+    {
+      "path": "main_4/configs/modeling.yaml",
+      "issue": "Pre-existing main_first scalar substitutions; parse success is not type validation"
+    },
+    {
+      "path": "main_4/configs/specimen_mapping.yaml",
+      "issue": "YAML NO parsed as False",
+      "specimens": [
+        "S1MI01",
+        "S2SA01",
+        "S4SAVF01",
+        "S5VF01",
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06"
+      ]
+    },
+    {
+      "path": "main_4/configs/specimen_mapping.yaml",
+      "issue": "Pre-existing main_first scalar substitutions; parse success is not type validation"
+    },
+    {
+      "path": "main_4/configs/ultimate_load_refocus.yaml",
+      "issue": "Pre-existing main_first scalar substitutions; parse success is not type validation"
+    },
+    {
+      "path": "main_4_old/configs/features.yaml",
+      "issue": "Pre-existing main_first scalar substitutions; parse success is not type validation"
+    },
+    {
+      "path": "main_4_old/configs/modeling.yaml",
+      "issue": "Pre-existing main_first scalar substitutions; parse success is not type validation"
+    },
+    {
+      "path": "main_4_old/configs/specimen_mapping.yaml",
+      "issue": "YAML NO parsed as False",
+      "specimens": [
+        "S1MI01",
+        "S2SA01",
+        "S4SAVF01",
+        "S5VF01",
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06"
+      ]
+    },
+    {
+      "path": "main_4_old/configs/specimen_mapping.yaml",
+      "issue": "Pre-existing main_first scalar substitutions; parse success is not type validation"
+    }
+  ],
+  "checks": {
+    "links": [
+      {
+        "path": "report_v2/evidence",
+        "ok": true
+      },
+      {
+        "path": "report_v2/qa",
+        "ok": true
+      },
+      {
+        "path": "report_v2/critique",
+        "ok": true
+      },
+      {
+        "path": "activity_report/notes",
+        "ok": true
+      },
+      {
+        "path": "main_4/BENCHMARK_DIAGNOSTICS.md",
+        "ok": true
+      },
+      {
+        "path": "main_4/FEATURE_DIAGNOSTICS.md",
+        "ok": true
+      },
+      {
+        "path": "main_4/FIGURE_REVIEW.md",
+        "ok": true
+      },
+      {
+        "path": "main_4/MODEL_IMPROVEMENTS_APPLIED.md",
+        "ok": true
+      },
+      {
+        "path": "main_4/MODEL_IMPROVEMENT_PLAN.md",
+        "ok": true
+      },
+      {
+        "path": "main_4/MODEL_IMPROVEMENT_RESULTS.md",
+        "ok": true
+      },
+      {
+        "path": "main_4/OUTPUT_VISUALIZATION_PLAN.md",
+        "ok": true
+      },
+      {
+        "path": "main_4/PROJECT_CONSTRAINTS.md",
+        "ok": true
+      },
+      {
+        "path": "main_4/SCIENTIFIC_REPORT.md",
+        "ok": true
+      },
+      {
+        "path": "main_4_old/BENCHMARK_DIAGNOSTICS.md",
+        "ok": true
+      },
+      {
+        "path": "main_4_old/FEATURE_DIAGNOSTICS.md",
+        "ok": true
+      },
+      {
+        "path": "main_4_old/FIGURE_REVIEW.md",
+        "ok": true
+      },
+      {
+        "path": "main_4_old/MODEL_IMPROVEMENTS_APPLIED.md",
+        "ok": true
+      },
+      {
+        "path": "main_4_old/MODEL_IMPROVEMENT_PLAN.md",
+        "ok": true
+      },
+      {
+        "path": "main_4_old/MODEL_IMPROVEMENT_RESULTS.md",
+        "ok": true
+      },
+      {
+        "path": "main_4_old/OUTPUT_VISUALIZATION_PLAN.md",
+        "ok": true
+      },
+      {
+        "path": "main_4_old/PROJECT_CONSTRAINTS.md",
+        "ok": true
+      },
+      {
+        "path": "main_4_old/SCIENTIFIC_REPORT.md",
+        "ok": true
+      },
+      {
+        "path": "report_v2/FINAL_VERIFICATION.md",
+        "ok": true
+      },
+      {
+        "path": "report_v2/RESEARCH_NOTES.md",
+        "ok": true
+      },
+      {
+        "path": "report_v2/VERIFICATION_LOG.md",
+        "ok": true
+      },
+      {
+        "path": "report_v2/thesis/v3/FIGURE_AUDIT.md",
+        "ok": true
+      }
+    ],
+    "syntax_and_code_invariance": [
+      {
+        "path": "main_4/src/corrosion_proxy_rul/splits.py",
+        "ast_equal": true,
+        "code_tokens_equal": true
+      },
+      {
+        "path": "main_4/src/corrosion_proxy_rul/config.py",
+        "ast_equal": true,
+        "code_tokens_equal": true
+      },
+      {
+        "path": "main_4/src/corrosion_proxy_rul/feature_engineering.py",
+        "ast_equal": true,
+        "code_tokens_equal": true
+      },
+      {
+        "path": "main_4/src/corrosion_proxy_rul/models_rul_proxy.py",
+        "ast_equal": true,
+        "code_tokens_equal": true
+      },
+      {
+        "path": "main_4/src/corrosion_proxy_rul/image_preprocessing.py",
+        "ast_equal": true,
+        "code_tokens_equal": true
+      },
+      {
+        "path": "main_3/src/cv/splits.py",
+        "ast_equal": true,
+        "code_tokens_equal": true
+      },
+      {
+        "path": "augmentation/make_splits.py",
+        "ast_equal": true,
+        "code_tokens_equal": true
+      },
+      {
+        "path": "augmentation/augment_dataset.py",
+        "ast_equal": true,
+        "code_tokens_equal": true
+      }
+    ],
+    "all_existing_python_parse_count": 169,
+    "configs": [
+      {
+        "path": "main_3/configs/default.toml",
+        "parses": true,
+        "unchanged": true
+      },
+      {
+        "path": "main_4/configs/dataset.yaml",
+        "parses": true,
+        "unchanged": true
+      },
+      {
+        "path": "main_4/configs/features.yaml",
+        "parses": true,
+        "unchanged": true
+      },
+      {
+        "path": "main_4/configs/modeling.yaml",
+        "parses": true,
+        "unchanged": true
+      },
+      {
+        "path": "main_4/configs/specimen_mapping.yaml",
+        "parses": true,
+        "unchanged": true
+      },
+      {
+        "path": "main_4/configs/thresholds.yaml",
+        "parses": true,
+        "unchanged": true
+      },
+      {
+        "path": "main_4/configs/ultimate_load_refocus.yaml",
+        "parses": true,
+        "unchanged": true
+      },
+      {
+        "path": "main_4_old/configs/dataset.yaml",
+        "parses": true,
+        "unchanged": true
+      },
+      {
+        "path": "main_4_old/configs/features.yaml",
+        "parses": true,
+        "unchanged": true
+      },
+      {
+        "path": "main_4_old/configs/modeling.yaml",
+        "parses": true,
+        "unchanged": true
+      },
+      {
+        "path": "main_4_old/configs/specimen_mapping.yaml",
+        "parses": true,
+        "unchanged": true
+      },
+      {
+        "path": "main_4_old/configs/thresholds.yaml",
+        "parses": true,
+        "unchanged": true
+      }
+    ],
+    "cli_help": [
+      {
+        "path": "augmentation/augment_dataset.py",
+        "exit_code": 0
+      },
+      {
+        "path": "augmentation/make_splits.py",
+        "exit_code": 0
+      },
+      {
+        "path": "augmentation/create_dataset_variants.py",
+        "exit_code": 0
+      }
+    ],
+    "module_imports": {
+      "exit_code": 0,
+      "output": "Five documented modules imported; six configs loaded; no pipeline called.\n",
+      "stderr": ""
+    },
+    "curated_links": {
+      "checked": 131,
+      "broken": []
+    },
+    "latex_inputs": [
+      {
+        "file": "activity_report/activity_report.tex",
+        "command": "input",
+        "target": "frontmatter/abstract",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/activity_report.tex",
+        "command": "input",
+        "target": "frontmatter/executive_summary",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/activity_report.tex",
+        "command": "include",
+        "target": "chapters/01_introduction",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/activity_report.tex",
+        "command": "include",
+        "target": "chapters/02_dataset_context_audit",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/activity_report.tex",
+        "command": "include",
+        "target": "chapters/03_methodological_framework",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/activity_report.tex",
+        "command": "include",
+        "target": "chapters/04_research_and_development_activities",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/activity_report.tex",
+        "command": "include",
+        "target": "chapters/05_integrated_results_and_comparative_analysis",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/activity_report.tex",
+        "command": "include",
+        "target": "chapters/06_scientific_interpretation_and_research_decisions",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/activity_report.tex",
+        "command": "include",
+        "target": "chapters/07_software_engineering_and_reproducibility",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/activity_report.tex",
+        "command": "include",
+        "target": "chapters/08_limitations",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/activity_report.tex",
+        "command": "include",
+        "target": "chapters/09_current_status_and_remaining_work",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/activity_report.tex",
+        "command": "include",
+        "target": "chapters/10_conclusions_and_next_steps",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/activity_report.tex",
+        "command": "bibliography",
+        "target": "references/references",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/chapters/02_dataset_context_audit.tex",
+        "command": "input",
+        "target": "figures/fig_2_1_dataset_supervision_schematic.tex",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/chapters/03_methodological_framework.tex",
+        "command": "input",
+        "target": "figures/fig_3_1_specimen_splitting.tex",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/chapters/03_methodological_framework.tex",
+        "command": "input",
+        "target": "figures/fig_3_2_evaluation_regimes.tex",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/chapters/04_research_and_development_activities.tex",
+        "command": "includegraphics",
+        "target": "fig_4_1_main2_image_only_vs_multimodal.png",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/chapters/04_research_and_development_activities.tex",
+        "command": "includegraphics",
+        "target": "fig_4_2_main2_residual_vs_week.png",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/chapters/04_research_and_development_activities.tex",
+        "command": "includegraphics",
+        "target": "fig_4_3_main3_robustness_by_regime.png",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/chapters/04_research_and_development_activities.tex",
+        "command": "includegraphics",
+        "target": "fig_4_4_main3_proxy_rul_histogram.png",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/chapters/04_research_and_development_activities.tex",
+        "command": "includegraphics",
+        "target": "fig_4_5_main4_relative_mae_collapse_heatmap.png",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/chapters/04_research_and_development_activities.tex",
+        "command": "includegraphics",
+        "target": "fig_4_6_mesh_stratified_corrosion_vs_load.png",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/chapters/05_integrated_results_and_comparative_analysis.tex",
+        "command": "includegraphics",
+        "target": "fig_5_1_robustness_synthesis.png",
+        "resolves": true
+      },
+      {
+        "file": "activity_report/chapters/06_scientific_interpretation_and_research_decisions.tex",
+        "command": "input",
+        "target": "figures/fig_6_1_evidence_hierarchy.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/article/article.tex",
+        "command": "input",
+        "target": "../tables/pooled_capacity_article.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/article/article.tex",
+        "command": "includegraphics",
+        "target": "../figures/confounding.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/article/article.tex",
+        "command": "bibliography",
+        "target": "../references/references",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/article/v2/article.tex",
+        "command": "input",
+        "target": "../../tables/paired_statistics.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/article/v2/article.tex",
+        "command": "includegraphics",
+        "target": "../../figures/confounding.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/article/v2/article.tex",
+        "command": "input",
+        "target": "../../tables/pooled_capacity_article.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/article/v2/article.tex",
+        "command": "includegraphics",
+        "target": "../../figures/paired_specimen_errors.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/article/v2/article.tex",
+        "command": "bibliography",
+        "target": "../../references/references",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/article/v3/article.tex",
+        "command": "input",
+        "target": "../../tables/paired_statistics.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/article/v3/article.tex",
+        "command": "includegraphics",
+        "target": "../../figures/confounding.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/article/v3/article.tex",
+        "command": "input",
+        "target": "../../tables/pooled_capacity_article.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/article/v3/article.tex",
+        "command": "includegraphics",
+        "target": "../../figures/paired_specimen_errors.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/article/v3/article.tex",
+        "command": "includegraphics",
+        "target": "../../figures/ridge_terminal_diagnostics.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/article/v3/article.tex",
+        "command": "bibliography",
+        "target": "../../references/references",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/chapters/03_dataset.tex",
+        "command": "fig",
+        "target": "../figures/dataset_supervision.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/chapters/04_methods.tex",
+        "command": "fig",
+        "target": "../figures/evaluation_regimes.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/chapters/05_surface_results.tex",
+        "command": "fig",
+        "target": "../figures/label_adjacency.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/chapters/05_surface_results.tex",
+        "command": "fig",
+        "target": "../figures/robustness_synthesis.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/chapters/06_structural_results.tex",
+        "command": "fig",
+        "target": "../figures/capacity_ablation.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/chapters/06_structural_results.tex",
+        "command": "fig",
+        "target": "../figures/confounding.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/chapters/06_structural_results.tex",
+        "command": "input",
+        "target": "../tables/pooled_capacity.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/chapters/07_proxy_status.tex",
+        "command": "fig",
+        "target": "../figures/threshold_status.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/chapters/07_proxy_status.tex",
+        "command": "input",
+        "target": "../tables/threshold_summary.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/chapters/10_status_conclusions.tex",
+        "command": "input",
+        "target": "../tables/classification_splits.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/chapters/11_reproducibility.tex",
+        "command": "input",
+        "target": "../tables/post_onset_capacity.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/chapters/11_reproducibility.tex",
+        "command": "input",
+        "target": "../tables/mesh_capacity.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/thesis.tex",
+        "command": "input",
+        "target": "chapters/00_abstract",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/thesis.tex",
+        "command": "include",
+        "target": "chapters/01_introduction",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/thesis.tex",
+        "command": "include",
+        "target": "chapters/02_background",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/thesis.tex",
+        "command": "include",
+        "target": "chapters/03_dataset",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/thesis.tex",
+        "command": "include",
+        "target": "chapters/04_methods",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/thesis.tex",
+        "command": "include",
+        "target": "chapters/05_surface_results",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/thesis.tex",
+        "command": "include",
+        "target": "chapters/06_structural_results",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/thesis.tex",
+        "command": "include",
+        "target": "chapters/07_proxy_status",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/thesis.tex",
+        "command": "include",
+        "target": "chapters/08_discussion",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/thesis.tex",
+        "command": "include",
+        "target": "chapters/09_limitations",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/thesis.tex",
+        "command": "include",
+        "target": "chapters/10_status_conclusions",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/thesis.tex",
+        "command": "include",
+        "target": "chapters/11_reproducibility",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/thesis.tex",
+        "command": "bibliography",
+        "target": "../references/references",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/chapters/03_dataset.tex",
+        "command": "fig",
+        "target": "../../figures/dataset_supervision.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/chapters/04_methods.tex",
+        "command": "fig",
+        "target": "../../figures/evaluation_regimes.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/chapters/05_surface_results.tex",
+        "command": "fig",
+        "target": "../../figures/label_adjacency.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/chapters/05_surface_results.tex",
+        "command": "fig",
+        "target": "../../figures/robustness_synthesis.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/chapters/06_structural_results.tex",
+        "command": "fig",
+        "target": "../../figures/capacity_ablation.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/chapters/06_structural_results.tex",
+        "command": "fig",
+        "target": "../../figures/paired_specimen_errors.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/chapters/06_structural_results.tex",
+        "command": "fig",
+        "target": "../../figures/confounding.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/chapters/06_structural_results.tex",
+        "command": "input",
+        "target": "../../tables/pooled_capacity.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/chapters/07_proxy_status.tex",
+        "command": "fig",
+        "target": "../../figures/threshold_status.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/chapters/10_status_conclusions.tex",
+        "command": "input",
+        "target": "../../tables/classification_splits.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/chapters/11_reproducibility.tex",
+        "command": "input",
+        "target": "../../tables/post_onset_capacity.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/chapters/11_reproducibility.tex",
+        "command": "input",
+        "target": "../../tables/mesh_capacity.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/chapters/11_reproducibility.tex",
+        "command": "input",
+        "target": "../../tables/threshold_summary.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/thesis.tex",
+        "command": "input",
+        "target": "../../tables/paired_statistics.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/thesis.tex",
+        "command": "input",
+        "target": "chapters/00_abstract",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/thesis.tex",
+        "command": "include",
+        "target": "chapters/01_introduction",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/thesis.tex",
+        "command": "include",
+        "target": "chapters/02_background",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/thesis.tex",
+        "command": "include",
+        "target": "chapters/03_dataset",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/thesis.tex",
+        "command": "include",
+        "target": "chapters/04_methods",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/thesis.tex",
+        "command": "include",
+        "target": "chapters/05_surface_results",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/thesis.tex",
+        "command": "include",
+        "target": "chapters/06_structural_results",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/thesis.tex",
+        "command": "include",
+        "target": "chapters/07_proxy_status",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/thesis.tex",
+        "command": "include",
+        "target": "chapters/08_discussion",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/thesis.tex",
+        "command": "include",
+        "target": "chapters/09_limitations",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/thesis.tex",
+        "command": "include",
+        "target": "chapters/10_status_conclusions",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/thesis.tex",
+        "command": "include",
+        "target": "chapters/11_reproducibility",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v2/thesis.tex",
+        "command": "bibliography",
+        "target": "../../references/references",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/chapters/03_dataset.tex",
+        "command": "fig",
+        "target": "../../figures/dataset_supervision.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/chapters/04_methods.tex",
+        "command": "fig",
+        "target": "../../figures/evaluation_regimes.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/chapters/05_surface_results.tex",
+        "command": "fig",
+        "target": "../../figures/label_adjacency.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/chapters/05_surface_results.tex",
+        "command": "fig",
+        "target": "../../figures/robustness_synthesis.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/chapters/06_structural_results.tex",
+        "command": "fig",
+        "target": "../../figures/capacity_ablation.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/chapters/06_structural_results.tex",
+        "command": "fig",
+        "target": "../../figures/paired_specimen_errors.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/chapters/06_structural_results.tex",
+        "command": "fig",
+        "target": "../../figures/ridge_terminal_diagnostics.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/chapters/06_structural_results.tex",
+        "command": "fig",
+        "target": "../../figures/ridge_coefficients.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/chapters/06_structural_results.tex",
+        "command": "fig",
+        "target": "../../figures/ridge_learning_curve.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/chapters/06_structural_results.tex",
+        "command": "fig",
+        "target": "../../figures/confounding.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/chapters/06_structural_results.tex",
+        "command": "input",
+        "target": "../../tables/pooled_capacity.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/chapters/07_proxy_status.tex",
+        "command": "fig",
+        "target": "../../figures/threshold_status.pdf",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/chapters/10_status_conclusions.tex",
+        "command": "input",
+        "target": "../../tables/classification_splits.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/chapters/11_reproducibility.tex",
+        "command": "input",
+        "target": "../../tables/post_onset_capacity.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/chapters/11_reproducibility.tex",
+        "command": "input",
+        "target": "../../tables/mesh_capacity.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/chapters/11_reproducibility.tex",
+        "command": "input",
+        "target": "../../tables/threshold_summary.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/thesis.tex",
+        "command": "input",
+        "target": "../../tables/paired_statistics.tex",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/thesis.tex",
+        "command": "input",
+        "target": "chapters/00_abstract",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/thesis.tex",
+        "command": "include",
+        "target": "chapters/01_introduction",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/thesis.tex",
+        "command": "include",
+        "target": "chapters/02_background",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/thesis.tex",
+        "command": "include",
+        "target": "chapters/03_dataset",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/thesis.tex",
+        "command": "include",
+        "target": "chapters/04_methods",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/thesis.tex",
+        "command": "include",
+        "target": "chapters/05_surface_results",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/thesis.tex",
+        "command": "include",
+        "target": "chapters/06_structural_results",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/thesis.tex",
+        "command": "include",
+        "target": "chapters/07_proxy_status",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/thesis.tex",
+        "command": "include",
+        "target": "chapters/08_discussion",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/thesis.tex",
+        "command": "include",
+        "target": "chapters/09_limitations",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/thesis.tex",
+        "command": "include",
+        "target": "chapters/10_status_conclusions",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/thesis.tex",
+        "command": "include",
+        "target": "chapters/11_reproducibility",
+        "resolves": true
+      },
+      {
+        "file": "report_v2/thesis/v3/thesis.tex",
+        "command": "bibliography",
+        "target": "../../references/references",
+        "resolves": true
+      }
+    ],
+    "literal_report_paths_missing": [],
+    "historical_source_hashes": [
+      {
+        "path": "main_4/outputs/data/master_table.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/audit/verified_facts.json",
+        "matches": true
+      },
+      {
+        "path": "Data/Images_dataset.zip",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/features/image_features.csv",
+        "matches": true
+      },
+      {
+        "path": "main/reports/current_corrosion_metrics.csv",
+        "matches": true
+      },
+      {
+        "path": "main_2/reports/model_comparison.csv",
+        "matches": true
+      },
+      {
+        "path": "main_2/reports/predictions_best_model.csv",
+        "matches": true
+      },
+      {
+        "path": "main_3/outputs/canonical_dataset.csv",
+        "matches": true
+      },
+      {
+        "path": "main_3/outputs/corrosion_regression_metrics.csv",
+        "matches": true
+      },
+      {
+        "path": "main_3/outputs/damage_regression_metrics.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/diagnostics/tables/benchmark_best_model_robustness.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/models/hidden_damage/best_models.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/models/surface/peak_rust_pct/leave_one_treatment_out/peak_rust_pct_fold_metrics.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/models/surface/surface_total_rust_pct/leave_one_treatment_out/surface_total_rust_pct_fold_metrics.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/leave_one_campaign_out/feature_set_comparison.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/selected_best_model_per_feature_set.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_feature_set_comparison.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/fold_metrics.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/fold_metrics.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_hsv/Ridge/terminal_fold_predictions.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb_hsv/CatBoost/fold_metrics.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb_hsv/CatBoost/terminal_fold_predictions.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb/Ridge/fold_metrics.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_rgb/Ridge/terminal_fold_predictions.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/hsv_only/CatBoost/fold_metrics.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/hsv_only/CatBoost/terminal_fold_predictions.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_hsv/CatBoost/fold_metrics.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_hsv/CatBoost/terminal_fold_predictions.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_only/CatBoost/fold_metrics.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/rgb_only/CatBoost/terminal_fold_predictions.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/splits/master_group_shuffle.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/splits/master_leave_one_campaign_out.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/splits/master_leave_one_campaign_out_summary.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/splits/master_leave_one_treatment_out.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/splits/master_group_shuffle_summary.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/splits/master_leave_one_treatment_out_summary.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/splits/grouped_cv_specimen_manifest.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_specimen_manifest.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_7/grouped_cv/specimen_manifest.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/mesh_stratified/mesh_4/grouped_cv/specimen_manifest.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_post_onset/leave_one_campaign_out/specimen_manifest.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_post_onset/grouped_cv/specimen_manifest.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/data/specimen_summary_table.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/correlations/mesh_stratified_corrosion_vs_ultimate_load.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/models/proxy_rul/proxy_rul_estimates.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/models/proxy_rul/proxy_rul_summary.json",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/models/degradation/degradation_best_fits.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/residual_refinement/model_comparison.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/residual_refinement/best_model.csv",
+        "matches": true
+      },
+      {
+        "path": "main/artifacts/manifest.json",
+        "matches": true
+      },
+      {
+        "path": "main_4/configs/thresholds.yaml",
+        "matches": true
+      },
+      {
+        "path": "main_4/configs/ultimate_load_refocus.yaml",
+        "matches": true
+      },
+      {
+        "path": "Data/splits/train_manifest.csv",
+        "matches": true
+      },
+      {
+        "path": "Data/splits/val_manifest.csv",
+        "matches": true
+      },
+      {
+        "path": "Data/splits/test_manifest.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/configs/specimen_mapping.yaml",
+        "matches": true
+      },
+      {
+        "path": "main/train_models.py",
+        "matches": true
+      },
+      {
+        "path": "main/api.py",
+        "matches": true
+      },
+      {
+        "path": "main/data_utils.py",
+        "matches": true
+      },
+      {
+        "path": "main_2/visualize.py",
+        "matches": true
+      },
+      {
+        "path": "main_2/build_pdf_report.py",
+        "matches": true
+      },
+      {
+        "path": "main_3/src/rul/estimator.py",
+        "matches": true
+      },
+      {
+        "path": "main_3/src/data/io.py",
+        "matches": true
+      },
+      {
+        "path": "main_4/configs/features.yaml",
+        "matches": true
+      },
+      {
+        "path": "main_4/configs/modeling.yaml",
+        "matches": true
+      },
+      {
+        "path": "main_4/src/corrosion_proxy_rul/models_hidden_damage.py",
+        "matches": true
+      },
+      {
+        "path": "main_4/src/corrosion_proxy_rul/data_loading.py",
+        "matches": true
+      },
+      {
+        "path": "main_4/src/corrosion_proxy_rul/__init__.py",
+        "matches": true
+      },
+      {
+        "path": "main_4/src/corrosion_proxy_rul/ultimate_load_refocus.py",
+        "matches": true
+      },
+      {
+        "path": "main_4/src/corrosion_proxy_rul/eda.py",
+        "matches": true
+      },
+      {
+        "path": "main_3/outputs/canonical_dataset.csv",
+        "matches": true
+      },
+      {
+        "path": "main_3/outputs/image_features.csv",
+        "matches": true
+      },
+      {
+        "path": "main_3/outputs/corrosion_regression_metrics.csv",
+        "matches": true
+      },
+      {
+        "path": "main_3/outputs/damage_regression_metrics.csv",
+        "matches": true
+      },
+      {
+        "path": "main_3/outputs/corrosion_classification_metrics.csv",
+        "matches": true
+      },
+      {
+        "path": "main_3/outputs/corrosion_regression_predictions.parquet",
+        "matches": true
+      },
+      {
+        "path": "main_3/outputs/damage_regression_predictions.parquet",
+        "matches": true
+      },
+      {
+        "path": "main_3/outputs/rul_estimates.csv",
+        "matches": true
+      },
+      {
+        "path": "main_3/outputs/degradation_forecasts.parquet",
+        "matches": true
+      },
+      {
+        "path": "main_3/src/visualization/plots.py",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_oof_predictions.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/fold_metrics.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/feature_importance_full_fit.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/learning_curve_raw.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/learning_curve_summary.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/partial_dependence.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/splits/grouped_cv_specimen_manifest.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/model_comparison.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/splits/grouped_cv_balance_summary.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_balance_summary.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_specimen_manifest.csv",
+        "matches": true
+      },
+      {
+        "path": "main_4/src/corrosion_proxy_rul/ultimate_load_refocus.py",
+        "matches": true
+      }
+    ],
+    "full_preservation": {
+      "all_original_files_checked": 16131,
+      "scientific_inputs_outputs_checked": 15566,
+      "output_differences": 0,
+      "non_scientific_local_state_drift": 1
+    }
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "path": "activity_report/activity_report.pdf",
+    "pages": 70,
+    "sha256": "70d0bc5cdd6eae45534b11c3d6404fcb25ea4dcb8970a9417221e19ff3fa5dcc",
+    "matches_initial": true
+  },
+  {
+    "path": "report_v2/thesis/thesis.pdf",
+    "pages": 44,
+    "sha256": "28f638ac398ee9c5f96cc35585251e89e99ec8140cde18d21e872662e289fff2",
+    "matches_initial": true
+  },
+  {
+    "path": "report_v2/article/article.pdf",
+    "pages": 5,
+    "sha256": "2a78c97edfc48ede4fc593f8f301a36b3b22539ff213fe43d8741aac7772927f",
+    "matches_initial": true
+  },
+  {
+    "path": "report_v2/thesis/v2/thesis.pdf",
+    "pages": 37,
+    "sha256": "50214612460cf2ee3bc83b7cd7267cfca82cf8bdde390f57f30de0dbe05c59c2",
+    "matches_initial": true
+  },
+  {
+    "path": "report_v2/article/v2/article.pdf",
+    "pages": 5,
+    "sha256": "0d55faaee2cce7dddce7e0074181df46c27b58bdbecfa1f24d49d52efbe7cfce",
+    "matches_initial": true
+  },
+  {
+    "path": "report_v2/thesis/v3/thesis.pdf",
+    "pages": 40,
+    "sha256": "7d74c07c804ab61eeacb17aa1f709d5f01ac1c1624cc2dfbb86a919b29b8bbd5",
+    "matches_initial": true
+  },
+  {
+    "path": "report_v2/article/v3/article.pdf",
+    "pages": 5,
+    "sha256": "79ce9b09b64f664147711f52d8808dab055850808e7976fe7945615ecfd48c1b",
+    "matches_initial": true
+  }
+]

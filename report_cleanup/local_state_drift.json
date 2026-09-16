@@ -1,0 +1,18 @@
+[
+  {
+    "before": {
+      "path": ".idea/workspace.xml",
+      "size": 10167,
+      "sha256": "9512c6e13052231757de894b19c71d212b9863635316a6fecfa9be1fdd148368",
+      "tracked": false,
+      "extension": ".xml"
+    },
+    "after": {
+      "original_path": ".idea/workspace.xml",
+      "path": ".idea/workspace.xml",
+      "size": 23038,
+      "sha256": "db67a091f637d95daec76ab8cb242243261a186410734308e8e0a1cc2b18153b"
+    },
+    "disposition": "Left current IDE state untouched; original retained in full backup."
+  }
+]
