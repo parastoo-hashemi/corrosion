@@ -6,7 +6,7 @@ All **30 files** were opened and inspected: **16** in `emiling/main_3/`, **6** a
 
 **Decision: four candidate files survive, consolidated into three new figures; 26 are rejected.** All four surviving files require regeneration. The most common primary rejection reason is redundancy (**16 of 26**); eight have a substantive defensibility problem, one has unresolved raw-to-montage provenance, and one is better handled as a generation-specific scope clarification. No scientific result is inferred solely from a filename.
 
-New shared assets: `ridge_terminal_diagnostics` (R-06 + R-07), `ridge_coefficients` (R-03), and `ridge_learning_curve` (R-04). The thesis uses all three. Article integration is limited to the central absolute-error diagnostic if it fits the five-page contribution; the coefficient and learning-curve analyses belong in the thesis.
+New shared assets: `ridge_terminal_diagnostics` (R-06 + R-07), `ridge_coefficients` (R-03), and `ridge_learning_curve` (R-04). The thesis uses all three. The five-page article includes only the central parity/residual diagnostic. Coefficient and learning-curve analyses remain in the 40-page thesis.
 
 ### Verification and reproduction boundary
 
@@ -19,6 +19,8 @@ All eight v2 figures were checked against their actual uses in the v2 thesis/art
 ### Scope discrepancy found and resolved
 
 M3-12’s weak correlations are real for the earlier `main_3` features. Independent recomputation gives Pearson 0.257148, 0.182837 and 0.247840. The near-identity result in v2 concerns the later `main_4` rust-area feature, a different representation. v3 explicitly says so in its surface-results discussion; the earlier result neither invalidates the later join nor supports extending its near-identity claim to all generations.
+
+The saved learning curve also requires a narrow wording correction to the v2 discussion: the experiments do vary training-specimen count with a fixed metadata representation, although subset composition and design coverage change at the same time. V3 states that limitation rather than saying sample size was never varied. V1/v2 files are preserved.
 
 The Ridge parity uses the mean prediction per specimen. Its mean absolute error is 0.171941 kN, whereas the primary result remains mean fold MAE 0.172711 kN. The v2 paired diagnostic first averages absolute errors per specimen; its metadata baseline is 0.172733 kN. These are different aggregations, not inconsistent scores. All 48 specimens and the complete observed 1.60–2.87 kN range are retained in the new parity axes.
 

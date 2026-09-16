@@ -1,0 +1,39 @@
+\chapter{Current Status, Next Steps, and Conclusions}\label{ch:status}
+The completed evidence supports a research synthesis and a bounded empirical claim. This chapter distinguishes that completed work from the prepared classification branch and from future experiments that require additional validation or data.
+
+\section{Current research status}
+The surface and terminal-structure modelling experiments have saved results. The full image-versus-metadata comparison for terminal load has been completed and rechecked from its prediction files. The degradation pipeline produces model-derived trajectories and threshold statuses. The current four-class classifier has not been trained or evaluated.
+
+\begin{table}[htbp]\centering
+\caption[Prepared four-class data splits]{Prepared four-class total-rust manifests. Counts come from the actual retained manifests, not the larger global augmentation inventory. All 48 specimens are assigned to disjoint splits; validation and test contain originals only. These are data-preparation counts and imply no classification performance.}\label{tab:classsplits}
+\input{\shared/tables/classification_splits.tex}
+\end{table}
+The training set contains 3,846 images from 38 specimens, comprising 641 originals and 3,205 augmented copies. Validation and test each contain 75 original images from five specimens. These numbers differ from the complete offline augmentation inventory because transformed copies from held-out specimens are excluded from training. The final retained manifests contain 3,996 images in total.
+
+\section{Next steps that can use the existing data}
+\begin{enumerate}
+\item \textbf{Restore reproducible model inputs.} Quote categorical values explicitly, repair the identified substitution errors through targeted tests, and archive exact feature lists and environment versions. Compare repaired-run outputs with saved artifacts before treating any changed metric as a scientific improvement.
+\item \textbf{Run the four-class baseline.} Keep specimen-disjoint manifests fixed and use training-only augmentation. Report macro-F1, class-specific recall, confusion matrices, and a simple class-frequency baseline. Test labels should remain untouched during model selection. These metrics are a proposed evaluation plan, not obtained results.
+\item \textbf{Test an actual early prediction question.} Choose observation cutoffs before training and use only information available by each cutoff. Predict terminal load with specimen grouping and a metadata anchor. This would evaluate lead-time usefulness directly, which terminal-image scoring does not.
+\item \textbf{Separate feature effects from model choice.} Compare adding images within a fixed model family and evaluate the entire selection process with a confirmation strategy appropriate to the small sample. Report paired specimen-level differences alongside fold summaries without treating repeated predictions as independent outcomes.
+\item \textbf{Improve downstream diagnostics.} Generate structural estimates without fitting on the evaluated specimen, expose raw versus smoothed trajectories, and separately review physical threshold justification. These changes can improve methodological integrity but cannot manufacture missing structural trajectories or lifetime outcomes.
+\end{enumerate}
+
+\section{Data needed for stronger structural and prognostic claims}
+Additional campaigns should vary mesh, chloride, and exposure duration across overlapping combinations rather than preserve their current alignment. Such a design would make transport and subgroup performance more interpretable. A model trained on a subset of combinations should be evaluated on explicitly described held-out combinations.
+
+Repeated structural information requires an experimental strategy compatible with destructive tests, such as scheduled testing of comparable specimens or independent nondestructive structural measurements validated against terminal outcomes. Such measurements would still need a defensible link between observed and inferred condition. Prognostic validation further requires a defined service-life endpoint and observed event or censoring information. Neither requirement is met by appending more derived threshold columns to the existing table.
+
+\section{Answers to the research questions}
+\textbf{RQ1:} Visible corrosion is learnable across distinct representations, with strong label adjacency in the refined total-rust benchmark. The result supports automated surface estimation within the observed label system.
+
+\textbf{RQ2:} Terminal structural inference is less stable. Final robustness-weighted models use metadata alone, and stricter or stratified evaluation limits claims of transferable image-based structural prediction.
+
+\textbf{RQ3:} The focused pooled experiment does not establish reliable incremental image value for terminal load. The post-onset sensitivity has a limited improvement in some metrics and does not overturn that conclusion.
+
+\textbf{RQ4:} Evaluation regime changes the claim. Campaign exclusion is a severe extrapolation stress test, and visible-treatment transfer is phase-dependent. Grouped performance alone does not establish external transfer.
+
+\textbf{RQ5:} The degradation and threshold pipeline is methodological and diagnostic. It uses estimated structural paths and yields zero future crossings in its refined configuration; it does not validate remaining useful life.
+
+\section{Closing conclusion}
+The principal result is a calibrated boundary: photographic surface assessment is supported more directly than structural inference, and structural inference is supported more directly than lifetime prediction. This hierarchy is an interpretation of the present evidence, not a universal ordering of possible methods. By tying claims to target definitions, independent specimen counts, metadata controls, and evaluation regimes, the activity provides a defensible basis for the next experiment. The appendices preserve the implementation detail needed to inspect and reproduce that account.

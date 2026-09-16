@@ -43,3 +43,25 @@ Sources: `main_4/outputs/data/master_table.csv`, `main_4/outputs/features/image_
 Statuses of model-derived wire-loss trajectories, not observed failure events.
 
 Sources: `main_4/outputs/models/proxy_rul/proxy_rul_estimates.csv`, `main_4/configs/thresholds.yaml`
+
+# v3 diagnostic extension
+
+The original seven records above and the separate paired ledger remain unchanged. The three additions below use `report_v2/scripts/make_v3_figures.py`; the introductory v1 generation statement above does not apply to this extension. Numerical checks and source hashes are in `report_v2/evidence/v3/figure_checks.json` and `report_v2/evidence/v3/new_figure_checks.json`.
+
+## ridge_terminal_diagnostics.pdf
+
+48 terminal specimens; mean of two held-out predictions per specimen, parity and signed residual. Full-range axes; no calibrated uncertainty claim. R-06 and R-07 consolidated.
+
+Sources: `main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_oof_predictions.csv`, `main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv`
+
+## ridge_coefficients.pdf
+
+All 11 saved field-level absolute standardized Ridge coefficient sums from the full-data fit. Categorical sums explicitly labelled, near-zero fields retained, no feature-level causal direction.
+
+Sources: `main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/feature_importance_full_fit.csv`
+
+## ridge_learning_curve.pdf
+
+50 saved runs over five training fractions and ten grouped splits. All individual train/test MAEs visible; means and sample SD descriptive. Training-count ranges labelled. No model refit.
+
+Sources: `main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/learning_curve_raw.csv`, `main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/learning_curve_summary.csv`, `main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/fold_metrics.csv`
