@@ -14,7 +14,7 @@ are kept alongside them for future revisions. This package was formerly `report_
 | Find publication assets | [Figure index](figures/README.md) · [Table index](tables/README.md) |
 | Inspect citations | [Bibliography guide](references/README.md) |
 | Understand scientific utilities | [Script guide](scripts/README.md) |
-| Inspect earlier audits and reviews | [Historical records](../archive/agent_working_notes/report_v2/) |
+| Inspect earlier audits and reviews | [Historical records](../archive/agent_working_notes/report_v2) |
 
 ## Folder layout
 
@@ -36,7 +36,7 @@ The PDFs and every LaTeX source, bibliography entry, figure, numerical table and
 saved provenance ledger retain their previous bytes. Only navigation and script
 paths were updated. Temporary LaTeX files were removed after a verified backup;
 the old version-directory layers and scattered archive shortcuts were consolidated.
-See the [cleanup and recovery record](../report_cleanup/final_reports/README.md).
+See the [cleanup and recovery record](../archive/repository_maintenance/final_reports/README.md).
 
 ## Future edits
 
@@ -55,7 +55,7 @@ The delivered PDFs were not rebuilt during this cleanup. Scientific scripts can
 write shared assets and records; consult the script guide before future execution.
 
 Historical evidence, figure audits and review notes live directly in
-[archive/agent_working_notes/report_v2/](../archive/agent_working_notes/report_v2/).
+[archive/agent_working_notes/report_v2/](../archive/agent_working_notes/report_v2).
 Preserve that archive when transferring the full repository. It is not required
 to read or compile the manuscripts, but the scientific audit scripts use it.
 Historical paths inside saved manuscripts and provenance remain as recorded; the

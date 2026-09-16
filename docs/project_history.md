@@ -28,8 +28,8 @@ Historical plans, meeting scripts, reviews, prompt files, and manuscript QA are 
 repository-relative paths. They describe the state at their writing date and can
 contain proposals, obsolete counts, absolute paths from older checkouts, or claims
 subsequently qualified. They are preserved records, not current operating instructions.
-The [earlier cleanup manifest](../report_cleanup/move_manifest.csv) records the archive
-cleanup. The [folder-renaming manifest](../report_cleanup/renaming/move_manifest.csv)
+The [earlier cleanup manifest](../archive/repository_maintenance/move_manifest.csv) records the archive
+cleanup. The [folder-renaming manifest](../archive/repository_maintenance/renaming/move_manifest.csv)
 records this later migration.
 
 ## Conflicts retained explicitly

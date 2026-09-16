@@ -1,6 +1,0 @@
-{
-  "head": "19a6ae86496894378a1475de34aa6bdd93682b07",
-  "branch": "master",
-  "refs": "19a6ae86496894378a1475de34aa6bdd93682b07 refs/heads/cleanup/delivery-prep\n19a6ae86496894378a1475de34aa6bdd93682b07 refs/heads/master\nc5a4f1af2329bc7dbf27b9ec807d8dc3047020ff refs/heads/report-rebuild-codex\n7e69d7a152d43adf261aa16bb3dfea8f2ecfbb4c refs/heads/report-rebuild-codex-v3\n1089b3e7f6c7f798a3bf5c6ccd07eb6c1fb3e322 refs/remotes/origin/HEAD\n1089b3e7f6c7f798a3bf5c6ccd07eb6c1fb3e322 refs/remotes/origin/master\n",
-  "index_sha256": "a19d0ab18ad7db881115300f44092d8956755447e79c17d8fdfd20158c92d822"
-}

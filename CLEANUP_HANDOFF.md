@@ -1,5 +1,9 @@
 # Academic delivery handoff
 
+**Historical snapshot of the initial cleanup.** Later reorganizations supersede
+the layout below. See the [current project guide](README.md) and
+[maintenance archive index](archive/repository_maintenance/README.md).
+
 The repository is ready for professor review and student onboarding **with the
 complete local data/source/output bundle and the documented limits**. Scientific
 inputs, results, manuscript sources and PDFs are preserved. The current modelling
@@ -34,7 +38,7 @@ out/                              Mixed historical build/output tree, unchanged
 docs/                             Five curated guides
   reference/augmentation_code.md Original detailed implementation reference
 archive/agent_working_notes/       Historical records, mirrored by original path
-report_cleanup/                   Move log, snapshots, dependency/check records
+archive/repository_maintenance/                   Move log, snapshots, dependency/check records
 catboost_info/ tmp/ .idea/         Retained local state; not research entry points
 __init__.py .gitignore .git/       Package marker, ignore policy and local history
 ```
@@ -43,7 +47,7 @@ __init__.py .gitignore .git/       Package marker, ignore policy and local histo
 
 The [cleanup plan](DELIVERY_CLEANUP_PLAN.md) lists all 91 action groups, rationale,
 157 exact whole-repository searches and their result locations.
-The [move manifest](report_cleanup/move_manifest.csv) lists every affected file:
+The [move manifest](archive/repository_maintenance/move_manifest.csv) lists every affected file:
 **329 files preserved through relocation/recovery; zero deleted**.
 
 - 319 files were archived under one mirrored development-history tree, including
@@ -67,7 +71,7 @@ were not deleted; `.gitignore` now covers future true build/cache clutter.
 ## 3. Markdown audit: retained versus removed from primary view
 
 All **122 initially present Markdown files** were individually classified by
-content in [markdown_audit.json](report_cleanup/markdown_audit.json):
+content in [markdown_audit.json](archive/repository_maintenance/markdown_audit.json):
 
 | Class | Count | Disposition |
 |---|---:|---|
@@ -125,12 +129,12 @@ observed versus estimated quantities, preprocessing scope and config limitations
 **Normalized ASTs and executable tokens match the starting source exactly after
 excluding docstrings/comments/layout.** No algorithms, control flow, imports,
 parameters or model behaviour changed. Source files pinned by report hash ledgers
-were left untouched. The new `report_cleanup/verify_delivery.py` is delivery
+were left untouched. The new `archive/repository_maintenance/verify_delivery.py` is delivery
 verification tooling, not modelling code.
 
 ## 7. Output preservation
 
-[Preservation report](report_cleanup/output_preservation_check.md): **all 15,566
+[Preservation report](archive/repository_maintenance/output_preservation_check.md): **all 15,566
 protected scientific input/output files have matching sizes and SHA-256 hashes;
 zero differences**, covering 48,917,480,102 bytes. Before/after snapshots and the
 empty diff are linked there. This conservative set includes raw inputs and report
@@ -144,12 +148,12 @@ No training, scientific regeneration, or PDF rebuild was performed.
 One untracked local IDE file, `.idea/workspace.xml`, drifted during the task. No
 cleanup action targets it; its current contents were left untouched and the original
 is in the full backup. The exact difference is disclosed in
-[local_state_drift.json](report_cleanup/local_state_drift.json). No other unexplained
+[local_state_drift.json](archive/repository_maintenance/local_state_drift.json). No other unexplained
 original-file drift was found. This exception is not a scientific output difference.
 
 ## 8. Functional verification
 
-The [full check](report_cleanup/verification_full.json) reports no cleanup failures:
+The [full check](archive/repository_maintenance/verification_full.json) reports no cleanup failures:
 
 - All 169 pre-existing Python files parse; the eight touched files compile and pass
   both AST and executable-token invariance checks.
@@ -190,7 +194,7 @@ silently fixed by modifying saved evidence.
 `out/`, `main_4_old` scientific contents, copied local Data/source-document trees,
 `emiling`, existing caches, editor settings and `tmp/` were not deduplicated or
 removed. Their historical or local role did not establish safe deletion. The full
-[per-file classification](report_cleanup/file_classification.csv) records this.
+[per-file classification](archive/repository_maintenance/file_classification.csv) records this.
 All raw data, labels, predictions, metrics, models, splits, seeds, configs, scientific
 assets and manuscript sources retain their bytes, except the documented source
 docstrings; no scientific behaviour changed.

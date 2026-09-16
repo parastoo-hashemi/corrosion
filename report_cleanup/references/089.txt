@@ -1,6 +1,0 @@
-./main_4_old/run_model_improvement_analysis.py:207:        "MODEL_IMPROVEMENT_PLAN.md",
-./main_4_old/CODEBASE_GUIDE.md:108:| `MODEL_IMPROVEMENT_PLAN.md` | focused improvement plan | you want to know what changes were justified before code edits | Support |
-./main_4_old/MODEL_IMPROVEMENTS_APPLIED.md:13:- `MODEL_IMPROVEMENT_PLAN.md`
-./main_4/run_model_improvement_analysis.py:207:        "MODEL_IMPROVEMENT_PLAN.md",
-./main_4/CODEBASE_GUIDE.md:108:| `MODEL_IMPROVEMENT_PLAN.md` | focused improvement plan | you want to know what changes were justified before code edits | Support |
-./main_4/MODEL_IMPROVEMENTS_APPLIED.md:13:- `MODEL_IMPROVEMENT_PLAN.md`

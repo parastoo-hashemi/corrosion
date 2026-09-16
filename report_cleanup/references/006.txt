@@ -1,5 +1,0 @@
-./activity_report/notes/evidence_log.md:110:See `activity_report/notes/chapter4_batchA_evidence_plan.md` for the full
-./activity_report/notes/evidence_log.md:159:See `activity_report/notes/chapter4_batchB_evidence_plan.md` for full detail.
-./activity_report/references/references.bib:6:% activity_report/notes/evidence_log.md, not in this file.
-./activity_report/CODEX_DELIVERY_CLEANUP_PROMPT.md:176:  `report_v2/qa/`, `activity_report/notes/evidence_log.md` and the
-./report_v2/references/references.bib:6:% activity_report/notes/evidence_log.md, not in this file.

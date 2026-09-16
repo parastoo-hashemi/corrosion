@@ -1,6 +1,0 @@
-./main_4/run_model_improvement_analysis.py:277:    write_text(ROOT_DIR / "MODEL_IMPROVEMENTS_APPLIED.md", "\n".join(applied_lines))
-./main_4/CODEBASE_GUIDE.md:109:| `MODEL_IMPROVEMENTS_APPLIED.md` | change log for the improvement round | you want to know what was changed and rerun | Support |
-./main_4_old/run_model_improvement_analysis.py:277:    write_text(ROOT_DIR / "MODEL_IMPROVEMENTS_APPLIED.md", "\n".join(applied_lines))
-./main_4_old/CODEBASE_GUIDE.md:109:| `MODEL_IMPROVEMENTS_APPLIED.md` | change log for the improvement round | you want to know what was changed and rerun | Support |
-./main_4_old/MODEL_IMPROVEMENT_PLAN.md:99:- updated `MODEL_IMPROVEMENTS_APPLIED.md`
-./main_4/MODEL_IMPROVEMENT_PLAN.md:99:- updated `MODEL_IMPROVEMENTS_APPLIED.md`

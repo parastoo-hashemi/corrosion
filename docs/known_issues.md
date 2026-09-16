@@ -59,9 +59,9 @@ version. Some other estimators emit version warnings. Successful loading is not
 proof of an exact historical environment; see the migration verification records.
 The embedding API remains blocked by this pre-existing preprocessor incompatibility.
 
-The old `report_cleanup/verify_delivery.py` and its receipts describe an earlier
+The old `archive/repository_maintenance/verify_delivery.py` and its receipts describe an earlier
 delivery state. They assume files that were subsequently removed and unmodified
-source hashes. Use `report_cleanup/renaming/verify_renaming.py` for the current
+source hashes. Use `archive/repository_maintenance/renaming/verify_renaming.py` for the current
 layout. Historical evidence ledgers retain their original paths and hashes; changed
 source hashes are recorded separately in the migration receipts.
 

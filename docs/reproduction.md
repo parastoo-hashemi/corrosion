@@ -6,7 +6,7 @@ Use the repository root as the working directory. On the delivery machine:
 
 ```bash
 cd /Users/parastoo/All_projects/Proj_corrosion/corrosion
-/opt/anaconda3/envs/env/bin/python report_cleanup/renaming/verify_renaming.py --quick
+/opt/anaconda3/envs/env/bin/python archive/repository_maintenance/renaming/verify_renaming.py --quick
 /opt/anaconda3/envs/env/bin/python classification_data_preparation/augment_dataset.py --help
 /opt/anaconda3/envs/env/bin/python classification_data_preparation/make_splits.py --help
 ```
@@ -20,11 +20,11 @@ model-loading and prediction checks. To hash every pre-existing file against the
 immediately pre-rename inventory:
 
 ```bash
-python report_cleanup/renaming/verify_renaming.py --full
+python archive/repository_maintenance/renaming/verify_renaming.py --full
 ```
 
 The full check reads approximately 49 GB and writes only its own verification
-records under `report_cleanup/renaming/`. It does not run models or modify saved outputs.
+records under `archive/repository_maintenance/renaming/`. It does not run models or modify saved outputs.
 A clean checkout needs the ignored local data and artifacts too. Preserve symlinks
 when copying the retained archive-document links. The seven old root folder
 shortcuts have been removed; use the new names in commands and imports.
@@ -33,7 +33,7 @@ shortcuts have been removed; use the new names in commands and imports.
 
 The handoff was checked using `/opt/anaconda3/envs/env/bin/python` on the delivery
 machine. Use your environment's Python executable elsewhere. The
-[environment record](../report_cleanup/environment.json) describes that check
+[environment record](../archive/repository_maintenance/environment.json) describes that check
 runtime; it does not establish the original training runtime of saved estimators.
 
 Existing minimum-version dependency lists are:
@@ -65,7 +65,7 @@ ignored data and models, to a separate working location with sufficient disk spa
 Compare the full preservation inventory before beginning any new experiment.
 Inspect [known issues](known_issues.md) before running historical modelling code.
 The observed Python package versions are recorded in
-[environment.json](../report_cleanup/environment.json); they establish this check
+[environment.json](../archive/repository_maintenance/environment.json); they establish this check
 runtime, not the training runtime of historical saved estimators.
 
 For classification preparation, `classification_data_preparation/requirements.txt` supplies NumPy,
@@ -125,7 +125,7 @@ The original activity-report source directory and earlier `report_v2` draft
 versions (v1, v2) were removed from the working tree. A historical compiled
 [activity-report draft](../out/activity_report.pdf) remains among the six PDFs
 in `out/`; it is not the current delivery report. See the
-[export audit](../report_cleanup/out_audit/README.md) for document provenance.
+[export audit](../archive/repository_maintenance/out_audit/README.md) for document provenance.
 
 These build commands were inspected but not executed during cleanup: the delivered
 PDF hashes are preserved, and the prior report QA contains their compilation and
@@ -144,7 +144,7 @@ Optional Python manuscript-build wrappers, draft-revision/bibliography assembly,
 PDF contact-sheet rendering and the obsolete all-draft document checker were
 removed. Use the direct `latexmk` commands above for PDF builds and the current
 folder-migration verifier for read-only preservation checks. The
-[publication-tool cleanup record](../report_cleanup/publication_tools/README.md)
+[publication-tool cleanup record](../archive/repository_maintenance/publication_tools/README.md)
 lists removed files and explains how to recover their external backup.
 
 ## 5. Resume modelling only after a separate repair

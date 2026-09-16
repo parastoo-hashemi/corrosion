@@ -1,3 +1,0 @@
-./.idea/workspace.xml:8:      <change beforePath="$PROJECT_DIR$/activity_report/CODEX_AUTONOMOUS_PROMPT.md" beforeDir="false" />
-./DECISIONS.md:6:1. **Scope.** The user explicitly authorized carrying out `activity_report/CODEX_AUTONOMOUS_PROMPT.md`. All new material lives in `report_v2/`; the frozen report and modelling source remain untouched. No model retraining, remote push, or merge is part of this run.
-./report_v2/DECISIONS.md:6:1. **Scope.** The user explicitly authorized carrying out `activity_report/CODEX_AUTONOMOUS_PROMPT.md`. All new material lives in `report_v2/`; the frozen report and modelling source remain untouched. No model retraining, remote push, or merge is part of this run.

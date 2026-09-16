@@ -157,6 +157,20 @@ class ProjectPathTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 resolve_project_path(path, self.root)
 
+    def test_maintenance_records_resolve_without_a_root_shortcut(self):
+        for suffix in ["", "renaming/files_before.json", "records_shortcut/verification.json",
+                       "renaming/source_before/report_cleanup/verify_delivery.py"]:
+            old = Path("report_cleanup") / suffix
+            target = self.root / "archive/repository_maintenance" / suffix
+            self.assertEqual(resolve_project_path(old, self.root), target)
+            self.assertEqual(resolve_project_path(self.root / old, self.root), target)
+            self.assertEqual(resolve_project_path(target, self.root), target)
+        self.assertFalse((self.root / "report_cleanup").exists())
+        for name in ["report_cleanup_extra/file.json", "archive/report_cleanup/file.json"]:
+            self.assertEqual(resolve_project_path(name, self.root), self.root / name)
+        with self.assertRaises(ValueError):
+            resolve_project_path("report_cleanup/../../../outside.json", self.root)
+
 
 if __name__ == "__main__":
     unittest.main()

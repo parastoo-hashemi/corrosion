@@ -1,8 +1,0 @@
-./main_4_old/NEXT_STEPS_PLAN.md:80:3. `PROJECT_CONSTRAINTS.md`
-./main_4_old/OUTPUT_INVENTORY.csv:85:PROJECT_CONSTRAINTS.md,md,report,Canonical verified project constraints and dataset facts.,useful
-./main_4_old/CODEBASE_GUIDE.md:100:| `PROJECT_CONSTRAINTS.md` | canonical verified project facts | you need the final accepted dataset facts and scientific rules | Core |
-./main_4_old/CODEBASE_GUIDE.md:161:1. `PROJECT_CONSTRAINTS.md`
-./main_4/NEXT_STEPS_PLAN.md:80:3. `PROJECT_CONSTRAINTS.md`
-./main_4/CODEBASE_GUIDE.md:100:| `PROJECT_CONSTRAINTS.md` | canonical verified project facts | you need the final accepted dataset facts and scientific rules | Core |
-./main_4/CODEBASE_GUIDE.md:161:1. `PROJECT_CONSTRAINTS.md`
-./main_4/OUTPUT_INVENTORY.csv:85:PROJECT_CONSTRAINTS.md,md,report,Canonical verified project constraints and dataset facts.,useful

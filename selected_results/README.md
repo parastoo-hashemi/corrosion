@@ -36,7 +36,7 @@ the current reports.
 - [manifest.json](manifest.json) records original/current paths, SHA-256 checksums
   and all verified exact matching source copies for the 30 research files.
   Paths in that manifest are relative to the repository root.
-- The [preservation record](../report_cleanup/selected_results/README.md) documents
+- The [preservation record](../archive/repository_maintenance/selected_results/README.md) documents
   the verified external backup and the folder mapping. The original Finder
   metadata file was also retained, separately from the 30 research files.
 - For future results, add a new clearly named file or dated subfolder and extend

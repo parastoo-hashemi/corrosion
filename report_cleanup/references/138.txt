@@ -1,2 +1,0 @@
-./MORNING_SUMMARY.md:30:| Scientific-writing research/rubric | `report_v2/RESEARCH_NOTES.md` |
-./report_v2/MORNING_SUMMARY.md:30:| Scientific-writing research/rubric | `report_v2/RESEARCH_NOTES.md` |

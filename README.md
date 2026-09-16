@@ -63,7 +63,7 @@ follow the [data dictionary](docs/data_dictionary.md) when selecting inputs.
 | [archive/](archive) | Earlier structural snapshot and historical working records |
 | [selected_results/](selected_results/README.md) | Curated collection of 28 figures and two historical papers, formerly `emiling/` |
 | [out/](out) | Six preserved historical PDF exports |
-| [report_cleanup/](report_cleanup) | Maintenance manifests, recovery information and preservation checks |
+| [archive/repository_maintenance/](archive/repository_maintenance/README.md) | Maintenance manifests, recovery information and preservation checks |
 
 The [folder migration guide](docs/folder_migration.md) maps old names such as
 `main_3` and `main_4` to these directories. Historical paths can be resolved with:
@@ -73,7 +73,7 @@ python research_paths.py "main_4/outputs/data/master_table.csv"
 ```
 
 The final delivery reports are the v3 article and thesis linked above. A historical
-70-page activity-report draft remains in `out/`; the [export audit](report_cleanup/out_audit/README.md)
+70-page activity-report draft remains in `out/`; the [export audit](archive/repository_maintenance/out_audit/README.md)
 explains its status and other document variants.
 
 ## Inspect the handoff
@@ -81,7 +81,7 @@ explains its status and other document variants.
 From the repository root:
 
 ```bash
-python -B report_cleanup/renaming/verify_renaming.py --quick
+python -B archive/repository_maintenance/renaming/verify_renaming.py --quick
 ```
 
 This checks preservation records, source syntax, paths, links and saved validation

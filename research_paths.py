@@ -28,7 +28,9 @@ def resolve_project_path(recorded_path: str | Path, project_root: Path | None = 
     path = Path(recorded_path)
     if path.is_absolute():
         path = path.relative_to(root)
-    if path.parts and path.parts[0] in {"report_v2", "final_reports"}:
+    if path.parts and path.parts[0] == "report_cleanup":
+        path = Path("archive/repository_maintenance", *path.parts[1:])
+    elif path.parts and path.parts[0] in {"report_v2", "final_reports"}:
         parts = list(path.parts[1:])
         if parts and parts[0] in {"thesis", "article"}:
             kind, *remaining = parts

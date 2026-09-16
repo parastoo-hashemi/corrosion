@@ -1,7 +1,0 @@
-{
-  "path": ".DS_Store",
-  "pre_rename_sha256": "52effca14f015e2042bc0dd02fb73bb66383c6116deba7472db45c654d085aa5",
-  "pre_alias_removal_sha256": "890869c056d0e5cbd9c0476824fc08ce5c7b4390ed53543ccbc3f0c4b133b4ee",
-  "current_sha256": "890869c056d0e5cbd9c0476824fc08ce5c7b4390ed53543ccbc3f0c4b133b4ee",
-  "note": "Finder folder-view metadata changed between the rename baseline and this cleanup; it has not changed during alias removal. Preserved without rewriting."
-}

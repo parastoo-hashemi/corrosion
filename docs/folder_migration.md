@@ -23,7 +23,7 @@ The selected sharing collection was also renamed, preserving every file:
 | `emiling/main_4/` | [selected_results/structural_capacity/](../selected_results/structural_capacity/README.md) |
 
 The nested `metadata_only+Ridge/` folder and all research filenames are unchanged.
-See the [backup and preservation record](../report_cleanup/selected_results/README.md).
+See the [backup and preservation record](../archive/repository_maintenance/selected_results/README.md).
 
 ## Final report package
 
@@ -35,12 +35,20 @@ See the [backup and preservation record](../report_cleanup/selected_results/READ
 | `report_v2/thesis/v3/` sources | [final_reports/sources/thesis/](../final_reports/sources/thesis/README.md) |
 | `report_v2/article/v3/` sources | [final_reports/sources/article/](../final_reports/sources/article/README.md) |
 | Shared figures, tables, references and scripts | Same subfolder names under `final_reports/` |
-| Scattered evidence, QA and review links; former `final_reports/records/` | [Manuscript archive](../archive/agent_working_notes/report_v2/) |
+| Scattered evidence, QA and review links; former `final_reports/records/` | [Manuscript archive](../archive/agent_working_notes/report_v2) |
 
 Both delivered PDFs and all LaTeX content are unchanged. Sources retain the same
 relative depth to their shared assets. Build products were removed after backup;
-see the [recovery record](../report_cleanup/final_reports/README.md). Old citations
+see the [recovery record](../archive/repository_maintenance/final_reports/README.md). Old citations
 can be located with `python research_paths.py "report_v2/thesis/v3/thesis.pdf"`.
+
+## Repository maintenance records
+
+The former `report_cleanup/` directory now lives in
+[archive/repository_maintenance/](../archive/repository_maintenance/README.md).
+It contains cleanup inventories, verification tools and recovery records. Its
+current tools and guide links use the archive directly; no root shortcut is needed.
+Historical recorded paths still resolve with `python research_paths.py`.
 
 ## Clean root and historical paths
 
@@ -87,7 +95,7 @@ From the **repository root**:
 ```bash
 python classification_data_preparation/augment_dataset.py --help
 python classification_data_preparation/make_splits.py --help
-python report_cleanup/renaming/verify_renaming.py --quick
+python archive/repository_maintenance/renaming/verify_renaming.py --quick
 python -B -m unittest discover -s tests
 python -B -m unittest discover -s condition_assessment/tests
 ```
@@ -110,10 +118,10 @@ needs a separate environment repair.
 
 ## Evidence and recovery
 
-The [cleanup report](../report_cleanup/alias_removal/CLEANUP_REPORT.md) records the
-current alias-free layout and verification. The [earlier migration report](../report_cleanup/renaming/RENAMING_REPORT.md)
-records the preceding rename stage. [move_manifest.csv](../report_cleanup/renaming/move_manifest.csv)
-maps every relocated regular file, and [folder_map.json](../report_cleanup/renaming/folder_map.json)
+The [cleanup report](../archive/repository_maintenance/alias_removal/CLEANUP_REPORT.md) records the
+current alias-free layout and verification. The [earlier migration report](../archive/repository_maintenance/renaming/RENAMING_REPORT.md)
+records the preceding rename stage. [move_manifest.csv](../archive/repository_maintenance/renaming/move_manifest.csv)
+maps every relocated regular file, and [folder_map.json](../archive/repository_maintenance/renaming/folder_map.json)
 maps the seven directories. The immediately pre-rename file hashes, original text
 of edited files, and before/after test records are alongside them.
 
@@ -130,6 +138,6 @@ restore operations against unrelated work. No staging, commit, or other Git
 mutation was performed for this migration.
 
 The subsequent alias-removal stage keeps its immediately preceding source/guide
-versions in `report_cleanup/alias_removal/source_before/`. The removed links and
-their exact targets are recorded in `report_cleanup/alias_removal/removed_links.json`.
+versions in `archive/repository_maintenance/alias_removal/source_before/`. The removed links and
+their exact targets are recorded in `archive/repository_maintenance/alias_removal/removed_links.json`.
 No real research directory was deleted.

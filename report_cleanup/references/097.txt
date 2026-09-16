@@ -1,4 +1,0 @@
-./main_4_old/src/corrosion_proxy_rul/diagnostics.py:2019:    write_text(ROOT_DIR / "OUTPUT_VISUALIZATION_PLAN.md", "\n".join(output_lines))
-./main_4_old/CODEBASE_GUIDE.md:111:| `OUTPUT_VISUALIZATION_PLAN.md` | mapping from outputs to visual companions | you want to see which CSVs have matching plots | Support |
-./main_4/src/corrosion_proxy_rul/diagnostics.py:2019:    write_text(ROOT_DIR / "OUTPUT_VISUALIZATION_PLAN.md", "\n".join(output_lines))
-./main_4/CODEBASE_GUIDE.md:111:| `OUTPUT_VISUALIZATION_PLAN.md` | mapping from outputs to visual companions | you want to see which CSVs have matching plots | Support |

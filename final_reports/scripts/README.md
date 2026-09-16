@@ -24,7 +24,7 @@ adds the v3 entries. Treat them as generation utilities, not read-only viewers.
 
 Evidence and QA paths in the table are relative to the repository root. Figure,
 table and provenance outputs remain under `final_reports/`. The scripts access
-the [manuscript archive](../../archive/agent_working_notes/report_v2/) directly;
+the [manuscript archive](../../archive/agent_working_notes/report_v2) directly;
 running them can overwrite saved audit records. Use a separate complete repository copy
 for future execution, including the archive. The [environment notes](../../docs/reproduction.md)
 and [known issues](../../docs/known_issues.md) describe existing execution limits;
@@ -32,5 +32,5 @@ retaining a script does not certify a new run.
 
 Manuscript compilation uses the direct LaTeX commands in the [report guide](../README.md).
 Optional publication-build utilities and the obsolete all-draft checker were
-previously removed; their [removal record](../../report_cleanup/publication_tools/README.md)
+previously removed; their [removal record](../../archive/repository_maintenance/publication_tools/README.md)
 explains recovery.

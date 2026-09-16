@@ -1,1 +1,0 @@
-./Documentation/final_strategy.md:4:> **Basis:** Full audit of codebase, 329 CSVs, 430 figures, IEEE papers, and diagnostic reports documented in `verification_audit.md` and `project_review.md`.

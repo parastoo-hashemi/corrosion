@@ -18,5 +18,5 @@ unresolved; no broad replacement is safe.
 Source directories use the descriptive names listed in [the migration guide](docs/folder_migration.md).
 The old root aliases have been removed. Retain the archive-document links and
 use `research_paths.resolve_project_path` when reading historical repository paths. Use the current
-`report_cleanup/renaming/verify_renaming.py` checker for this layout. The original longer agent guide is preserved in
+`archive/repository_maintenance/renaming/verify_renaming.py` checker for this layout. The original longer agent guide is preserved in
 [the development archive](archive/agent_working_notes/CLAUDE.md).

@@ -1,6 +1,0 @@
-./main_4_old/FIXES_APPLIED.md:26:  - The generated report language was rewritten conservatively, and the stale report-related sentence in [OUTPUT_REVIEW.md](/Users/parastoo/All_projects/Proj_corrosion/main_4/OUTPUT_REVIEW.md) was updated.
-./main_4_old/FIXES_APPLIED.md:37:- [OUTPUT_REVIEW.md](/Users/parastoo/All_projects/Proj_corrosion/main_4/OUTPUT_REVIEW.md)
-./main_4_old/FIXES_APPLIED.md:85:- [OUTPUT_REVIEW.md](/Users/parastoo/All_projects/Proj_corrosion/main_4/OUTPUT_REVIEW.md)
-./main_4/FIXES_APPLIED.md:26:  - The generated report language was rewritten conservatively, and the stale report-related sentence in [OUTPUT_REVIEW.md](/Users/parastoo/All_projects/Proj_corrosion/main_4/OUTPUT_REVIEW.md) was updated.
-./main_4/FIXES_APPLIED.md:37:- [OUTPUT_REVIEW.md](/Users/parastoo/All_projects/Proj_corrosion/main_4/OUTPUT_REVIEW.md)
-./main_4/FIXES_APPLIED.md:85:- [OUTPUT_REVIEW.md](/Users/parastoo/All_projects/Proj_corrosion/main_4/OUTPUT_REVIEW.md)
