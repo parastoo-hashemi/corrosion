@@ -17,13 +17,13 @@ later workstream.
 
 | Phase and folder | Research question or contribution | Evidence to inspect | Status |
 |---|---|---|---|
-| 0. [Exploratory prototype](../exploratory_prototype) | Initial handcrafted features, random forests and simulated trajectories | [Prototype artifacts](../exploratory_prototype/ressult) | Exploratory; no defensible comparable held-out benchmark |
-| 1. [Classical corrosion](../classical_corrosion) | Estimate current peak corrosion, progression and threshold time | [Current-corrosion metrics](../classical_corrosion/reports/current_corrosion_metrics.csv), [progression metrics](../classical_corrosion/reports/progression_metrics.csv), [threshold-time metrics](../classical_corrosion/reports/time_to_threshold_metrics.csv) | Saved historical benchmarks; training rerun unverified; threshold time is not validated structural lifetime |
-| 2. [Image embeddings](../image_embeddings) | Compare frozen ResNet-18 image embeddings with added tabular context | [Model comparison](../image_embeddings/reports/model_comparison.csv), [saved predictions](../image_embeddings/reports/predictions_best_model.csv) | Saved historical results; embedding API blocked by saved-preprocessor compatibility |
-| 3. [Condition assessment](../condition_assessment) | Relate interpretable image features to surface corrosion, hidden damage and proxy-RUL | [Surface metrics](../condition_assessment/outputs/corrosion_regression_metrics.csv), [structural metrics](../condition_assessment/outputs/damage_regression_metrics.csv), [five-class metrics](../condition_assessment/outputs/corrosion_classification_metrics.csv) | Saved 792-row/five-class generation; current modelling source requires repair |
-| 4a. [Structural robustness](../structural_capacity) | Test sensitivity to specimen, treatment and campaign holdouts | [Robustness comparison](../structural_capacity/outputs/diagnostics/tables/benchmark_best_model_robustness.csv), [diagnostics](../structural_capacity/outputs/diagnostics), [improvement analyses](../structural_capacity/outputs/improvements) | Saved 791-row generation; structural transfer remains weak; rerun blocked by source/configuration defects |
+| 0. [Exploratory prototype](../exploratory_prototype/README.md) | Initial handcrafted features, random forests and simulated trajectories | [Prototype artifacts](../exploratory_prototype/ressult) | Grouped-holdout scripts exist, but no complete saved evaluation bundle for a comparable benchmark |
+| 1. [Classical corrosion](../classical_corrosion/README.md) | Estimate current peak corrosion, progression and threshold time | [Current-corrosion metrics](../classical_corrosion/reports/current_corrosion_metrics.csv), [progression metrics](../classical_corrosion/reports/progression_metrics.csv), [threshold-time metrics](../classical_corrosion/reports/time_to_threshold_metrics.csv) | Selection used holdout error; refitted models are saved; threshold time is not structural lifetime |
+| 2. [Image embeddings](../image_embeddings/README.md) | Compare frozen ResNet-18 image embeddings with added tabular context | [Model comparison](../image_embeddings/reports/model_comparison.csv), [saved predictions](../image_embeddings/reports/predictions_best_model.csv) | Selected image-only model; selection used test MAE; API has a saved-preprocessor compatibility blocker |
+| 3. [Condition assessment](../condition_assessment/README.md) | Relate interpretable image features to surface corrosion, hidden damage and proxy-RUL | [Surface metrics](../condition_assessment/outputs/corrosion_regression_metrics.csv), [structural metrics](../condition_assessment/outputs/damage_regression_metrics.csv), [five-class metrics](../condition_assessment/outputs/corrosion_classification_metrics.csv) | Saved 792-row/five-class generation; current modelling source requires repair |
+| 4a. [Structural robustness](../structural_capacity/README.md) | Test sensitivity to specimen, treatment and campaign holdouts | [Robustness comparison](../structural_capacity/outputs/diagnostics/tables/benchmark_best_model_robustness.csv), [diagnostics](../structural_capacity/outputs/diagnostics), [improvement analyses](../structural_capacity/outputs/improvements) | Saved 791-row generation; structural transfer remains weak; rerun blocked by source/configuration defects |
 | 4b. [Terminal-load refocus](../structural_capacity/outputs/ultimate_load_refocus) | Do image descriptors add value beyond metadata for terminal ultimate load? | [Grouped feature comparison](../structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison.csv), [campaign holdout](../structural_capacity/outputs/ultimate_load_refocus/pooled_all_weeks/leave_one_campaign_out/feature_set_comparison.csv) | Most mature saved structural study; present source is not a validated rerun baseline |
-| 5. [Four-class preparation](../classification_data_preparation) | Prepare augmented images and fixed specimen-disjoint partitions | [Split summary](../final_reports/tables/classification_splits.csv), [train](../Data/splits/train_manifest.csv), [validation](../Data/splits/val_manifest.csv), [test](../Data/splits/test_manifest.csv) manifests | Preparation complete; classifier training/evaluation not performed |
+| 5. [Four-class preparation](../classification_data_preparation/README.md) | Prepare augmented images and fixed specimen-disjoint partitions | [Split summary](../final_reports/tables/classification_splits.csv), [train](../Data/splits/train_manifest.csv), [validation](../Data/splits/val_manifest.csv), [test](../Data/splits/test_manifest.csv) manifests | Main dataset/splits prepared; classifier untrained; optional variant metadata need reconciliation |
 
 The [archived structural baseline](../archive/structural_baseline_snapshot) is an
 earlier saved state. [Selected results](../selected_results/README.md), formerly
@@ -31,6 +31,10 @@ earlier saved state. [Selected results](../selected_results/README.md), formerly
 `out/` retains PDF exports. These collections are not additional independent
 experiments. [Project history](project_history.md) explains
 changes in direction and historical terminology.
+
+The phase guides map script roles, saved evidence and reproduction limits.
+Follow the row for the experiment being inspected: similar target names across
+generations do not make their cohorts, labels or metrics interchangeable.
 
 ## Key results and evidence
 
@@ -87,6 +91,24 @@ python -m corrosion.image_embeddings.train_phase2 --help
 
 Both help commands passed during folder migration. This verifies imports and
 argument parsing only. The embedding API has a separate saved-preprocessor blocker.
+The [classical guide](../classical_corrosion/README.md#source-and-execution) explains
+training and inference commands. The [embedding guide](../image_embeddings/README.md#reproduction-and-api-limits)
+explains why changing its report destination alone does not isolate every output.
+
+### Working directories
+
+| Phase | Working directory and entry style |
+|---|---|
+| Exploratory prototype | Historically `exploratory_prototype/`; source review first, because most scripts execute on import and lack `--help` |
+| Classical / image embeddings | Parent of the checkout; `python -m corrosion.<phase>.<module>` |
+| Condition assessment | Repository root; `python condition_assessment/scripts/<stage>.py` |
+| Structural capacity | `structural_capacity/`; `python <entry_script>.py` |
+| Classification preparation | Repository root; `python classification_data_preparation/<script>.py` |
+
+The [prototype guide](../exploratory_prototype/README.md#script-map) maps the early
+scripts without treating them as a verified pipeline. For classification, follow
+the [preparation guide](../classification_data_preparation/README.md) and the
+[generation commands](reproduction.md#3-classification-data-preparation-in-order).
 
 ### Condition-assessment phase
 

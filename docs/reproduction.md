@@ -6,7 +6,7 @@ Use the repository root as the working directory. On the delivery machine:
 
 ```bash
 cd /Users/parastoo/All_projects/Proj_corrosion/corrosion
-/opt/anaconda3/envs/env/bin/python archive/repository_maintenance/renaming/verify_renaming.py --quick
+/opt/anaconda3/envs/env/bin/python -B archive/repository_maintenance/renaming/verify_renaming.py --quick --output /tmp/corrosion-handoff-check.json
 /opt/anaconda3/envs/env/bin/python classification_data_preparation/augment_dataset.py --help
 /opt/anaconda3/envs/env/bin/python classification_data_preparation/make_splits.py --help
 ```
@@ -20,11 +20,13 @@ model-loading and prediction checks. To hash every pre-existing file against the
 immediately pre-rename inventory:
 
 ```bash
-python archive/repository_maintenance/renaming/verify_renaming.py --full
+python -B archive/repository_maintenance/renaming/verify_renaming.py --full --output /tmp/corrosion-handoff-full-check.json
 ```
 
-The full check reads approximately 49 GB and writes only its own verification
-records under `archive/repository_maintenance/renaming/`. It does not run models or modify saved outputs.
+The full check reads approximately 49 GB. These commands write receipts to the
+specified temporary paths, preserving earlier verification records. The checker
+compares historical baselines; consult the [latest review](../archive/repository_maintenance/handoff_guides/README.md)
+for pre-existing differences. It does not run models or modify saved outputs.
 A clean checkout needs the ignored local data and artifacts too. Preserve symlinks
 when copying the retained archive-document links. The seven old root folder
 shortcuts have been removed; use the new names in commands and imports.
@@ -53,10 +55,10 @@ before choosing versions; no packages were installed or upgraded during cleanup.
 Report builds require `latexmk`, a LaTeX distribution, BibTeX and the packages
 declared in the masters, including IEEEtran for the article.
 
-The ignore-rule correction makes the three files in
-`condition_assessment/src/data/` eligible for tracking, but they remain untracked
-until a later approved Git update. Include them in a local transfer together with
-the ignored data/model bundle. A Git-only clone is not yet the complete handoff.
+The three files in `condition_assessment/src/data/` are tracked and pass the
+ignore-rule eligibility check at this handoff review. Include the ignored local
+data/model bundle when transferring the project; a Git-only clone is not the
+complete handoff. This documentation review does not stage or commit files.
 
 ## 2. Prepare a separate reproduction copy
 
@@ -102,8 +104,13 @@ provenance; the split script uses the existing explicit 38/5/5 specimen assignme
 
 Controlled variants are generated separately by
 `python classification_data_preparation/create_dataset_variants.py`; consult its `--help` before choosing
-new destinations. The existing [variant package](../Data/augmentation_variants) contains the completed
-preparation results. The former `Documentation/codex/augmentation_variant_report.md`
+new destinations. Its contact sheets still use a fixed phase figure directory,
+so `--output-dir` alone does not redirect every write; use the separate copy.
+The saved [variant package](../Data/augmentation_variants) needs
+[metadata reconciliation](known_issues.md#controlled-variant-metadata-needs-reconciliation)
+before classifier use. Its `sigma*` CSVs do not match the current generator's full
+provenance schema, and `sigma2_noise` has two missing original metadata rows.
+The former `Documentation/codex/augmentation_variant_report.md`
 path is absent in this delivery; it is not a current reproduction dependency.
 Prepared data do not demonstrate classifier accuracy.
 
@@ -127,11 +134,10 @@ versions (v1, v2) were removed from the working tree. A historical compiled
 in `out/`; it is not the current delivery report. See the
 [export audit](../archive/repository_maintenance/out_audit/README.md) for document provenance.
 
-These build commands were inspected but not executed during cleanup: the delivered
-PDF hashes are preserved, and the prior report QA contains their compilation and
-visual review records. Rebuilding on another TeX installation need not yield the
-same binary hash. After any manuscript edit, compile, render, and visually inspect
-all affected pages.
+The delivered PDFs remain the reference copies; prior report QA retains build
+and visual-review records. Rebuilding on another TeX installation need not yield
+the same binary hash. After any manuscript edit, compile, render, and visually
+inspect all affected pages. The current documentation review did not rebuild them.
 
 The retained [scientific report scripts](../final_reports/scripts/README.md) audit saved
 results, recompute summary statistics and regenerate scientific figures/tables.
@@ -149,7 +155,12 @@ lists removed files and explains how to recover their external backup.
 
 ## 5. Resume modelling only after a separate repair
 
-[Experiments](experiments.md) lists the historical commands and working directories.
+[Experiments](experiments.md#working-directories) lists the working directories.
+Start with the phase guide: [classical models](../classical_corrosion/README.md),
+[image embeddings](../image_embeddings/README.md), [condition assessment](../condition_assessment/README.md)
+or [structural capacity](../structural_capacity/README.md). The
+[exploratory scripts](../exploratory_prototype/README.md) need source review before
+execution and are not a package import smoke test.
 First recover intended source/config values and category types; then confirm
 specimen grouping, train-only preprocessing, target units, and evaluation time.
 Do not infer that AST or YAML parsing success proves end-to-end execution.

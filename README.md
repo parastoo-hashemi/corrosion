@@ -25,7 +25,7 @@ remaining-life prediction. See the [key results and evidence](docs/experiments.m
 | Workstream | What is available | What remains |
 |---|---|---|
 | Terminal structural capacity | Saved benchmarks, specimen splits, predictions and final manuscripts | Repair and validate the current modelling source before a new run |
-| Four-class corrosion classification | Prepared images, augmentation records and fixed specimen partitions | Classifier training and evaluation have not been performed |
+| Four-class corrosion classification | Main augmented dataset and fixed specimen partitions | Classifier training/evaluation; optional variant metadata need reconciliation before use |
 | Reproduction | Preservation checks, documented commands and recorded check environment | A verified historical training environment and complete end-to-end reruns |
 
 Saved results are available for scientific review. Successful file checks or model
@@ -51,12 +51,12 @@ follow the [data dictionary](docs/data_dictionary.md) when selecting inputs.
 
 | Location | Purpose |
 |---|---|
-| [structural_capacity/](structural_capacity) | Most mature structural study: robustness analysis and terminal-load refocus |
-| [classification_data_preparation/](classification_data_preparation) | Current four-class preparation and specimen partitions |
-| [exploratory_prototype/](exploratory_prototype) | Earliest exploratory work; no comparable held-out benchmark |
-| [classical_corrosion/](classical_corrosion) | Historical classical corrosion models |
-| [image_embeddings/](image_embeddings) | Historical frozen-image embeddings and tabular context |
-| [condition_assessment/](condition_assessment) | Interpretable features, structural feasibility and first proxy-RUL pipeline |
+| [structural_capacity/](structural_capacity/README.md) | Most mature structural study: robustness analysis and terminal-load refocus |
+| [classification_data_preparation/](classification_data_preparation/README.md) | Current four-class preparation and specimen partitions |
+| [exploratory_prototype/](exploratory_prototype/README.md) | Earliest exploratory work; no comparable held-out benchmark |
+| [classical_corrosion/](classical_corrosion/README.md) | Historical classical corrosion models |
+| [image_embeddings/](image_embeddings/README.md) | Historical frozen-image embeddings and tabular context |
+| [condition_assessment/](condition_assessment/README.md) | Interpretable features, structural feasibility and first proxy-RUL pipeline |
 | [final_reports/](final_reports) | Current v3 article/thesis, scientific figures, tables and retained analysis scripts |
 | [docs/](docs) | Experiment map, history, data definitions, reproduction and known issues |
 | [Data/](Data), [Documentation/](Documentation) | Local data and predecessor experimental documentation; excluded from Git |
@@ -81,22 +81,26 @@ explains its status and other document variants.
 From the repository root:
 
 ```bash
-python -B archive/repository_maintenance/renaming/verify_renaming.py --quick
+python -B archive/repository_maintenance/renaming/verify_renaming.py --quick --output /tmp/corrosion-handoff-check.json
 ```
 
 This checks preservation records, source syntax, paths, links and saved validation
 receipts. It does not train models. The `--full` option also hashes the remaining
-baseline files, reading approximately 49 GB.
+baseline files, reading approximately 49 GB. The explicit output path preserves
+earlier receipts. The checker compares historical baselines: later edits or
+regenerated build products can produce failures that need interpretation. The
+[latest handoff review](archive/repository_maintenance/handoff_guides/README.md)
+records existing differences and the documentation-check scope.
 
 The [environment instructions](docs/reproduction.md#environment-and-dependencies)
 list dependencies and installation gaps. The recorded check environment is not a
 verified historical training environment. For a complete transfer, include the
 local data/model bundle and preserve symbolic links.
 
-The ignore rules now expose the three Python files in
-`condition_assessment/src/data/`. They remain untracked until a later approved Git
-update; include them in the local handoff bundle. Raw/generated data exclusions
-remain in place.
+The three Python files in `condition_assessment/src/data/` are tracked and are not
+excluded by the current ignore rules, as verified during the handoff review.
+Raw/generated data exclusions remain in place, so Git alone is still not the
+complete research bundle.
 
 ## Continue the research
 
@@ -108,7 +112,8 @@ copy and give new experiments their own results directory.
 
 1. Review the article and the [saved evidence](docs/experiments.md#key-results-and-evidence).
 2. Choose a workstream. The prepared four-class classifier is the clearest pending
-   experiment; use its saved specimen-disjoint partitions and report class imbalance.
+   experiment; start with its main saved specimen-disjoint partitions and report
+   class imbalance. Optional variants need the documented metadata reconciliation first.
 3. For structural reruns, recover intended source/configuration values and resolve
    the documented category and environment issues in a separate reproduction copy.
 4. Give each new experiment its own output directory, configuration, environment

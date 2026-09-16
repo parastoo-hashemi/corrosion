@@ -40,11 +40,11 @@ artifacts and local render/build files; provide the complete local bundle for ha
 The accidental source exclusion is resolved: `.gitignore` now names the actual
 raw/generated data directories explicitly. It no longer hides
 `condition_assessment/src/data/io.py`, `canonical.py` or `__init__.py` on this
-case-insensitive checkout. Only those three existing files changed ignore status;
-their contents and all other existing data exclusions are unchanged. The files
-remain untracked because no staging or commit was authorized. Until a later
-approved Git update includes them, provide them in the local handoff bundle;
-changing an ignore rule alone does not make them available in a Git clone.
+case-insensitive checkout. At the final handoff review, read-only Git checks show
+all three files are tracked and not ignored. The earlier statements that they
+were untracked are superseded by this observed checkout state. No staging or
+commit is part of this documentation review; ignored data/model assets still
+need inclusion in the local transfer.
 The retained archive-document links must be preserved when copying. The seven
 old root aliases are removed; use the descriptive package names and the folder
 map to interpret historical commands. Saved metadata readers translate historical
@@ -64,6 +64,30 @@ delivery state. They assume files that were subsequently removed and unmodified
 source hashes. Use `archive/repository_maintenance/renaming/verify_renaming.py` for the current
 layout. Historical evidence ledgers retain their original paths and hashes; changed
 source hashes are recorded separately in the migration receipts.
+
+## Controlled-variant metadata needs reconciliation
+
+The main four-class augmentation metadata and fixed split manifests remain the
+starting point for classifier work. Optional [controlled variants](../Data/augmentation_variants/)
+need a separate metadata review before use:
+
+- All four `sigma*` CSVs retain only six columns and omit `specimen_id`,
+  `image_path` and `original_image_path`. Join `original_image_name` to the main
+  augmentation metadata to recover grouping. Verify image locations and apply
+  the fixed specimen assignments before selecting training augmentations.
+- [sigma2_noise metadata](../Data/augmentation_variants/sigma2_noise/metadata.csv)
+  currently contain **1,580 rows: 789 originals + 791 augmentations**. Its retained
+  README states 1,582. Original rows for `D01-20240110-0W.png` and
+  `D01-20240124-2W.png` are absent; their augmented counterparts are present.
+- The referenced generated variant images checked during this review are present.
+  These are metadata discrepancies, not a finding that the source originals were lost.
+  The [inspection record](../archive/repository_maintenance/handoff_guides/variant_inspection.json)
+  records counts and checks without rewriting any dataset.
+
+The current generator writes a fuller schema than these saved sigma CSVs. A seed
+and command alone therefore do not establish exact reproduction of their present
+contents. Preserve these records, review the discrepancy, then create a separately
+versioned reconciled dataset. Classifier training/evaluation remain unfinished.
 
 ## Scientific and continuation limits
 

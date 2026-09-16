@@ -8,13 +8,13 @@ are phase identifiers, not a quality ranking.
 
 | Folder | What it contributed | Status and safe use |
 |---|---|---|
-| `exploratory_prototype/` | Exploratory random-forest/image-processing scripts and simulated trajectories | Prototype; no defensible held-out evaluation or comparable saved benchmark |
-| `classical_corrosion/` | Classical current-corrosion, progression, and threshold-time baselines; API wrappers | Historical corrosion benchmark, not structural lifetime validation |
-| `image_embeddings/` | Frozen pretrained ResNet-18 image embeddings combined with tabular context and a regression head | Historical experiment; not the later untrained four-class ResNet50/ViT proposal |
-| `condition_assessment/` | Interpretable image features, grouped surface/structural modelling, degradation curves, and first proxy-RUL outputs | Historical 792-row/five-class generation; its old “final implementation” wording is superseded by this phase map |
-| `structural_capacity/` | Readable-image alignment, robustness diagnostics, then terminal ultimate-load refocus | Most mature saved structural study; current source still has unresolved execution defects |
+| [exploratory_prototype/](../exploratory_prototype/README.md) | Exploratory random-forest/image-processing scripts and simulated trajectories | Grouped-holdout scripts exist; no complete saved evaluation bundle for a comparable benchmark |
+| [classical_corrosion/](../classical_corrosion/README.md) | Classical current-corrosion, progression, and threshold-time baselines; API wrappers | Historical corrosion benchmark, not structural lifetime validation |
+| [image_embeddings/](../image_embeddings/README.md) | Frozen pretrained ResNet-18 image embeddings combined with tabular context and a regression head | Historical experiment; not the later untrained four-class ResNet50/ViT proposal |
+| [condition_assessment/](../condition_assessment/README.md) | Interpretable image features, grouped surface/structural modelling, degradation curves, and first proxy-RUL outputs | Historical 792-row/five-class generation; its old “final implementation” wording is superseded by this phase map |
+| [structural_capacity/](../structural_capacity/README.md) | Readable-image alignment, robustness diagnostics, then terminal ultimate-load refocus | Most mature saved structural study; current source still has unresolved execution defects |
 | `archive/structural_baseline_snapshot/` | Retained earlier baseline tree and its output state | Historical snapshot, not a verified identical duplicate; internal code/data/output layout is preserved |
-| `classification_data_preparation/` | Offline photometric/geometric augmentation, controlled variants, fixed specimen partitions | Later four-class data preparation; training/evaluation remains pending |
+| [classification_data_preparation/](../classification_data_preparation/README.md) | Offline photometric/geometric augmentation, controlled variants, fixed specimen partitions | Main dataset/splits prepared; optional variant metadata need reconciliation; training/evaluation pending |
 | [selected_results/](../selected_results/README.md), formerly `emiling/` | Selected figures and papers assembled for sharing | Preserved collection organized by phase, with source links and interpretation limits |
 
 The phase interpretation is grounded in the scripts, configs, saved output
