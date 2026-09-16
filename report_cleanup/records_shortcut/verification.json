@@ -1,0 +1,136 @@
+{
+  "time_utc": "2026-09-16T16:57:20.951374+00:00",
+  "passed": true,
+  "failures": [],
+  "removed_only": {
+    "path": "final_reports/records",
+    "target": "../archive/agent_working_notes/report_v2",
+    "resolved": "archive/agent_working_notes/report_v2"
+  },
+  "archive_files_hashed_unchanged": 241,
+  "former_shortcut_paths_resolved": 241,
+  "report_files_hashed_unchanged": 116,
+  "report_regular_file_inventory_unchanged": true,
+  "existing_out_files_hashed_unchanged": 34,
+  "scientific_script_logic": {
+    "scientific_scripts_path_only": [
+      "final_reports/scripts/audit_evidence.py",
+      "final_reports/scripts/audit_saved_figures.py",
+      "final_reports/scripts/paired_diagnostics.py",
+      "final_reports/scripts/make_v3_figures.py"
+    ],
+    "direct_archive_paths_checked": [
+      {
+        "script": "final_reports/scripts/audit_evidence.py",
+        "path": "archive/agent_working_notes/report_v2/VERIFICATION_LOG.md"
+      },
+      {
+        "script": "final_reports/scripts/audit_evidence.py",
+        "path": "archive/agent_working_notes/report_v2/evidence"
+      },
+      {
+        "script": "final_reports/scripts/audit_saved_figures.py",
+        "path": "archive/agent_working_notes/report_v2/qa/v3"
+      },
+      {
+        "script": "final_reports/scripts/audit_saved_figures.py",
+        "path": "archive/agent_working_notes/report_v2/evidence/v3"
+      },
+      {
+        "script": "final_reports/scripts/paired_diagnostics.py",
+        "path": "archive/agent_working_notes/report_v2/evidence/paired_diagnostics.json"
+      },
+      {
+        "script": "final_reports/scripts/make_v3_figures.py",
+        "path": "archive/agent_working_notes/report_v2/evidence/v3/new_figure_checks.json"
+      }
+    ],
+    "archive_files_preserved_before_unlink": 241
+  },
+  "root_tests": {
+    "exit_code": 0,
+    "output": ".................\n----------------------------------------------------------------------\nRan 17 tests in 0.013s\n\nOK\n"
+  },
+  "document_links_checked": 481,
+  "tex_dependencies_resolved": 31,
+  "git_unchanged_from_task_start": true,
+  "git_after": {
+    "head": "8b10df732ab909d4b52e42e3d1e5a459debb1c99",
+    "branch": "master",
+    "refs": "19a6ae86496894378a1475de34aa6bdd93682b07 refs/heads/cleanup/delivery-prep\n8b10df732ab909d4b52e42e3d1e5a459debb1c99 refs/heads/master\nc5a4f1af2329bc7dbf27b9ec807d8dc3047020ff refs/heads/report-rebuild-codex\n7e69d7a152d43adf261aa16bb3dfea8f2ecfbb4c refs/heads/report-rebuild-codex-v3\n8b10df732ab909d4b52e42e3d1e5a459debb1c99 refs/remotes/origin/HEAD\n8b10df732ab909d4b52e42e3d1e5a459debb1c99 refs/remotes/origin/master",
+    "index_sha256": "35fe3d97760e295543e9a5da6bf02e9c0087a75ff795efcd8cfb392af9f1f238",
+    "staged": ""
+  },
+  "older_verifier_preexisting_failures": [
+    "authorized build-file removal: out/chapters/01_introduction.aux",
+    "removed empty output directory: out/chapters",
+    "edited file hash: .gitignore",
+    "new file hash: .run/Article_final_reports.run.xml",
+    "new file hash: .run/Thesis_final_reports.run.xml",
+    "Git changed: head",
+    "Git changed: refs",
+    "Git changed: index_sha256"
+  ],
+  "modified_files_after": [
+    {
+      "path": "research_paths.py",
+      "sha256": "658d3e1cd194fe768f4f77a6260fcfcc633337c30906a7dc0c51476888ecc446"
+    },
+    {
+      "path": "tests/test_research_paths.py",
+      "sha256": "7d69b3cbc7b77bcfb8d6de2d006ce7f3888747edacee09f76e24bcafa45bfbe1"
+    },
+    {
+      "path": "docs/folder_migration.md",
+      "sha256": "620d690819b90829c84f1714d1bb600881859c3eff48d09026c7a5f90091f53d"
+    },
+    {
+      "path": "final_reports/README.md",
+      "sha256": "89f9d81f4135bb396f84f64dd4701dcc5867839b4e6898b330ca4f3bea0ed38c"
+    },
+    {
+      "path": "final_reports/scripts/README.md",
+      "sha256": "31a396e6776870e86451b1e0eb5a45bd9635d43d9d19d80769747bc4b10fa007"
+    },
+    {
+      "path": "final_reports/figures/README.md",
+      "sha256": "203c5e94b3018618c12b2e4bd33424e983876daccb1cdc6f6bece723712e7fd4"
+    },
+    {
+      "path": "final_reports/tables/README.md",
+      "sha256": "b81723b77dc0af96448b406e7615418c76acb515072a46b80f48b1dc8faf8e45"
+    },
+    {
+      "path": "final_reports/sources/thesis/README.md",
+      "sha256": "f091a6369c0cb13426972ad5d496b6adfff3b7468f6d8d29d5daa843c4bccd3c"
+    },
+    {
+      "path": "report_cleanup/final_reports/README.md",
+      "sha256": "5437d40bd4597c014a7cf3dc5f9bda312ce4b520bed2c7badadea25927141ad6"
+    },
+    {
+      "path": "report_cleanup/renaming/verify_renaming.py",
+      "sha256": "d856da103a86a767dfcd904bfd2ce9583a585ff978ae8120f8ed5852488923c6"
+    },
+    {
+      "path": "report_cleanup/renaming/edited_files.json",
+      "sha256": "9167e67b7f5c72710f18e364556b0dabcc0a50a4b8362b63e60a424e7174131a"
+    },
+    {
+      "path": "final_reports/scripts/audit_evidence.py",
+      "sha256": "0e362fcc11376c890f0c6e6830192675c573bcc9929e7ee380c7656bf50bee59"
+    },
+    {
+      "path": "final_reports/scripts/audit_saved_figures.py",
+      "sha256": "71421d1b375592e0f4253cd5ee87b0740a2b10a4e5c3b616ee074d6d541686a6"
+    },
+    {
+      "path": "final_reports/scripts/paired_diagnostics.py",
+      "sha256": "25b2f0b68ae9ebae9fa170a9b11b6d847033ab2f7dfe13b7a06cd99c9fc7b2dd"
+    },
+    {
+      "path": "final_reports/scripts/make_v3_figures.py",
+      "sha256": "73eb92310d9ee897cfdc5964b16cb65a4ce5bae910d5970c1e9d8eb3f9677974"
+    }
+  ]
+}

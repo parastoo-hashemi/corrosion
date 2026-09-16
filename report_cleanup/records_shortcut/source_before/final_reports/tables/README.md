@@ -51,7 +51,7 @@ See the [experiment map](../../docs/experiments.md) for the scientific context.
 ## Provenance and maintenance
 
 The [script guide](../scripts/README.md) identifies the audit, paired-analysis and
-formatting utilities. [Archived claims](../../archive/agent_working_notes/report_v2/evidence/claims.json) record the saved
+formatting utilities. [Archived claims](../records/evidence/claims.json) record the saved
 numerical audit. Historical source paths and timestamps describe that recorded
 state; they are not fresh verification of the present environment.
 

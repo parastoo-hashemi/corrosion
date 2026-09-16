@@ -9,9 +9,7 @@ keeping editable LaTeX sources, bibliography, figures, tables and scientific wor
 [thesis.pdf](../../final_reports/thesis.pdf) and [article.pdf](../../final_reports/article.pdf).
 Editable manuscripts live under `sources/thesis/` and `sources/article/`; shared
 `figures/`, `tables/`, `references/` and `scripts/` remain at the package level.
-The manuscript archive is accessed directly from scripts and guide links. The
-initial `records/` shortcut was subsequently removed; see the
-[shortcut removal and preservation record](../records_shortcut/README.md).
+One `records/` link points to the preserved manuscript archive.
 
 The two source masters remain two directory levels below the shared assets, so
 all LaTeX source bytes, including their relative dependencies, are unchanged.
@@ -24,8 +22,7 @@ should be replaced only after reviewing those new builds.
   `.log`, `.out`, `.toc`, `.lof` and `.lot`. The `.tex` and `.bib` inputs are retained.
 - **One 200-byte placeholder README** in the otherwise empty thesis-local figure
   directory. Its direction to the shared figures is included in the current guides.
-- **Seven archive shortcuts**, initially consolidated into `final_reports/records/`.
-  That final shortcut was later removed after updating its dependencies.
+- **Seven archive shortcuts**, consolidated into `final_reports/records/`.
   Their target files were retained unchanged.
 - **11 emptied old directories**, including the redundant v3 layers and the
   old `report_v2/` root.

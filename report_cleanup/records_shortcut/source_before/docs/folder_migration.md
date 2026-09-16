@@ -35,7 +35,7 @@ See the [backup and preservation record](../report_cleanup/selected_results/READ
 | `report_v2/thesis/v3/` sources | [final_reports/sources/thesis/](../final_reports/sources/thesis/README.md) |
 | `report_v2/article/v3/` sources | [final_reports/sources/article/](../final_reports/sources/article/README.md) |
 | Shared figures, tables, references and scripts | Same subfolder names under `final_reports/` |
-| Scattered evidence, QA and review links; former `final_reports/records/` | [Manuscript archive](../archive/agent_working_notes/report_v2/) |
+| Scattered evidence, QA and review links | [final_reports/records/](../final_reports/records/) |
 
 Both delivered PDFs and all LaTeX content are unchanged. Sources retain the same
 relative depth to their shared assets. Build products were removed after backup;
@@ -65,11 +65,9 @@ this checkout are not guessed. Old manuscript path citations and archived Markdo
 links should be interpreted using the mapping above; the frozen documents are not
 rewritten. External scripts using old import names must use the new names.
 
-The remaining archive links are part of the delivery. Manuscript audit records
-are accessed directly in `archive/agent_working_notes/report_v2/`; the temporary
-`final_reports/records/` shortcut has been removed. Scripts and current guides use
-the archive directly, and the path resolver also accepts the former shortcut paths.
-Preserve the archive when copying the repository. `main_first` also occurs as pre-existing corrupted
+The remaining archive links are part of the delivery. The seven old report
+shortcuts were consolidated into `final_reports/records/`; preserve that link and
+its archive target when copying. `main_first` also occurs as pre-existing corrupted
 scientific values: these occurrences were not renamed or repaired. See
 [known issues](known_issues.md).
 

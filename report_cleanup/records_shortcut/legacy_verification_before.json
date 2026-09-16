@@ -1,5 +1,5 @@
 {
-  "time_utc": "2026-09-16T16:56:14.452241+00:00",
+  "time_utc": "2026-09-16T16:52:56.795628+00:00",
   "mode": "quick",
   "retired_publication_python_files": [
     "exploratory_prototype/generate_slide_image.py",
@@ -47,8 +47,8 @@
   "unchanged_files_hashed": 151,
   "baseline_python_files_parsed": 158,
   "edited_python_trees_compared": 19,
-  "added_files_hashed": 200,
-  "current_document_links": 481,
+  "added_files_hashed": 179,
+  "current_document_links": 472,
   "report_inputs_resolved": 31,
   "saved_model_checks": {
     "total": 122,

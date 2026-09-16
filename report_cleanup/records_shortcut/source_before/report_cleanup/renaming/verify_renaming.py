@@ -39,8 +39,6 @@ REPORT_MANIFEST = json.loads((REPORT_CLEANUP/'manifest.json').read_text())
 REPORT_MOVES = {row['old_path']: row['new_path'] for row in REPORT_MANIFEST['moved_files']}
 REPORT_REMOVED = {row['path']: row for row in REPORT_MANIFEST['removed_files']}
 REPORT_LINKS_REMOVED = {row['path']: row for row in REPORT_MANIFEST['removed_symlinks']}
-RECORDS_CLEANUP = ROOT / 'report_cleanup/records_shortcut'
-RECORDS_MANIFEST = json.loads((RECORDS_CLEANUP/'manifest.json').read_text())
 LIVE_WORKSPACE_METADATA = {'.idea/workspace.xml', '.DS_Store'}
 
 def report_location(path):
@@ -59,7 +57,6 @@ def moved(path):
 # allowed in existing Python syntax trees. Model formulas and constants must match.
 class NormalizePaths(ast.NodeTransformer):
     def text(self, text):
-        text = text.replace('archive/agent_working_notes/report_v2/', 'report_v2/')
         text = text.replace('final_reports', 'report_v2').replace('records/evidence', 'evidence')
         text = text.replace('records/qa', 'qa').replace('records/VERIFICATION_LOG.md', 'VERIFICATION_LOG.md')
         for old, new in sorted(MAPPING.items(), key=lambda x: -len(x[1])):
@@ -70,17 +67,6 @@ class NormalizePaths(ast.NodeTransformer):
         if isinstance(node.value, str):
             node.value = self.text(node.value)
         return node
-
-    def visit_BinOp(self, node):
-        # Direct archive paths replace the former OUT/'records/...' shortcut.
-        # Normalize only this known prefix to compare scientific logic unchanged.
-        prefix = 'archive/agent_working_notes/report_v2/'
-        if (isinstance(node.op, ast.Div) and isinstance(node.left, ast.Name)
-                and node.left.id == 'ROOT' and isinstance(node.right, ast.Constant)
-                and isinstance(node.right.value, str) and node.right.value.startswith(prefix)):
-            node.left.id = 'OUT'
-            node.right.value = node.right.value[len(prefix):]
-        return self.generic_visit(node)
 
     def visit_ImportFrom(self, node):
         if node.module in {'corrosion.research_paths', '_project_paths'}:
@@ -163,12 +149,7 @@ def main():
     for name, row in REPORT_LINKS_REMOVED.items():
         check(not os.path.lexists(ROOT/name) and (ROOT/row['resolved']).exists(), 'report old shortcut: ' + name)
     link = REPORT_MANIFEST['new_archive_link']; path = ROOT/link['path']
-    removed = RECORDS_MANIFEST['removed_symlink']
-    check(all(removed[key] == link[key] for key in ['path', 'target'])
-          and not os.path.lexists(path), 'report records shortcut removal')
-    archive = ROOT/RECORDS_MANIFEST['archive_directory']
-    check(archive.is_dir() and not archive.is_symlink()
-          and archive == ROOT/removed['resolved'], 'direct report archive')
+    check(path.is_symlink() and os.readlink(path) == link['target'] and path.exists(), 'report records link')
     for row in report_before['archive_files']:
         path = ROOT/row['path']
         check(path.is_file() and digest(path) == row['sha256'], 'report archive preserved: ' + row['path'])
@@ -331,7 +312,6 @@ def main():
     documents += [ROOT/'final_reports'/name/'README.md'
                   for name in ['sources/article', 'sources/thesis', 'figures', 'tables', 'references']]
     documents += [ROOT/'report_cleanup/report_navigation/README.md', REPORT_CLEANUP/'README.md']
-    documents += [RECORDS_CLEANUP/'README.md']
     documents += list((ROOT/'docs').glob('*.md'))
     documents += [ROOT/new/'README.md' for new in MAPPING.values()]
     link_count = 0

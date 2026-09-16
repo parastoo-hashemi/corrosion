@@ -14,7 +14,7 @@ are kept alongside them for future revisions. This package was formerly `report_
 | Find publication assets | [Figure index](figures/README.md) · [Table index](tables/README.md) |
 | Inspect citations | [Bibliography guide](references/README.md) |
 | Understand scientific utilities | [Script guide](scripts/README.md) |
-| Inspect earlier audits and reviews | [Historical records](../archive/agent_working_notes/report_v2/) |
+| Inspect earlier audits and reviews | [Historical records](records/) |
 
 ## Folder layout
 
@@ -29,7 +29,8 @@ final_reports/
 ├── figures/          Publication PDFs, PNG viewing copies and provenance
 ├── tables/           Saved numerical results and LaTeX tables
 ├── references/       Bibliography and citation metadata
-└── scripts/          Scientific evidence and figure utilities
+├── scripts/          Scientific evidence and figure utilities
+└── records/          One link to the preserved manuscript archive
 ```
 
 The PDFs and every LaTeX source, bibliography entry, figure, numerical table and
@@ -54,10 +55,8 @@ Review that PDF before replacing `thesis.pdf` or `article.pdf` at the package ro
 The delivered PDFs were not rebuilt during this cleanup. Scientific scripts can
 write shared assets and records; consult the script guide before future execution.
 
-Historical evidence, figure audits and review notes live directly in
-[archive/agent_working_notes/report_v2/](../archive/agent_working_notes/report_v2/).
-Preserve that archive when transferring the full repository. It is not required
-to read or compile the manuscripts, but the scientific audit scripts use it.
+`records/` links to [archive/agent_working_notes/report_v2/](../archive/agent_working_notes/report_v2/).
+Preserve that archive and the relative link when transferring the full repository.
 Historical paths inside saved manuscripts and provenance remain as recorded; the
 [folder migration guide](../docs/folder_migration.md) and root `research_paths.py`
 resolve them. The [experiment map](../docs/experiments.md), [selected results](../selected_results/README.md)

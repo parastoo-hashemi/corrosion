@@ -81,8 +81,8 @@ p=OUT/'figures/PROVENANCE.json'; old=json.loads(p.read_text()); original=[r for 
 assert len(original)==7
 p.write_text(json.dumps(original+ledger,indent=2)+'\n')
 p=OUT/'figures/PROVENANCE.md'; old=p.read_text().split('\n# v3 diagnostic extension\n')[0]
-text='\n# v3 diagnostic extension\n\nThe original seven records above and the separate paired ledger remain unchanged. The three additions below use `final_reports/scripts/make_v3_figures.py`; the introductory v1 generation statement above does not apply to this extension. Numerical checks and source hashes are in `archive/agent_working_notes/report_v2/evidence/v3/figure_checks.json` and `archive/agent_working_notes/report_v2/evidence/v3/new_figure_checks.json`.\n'
+text='\n# v3 diagnostic extension\n\nThe original seven records above and the separate paired ledger remain unchanged. The three additions below use `final_reports/scripts/make_v3_figures.py`; the introductory v1 generation statement above does not apply to this extension. Numerical checks and source hashes are in `final_reports/records/evidence/v3/figure_checks.json` and `final_reports/records/evidence/v3/new_figure_checks.json`.\n'
 for r in ledger:text+='\n## '+Path(r['figure']).name+'\n\n'+r['description']+'\n\nSources: '+', '.join('`'+s+'`' for s in r['source_files'])+'\n'
 p.write_text(old+text)
-(ROOT/'archive/agent_working_notes/report_v2/evidence/v3/new_figure_checks.json').write_text(json.dumps(checks,indent=2)+'\n')
+(OUT/'records/evidence/v3/new_figure_checks.json').write_text(json.dumps(checks,indent=2)+'\n')
 print(json.dumps(checks,indent=2))

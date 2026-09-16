@@ -27,7 +27,7 @@ Publication assets live in the report-level [figures](../../figures/README.md),
 [tables](../../tables/README.md) and [references](../../references/README.md) directories.
 All original chapter text and the LaTeX master are unchanged. The empty
 chapter-local figure placeholder was removed; publication figures are shared.
-The [historical figure audit](../../../archive/agent_working_notes/report_v2/thesis/v3/FIGURE_AUDIT.md) remains
+The [historical figure audit](../../records/thesis/v3/FIGURE_AUDIT.md) remains
 available in the archive.
 
 The redundant `v3/` layer and confirmed LaTeX build products were removed after

@@ -18,7 +18,6 @@ def resolve_project_path(recorded_path: str | Path, project_root: Path | None = 
     """Translate a recorded repository path to the current layout.
 
     Legacy experiment roots, report paths and the former emiling collection are mapped.
-    Report audit paths resolve directly to the archive, without a shortcut directory.
     Historical names embedded in other directories stay unchanged. Paths must
     remain inside this checkout;
     paths from another computer are not guessed or silently relocated.
@@ -43,10 +42,7 @@ def resolve_project_path(recorded_path: str | Path, project_root: Path | None = 
         elif parts and parts[0] in {"evidence", "qa", "critique", "FINAL_VERIFICATION.md",
                                    "RESEARCH_NOTES.md", "VERIFICATION_LOG.md"}:
             parts = ["records", *parts]
-        if parts[:1] == ["records"]:
-            path = Path("archive/agent_working_notes/report_v2", *parts[1:])
-        else:
-            path = Path("final_reports", *parts)
+        path = Path("final_reports", *parts)
     elif path.parts and path.parts[0] == "emiling":
         parts = list(path.parts[1:])
         if parts:

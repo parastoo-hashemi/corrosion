@@ -16,7 +16,7 @@ import seaborn as sns
 from PIL import Image
 from pypdf import PdfReader
 ROOT=Path(__file__).resolve().parents[2]
-OUT=ROOT/'final_reports'; QA=ROOT/'archive/agent_working_notes/report_v2/qa/v3'; EV=ROOT/'archive/agent_working_notes/report_v2/evidence/v3'
+OUT=ROOT/'final_reports'; QA=OUT/'records/qa/v3'; EV=OUT/'records/evidence/v3'
 QA.mkdir(exist_ok=True); EV.mkdir(exist_ok=True)
 P=ROOT/'structural_capacity/outputs/ultimate_load_refocus'
 R=P/'pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge'

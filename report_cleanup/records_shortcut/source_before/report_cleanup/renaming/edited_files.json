@@ -138,17 +138,17 @@
   {
     "path": "report_v2/README.md",
     "before_sha256": "1c81bcb025f1e4b5e6cce4825aa701d78a532e7316a5f554924583e73d235ae8",
-    "after_sha256": "89f9d81f4135bb396f84f64dd4701dcc5867839b4e6898b330ca4f3bea0ed38c"
+    "after_sha256": "06a7cd24fdd4e47abdfee6c2429530d91ae4ae3819ceb0cf55758550edc15b3e"
   },
   {
     "path": "report_v2/scripts/audit_evidence.py",
     "before_sha256": "c18d62f661f7e25828b011ae10c929d94e145821933b73a54da0f174b48f1b92",
-    "after_sha256": "0e362fcc11376c890f0c6e6830192675c573bcc9929e7ee380c7656bf50bee59"
+    "after_sha256": "b68fc371f0875adff7a39eff687a87f0c9fe94060943e8cf4301b120907afe33"
   },
   {
     "path": "report_v2/scripts/audit_saved_figures.py",
     "before_sha256": "3302399be43052b7390166302690416d4e56ec0829757a49a9d29f93a49ad472",
-    "after_sha256": "71421d1b375592e0f4253cd5ee87b0740a2b10a4e5c3b616ee074d6d541686a6"
+    "after_sha256": "18a8c8a72dcfd976c6dbe55234585faad513304ce8cc748c3f6a0acf3aa75f6e"
   },
   {
     "path": "report_v2/scripts/make_figures.py",
@@ -158,12 +158,12 @@
   {
     "path": "report_v2/scripts/make_v3_figures.py",
     "before_sha256": "e88f3cff978735c7119edde6ebf9d758ebc585416a6c7ba9393020e131baaed8",
-    "after_sha256": "73eb92310d9ee897cfdc5964b16cb65a4ce5bae910d5970c1e9d8eb3f9677974"
+    "after_sha256": "9db3d05820b03200a900eb0c09af016aced850ff5e3528f9ef07009278593578"
   },
   {
     "path": "report_v2/scripts/paired_diagnostics.py",
     "before_sha256": "52550da121404f83ce00e0e8c180d00b1440bc6c9a00b7e6a52add667132dd17",
-    "after_sha256": "25b2f0b68ae9ebae9fa170a9b11b6d847033ab2f7dfe13b7a06cd99c9fc7b2dd"
+    "after_sha256": "ba191ee8c76644f28552fe987ef784a83730fa1c1cd1412c69f02f839adf1a84"
   },
   {
     "path": "report_v2/scripts/validate_documents.py",

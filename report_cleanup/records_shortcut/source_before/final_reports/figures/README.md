@@ -32,7 +32,7 @@ limits; consult the manuscript captions for the complete context.
   [PAIRED_PROVENANCE.json](PAIRED_PROVENANCE.json): separate paired-error ledger.
 - [FIGURE_DATA_CHECKS.json](FIGURE_DATA_CHECKS.json): saved numerical checks for
   the confounding panels.
-- [Archived v3 evidence](../../archive/agent_working_notes/report_v2/evidence/v3): saved inventories and figure checks.
+- [Archived v3 evidence](../records/evidence/v3): saved inventories and figure checks.
 
 These provenance records keep historical paths. The [folder migration guide](../../docs/folder_migration.md)
 and root path resolver map old experiment names to their current locations.

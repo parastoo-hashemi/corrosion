@@ -1,0 +1,31 @@
+{
+  "operation": "Remove only the records shortcut and redirect live dependencies to the preserved archive",
+  "removed_symlink": {
+    "path": "final_reports/records",
+    "target": "../archive/agent_working_notes/report_v2",
+    "resolved": "archive/agent_working_notes/report_v2"
+  },
+  "archive_directory": "archive/agent_working_notes/report_v2",
+  "backup": {
+    "path_relative_to_repository_parent": "corrosion_before_records_shortcut_removal_20260916_185251.tar.gz",
+    "sha256": "60f19ef18361af4398c8a25f9d64c9da8a38bb0652ebc032e9fd052fa79fcb68"
+  },
+  "modified_paths": [
+    "research_paths.py",
+    "tests/test_research_paths.py",
+    "docs/folder_migration.md",
+    "final_reports/README.md",
+    "final_reports/scripts/README.md",
+    "final_reports/figures/README.md",
+    "final_reports/tables/README.md",
+    "final_reports/sources/thesis/README.md",
+    "report_cleanup/final_reports/README.md",
+    "report_cleanup/renaming/verify_renaming.py",
+    "report_cleanup/renaming/edited_files.json",
+    "report_cleanup/renaming/added_files.json",
+    "final_reports/scripts/audit_evidence.py",
+    "final_reports/scripts/audit_saved_figures.py",
+    "final_reports/scripts/paired_diagnostics.py",
+    "final_reports/scripts/make_v3_figures.py"
+  ]
+}
