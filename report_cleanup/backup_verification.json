@@ -1,0 +1,11 @@
+{
+  "backup": "/Users/parastoo/All_projects/Proj_corrosion/corrosion_pre_cleanup_backup_20260916_092925.tar.gz",
+  "bytes": 52807580105,
+  "creation_exit_code": 0,
+  "tar_readback_exit_code": 0,
+  "tar_member_count": 19899,
+  "all_initial_files_present": 16140,
+  "missing_initial_files": [],
+  "includes_git_index": true,
+  "verification": "Full tar -tzf readback completed before any move; every initial repository file is listed."
+}

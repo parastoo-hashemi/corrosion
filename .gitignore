@@ -16,3 +16,38 @@ Data/
 
 Documentation/
 Images_dataset/
+
+# Local editor and interpreter caches (existing tracked files are preserved).
+.idea/
+.vscode/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+**/.matplotlib/
+*.pyo
+*.swp
+*.swo
+*~
+
+# LaTeX build auxiliaries; PDFs, figures, tables and scientific logs stay visible.
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.toc
+*.lof
+*.lot
+*.synctex.gz
+**/thesis.log
+**/article.log
+**/activity_report.log
+**/main.log
+**/figures.log
+
+# Preserve the prior report package's ignored render/extraction policy after archiving.
+archive/agent_working_notes/report_v2/qa/**/*.png
+archive/agent_working_notes/report_v2/qa/*_text.txt
+archive/agent_working_notes/report_v2/qa/v3/*_text.txt
+archive/agent_working_notes/report_v2/evidence/predecessor_*.txt
