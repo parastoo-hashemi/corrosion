@@ -1,0 +1,35 @@
+{
+  "python_executable": "/opt/anaconda3/envs/env/bin/python",
+  "python_version": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:07:20) [Clang 20.1.8 ]",
+  "packages": {
+    "numpy": "2.4.3",
+    "pandas": "3.0.1",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "PyYAML": "6.0.3",
+    "Pillow": "12.1.1",
+    "scikit-image": "0.26.0",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2",
+    "joblib": "1.5.3",
+    "xgboost": "3.2.0",
+    "catboost": "1.2.10",
+    "torch": "2.10.0",
+    "torchvision": "0.25.0",
+    "openpyxl": "3.1.5",
+    "pyarrow": "23.0.1",
+    "pypdf": "6.9.0",
+    "reportlab": "4.4.10",
+    "pytest": "9.0.2"
+  },
+  "interpretation": "Observed handoff environment, not a historical training lockfile.",
+  "tools": {
+    "latexmk": [
+      "Latexmk, John Collins, 15 June 2025. Version 4.87"
+    ],
+    "pdflatex": [
+      "pdfTeX 3.141592653-2.6-1.40.29 (TeX Live 2026)",
+      "kpathsea version 6.4.2"
+    ]
+  }
+}
