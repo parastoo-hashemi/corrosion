@@ -1,0 +1,617 @@
+{
+  "sources": {
+    "main_3/outputs/canonical_dataset.csv": "0185eb4001c1269a0af94f751186a6a38d17e3649e0de30d272144cb2de35e31",
+    "main_3/outputs/image_features.csv": "423906a865427f47672a2daa7a7c5168bf21992d95443c2d15cb11eb59bf6b7c",
+    "main_3/outputs/corrosion_regression_metrics.csv": "9c59f84dab8507bb18f1ca1f6746f251ecc30b6089635a1b5c4cc7619af6cd80",
+    "main_3/outputs/damage_regression_metrics.csv": "3eb39cdf0655b30d707b346834a3ccc462b7418d6a9b315d9e744962d6ff6f6c",
+    "main_3/outputs/corrosion_classification_metrics.csv": "2af45cea9279ea0b8507ec721ba7b3b9b6385f62682f8fc94693d20cd1e1c838",
+    "main_3/outputs/corrosion_regression_predictions.parquet": "b0bd73d363df23dc249fc911ae60f6ef770a6054d1372f452add6e70d67435c0",
+    "main_3/outputs/damage_regression_predictions.parquet": "9b529d2799a93a640de59fba00c2ee42cf6a35111680193dc725e02e19a7c370",
+    "main_3/outputs/rul_estimates.csv": "c51879ac58afae73f8f68b3bd7579ae89cd17a4194ed7e161f5c11a3a107c447",
+    "main_3/outputs/degradation_forecasts.parquet": "3218468291a88d7faf1df6511f8707803fbee42e578540229c27af618e29d2be",
+    "main_3/src/visualization/plots.py": "18026e81140a30d5a4cf9945e810a157197ceaaa8fae50ab9c0cbefade4f20dc",
+    "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_fold_predictions.csv": "b4ecbcba7ac127f6853bcf285ab60f7fdb94337349684d6cf0bef4d7d70c388a",
+    "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/terminal_oof_predictions.csv": "b427b61c808df398a6c4c34a6d55933453e0268d17780b4cd5b13301d8dc9ad0",
+    "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/fold_metrics.csv": "b0496ff4357b300cce73d85c3ece85e093ca859bee086b773c977c8cf238fbd1",
+    "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/feature_importance_full_fit.csv": "d6cd2a69f1783c32666f48a4df45c042864395af4dce14757a5f2a88f6eec551",
+    "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/learning_curve_raw.csv": "ccc2595fd1e06b54cff0751977e02833dd67acd7f3b37d545fca016319cf0b9b",
+    "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/learning_curve_summary.csv": "4b936c72b184dcd974ef1a8af6da1add3daa6d0a6f86eab6dd1c01edd7132170",
+    "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/partial_dependence.csv": "01abe9363b2f42853eabd98c66201878a470aa3216c6df73606404d1dc693e92",
+    "main_4/outputs/ultimate_load_refocus/splits/grouped_cv_specimen_manifest.csv": "33d684d8365300aade9b7fc4f1051d6c178004c2c97926d933d0bb674e69f80d",
+    "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/feature_set_comparison.csv": "4a3cf58dc037feda6c9d2ffb4064ef2901698eb999fcab2d35c189d0c92d6bcd",
+    "main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/model_comparison.csv": "513c9e58b8970795d439a233c4f570687091774983ce4f45fe9477811e8b8d42",
+    "main_4/outputs/ultimate_load_refocus/splits/grouped_cv_balance_summary.csv": "ff9c043e2c74a4645ef7f1c6b998ff3550aceb0f58adff8806e9e0a0c8730f15",
+    "main_4/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_balance_summary.csv": "5846673a074b350eec8e7e91c050d0f70fe354e7e279dd75f64facdbae8a69cd",
+    "main_4/outputs/ultimate_load_refocus/splits/leave_one_campaign_out_specimen_manifest.csv": "4ac2b30b8ca6c2f8327fe773809b9f57e1eae0493e0620ef18a70e5f3235f12b",
+    "main_4/src/corrosion_proxy_rul/ultimate_load_refocus.py": "254ef9cbdad779ff6c08a771a284b75838d20d413b2bca62bb74f251c6a69f6f"
+  },
+  "plot_replays": {
+    "M3-04": {
+      "replayed_pure_plot": true,
+      "original_size": [
+        2099,
+        1020
+      ],
+      "replayed_size": [
+        2099,
+        1020
+      ],
+      "pixels_identical": true,
+      "output": "report_v2/qa/v3/M3-04_replay.png"
+    },
+    "M3-05": {
+      "replayed_pure_plot": true,
+      "original_size": [
+        2098,
+        1020
+      ],
+      "replayed_size": [
+        2098,
+        1020
+      ],
+      "pixels_identical": true,
+      "output": "report_v2/qa/v3/M3-05_replay.png"
+    },
+    "M3-07": {
+      "replayed_pure_plot": true,
+      "original_size": [
+        2098,
+        1019
+      ],
+      "replayed_size": [
+        2098,
+        1019
+      ],
+      "pixels_identical": true,
+      "output": "report_v2/qa/v3/M3-07_replay.png"
+    },
+    "M3-06": {
+      "replayed_pure_plot": true,
+      "original_size": [
+        1378,
+        1380
+      ],
+      "replayed_size": [
+        1378,
+        1380
+      ],
+      "pixels_identical": true,
+      "output": "report_v2/qa/v3/M3-06_replay.png"
+    },
+    "M3-08": {
+      "replayed_pure_plot": true,
+      "original_size": [
+        1378,
+        1380
+      ],
+      "replayed_size": [
+        1378,
+        1380
+      ],
+      "pixels_identical": true,
+      "output": "report_v2/qa/v3/M3-08_replay.png"
+    },
+    "M3-15": {
+      "replayed_pure_plot": true,
+      "original_size": [
+        1378,
+        840
+      ],
+      "replayed_size": [
+        1378,
+        840
+      ],
+      "pixels_identical": true,
+      "output": "report_v2/qa/v3/M3-15_replay.png"
+    },
+    "M3-16": {
+      "replayed_pure_plot": true,
+      "original_size": [
+        1738,
+        840
+      ],
+      "replayed_size": [
+        1738,
+        840
+      ],
+      "pixels_identical": true,
+      "output": "report_v2/qa/v3/M3-16_replay.png"
+    },
+    "M3-11": {
+      "replayed_pure_plot": true,
+      "original_size": [
+        2099,
+        1019
+      ],
+      "replayed_size": [
+        2099,
+        1019
+      ],
+      "pixels_identical": true,
+      "output": "report_v2/qa/v3/M3-11_replay.png"
+    },
+    "R-01": {
+      "replayed_pure_plot": true,
+      "original_size": [
+        1682,
+        873
+      ],
+      "replayed_size": [
+        1682,
+        873
+      ],
+      "pixels_identical": false,
+      "output": "report_v2/qa/v3/R-01_replay.png"
+    },
+    "R-02": {
+      "replayed_pure_plot": true,
+      "original_size": [
+        2312,
+        923
+      ],
+      "replayed_size": [
+        2312,
+        923
+      ],
+      "pixels_identical": true,
+      "output": "report_v2/qa/v3/R-02_replay.png"
+    },
+    "R-03": {
+      "replayed_pure_plot": true,
+      "original_size": [
+        1771,
+        693
+      ],
+      "replayed_size": [
+        1771,
+        693
+      ],
+      "pixels_identical": true,
+      "output": "report_v2/qa/v3/R-03_replay.png"
+    },
+    "R-04": {
+      "replayed_pure_plot": true,
+      "original_size": [
+        2132,
+        895
+      ],
+      "replayed_size": [
+        2132,
+        895
+      ],
+      "pixels_identical": true,
+      "output": "report_v2/qa/v3/R-04_replay.png"
+    },
+    "R-05": {
+      "replayed_pure_plot": true,
+      "original_size": [
+        2851,
+        822
+      ],
+      "replayed_size": [
+        2851,
+        822
+      ],
+      "pixels_identical": true,
+      "output": "report_v2/qa/v3/R-05_replay.png"
+    },
+    "R-06": {
+      "replayed_pure_plot": true,
+      "original_size": [
+        1321,
+        1089
+      ],
+      "replayed_size": [
+        1321,
+        1089
+      ],
+      "pixels_identical": true,
+      "output": "report_v2/qa/v3/R-06_replay.png"
+    },
+    "R-07": {
+      "replayed_pure_plot": true,
+      "original_size": [
+        2311,
+        922
+      ],
+      "replayed_size": [
+        2311,
+        922
+      ],
+      "pixels_identical": false,
+      "output": "report_v2/qa/v3/R-07_replay.png"
+    },
+    "R-08": {
+      "replayed_pure_plot": true,
+      "original_size": [
+        2491,
+        1015
+      ],
+      "replayed_size": [
+        2491,
+        1015
+      ],
+      "pixels_identical": true,
+      "output": "report_v2/qa/v3/R-08_replay.png"
+    },
+    "M4-01": {
+      "replayed_pure_plot": true,
+      "original_size": [
+        2492,
+        923
+      ],
+      "replayed_size": [
+        2492,
+        923
+      ],
+      "pixels_identical": true,
+      "output": "report_v2/qa/v3/M4-01_replay.png"
+    },
+    "M4-05": {
+      "replayed_pure_plot": true,
+      "original_size": [
+        3207,
+        1106
+      ],
+      "replayed_size": [
+        3207,
+        1106
+      ],
+      "pixels_identical": false,
+      "output": "report_v2/qa/v3/M4-05_replay.png"
+    }
+  },
+  "pdf_comparison": {
+    "M3-01": {
+      "candidate_pages": 8,
+      "canonical_pages": 8,
+      "normalized_text_identical": false,
+      "canonical_pdf": "main_3/reports/corrosion_condition_pipeline_ieee.pdf"
+    },
+    "M4-06": {
+      "candidate_pages": 5,
+      "canonical_pages": 5,
+      "normalized_text_identical": false,
+      "canonical_pdf": "main_4/outputs/reports/ultimate_load_refocus_ieee.pdf"
+    }
+  },
+  "main3": {
+    "rows": 792,
+    "specimens": 48,
+    "feature_alignment": {
+      "surface_total_rust_pct": {
+        "pearson": 0.2571479712333415,
+        "complete_pairs": 792
+      },
+      "peak_rust_pct": {
+        "pearson": 0.18283654918274025,
+        "complete_pairs": 792
+      },
+      "peak_rust_location_cm": {
+        "pearson": 0.24783974754998522,
+        "complete_pairs": 792
+      }
+    },
+    "risk_counts": {
+      "High": 20,
+      "Low": 20,
+      "Moderate": 8
+    },
+    "rul_finite": 33,
+    "rul_zero": 23,
+    "rul_max": 55.5,
+    "trajectory_selection": [
+      "E04",
+      "F06",
+      "F02",
+      "S5VF02",
+      "S1MI05",
+      "F03"
+    ],
+    "corrosion_parity_targets": [
+      "surface_total_rust_pct",
+      "peak_rust_pct"
+    ],
+    "damage_parity_targets": [
+      "wire_area_loss_pct",
+      "ultimate_load_kn"
+    ]
+  },
+  "ridge": {
+    "specimens": 48,
+    "per_fold_predictions": 96,
+    "prediction_count_per_specimen": 2,
+    "observed_range": [
+      1.6,
+      2.87
+    ],
+    "predicted_mean_range": [
+      1.6864394833213467,
+      2.843671119442952
+    ],
+    "residual_range": [
+      -0.6103363035538059,
+      0.4236890911539412
+    ],
+    "averaged_prediction_mae": 0.17194087994421817,
+    "fold_mean_mae": 0.17271050419074876,
+    "mean_absolute_error_over_96_predictions": 0.17273346963456704,
+    "mesh_counts": {
+      "4": 24,
+      "7": 24
+    },
+    "learning_curve": [
+      {
+        "index": 0,
+        "fraction": 0.2,
+        "n_train_specimens_mean": 8.0,
+        "n_train_specimens_std": 0.0,
+        "n_train_rows_mean": 132.2,
+        "n_train_rows_std": 3.0110906108363205,
+        "train_mae_mean": 0.0368580721526021,
+        "train_mae_std": 0.0338134011817095,
+        "test_mae_mean": 0.3317272705221403,
+        "test_mae_std": 0.1975765429086004,
+        "train_rmse_mean": 0.0595019916600002,
+        "train_rmse_std": 0.0555328430714695,
+        "test_rmse_mean": 0.3998780246190506,
+        "test_rmse_std": 0.2161922583580495,
+        "train_spearman_mean": 0.9476190476190476,
+        "train_spearman_std": 0.0581047784689622,
+        "test_spearman_mean": 0.5688813086989299,
+        "test_spearman_std": 0.3756768710473596
+      },
+      {
+        "index": 1,
+        "fraction": 0.4,
+        "n_train_specimens_mean": 15.4,
+        "n_train_specimens_std": 0.5163977794943222,
+        "n_train_rows_mean": 254.1,
+        "n_train_rows_std": 9.870832453918633,
+        "train_mae_mean": 0.0880075968432254,
+        "train_mae_std": 0.0268777221170685,
+        "test_mae_mean": 0.2220985691777291,
+        "test_mae_std": 0.0522032473173098,
+        "train_rmse_mean": 0.1251078867391608,
+        "train_rmse_std": 0.0359822600055491,
+        "test_rmse_mean": 0.2696570313990095,
+        "test_rmse_std": 0.0657396669788855,
+        "train_spearman_mean": 0.8642685054879816,
+        "train_spearman_std": 0.0820496851444411,
+        "test_spearman_mean": 0.6942124831907072,
+        "test_spearman_std": 0.1636680596041769
+      },
+      {
+        "index": 2,
+        "fraction": 0.6,
+        "n_train_specimens_mean": 23.0,
+        "n_train_specimens_std": 0.0,
+        "n_train_rows_mean": 377.7,
+        "n_train_rows_std": 4.1912607490666405,
+        "train_mae_mean": 0.1040414913683027,
+        "train_mae_std": 0.0210306229131356,
+        "test_mae_mean": 0.2057889207571271,
+        "test_mae_std": 0.0647114431119284,
+        "train_rmse_mean": 0.147649672333681,
+        "train_rmse_std": 0.0279687362426779,
+        "test_rmse_mean": 0.2473303579894478,
+        "test_rmse_std": 0.0728321520124585,
+        "train_spearman_mean": 0.8770542831593916,
+        "train_spearman_std": 0.0410165034055004,
+        "test_spearman_mean": 0.7235077503758405,
+        "test_spearman_std": 0.1952020410137528
+      },
+      {
+        "index": 3,
+        "fraction": 0.8,
+        "n_train_specimens_mean": 30.4,
+        "n_train_specimens_std": 0.5163977794943224,
+        "n_train_rows_mean": 500.4,
+        "n_train_rows_std": 9.845472732852064,
+        "train_mae_mean": 0.1171264178333531,
+        "train_mae_std": 0.0158692944006973,
+        "test_mae_mean": 0.1840317961896451,
+        "test_mae_std": 0.0516619389561365,
+        "train_rmse_mean": 0.1596522178613352,
+        "train_rmse_std": 0.0225717854197487,
+        "test_rmse_mean": 0.2254155832115079,
+        "test_rmse_std": 0.060828268911656,
+        "train_spearman_mean": 0.872967658581301,
+        "train_spearman_std": 0.0357131327620957,
+        "test_spearman_mean": 0.7343347183717679,
+        "test_spearman_std": 0.1828166027156692
+      },
+      {
+        "index": 4,
+        "fraction": 1.0,
+        "n_train_specimens_mean": 38.4,
+        "n_train_specimens_std": 0.5163977794943211,
+        "n_train_rows_mean": 632.8,
+        "n_train_rows_std": 8.416914187779538,
+        "train_mae_mean": 0.1193530191732005,
+        "train_mae_std": 0.0099421227884701,
+        "test_mae_mean": 0.1727105041907488,
+        "test_mae_std": 0.0460258296190881,
+        "train_rmse_mean": 0.1643297515062596,
+        "train_rmse_std": 0.0154060863432476,
+        "test_rmse_mean": 0.2143371153983319,
+        "test_rmse_std": 0.0539083132865419,
+        "train_spearman_mean": 0.8657694021366094,
+        "train_spearman_std": 0.0264390667081648,
+        "test_spearman_mean": 0.7579543589054192,
+        "test_spearman_std": 0.2054833302071547
+      }
+    ],
+    "training_specimens_per_fraction": {
+      "0.2": [
+        8
+      ],
+      "0.4": [
+        15,
+        16
+      ],
+      "0.6": [
+        23
+      ],
+      "0.8": [
+        30,
+        31
+      ],
+      "1.0": [
+        38,
+        39
+      ]
+    },
+    "coefficients": [
+      {
+        "feature": "split_group_treatment",
+        "importance": 0.0229043793258554,
+        "importance_abs": 0.1495474383802752,
+        "importance_kind": "coefficient",
+        "direction": "positive"
+      },
+      {
+        "feature": "series_id",
+        "importance": 0.0229043793258954,
+        "importance_abs": 0.1495474383802425,
+        "importance_kind": "coefficient",
+        "direction": "positive"
+      },
+      {
+        "feature": "treatment_protocol",
+        "importance": 0.011412092180512,
+        "importance_abs": 0.1471617470012313,
+        "importance_kind": "coefficient",
+        "direction": "positive"
+      },
+      {
+        "feature": "campaign_id",
+        "importance": 1.6237011735142914e-15,
+        "importance_abs": 0.0871846539501005,
+        "importance_kind": "coefficient",
+        "direction": "positive"
+      },
+      {
+        "feature": "treatment_coarse",
+        "importance": -0.0035743565565152,
+        "importance_abs": 0.0599310285349298,
+        "importance_kind": "coefficient",
+        "direction": "negative"
+      },
+      {
+        "feature": "n_steel_mesh",
+        "importance": 0.043592326975491,
+        "importance_abs": 0.043592326975491,
+        "importance_kind": "coefficient",
+        "direction": "positive"
+      },
+      {
+        "feature": "nacl_pct",
+        "importance": -0.0435923269753305,
+        "importance_abs": 0.0435923269753305,
+        "importance_kind": "coefficient",
+        "direction": "negative"
+      },
+      {
+        "feature": "treatment_label_coarse",
+        "importance": -0.0065248615854559,
+        "importance_abs": 0.0386749713792296,
+        "importance_kind": "coefficient",
+        "direction": "negative"
+      },
+      {
+        "feature": "cover_mm",
+        "importance": -0.0314691879352258,
+        "importance_abs": 0.0314691879352258,
+        "importance_kind": "coefficient",
+        "direction": "negative"
+      },
+      {
+        "feature": "week",
+        "importance": -1.121027658539431e-05,
+        "importance_abs": 1.121027658539431e-05,
+        "importance_kind": "coefficient",
+        "direction": "negative"
+      },
+      {
+        "feature": "ageing_days",
+        "importance": -1.1210276476628924e-05,
+        "importance_abs": 1.1210276476628924e-05,
+        "importance_kind": "coefficient",
+        "direction": "negative"
+      }
+    ]
+  },
+  "split_balance": {
+    "grouped_cv": [
+      {
+        "split_id": "grouped_cv_repeat0_fold0",
+        "test_specimens": 10,
+        "test_mesh_counts": "{\"4\": 5, \"7\": 5}"
+      },
+      {
+        "split_id": "grouped_cv_repeat0_fold1",
+        "test_specimens": 10,
+        "test_mesh_counts": "{\"4\": 5, \"7\": 5}"
+      },
+      {
+        "split_id": "grouped_cv_repeat0_fold2",
+        "test_specimens": 10,
+        "test_mesh_counts": "{\"4\": 5, \"7\": 5}"
+      },
+      {
+        "split_id": "grouped_cv_repeat0_fold3",
+        "test_specimens": 9,
+        "test_mesh_counts": "{\"4\": 5, \"7\": 4}"
+      },
+      {
+        "split_id": "grouped_cv_repeat0_fold4",
+        "test_specimens": 9,
+        "test_mesh_counts": "{\"4\": 4, \"7\": 5}"
+      },
+      {
+        "split_id": "grouped_cv_repeat1_fold0",
+        "test_specimens": 10,
+        "test_mesh_counts": "{\"4\": 5, \"7\": 5}"
+      },
+      {
+        "split_id": "grouped_cv_repeat1_fold1",
+        "test_specimens": 10,
+        "test_mesh_counts": "{\"4\": 5, \"7\": 5}"
+      },
+      {
+        "split_id": "grouped_cv_repeat1_fold2",
+        "test_specimens": 10,
+        "test_mesh_counts": "{\"4\": 5, \"7\": 5}"
+      },
+      {
+        "split_id": "grouped_cv_repeat1_fold3",
+        "test_specimens": 9,
+        "test_mesh_counts": "{\"4\": 5, \"7\": 4}"
+      },
+      {
+        "split_id": "grouped_cv_repeat1_fold4",
+        "test_specimens": 9,
+        "test_mesh_counts": "{\"4\": 4, \"7\": 5}"
+      }
+    ],
+    "leave_one_campaign_out": [
+      {
+        "split_id": "leave_one_campaign_out_campaign_1",
+        "test_specimens": 24,
+        "test_mesh_counts": "{\"7\": 24}"
+      },
+      {
+        "split_id": "leave_one_campaign_out_campaign_2",
+        "test_specimens": 24,
+        "test_mesh_counts": "{\"4\": 24}"
+      }
+    ]
+  },
+  "limitations": [
+    "Plot-only replays do not validate the historical fitted models.",
+    "Current source aggregation contains main_first corruption; no pipeline was imported, repaired, or refitted.",
+    "Meeting-report panel generators were not located; checked saved data and canonical PNG identities where possible.",
+    "Pixel identity is recorded explicitly and never assumed from numerical agreement."
+  ]
+}

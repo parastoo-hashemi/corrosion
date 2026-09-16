@@ -11,3 +11,5 @@
 qa/*.png
 qa/*_text.txt
 evidence/predecessor_*.txt
+qa/v3/*.png
+qa/v3/*_text.txt
