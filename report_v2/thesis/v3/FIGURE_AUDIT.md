@@ -278,7 +278,7 @@ Pure plotting function replayed against saved data; rendered pixels differ; exac
 
 ### R-01 — `emiling/main_4/metadata_only+Ridge/cv_stability.png`
 
-**Viewed:** Box/strip plots show the ten fold MAE, RMSE and Spearman values on a shared numeric axis. Spearman varies considerably between folds. 
+**Viewed:** Box/strip plots show the ten fold MAE, RMSE and Spearman values on a shared numeric axis. Spearman varies considerably between folds.
 
 **Source and verification:** main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/fold_metrics.csv; ultimate_load_refocus.py:plot_cv_stability.
 Canonical PNG SHA-256 matches `main_4/outputs/ultimate_load_refocus/pooled_all_weeks/grouped_cv/experiments/metadata_only/Ridge/cv_stability.png`.
