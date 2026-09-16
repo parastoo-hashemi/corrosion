@@ -5,6 +5,11 @@ about ferrocement specimens and their terminal structural capacity. It includes
 successive modelling experiments and a later four-class image-classification
 preparation study.
 
+**Computational study and reports:** Parastoo Hashemi Alvar,
+Politecnico di Torino (Turin, Italy).
+
+**Documentation updated:** 16 September 2026. **Manuscripts:** Version 3.
+
 **Main finding:** in the most mature terminal-load study, image features did not
 establish a consistent improvement over specimen metadata. Campaign holdout
 exposed weak transfer, and the exploratory degradation work does not validate
@@ -46,6 +51,8 @@ and threshold crossings are exploratory, without observed lifetime outcomes.
 [Data/](Data) holds local datasets and fixed classification splits. Historical
 modelling and current four-class preparation use different workbook/label versions;
 follow the [data dictionary](docs/data_dictionary.md) when selecting inputs.
+The physical specimens and experimental campaigns originate in predecessor work;
+the [thesis](final_reports/thesis.pdf) documents that provenance and its citations.
 
 ## Where the work lives
 
@@ -61,46 +68,24 @@ follow the [data dictionary](docs/data_dictionary.md) when selecting inputs.
 | [docs/](docs) | Experiment map, history, data definitions, reproduction and known issues |
 | [Data/](Data), [Documentation/](Documentation) | Local data and predecessor experimental documentation; excluded from Git |
 | [archive/](archive) | Earlier structural snapshot and historical working records |
-| [selected_results/](selected_results/README.md) | Curated collection of 28 figures and two historical papers, formerly `emiling/` |
-| [out/](out) | Six preserved historical PDF exports |
+| [selected_results/](selected_results/README.md) | Curated collection of research figures and historical papers |
+| [out/](out) | Historical PDF exports; see the [export guide](archive/repository_maintenance/out_audit/README.md) for the audited document history |
 | [archive/repository_maintenance/](archive/repository_maintenance/README.md) | Maintenance manifests, recovery information and preservation checks |
 
-The [folder migration guide](docs/folder_migration.md) maps old names such as
-`main_3` and `main_4` to these directories. Historical paths can be resolved with:
+## Reproducibility and transfer
 
-```bash
-python research_paths.py "main_4/outputs/data/master_table.csv"
-```
+Use the [reproduction guide](docs/reproduction.md) for dependencies, working
+directories, verification commands and manuscript builds. Read the
+[known issues](docs/known_issues.md) before attempting new experiments; the saved
+results do not establish a verified end-to-end rerun of the current source.
 
-The final delivery reports are the v3 article and thesis linked above. A historical
-70-page activity-report draft remains in `out/`; the [export audit](archive/repository_maintenance/out_audit/README.md)
-explains its status and other document variants.
+For a complete transfer, include the local data and model bundle and preserve
+symbolic links. Some research assets are excluded from Git, so a Git-only copy
+is incomplete.
 
-## Inspect the handoff
-
-From the repository root:
-
-```bash
-python -B archive/repository_maintenance/renaming/verify_renaming.py --quick --output /tmp/corrosion-handoff-check.json
-```
-
-This checks preservation records, source syntax, paths, links and saved validation
-receipts. It does not train models. The `--full` option also hashes the remaining
-baseline files, reading approximately 49 GB. The explicit output path preserves
-earlier receipts. The checker compares historical baselines: later edits or
-regenerated build products can produce failures that need interpretation. The
-[latest handoff review](archive/repository_maintenance/handoff_guides/README.md)
-records existing differences and the documentation-check scope.
-
-The [environment instructions](docs/reproduction.md#environment-and-dependencies)
-list dependencies and installation gaps. The recorded check environment is not a
-verified historical training environment. For a complete transfer, include the
-local data/model bundle and preserve symbolic links.
-
-The three Python files in `condition_assessment/src/data/` are tracked and are not
-excluded by the current ignore rules, as verified during the handoff review.
-Raw/generated data exclusions remain in place, so Git alone is still not the
-complete research bundle.
+The [folder map](docs/folder_migration.md) explains historical names. Detailed
+migration, recovery and preservation records are in the
+[maintenance archive](archive/repository_maintenance/README.md).
 
 ## Continue the research
 
