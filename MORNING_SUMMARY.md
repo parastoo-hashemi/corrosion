@@ -173,3 +173,63 @@ their initial values. Changes are confined to `report_v2/`, `DECISIONS.md`, and
 this summary. `master` remains at
 `1089b3e7f6c7f798a3bf5c6ccd07eb6c1fb3e322`. No model was trained, no original
 report/data/model source was edited, and no push or merge was performed.
+
+
+# v3: figure audit and integration
+
+## What was produced
+
+The work is on **`report-rebuild-codex-v3`**, branched from **`c5a4f1a`**. V1/v2 sources and PDFs remain byte-for-byte unchanged.
+
+- `report_v2/thesis/v3/thesis.pdf`: **40-page** thesis with three new Ridge diagnostics and modular sources.
+- `report_v2/article/v3/article.pdf`: **five-page** IEEE article, with one new parity/residual figure and tighter repeated prose.
+- `report_v2/thesis/v3/FIGURE_AUDIT.md`: complete file-by-file audit.
+- `report_v2/thesis/v3/V3_CHANGE_SUMMARY.md`: changes, decisions and preservation confirmation.
+- `report_v2/qa/v3/VERIFICATION.md`: numerical, scientific, compilation and visual checks; adjacent JSON files record exact PDF hashes, source checks and preservation.
+- Three new vector-PDF/PNG pairs in `report_v2/figures/`: `ridge_terminal_diagnostics`, `ridge_coefficients`, `ridge_learning_curve`. The shared provenance ledger is extended without changing original entries.
+
+## Audit headline
+
+**30 files reviewed:** 16 historical main_3 candidates, six top-level main_4 files, and eight Ridge diagnostics. All 28 PNGs and all 13 pages in the two PDFs were viewed. **Four source files included with regeneration, consolidated into three figures; 26 rejected.** Redundancy is the most common primary rejection reason (**16 of 26**). Eighteen pure plotting functions were replayed against saved data without retraining; fifteen reproduce the candidate pixels exactly.
+
+The two most useful additions are:
+
+1. **Ridge terminal parity and residuals:** puts all 48 specimen-level errors behind the headline MAE in view, including substantial errors in both mesh groups. It complements the existing paired HSV comparison and does not imply calibrated uncertainty.
+2. **Saved learning curve:** reveals the train/test gap and all individual fold errors as training-specimen count changes. This supports a precise small-sample diagnostic without forecasting what additional campaigns would achieve.
+
+The coefficient plot makes the fitted metadata representation inspectable, but is explicitly a full-fit, encoding-dependent summary rather than an independent or causal feature ranking.
+
+## Scientific clarifications
+
+The older main_3 feature-alignment plot has weak correlations and does not contradict main_4's different, nearly reconstructive rust-area feature. V3 states this generation boundary. The learning curve shows that specimen count was varied with the representation fixed; the unresolved limitation is that subset composition and design coverage change too. The new parity's MAE of averaged predictions (0.171941 kN) is distinguished from the unchanged primary fold-mean MAE (0.172711 kN) and from the paired mean-absolute-error statistic.
+
+## Exact recompile commands
+
+From the repository root:
+
+```sh
+cd /Users/parastoo/All_projects/Proj_corrosion/corrosion
+latexmk -cd -pdf -interaction=nonstopmode -halt-on-error report_v2/thesis/v3/thesis.tex
+latexmk -cd -pdf -interaction=nonstopmode -halt-on-error report_v2/article/v3/article.tex
+/opt/anaconda3/envs/env/bin/python report_v2/scripts/validate_documents.py
+```
+
+For the complete v3 saved-data presentation workflow, without fitting models:
+
+```sh
+/opt/anaconda3/envs/env/bin/python report_v2/scripts/audit_saved_figures.py
+/opt/anaconda3/envs/env/bin/python report_v2/scripts/make_v3_figures.py
+/opt/anaconda3/envs/env/bin/python report_v2/scripts/build_v3_reports.py
+/opt/anaconda3/envs/env/bin/python report_v2/scripts/validate_documents.py
+/opt/anaconda3/envs/env/bin/python report_v2/scripts/render_v3_review.py
+```
+
+Do not run the older general rebuild scripts as part of the preservation workflow: they regenerate v1/v2 assets. The v3 scripts restrict their writes to new artifacts and the authorized provenance extension.
+
+## Verification and remaining limits
+
+Both documents compile to a fixpoint with zero errors, undefined references/citations, rerun warnings, PDF-engine warnings or overfull boxes. The extended validator checks all six versions, 11 shared figures and 287 numeric-bearing lines, with zero unresolved numeric lint exceptions. All 45 new PDF page layouts and the three full-resolution figures were visually reviewed. Preservation checks verify 151 pre-existing artifacts, all 32 earlier tracked manuscript files and all 30 candidate hashes; original ledger entries and protected source/data paths remain unchanged.
+
+Exact generators for several historical meeting panels, raw-to-montage fidelity of the rejected image gallery, and exact edit histories of the older PDF drafts could not be established. Three plot replays differ in pixels, as individually recorded; no exact reproduction is claimed for them. Historical model training was not repeated, and existing source/configuration defects were left untouched. There is no new independent validation, causal identification, calibrated prediction interval or RUL performance claim.
+
+No push, merge, force-push or training occurred. The initially untracked user audit prompt is left outside the commits.

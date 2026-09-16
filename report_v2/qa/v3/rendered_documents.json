@@ -1,0 +1,14 @@
+[
+  {
+    "pdf": "report_v2/thesis/v3/thesis.pdf",
+    "pages": 40,
+    "sha256": "7d74c07c804ab61eeacb17aa1f709d5f01ac1c1624cc2dfbb86a919b29b8bbd5",
+    "render_prefix": "report_v2/qa/v3/review_thesis_v3"
+  },
+  {
+    "pdf": "report_v2/article/v3/article.pdf",
+    "pages": 5,
+    "sha256": "79ce9b09b64f664147711f52d8808dab055850808e7976fe7945615ecfd48c1b",
+    "render_prefix": "report_v2/qa/v3/review_article_v3"
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "documents": [
+    {
+      "pdf": "report_v2/thesis/thesis.pdf",
+      "pages": 44,
+      "citations": 8,
+      "sha256": "28f638ac398ee9c5f96cc35585251e89e99ec8140cde18d21e872662e289fff2",
+      "overfull_boxes": 0
+    },
+    {
+      "pdf": "report_v2/article/article.pdf",
+      "pages": 5,
+      "citations": 7,
+      "sha256": "2a78c97edfc48ede4fc593f8f301a36b3b22539ff213fe43d8741aac7772927f",
+      "overfull_boxes": 0
+    },
+    {
+      "pdf": "report_v2/thesis/v2/thesis.pdf",
+      "pages": 37,
+      "citations": 8,
+      "sha256": "50214612460cf2ee3bc83b7cd7267cfca82cf8bdde390f57f30de0dbe05c59c2",
+      "overfull_boxes": 0
+    },
+    {
+      "pdf": "report_v2/article/v2/article.pdf",
+      "pages": 5,
+      "citations": 7,
+      "sha256": "0d55faaee2cce7dddce7e0074181df46c27b58bdbecfa1f24d49d52efbe7cfce",
+      "overfull_boxes": 0
+    },
+    {
+      "pdf": "report_v2/thesis/v3/thesis.pdf",
+      "pages": 40,
+      "citations": 8,
+      "sha256": "7d74c07c804ab61eeacb17aa1f709d5f01ac1c1624cc2dfbb86a919b29b8bbd5",
+      "overfull_boxes": 0
+    },
+    {
+      "pdf": "report_v2/article/v3/article.pdf",
+      "pages": 5,
+      "citations": 7,
+      "sha256": "79ce9b09b64f664147711f52d8808dab055850808e7976fe7945615ecfd48c1b",
+      "overfull_boxes": 0
+    }
+  ],
+  "figure_count": 11,
+  "numeric_lines": 287,
+  "numeric_lint_exceptions": 0,
+  "frozen_report_unchanged": true,
+  "scope": "Numeric matching is supplemented by manual scientific and grammar review in FINAL_VERIFICATION.md. V3 additions are reviewed in thesis/v3/FIGURE_AUDIT.md and qa/v3/VERIFICATION.md.",
+  "preservation": {
+    "preexisting_files_verified": 151,
+    "earlier_tracked_manuscripts_verified": 32,
+    "original_provenance_entries_unchanged": true,
+    "candidate_files_unchanged": 30
+  }
+}

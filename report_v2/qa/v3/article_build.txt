@@ -1,0 +1,6 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+Latexmk: Nothing to do for 'article.tex'.
+Latexmk: All targets (article.pdf) are up-to-date
+

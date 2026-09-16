@@ -1,0 +1,40 @@
+{
+  "patterns": {
+    "single_endpoint": "the (?:one|only) structural quantity",
+    "causal_certainty": "\\b(?:proves|causes)\\b",
+    "validated_lifetime": "validat.{0,25}(?:RUL|remaining.life)",
+    "classifier_performance": "classifier.{0,50}(?:achiev|accurac|F1|perform)"
+  },
+  "hits": [
+    {
+      "file": "report_v2/thesis/v3/chapters/08_discussion.tex",
+      "line": 7,
+      "pattern": "causal_certainty",
+      "text": "It is tempting to conclude that sparse labels alone explain all structural weakness. The available experiments do not support that decomposition. The saved learning curve varies the number of training specimens, but subset composition changes with it. It does not separate sample size from design coverage or measure all potentially relevant physical factors. Surface appearance may omit information about local metal loss, bond, geometry, or cracking; the selected feature families may also fail to capture available information. The evidence identifies these as unresolved possibilities rather than estimated causes.",
+      "review": "Accept: explicitly negated claim or noun referring to unresolved causes; no causal conclusion or obtained classifier performance."
+    },
+    {
+      "file": "report_v2/thesis/v3/chapters/08_discussion.tex",
+      "line": 16,
+      "pattern": "causal_certainty",
+      "text": "The baseline diagnostics make this distinction visible. Figure~\\ref{fig:ridge-terminal} shows individual terminal errors behind the mean score. Figure~\\ref{fig:ridge-coefficients} shows how the full fit allocates coefficient magnitudes among correlated metadata fields without identifying independent effects. Figure~\\ref{fig:ridge-learning} shows sensitivity to the number and composition of training specimens within the same mixture. None supplies external validation, calibrated uncertainty or a decomposition of the causes of structural error.",
+      "review": "Accept: explicitly negated claim or noun referring to unresolved causes; no causal conclusion or obtained classifier performance."
+    },
+    {
+      "file": "report_v2/thesis/v3/chapters/09_limitations.tex",
+      "line": 30,
+      "pattern": "classifier_performance",
+      "text": "The branch is prepared but untrained. Its severe class imbalance and small validation/test specimen counts remain unresolved performance issues. Augmented images share information with their originals and do not create independent specimens. The manifests protect specimen separation and keep validation/test originals unaugmented, but these properties alone do not establish classifier accuracy or robustness.",
+      "review": "Accept: explicitly negated claim or noun referring to unresolved causes; no causal conclusion or obtained classifier performance."
+    },
+    {
+      "file": "report_v2/article/v3/article.tex",
+      "line": 15,
+      "pattern": "validated_lifetime",
+      "text": "Accurate visual corrosion estimation need not imply transferable structural prediction. Saved experiments on 48 ferrocement specimens provide 791 readable photographs, but wire-area loss and ultimate load are each measured only once per specimen. Campaign identity coincides with mesh, chloride and terminal exposure. Specimen-disjoint repeated five-fold evaluation compares image-only, metadata-only and combined inputs for terminal load. Metadata-only Ridge gives mean terminal-test MAE 0.173\\,kN with fold standard deviation 0.046\\,kN. The tested image descriptors do not establish a reliable pooled increment, and individual baseline errors remain substantial. A post-onset gain is limited to some metrics. Every selected within-mesh configuration has negative mean test $R^2$; campaign exclusion is an extrapolation stress test. Scoring uses terminal images, not an early horizon. The contribution is a bounded account of how supervision, metadata controls and evaluation constrain structural claims. Downstream thresholds are not validated remaining-life predictions; the separate four-class classifier remains untrained.",
+      "review": "Accept: explicitly negated claim or noun referring to unresolved causes; no causal conclusion or obtained classifier performance."
+    }
+  ],
+  "manual_review_complete": true,
+  "violations": 0
+}
